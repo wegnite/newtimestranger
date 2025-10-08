@@ -4,6 +4,8 @@
 
 本文档介绍如何在 Next.js 项目中配置站点地图（sitemap.xml），以优化搜索引擎爬虫对网站的抓取。我们使用 `next-sitemap` 包来生成站点地图，支持多语言、动态路由和自定义优先级。
 
+> 当前部署阶段仅输出主站（英文）URL，相关多语言配置已在 sitemap 生成流程中暂时关闭。
+
 ## 安装依赖
 
 ```bash
@@ -52,7 +54,96 @@ module.exports = {
 > - 如果这些文件不存在，会导致站点地图生成失败
 > - 如果这些文件不是最新的，会导致站点地图包含过时数据
 
-## 多语言支持
+## 当前单语言配置
+
+目前我们在 sitemap 中仅发布主站（英文）路径，暂时关闭所有带语言前缀的 URL。`next-sitemap.config.js` 的关键部分如下：
+
+```javascript
+const routes = ["", "app", "level", "blog", "privacy", "terms-of-service", "about", "game"];
+const defaultLocale = "en";
+const localePrefixPattern = /^\/[a-z]{2,3}(?:-[a-z]{2})?(?:\/|$)/i;
+const levelsPath = path.join(process.cwd(), "data", "levelsSitemap.json");
+const levels = fs.existsSync(levelsPath)
+  ? JSON.parse(fs.readFileSync(levelsPath, "utf-8"))
+  : [];
+
+module.exports = {
+  siteUrl: process.env.SITE_URL || "https://digimonstorytimestranger.com",
+  generateRobotsTxt: true,
+  generateIndexSitemap: false,
+  outDir: "./public",
+  transform: async (config, path) => {
+    if (localePrefixPattern.test(path)) {
+      return null;
+    }
+    return {
+      loc: path,
+      changefreq: config.changefreq,
+      priority: config.priority,
+      lastmod: config.autoLastmod ? new Date().toISOString() : undefined,
+    };
+  },
+  additionalPaths: async () => {
+    const result = [];
+
+    // 基础路由（无语言前缀）
+    for (const route of routes) {
+      const routePath = `/${route}`;
+      result.push({
+        loc: routePath,
+        priority: route === "" ? 0.9 : 0.8,
+        changefreq: "daily",
+        lastmod: new Date().toISOString(),
+      });
+    }
+
+    // 关卡详情页
+    for (const level of levels) {
+      result.push({
+        loc: `/level/${level.id}`,
+        priority: 0.7,
+        changefreq: "weekly",
+        lastmod: new Date().toISOString(),
+      });
+    }
+
+    // 博客文章（仅英文缓存）
+    const cachePath = path.join(process.cwd(), ".cache", "blog", `${defaultLocale}.json`);
+    if (fs.existsSync(cachePath)) {
+      const { posts } = JSON.parse(fs.readFileSync(cachePath, "utf-8"));
+
+      for (const post of posts) {
+        result.push({
+          loc: `/blog/${post.slug}`,
+          priority: 0.6,
+          changefreq: "weekly",
+          lastmod: formatDate(post.date),
+        });
+      }
+
+      // 博客分页
+      const postsPerPage = 10;
+      const totalPages = Math.ceil(posts.length / postsPerPage);
+      for (let page = 2; page <= totalPages; page++) {
+        result.push({
+          loc: `/blog/${page}`,
+          priority: 0.5,
+          changefreq: "daily",
+          lastmod: new Date().toISOString(),
+        });
+      }
+    }
+
+    return result;
+  },
+};
+```
+
+> 注意：重新启用多语言前缀时，需要移除 `transform` 中的过滤逻辑，并恢复语言循环与对应的缓存文件读取。
+
+## 多语言支持（暂未启用）
+
+本节保留历史配置，方便未来重新开启多语言时参考。
 
 ### 1. 定义支持的语言
 
