@@ -1,0 +1,14 @@
+/* 使用伪元素替代重复的Level前缀文本 */
+.levelCard h3::before {
+  content: attr(data-prefix);
+}
+
+/* 角标徽章前缀文本 */
+.levelBadge::before {
+  content: attr(data-prefix);
+}
+
+/* 导航按钮范围前缀 */
+.rangeButton::before {
+  content: attr(data-prefix);
+} 

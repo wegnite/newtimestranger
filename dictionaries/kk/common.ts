@@ -1,0 +1,54 @@
+export const common = {
+  buttons: {
+    submit: "Жіберу",
+    cancel: "Бас тарту",
+    confirm: "Растау",
+    back: "Артқа",
+    next: "Келесі",
+    save: "Сақтау",
+    delete: "Жою",
+    edit: "Өңдеу",
+    view: "Көру",
+    download: "Жүктеп алу",
+    close: "Жабу",
+  },
+  messages: {
+    loading: "Жүктелуде...",
+    success: "Операция сәтті аяқталды",
+    error: "Қате пайда болды",
+    confirm: "Сенімдісіз бе?",
+    required: "Бұл өріс міндетті",
+    invalidInput: "Жарамсыз енгізу",
+  },
+  navigation: {
+    home: "Басты бет",
+    about: "Туралы",
+    contact: "Байланыс",
+    features: "Мүмкіндіктер",
+    pricing: "Бағалар",
+    guides: "Нұсқаулықтар",
+    settings: "Параметрлер",
+  },
+  activePlayers: "Белсенді ойыншылар",
+  countries: "Елдер",
+  coffeeRecipes: "Кофе рецепттері",
+  userRating: "Пайдаланушы рейтингі",
+  localeSuggest: {
+    switchToTitle: "{langName} тіліне ауысу керек пе?",
+    currentLangDesc: "Ағымдағы тіл: {langName}.",
+    dismissPermanent: "Қайта сұрамау",
+    switchToAlt: "{langName} тіліне ауысу",
+    switchToButton: "Ауысу",
+  },
+  onlineGames: {
+    bannerTitle: "Тікелей ойын ойнағыңыз келе ме?",
+    bannerDescription:
+      "Dreamy Room және басқа ойындарды тікелей браузеріңізде жүктеп алмай-ақ ойнаңыз",
+    playNowButton: "Қазір ойнау",
+    featured: "Танымал ойындар",
+    viewAllGames: "Барлық ойындарды көру",
+    levelCompletionText: "Dreamy Room онлайн ойнаңыз!",
+  },
+} as const;
+
+export default common;

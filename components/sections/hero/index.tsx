@@ -1,0 +1,230 @@
+import { Button } from "@/components/ui/button";
+import {
+  ArrowRight,
+  Search,
+  Calendar,
+  Youtube,
+  Download,
+  Gamepad2,
+  Globe2,
+} from "lucide-react";
+import Link from "next/link";
+import { HeroSearch } from "./hero-search";
+import { HeroImageWaterfall } from "./hero-image-waterfall";
+
+interface HeroProps {
+  lang: string;
+  heroDict: {
+    badge: string;
+    title: string;
+    description: string;
+    stats: {
+      guides: string;
+      videoTutorials: string;
+      quickSearch: string;
+    };
+    search: {
+      placeholder: string;
+      button: string;
+      error: {
+        invalid: string;
+        notFound: string;
+      };
+    };
+    buttons: {
+      browseAll: string;
+      downloadGame: string;
+    };
+    downloadCard: {
+      title: string;
+      description: string;
+    };
+    mainScreenshotAlt?: string;
+    videoSection: {
+      title: string;
+      description: string;
+    };
+    screenshotAltTemplate?: string;
+    onlineGames?: {
+      bannerTitle: string;
+      bannerDescription: string;
+      playNowButton: string;
+    };
+  };
+  commonDict?: {
+    onlineGames?: {
+      bannerTitle: string;
+      bannerDescription: string;
+      playNowButton: string;
+      featured?: string;
+      viewAllGames?: string;
+      levelCompletionText?: string;
+    };
+    [key: string]: any;
+  };
+}
+
+export function Hero({ lang, heroDict, commonDict }: HeroProps) {
+  // 在线游戏相关文案，优先从commonDict获取，其次从heroDict，最后使用默认值
+  const onlineGamesText = commonDict?.onlineGames ||
+      heroDict.onlineGames || {
+        bannerTitle: "Want to play games directly?",
+        bannerDescription: "Experience games directly in your browser",
+        playNowButton: "Play Now",
+      };
+
+  return (
+      <section className="relative flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-primary/10">
+          <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
+        </div>
+
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -left-4 top-1/4 w-24 h-24 bg-primary/20 rounded-full blur-xl animate-pulse" />
+          <div className="absolute right-1/4 bottom-1/3 w-32 h-32 bg-primary/30 rounded-full blur-xl animate-pulse delay-700" />
+          <div className="absolute left-1/3 top-1/3 w-48 h-48 bg-primary/20 rounded-full blur-3xl animate-pulse delay-500" />
+        </div>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* 左侧内容区 */}
+            <div className="space-y-8">
+              <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full border border-border/50">
+                  <Globe2 className="h-6 w-6 text-primary" />
+                  <span className="font-semibold">{heroDict.badge}</span>
+                </div>
+              </div>
+
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
+              <span className="bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent pt-4">
+                {heroDict.title}
+              </span>
+              </h1>
+
+              <p className="text-xl text-muted-foreground">
+                {heroDict.description}
+              </p>
+
+              <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
+                <div className="flex items-center gap-2">
+                  <Calendar className="h-4 w-4 text-primary" />
+                  <span>{heroDict.stats.guides}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Youtube className="h-4 w-4 text-primary" />
+                  <span>{heroDict.stats.videoTutorials}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Search className="h-4 w-4 text-primary" />
+                  <span>{heroDict.stats.quickSearch}</span>
+                </div>
+              </div>
+
+              <HeroSearch lang={lang} searchDict={heroDict.search} />
+
+              {/* 按钮区 */}
+              <div className="flex flex-wrap gap-4">
+                <Button
+                    size="lg"
+                    variant="outline"
+                    className="flex-1 hover:bg-primary/10"
+                    asChild
+                >
+                  <Link href={`/${lang}/level`}>
+                    {heroDict.buttons.browseAll}{" "}
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+
+                <Button
+                    size="lg"
+                    className="flex-1 bg-primary hover:bg-primary/80 text-primary-foreground"
+                    asChild
+                >
+                  <Link href={`/${lang}/app`}>
+                    {heroDict.buttons.downloadGame}{" "}
+                    <Download className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+              </div>
+
+              {/* 在线游玩卡片 */}
+              <div className="mt-8">
+                <Link
+                    href={`/${lang}/game`}
+                    className="block hover:scale-[1.02] transition-transform duration-300"
+                >
+                  <div className="p-4 bg-card/80 dark:bg-card/30 backdrop-blur-sm rounded-lg border border-border hover:border-primary/30 transition-colors duration-300 shadow-sm">
+                    <div className="flex items-center gap-4">
+                      <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
+                        <Gamepad2 className="h-6 w-6 text-primary" />
+                      </div>
+                      <div>
+                        <h2 className="font-semibold">
+                          {onlineGamesText.bannerTitle}
+                        </h2>
+                        <p className="text-sm text-muted-foreground">
+                          {onlineGamesText.bannerDescription}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </div>
+
+            {/* 右侧截图展示区 */}
+            <div className="relative w-full max-w-xl mx-auto hidden lg:block">
+              <div className="grid grid-cols-5 gap-4">
+                {/* 主要截图 */}
+                <div className="relative aspect-[9/16] col-span-3 group cursor-pointer">
+                  <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-gray-900 rounded-[2rem] p-2 shadow-xl transition-transform duration-500 ease-out group-hover:scale-[1.02]">
+                    <div className="absolute top-6 left-1/2 transform -translate-x-1/2 w-24 h-4 bg-black rounded-full" />
+                    <div className="relative w-full h-full rounded-[1.7rem] overflow-hidden bg-black">
+                      <img
+                        src="/images/screenshot/time-stranger1.jpg"
+                        alt={
+                          heroDict.mainScreenshotAlt ||
+                          "Time Stranger main screenshot"
+                        }
+                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                      />
+                      {/* 标题和描述覆盖层 */}
+                      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent pt-20 pb-6 px-6">
+                        <div className="relative z-10 space-y-2">
+                          <h2 className="text-2xl font-bold text-white drop-shadow-lg group-hover:text-primary transition-colors duration-300">
+                            {heroDict.videoSection.title}
+                          </h2>
+                          <p className="text-sm text-white/80 drop-shadow-lg group-hover:text-white transition-opacity duration-300">
+                            {heroDict.videoSection.description}
+                          </p>
+                          <div className="flex items-center gap-2 text-white/60 group-hover:text-primary transition-colors duration-300 text-sm mt-4">
+                            <ArrowRight className="w-4 h-4" />
+                            <span>{heroDict.buttons.browseAll}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 右侧瀑布流截图和标题描述 */}
+                <div className="col-span-2 flex gap-4">
+                  {/* 瀑布流截图 */}
+                  <div
+                      className="relative overflow-hidden flex-1"
+                      style={{ height: "600px" }}
+                  >
+                    <HeroImageWaterfall
+                        screenshotAltTemplate={heroDict.screenshotAltTemplate}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  );
+}

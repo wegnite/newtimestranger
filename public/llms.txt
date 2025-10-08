@@ -1,0 +1,19 @@
+# Time Stranger Game Guide
+
+> Your ultimate resource for Time Stranger level guides, walkthroughs, video tutorials, and tips to master the cozy organization game. We help players easily navigate every level and enjoy a relaxing gameplay experience.
+
+## 核心内容 (Core Content)
+- [Level Guides](https://digimonstorytimestranger.com/${lang}/level): Comprehensive list of all level walkthroughs.
+- [Level Details](https://digimonstorytimestranger.com/${lang}/level/${levelId}): Detailed step-by-step guides and video solutions for each specific level.
+- [Blog](https://digimonstorytimestranger.com/${lang}/blog): Latest game news, updates, tips, and strategy articles (if applicable).
+- [Game Download](https://digimonstorytimestranger.com/${lang}/app): Links and information to download the Time Stranger game.
+
+## 常用资源 (Common Resources)
+- [Homepage](https://digimonstorytimestranger.com/${lang}/): Overview, latest guides, and site navigation.
+- [About Us](https://digimonstorytimestranger.com/${lang}/about): Information about the Time Stranger Game Guide website and team.
+- [Privacy Policy](https://digimonstorytimestranger.com/${lang}/privacy): Details on data usage and privacy.
+- [Terms of Service](https://digimonstorytimestranger.com/${lang}/terms-of-service): Website usage terms.
+
+## 最新更新 (Latest Updates)
+- Level guides are updated weekly or as new game levels are released.
+- Blog content (if applicable) is updated regularly with news and tips.

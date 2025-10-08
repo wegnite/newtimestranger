@@ -1,0 +1,220 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  ================= 配色说明 =================
+  白天模式（:root）：
+    - 主色（--primary）：明亮红色（0 80% 62%），活泼醒目但不过于刺眼。
+    - 强调色（--accent）：更浅的红色（0 70% 90%），适合按钮高亮。
+    - 背景、卡片、边框等为暖灰/中性色，保证内容区分度和亲和力。
+    - 文字色（--foreground）：深色，保证可读性。
+    - 注意：主色与白色文字对比度要足够，避免过亮红色。
+
+  黑夜模式（.dark）：
+    - 主色（--primary）：柔和红色（0 70% 70%），高对比度但不刺眼。
+    - 强调色（--accent）：更浅的红色（0 60% 85%），适合按钮高亮。
+    - 背景、卡片、边框等为深灰，避免死黑，提升温暖感和层次。
+    - 文字色（--foreground）：高亮度暖白色，保证夜间可读性。
+    - 注意：主色不要太亮，避免刺眼；未选中元素要有足够对比度。
+
+  维护建议：
+    - 修改主色时，优先保证按钮、链接、选中元素的可读性和层次感。
+    - 白天模式主色建议偏明亮红，夜间模式主色建议偏柔和红。
+    - 如需大幅调整，建议先在设计稿中预览。
+*/
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --background: 270 100% 99%;
+    --foreground: 270 30% 20%;
+    --card: 270 100% 99%;
+    --card-foreground: 270 30% 20%;
+    --popover: 270 100% 99%;
+    --popover-foreground: 270 30% 20%;
+    --primary: 273 100% 73%;
+    --primary-foreground: 270 100% 99%;
+    --secondary: 270 30% 96%;
+    --secondary-foreground: 270 30% 20%;
+    --muted: 270 30% 96%;
+    --muted-foreground: 270 30% 45%;
+    --accent: 276 100% 90%;
+    --accent-foreground: 270 30% 20%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 270 100% 99%;
+    --border: 270 30% 90%;
+    --input: 270 30% 90%;
+    --ring: 273 100% 73%;
+  }
+
+  .dark {
+    --radius: 0.5rem;
+    --background: 270 25% 12%;
+    --foreground: 270 30% 98%;
+    --card: 270 25% 12%;
+    --card-foreground: 270 30% 98%;
+    --popover: 270 25% 12%;
+    --popover-foreground: 270 30% 98%;
+    --primary: 273 100% 73%;
+    --primary-foreground: 270 100% 99%;
+    --secondary: 270 25% 20%;
+    --secondary-foreground: 270 30% 98%;
+    --muted: 270 25% 20%;
+    --muted-foreground: 270 30% 75%;
+    --accent: 276 100% 85%;
+    --accent-foreground: 270 30% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 270 100% 99%;
+    --border: 270 25% 20%;
+    --input: 270 25% 20%;
+    --ring: 273 100% 73%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .font-sc {
+    font-family: var(--font-noto-sans-sc);
+  }
+
+  .font-josefin {
+    font-family: var(--font-josefin-sans);
+  }
+
+  /* 添加新的类用于中文环境下的西文 */
+  .chinese-context :where(:not(.font-josefin, .font-sc)) {
+    font-family: var(--font-josefin-sans), var(--font-noto-sans-sc);
+  }
+}
+
+/* Code block styles */
+.prose pre {
+  position: relative;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: #1e1e1e !important;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+.prose pre>code {
+  display: block;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+/* Inline code styles */
+.prose :not(pre)>code {
+  padding: 0.2em 0.4em;
+  background-color: rgba(175, 184, 193, 0.2);
+  border-radius: 6px;
+  font-size: 85%;
+}
+
+/* Language badge */
+.prose pre[class*="language-"]::before {
+  content: attr(data-language);
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 0.75rem;
+  color: #8b949e;
+  text-transform: uppercase;
+}
+
+/* Syntax highlighting colors - GitHub-like theme */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #8b949e;
+}
+
+.token.punctuation {
+  color: #c9d1d9;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #79c0ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #a5d6ff;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #d2a8ff;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #ff7b72;
+}
+
+.token.function,
+.token.class-name {
+  color: #d2a8ff;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+  color: #ffa657;
+}
+
+/* Add after your existing styles */
+.katex {
+  font-size: 1.1em !important;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5em 0;
+}
+
+[data-theme="dark"] .katex {
+  color: #fff;
+}
+
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5em 0;
+}
+
+[data-theme="dark"] .katex {
+  color: #fff;
+}
+
+[data-theme="dark"] .katex {
+  color: #fff;
+}
