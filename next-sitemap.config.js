@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const localePrefixPattern = /^\/[a-z]{2,3}(?:-[a-z]{2})?(?:\/|$)/i;
+const LOCALE_PREFIX_REGEX = /^\/[a-z]{2,3}(?:-[a-z]{2})?(?:\/|$)/i;
 
 // 添加日期格式化函数
 function formatDate(dateString) {
@@ -52,7 +52,7 @@ module.exports = {
     "/*.json$",
   ],
   transform: async (config, path) => {
-    if (localePrefixPattern.test(path)) {
+    if (LOCALE_PREFIX_REGEX.test(path)) {
       return null;
     }
 

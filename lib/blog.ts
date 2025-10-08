@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { i18n } from "../i18n";
 
 const BLOG_DIR = path.join(process.cwd(), "blog/posts");
 const CACHE_DIR = path.join(process.cwd(), ".cache/blog");
@@ -70,7 +71,14 @@ export async function generateStaticParams() {
 
 export async function getCachedPosts(lang: string): Promise<BlogPost[]> {
   const cacheFile = path.join(CACHE_DIR, `${lang}.json`);
-  const cache = JSON.parse(fs.readFileSync(cacheFile, "utf-8")) as CacheData;
+  const defaultLocale = i18n.defaultLocale;
+  const resolvedCacheFile = fs.existsSync(cacheFile)
+    ? cacheFile
+    : path.join(CACHE_DIR, `${defaultLocale}.json`);
+
+  const cache = JSON.parse(
+    fs.readFileSync(resolvedCacheFile, "utf-8"),
+  ) as CacheData;
   return cache.posts;
 }
 
