@@ -8,6 +8,7 @@ import { i18n, type Locale } from "@/i18n";
 import { type Metadata } from "next";
 import { getDictionary } from "@/lib/dictionary";
 import { ensureTrailingSlash } from "@/lib/utils";
+import { buildAbsoluteUrl, getSiteName, getSiteUrl } from "@/lib/siteConfig";
 
 interface Props {
   params: { lang: string; uri: string[] };
@@ -61,7 +62,7 @@ export async function generateMetadata({
       },
       description: dict.blog.subtitle,
       alternates: {
-        canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/blog/${page}`,
+        canonical: buildAbsoluteUrl(`/${lang}/blog/${page}`),
         languages: {
           "x-default": ensureTrailingSlash(`/${lang}/blog/${page}`),
         },
@@ -75,6 +76,8 @@ export async function generateMetadata({
     notFound();
   }
 
+  const articleUrl = buildAbsoluteUrl(`/${lang}/blog/${uri[0]}`);
+
   return {
     title: {
       template: `%s | Dreamy Room Blog`,
@@ -82,7 +85,7 @@ export async function generateMetadata({
     },
     description: post.excerpt,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/blog/${uri[0]}`,
+      canonical: articleUrl,
       languages: {
         "x-default": ensureTrailingSlash(`/${lang}/blog/${uri[0]}`),
       },
@@ -92,7 +95,7 @@ export async function generateMetadata({
       description: post.excerpt,
       type: "article",
       publishedTime: post.date,
-      url: ensureTrailingSlash(`/${lang}/blog/${uri[0]}`),
+      url: articleUrl,
       tags: post.tags,
     },
   };
@@ -121,6 +124,68 @@ export default async function BlogPost({ params: { lang, uri } }: Props) {
       page * postsPerPage,
     );
 
+    const pageUrl = buildAbsoluteUrl(`/${lang}/blog/${page}`);
+    const organizationId = `${getSiteUrl()}/#organization`;
+
+    const collectionJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "@id": `${pageUrl}#collection`,
+      url: pageUrl,
+      name: `${dict.blog.posts.title} - ${dict.blog.breadcrumbs.page.replace(
+        "{0}",
+        page.toString(),
+      )}`,
+      description: dict.blog.subtitle,
+      inLanguage: lang,
+      isPartOf: {
+        "@type": "Blog",
+        "@id": `${buildAbsoluteUrl(`/${lang}/blog`)}#blog`,
+      },
+      publisher: {
+        "@type": "Organization",
+        "@id": organizationId,
+        name: getSiteName(),
+      },
+      hasPart: paginatedPosts.map((post: BlogPost) => {
+        const articleUrl = buildAbsoluteUrl(`/${lang}/blog/${post.slug}`);
+        return {
+          "@type": "BlogPosting",
+          "@id": `${articleUrl}#entry`,
+          url: articleUrl,
+          headline: post.title,
+          datePublished: post.date,
+          dateModified: post.date,
+          description: post.excerpt,
+        };
+      }),
+    };
+
+    const breadcrumbJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: dict.home?.meta?.title || getSiteName(),
+          item: getSiteUrl(),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: dict.blog.title,
+          item: buildAbsoluteUrl(`/${lang}/blog`),
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: dict.blog.breadcrumbs.page.replace("{0}", page.toString()),
+          item: pageUrl,
+        },
+      ],
+    };
+
     return (
       <BlogLayout
         title={dict.blog.posts.title}
@@ -131,6 +196,12 @@ export default async function BlogPost({ params: { lang, uri } }: Props) {
         ]}
         lang={lang}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([collectionJsonLd, breadcrumbJsonLd]),
+          }}
+        />
         <PostList posts={paginatedPosts} lang={lang} />
         <div className="mt-12">
           <Pagination currentPage={page} totalPages={totalPages} lang={lang} />
@@ -146,6 +217,54 @@ export default async function BlogPost({ params: { lang, uri } }: Props) {
     notFound();
   }
 
+  const articleUrl = buildAbsoluteUrl(`/${lang}/blog/${uri[0]}`);
+  const organizationId = `${getSiteUrl()}/#organization`;
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${articleUrl}#entry`,
+    url: articleUrl,
+    headline: post.title,
+    datePublished: post.date,
+    dateModified: post.date,
+    description: post.excerpt,
+    inLanguage: lang,
+    isPartOf: {
+      "@type": "Blog",
+      "@id": `${buildAbsoluteUrl(`/${lang}/blog`)}#blog`,
+      name: dict.blog.title,
+    },
+    publisher: {
+      "@type": "Organization",
+      "@id": organizationId,
+      name: getSiteName(),
+    },
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: dict.home?.meta?.title || getSiteName(),
+        item: getSiteUrl(),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: dict.blog.title,
+        item: buildAbsoluteUrl(`/${lang}/blog`),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.title,
+        item: articleUrl,
+      },
+    ],
+  };
+
   return (
     <BlogLayout
       title={post.title}
@@ -153,6 +272,12 @@ export default async function BlogPost({ params: { lang, uri } }: Props) {
       lang={lang}
       date={post.date}
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([articleJsonLd, breadcrumbJsonLd]),
+        }}
+      />
       <div className="max-w-4xl mx-auto prose dark:prose-invert">
         <PostContent post={post} hideTitle />
       </div>

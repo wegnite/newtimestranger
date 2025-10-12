@@ -10,7 +10,13 @@ export function Logo() {
       href={`/${dict.locale}`}
       className="flex items-center gap-2 rtl:flex-row-reverse"
     >
-      <img src={logoSrc} alt="logo" width="32" height="32" className="w-8 h-8" />
+      <img
+        src={logoSrc}
+        alt={`${dict.header.brand} logo`}
+        width="32"
+        height="32"
+        className="w-8 h-8"
+      />
       <span className="font-bold text-xl hidden md:block">
         {dict.header.brand}
       </span>
