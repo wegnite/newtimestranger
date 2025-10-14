@@ -9,18 +9,26 @@ const SEARCH_ENDPOINT = "https://html.duckduckgo.com/html/";
 const OUTPUT_DIR = path.join(process.cwd(), "data", "time-stranger-guides");
 const MAX_RESULTS = 6;
 const PARAGRAPH_LIMIT = 12;
+const MAX_OUTLINE_LEVEL = 4;
 
 type SearchResult = {
   title: string;
   url: string;
 };
 
-type GuideSummary = {
+type OutlineItem = {
+  title: string;
+  level: number;
+  id?: string;
+};
+
+type GuideRecord = {
   title: string;
   url: string;
   summary: string;
   retrievedAt: string;
   storedFile: string;
+  outline: OutlineItem[];
 };
 
 function decodeDuckDuckGoRedirect(rawUrl: string): string | null {
@@ -82,19 +90,43 @@ async function fetchGuideContent(url: string) {
   return response.text();
 }
 
-function extractSummary(html: string): { title: string; excerpt: string } {
+function extractContent(html: string): {
+  title: string;
+  summary: string;
+  paragraphs: string[];
+  outline: OutlineItem[];
+} {
   const $ = load(html);
   const title = $("title").first().text().trim() || "Untitled";
+
+  const outline: OutlineItem[] = $("h1, h2, h3, h4")
+    .map((_, el) => {
+      const tagName = el.tagName?.toLowerCase() ?? "";
+      const level = Number.parseInt(tagName.replace("h", ""), 10);
+      if (!level || level > MAX_OUTLINE_LEVEL) return null;
+      const text = $(el).text().replace(/\s+/g, " ").trim();
+      if (!text) return null;
+      return {
+        title: text,
+        level,
+        id: $(el).attr("id") || undefined,
+      } as OutlineItem;
+    })
+    .get()
+    .filter((item): item is OutlineItem => item !== null);
+
   const paragraphs = $("p")
     .map((_, el) => $(el).text().trim())
     .get()
     .filter(Boolean)
     .slice(0, PARAGRAPH_LIMIT);
 
-  const excerpt = paragraphs.join("\n\n");
+  const excerpt = paragraphs.slice(0, 3).join("\n\n");
   return {
     title,
-    excerpt: excerpt || "No paragraph content extracted from this page.",
+    summary: excerpt || "No paragraph content extracted from this page.",
+    outline,
+    paragraphs,
   };
 }
 
@@ -107,15 +139,41 @@ function slugify(input: string): string {
     .slice(0, 80) || "time-stranger-guide";
 }
 
-async function ensureOutputDir() {
+async function resetOutputDir() {
   await fs.mkdir(OUTPUT_DIR, { recursive: true });
+  const files = await fs.readdir(OUTPUT_DIR);
+  await Promise.all(
+    files.map(async (file) => {
+      const filePath = path.join(OUTPUT_DIR, file);
+      await fs.rm(filePath, { recursive: true, force: true });
+    }),
+  );
+}
+
+function renderOutlineMarkdown(outline: OutlineItem[]): string {
+  if (!outline.length) {
+    return "暂无可用的目录结构。";
+  }
+
+  return outline
+    .map((item) => {
+      const indent = "  ".repeat(Math.max(0, item.level - 1));
+      const label = item.id ? `[${item.title}](#${item.id})` : item.title;
+      return `${indent}- ${label}`;
+    })
+    .join("\n");
 }
 
 async function saveGuide(
-  guide: GuideSummary,
-  content: string,
+  guide: GuideRecord,
+  paragraphs: string[],
 ): Promise<void> {
   const filePath = path.join(OUTPUT_DIR, guide.storedFile);
+  const fullExtract =
+    paragraphs.length > 0
+      ? paragraphs.join("\n\n")
+      : "No paragraph content extracted from this page.";
+
   const markdown = `---
 source: ${guide.url}
 title: ${guide.title}
@@ -128,21 +186,27 @@ ${guide.summary}
 
 ---
 
+## Table of Contents
+
+${renderOutlineMarkdown(guide.outline)}
+
+---
+
 ## Raw Extract
 
-${content}
+${fullExtract}
 `;
   await fs.writeFile(filePath, markdown, "utf8");
 }
 
-async function saveIndex(guides: GuideSummary[]): Promise<void> {
+async function saveIndex(guides: GuideRecord[]): Promise<void> {
   const indexPath = path.join(OUTPUT_DIR, "index.json");
   await fs.writeFile(indexPath, JSON.stringify(guides, null, 2), "utf8");
 }
 
 async function main() {
   console.log("🔎 Searching for Time Stranger guides...");
-  await ensureOutputDir();
+  await resetOutputDir();
 
   const searchResults = await fetchSearchResults(SEARCH_QUERY);
   if (!searchResults.length) {
@@ -150,25 +214,26 @@ async function main() {
     return;
   }
 
-  const collectedGuides: GuideSummary[] = [];
+  const collectedGuides: GuideRecord[] = [];
 
   for (const result of searchResults) {
     try {
       console.log(`➡️  Fetching: ${result.url}`);
       const html = await fetchGuideContent(result.url);
-      const { title, excerpt } = extractSummary(html);
+      const { title, summary, outline, paragraphs } = extractContent(html);
       const slug = slugify(`${title}-${result.url}`);
       const storedFile = `${slug}.md`;
 
-      const guideSummary: GuideSummary = {
+      const guideSummary: GuideRecord = {
         title,
         url: result.url,
-        summary: excerpt,
+        summary,
         retrievedAt: new Date().toISOString(),
         storedFile,
+        outline,
       };
 
-      await saveGuide(guideSummary, excerpt);
+      await saveGuide(guideSummary, paragraphs);
       collectedGuides.push(guideSummary);
     } catch (error) {
       console.error(`Failed to process ${result.url}:`, error);
