@@ -10,14 +10,20 @@ import {MainLayout} from "@/components/layouts/main-layout";
 import AdContainer from "@/components/common/AdContainer";
 import {LocaleSuggest} from "@/components/locale/LocaleSuggest";
 import DictionaryProvider from "@/context/DictionaryContext";
+import { getSiteUrl } from "@/lib/siteConfig";
 
 export async function generateMetadata() {
   const dict = await getDictionary('en');
+  const siteUrl = getSiteUrl();
+  const title = dict.home.meta.title;
+  const description = dict.home.meta.description;
+  const socialImage = `${siteUrl}/images/screenshot/time-stranger1.jpg`;
+
   return {
-    title: dict.home.meta.title,
-    description: dict.home.meta.description,
+    title,
+    description,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/`,
+      canonical: `${siteUrl}/`,
     },
     robots: {
       index: true,
@@ -29,6 +35,27 @@ export async function generateMetadata() {
         "max-snippet": -1,
       },
     },
+    openGraph: {
+      type: "website",
+      url: `${siteUrl}/`,
+      title,
+      description,
+      siteName: dict.home.meta.siteName,
+      images: [
+        {
+          url: socialImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [socialImage],
+    },
   };
 }
 
@@ -37,7 +64,7 @@ export default async function Home() {
   const lang = 'en';
   const dict = await getDictionary(lang);
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
+  const siteUrl = getSiteUrl();
   const pageUrl = `${siteUrl}/`;
   const logoUrl = siteUrl + "/logo.png";
   const searchUrlTemplate = `${siteUrl}/level?search={search_term_string}`;

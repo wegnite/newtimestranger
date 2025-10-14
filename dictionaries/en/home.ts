@@ -2,14 +2,14 @@ import levels from "@/data/levels";
 
 export const home = {
   meta: {
-    title: `Time Stranger Walkthrough Hub | Campaign Chapters 1-${levels.length} Complete Guide`,
-    description: `Command the Time Stranger timeline with spoiler-aware walkthroughs, boss counters, and collectible routes covering every chapter and branching path.`,
+    title: `Digimon Story Time Stranger Strategy Hub`,
+    description: `Digimon Story Time Stranger Strategy Hub delivers spoiler-aware chapter guides, boss counters, and squad planners so every tamer masters the timeline.`,
     keywords:
-      "Time Stranger, Time Stranger walkthrough, Time Stranger guide, Digimon Story Time Stranger, Time Stranger boss strategies, Time Stranger collectibles, Time Stranger timeline routes, Time Stranger campaign tips",
-    siteName: "Time Stranger Guide Hub",
-    author: "Time Stranger Strategy Network",
-    category: "Game Guide",
-    classification: "RPG Strategy",
+      "Digimon Story Time Stranger walkthrough, Digimon Story Time Stranger guide, Digimon Story Time Stranger timeline, Digimon Story Time Stranger boss strategies, Digimon Story Time Stranger collectibles, Digimon Story Time Stranger campaign tips, Digimon Story Time Stranger leveling routes",
+    siteName: "Digimon Story Time Stranger Guide Hub",
+    author: "Digimon Story Time Stranger Strategy Network",
+    category: "Digimon Story Time Stranger Game Guide",
+    classification: "Digimon Story Time Stranger RPG Strategy",
   },
 } as const;
 

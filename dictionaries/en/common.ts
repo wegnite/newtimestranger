@@ -26,13 +26,13 @@ export const common = {
     contact: "Contact",
     features: "Features",
     pricing: "Pricing",
-    guides: "Guides",
+    guides: "Digimon Story Time Stranger Guides",
     settings: "Settings",
   },
-  activePlayers: "Active Tamers",
+  activePlayers: "Digimon Story Time Stranger Tamers",
   countries: "Regions",
-  coffeeRecipes: "Timeline Routes",
-  userRating: "User Rating",
+  coffeeRecipes: "Digimon Story Time Stranger Routes",
+  userRating: "Digimon Story Time Stranger Rating",
   localeSuggest: {
     switchToTitle: "Switch to {langName}?",
     currentLangDesc: "Current language is {langName}.",
@@ -41,13 +41,13 @@ export const common = {
     switchToButton: "Switch",
   },
   onlineGames: {
-    bannerTitle: "Want to play games directly?",
+    bannerTitle: "Play Digimon Story Time Stranger Online",
     bannerDescription:
-      "Experience Time Stranger and more games directly in your browser, no download required",
-    playNowButton: "Play Now",
-    featured: "Featured Games",
-    viewAllGames: "View All Games",
-    levelCompletionText: "Play Time Stranger Online!",
+      "Experience Digimon Story Time Stranger directly in your browser with synchronized walkthrough overlays and other timeline adventures.",
+    playNowButton: "Play Digimon Story Time Stranger",
+    featured: "Digimon Story Time Stranger Media",
+    viewAllGames: "View Digimon Story Time Stranger Games",
+    levelCompletionText: "Play Digimon Story Time Stranger Online!",
   },
 } as const;
 

@@ -1,16 +1,18 @@
 export const levelShowcase = {
-  title: "Time Stranger Chapter Guides & Solutions",
+  title: "Digimon Story Time Stranger Chapter Guides & Solutions",
   nav: {
-    featured: "Featured",
+    featured: "Digimon Story Time Stranger Featured",
     rangePrefix: "Chapter ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Time Stranger Chapter ",
+    titlePrefix: "Digimon Story Time Stranger Chapter ",
   },
-  showMoreButton: "Show More Chapters",
-  noLevelsFound: "No chapters found in this range.",
-  searchPlaceholder: "Search chapters by ID or title...",
+  showMoreButton: "Show More Digimon Story Time Stranger Chapters",
+  noLevelsFound:
+    "No Digimon Story Time Stranger chapters found in this range.",
+  searchPlaceholder:
+    "Search Digimon Story Time Stranger chapters by ID or title...",
 } as const;
 
 export default levelShowcase;

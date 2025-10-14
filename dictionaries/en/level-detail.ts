@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Time Stranger Chapter {{level}} - Guide, Walkthrough & Video Briefing`,
-    description: `Time Stranger Chapter {{level}} complete guide covering branch choices, encounter prep, and embedded video walkthroughs so your squad stays aligned with the timeline.`,
-    siteName: "Time Stranger Guide Hub",
+    title: `Digimon Story Time Stranger Chapter {{level}} - Guide, Walkthrough & Video Briefing`,
+    description: `Digimon Story Time Stranger Chapter {{level}} complete guide covering branch choices, encounter prep, and embedded video walkthroughs so your squad stays aligned with the Digimon Story Time Stranger timeline.`,
+    siteName: "Digimon Story Time Stranger Guide Hub",
     invalidId: {
       title: "Invalid Chapter Number",
       description: `Please enter a valid chapter number (1-${levels.length})`,

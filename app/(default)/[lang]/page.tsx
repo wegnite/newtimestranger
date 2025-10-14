@@ -9,6 +9,7 @@ import { i18n, type Locale } from "@/i18n";
 import { ensureTrailingSlash } from "@/lib/utils";
 import { createLevelItemList } from "@/lib/jsonldUtils";
 import {OnlineGamingBanner} from "@/components/sections/online-gaming-banner"; // Import the new function
+import { getSiteUrl } from "@/lib/siteConfig";
 
 // 为所有语言生成静态路径
 export async function generateStaticParams() {
@@ -23,11 +24,17 @@ export async function generateMetadata({
   params: { lang: Locale };
 }) {
   const dict = await getDictionary(lang);
+  const siteUrl = getSiteUrl();
+  const title = dict.home.meta.title;
+  const description = dict.home.meta.description;
+  const pageUrl = `${siteUrl}/${lang}`;
+  const socialImage = `${siteUrl}/images/screenshot/time-stranger1.jpg`;
+
   return {
-    title: dict.home.meta.title,
-    description: dict.home.meta.description,
+    title,
+    description,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}`,
+      canonical: pageUrl,
       languages: Object.fromEntries(
         i18n.locales.map((locale: Locale) => [
           locale,
@@ -45,6 +52,27 @@ export async function generateMetadata({
         "max-snippet": -1,
       },
     },
+    openGraph: {
+      type: "website",
+      url: pageUrl,
+      title,
+      description,
+      siteName: dict.home.meta.siteName,
+      images: [
+        {
+          url: socialImage,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [socialImage],
+    },
   };
 }
 
@@ -55,7 +83,7 @@ export default async function Home({
 }) {
   const dict = await getDictionary(lang);
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
+  const siteUrl = getSiteUrl();
   const pageUrl = `${siteUrl}/${lang}`;
   const logoUrl = siteUrl + "/logo.png"; // Use siteUrl for consistency
   const searchUrlTemplate = `${siteUrl}/${lang}/level?search={search_term_string}`;

@@ -2,8 +2,8 @@ import levels from "@/data/levels";
 
 export const home = {
   meta: {
-    title: `Time Stranger Walkthrough Hub | Campaign Chapters 1-${levels.length} Complete Guide`,
-    description: `Command the Time Stranger timeline with spoiler-aware walkthroughs, boss counters, and collectible routes covering every chapter and branching path.`,
+    title: `Digimon Story Time Stranger Strategy Hub`,
+    description: `Digimon Story Time Stranger Strategy Hub delivers spoiler-aware chapter guides, boss counters, and squad planners so every tamer masters the timeline.`,
     keywords:
       "Time Stranger, Time Stranger walkthrough, Time Stranger guide, Digimon Story Time Stranger, Time Stranger boss strategies, Time Stranger collectibles, Time Stranger timeline routes, Time Stranger campaign tips",
     siteName: "Time Stranger Guide Hub",

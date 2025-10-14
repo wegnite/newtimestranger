@@ -1,14 +1,14 @@
 export const blog = {
-  title: "Time Stranger Game Guide",
+  title: "Digimon Story Time Stranger Game Guide",
   subtitle:
-    "Discover more game tips, decoration inspiration and heartwarming stories",
+    "Discover Digimon Story Time Stranger tips, decoration inspiration and heartwarming stories",
   breadcrumbs: {
     blog: "Guide",
     page: "Page {0}",
   },
   posts: {
-    title: "Time Stranger Game Guide Articles",
-    readMore: "View Details",
+    title: "Digimon Story Time Stranger Game Guide Articles",
+    readMore: "View Digimon Story Time Stranger Details",
   },
 } as const;
 

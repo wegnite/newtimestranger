@@ -1,25 +1,25 @@
 export const about = {
-  title: "About Time Stranger Guide Site",
-  subtitle: "Player Community & Game Resources",
+  title: "About Digimon Story Time Stranger Guide Site",
+  subtitle: "Digimon Story Time Stranger Player Community & Game Resources",
   content: {
     mission: {
       title: "Our Mission",
-      text: "Our mission is simple: to create the most helpful, accurate, and user-friendly resource for Time Stranger players. Whether you're stuck on a particularly challenging puzzle or just want to make sure you haven't missed any collectibles, we're here to help.",
+      text: "Our mission is simple: to create the most helpful, accurate, and user-friendly resource for Digimon Story Time Stranger players. Whether you're stuck on a particularly challenging Digimon Story Time Stranger puzzle or just want to make sure you haven't missed any collectibles, we're here to help.",
     },
     values: {
       title: "Core Values",
       items: [
         {
           title: "Player First",
-          text: "Always prioritize player needs, providing the most practical and understandable game guides.",
+          text: "Always prioritize Digimon Story Time Stranger player needs, providing the most practical and understandable game guides.",
         },
         {
           title: "Comprehensive & Accurate",
-          text: "Strive to cover all game levels, ensuring the timeliness and accuracy of guide information.",
+          text: "Strive to cover all Digimon Story Time Stranger levels, ensuring the timeliness and accuracy of guide information.",
         },
         {
           title: "Helpful & Supportive",
-          text: "Whether you are a novice or a veteran player, we are happy to help you overcome difficulties and enjoy the game.",
+          text: "Whether you are a novice or a veteran Digimon Story Time Stranger player, we are happy to help you overcome difficulties and enjoy the game.",
         },
       ],
     },
@@ -33,11 +33,11 @@ export const privacy = {
   content: {
     introduction: {
       title: "Introduction",
-      text: "This Privacy Policy explains how Time Stranger collects, uses, and protects your personal information. By using our services, you agree to the terms of this Privacy Policy.",
+      text: "This Privacy Policy explains how Digimon Story Time Stranger collects, uses, and protects your personal information. By using our services, you agree to the terms of this Privacy Policy.",
     },
     dataCollection: {
       title: "Data Collection",
-      text: "We collect the following information:",
+      text: "We collect the following information for Digimon Story Time Stranger services:",
       items: [
         "Personal information you voluntarily provide (e.g., email address)",
         "Basic technical data (e.g., browser type, access times, usage data obtained through analytics tools)",
@@ -45,7 +45,7 @@ export const privacy = {
     },
     dataUsage: {
       title: "Data Usage",
-      text: "The limited information we collect is used solely for:",
+      text: "The limited information we collect for Digimon Story Time Stranger is used solely for:",
       items: [
         "Maintaining and improving basic website functionality",
         "Providing necessary technical support",
@@ -55,15 +55,15 @@ export const privacy = {
     },
     dataSecurity: {
       title: "Data Security",
-      text: "We implement reasonable security measures to protect your personal information. However, please note that no method of transmission over the Internet or electronic storage is 100% secure.",
+      text: "We implement reasonable security measures to protect your Digimon Story Time Stranger personal information. However, please note that no method of transmission over the Internet or electronic storage is 100% secure.",
     },
     userRights: {
       title: "User Rights",
-      text: "You have the right to view, correct, and delete your personal information. To exercise these rights, please contact our support team.",
+      text: "You have the right to view, correct, and delete your Digimon Story Time Stranger personal information. To exercise these rights, please contact our support team.",
     },
     contact: {
       title: "Contact Us",
-      text: "If you have any questions about this Privacy Policy, please contact us at:",
+      text: "If you have any questions about this Digimon Story Time Stranger Privacy Policy, please contact us at:",
       email: "3500412641@outlook.com",
     },
   },
@@ -75,11 +75,11 @@ export const termsOfService = {
   content: {
     introduction: {
       title: "Introduction",
-      text: "Welcome to Time Stranger Guide Site, a fan-made website dedicated to providing walkthroughs and guides for the Time Stranger game. By accessing or using our website, you agree to be bound by these Terms of Service.",
+      text: "Welcome to Digimon Story Time Stranger Guide Site, a fan-made website dedicated to providing walkthroughs and guides for the Digimon Story Time Stranger game. By accessing or using our website, you agree to be bound by these Terms of Service.",
     },
     disclaimer: {
       title: "Disclaimer",
-      text: "Time Stranger Guide Site is not affiliated with, endorsed by, or in any way officially connected with the official Time Stranger game or its developers. All game content, images, and trademarks are property of their respective owners.",
+      text: "Digimon Story Time Stranger Guide Site is not affiliated with, endorsed by, or in any way officially connected with the official Digimon Story Time Stranger game or its developers. All game content, images, and trademarks are property of their respective owners.",
     },
     userConduct: {
       title: "User Conduct",
@@ -93,7 +93,7 @@ export const termsOfService = {
     },
     contentPolicy: {
       title: "Content",
-      text: "All content on this website is for informational and educational purposes only. We strive to provide accurate and helpful guides, but we cannot guarantee the accuracy or completeness of any information on our site.",
+      text: "All content on this Digimon Story Time Stranger website is for informational and educational purposes only. We strive to provide accurate and helpful guides, but we cannot guarantee the accuracy or completeness of any information on our site.",
     },
     changesToTerms: {
       title: "Changes to Terms",

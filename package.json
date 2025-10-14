@@ -16,10 +16,12 @@
     "translateBlog": "ts-node --project scripts/tsconfig.json scripts/translate-blogs.ts",
     "download:thumbnails": "npm run build:levels && node --expose-gc scripts/download-youtube-thumbnails.js \"Time Stranger\" \"digimonstorytimestranger.com\"",
     "download:crop": "npm run build:levels && node --expose-gc scripts/download-youtube-thumbnails-crop.js \"Time Stranger\" \"digimonstorytimestranger.com\"",
+    "scrape:guides": "ts-node --project scripts/tsconfig.json scripts/fetch-time-stranger-guides.ts",
     "clean:thumbnails-simple": "node -e \"const fs=require('fs'),path=require('path');const dir='public/images/thumbnails';try{const files=fs.readdirSync(dir).filter(f=>f.includes('-temp-'));files.forEach(f=>{try{fs.unlinkSync(path.join(dir,f));console.log('✓ 已删除:',f)}catch(e){console.log('⚠ 无法删除:',f)}});console.log(`🧹 清理完成，处理了 ${files.length} 个临时文件`)}catch(e){console.log('⚠ 清理出错:',e.message)}\"",
     "clean:crop": "node -e \"const fs=require('fs'),path=require('path');const dir='public/images/levelResult';try{const files=fs.readdirSync(dir).filter(f=>f.includes('-temp-'));files.forEach(f=>{try{fs.unlinkSync(path.join(dir,f));console.log('✓ 已删除:',f)}catch(e){console.log('⚠ 无法删除:',f)}});console.log(`🧹 清理完成，处理了 ${files.length} 个临时文件`)}catch(e){console.log('⚠ 清理出错:',e.message)}\""
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "^1.2.2",
     "@radix-ui/react-alert-dialog": "^1.1.4",

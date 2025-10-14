@@ -21,25 +21,25 @@ export const gamesText = {
   dreamyRoom: {
     name: "Time Stranger", // Value for gamePage.title placeholder
     descriptionMarkdown: `
-## Time Stranger – Tactical Timeline RPG for Digimon Fans
+## Digimon Story Time Stranger – Tactical Timeline RPG for Dedicated Tamers
 
-Time Stranger drops you into an original Digimon Story timeline where tamers, hackers, and corporate conspiracies collide. Command a custom squad of partner Digimon, investigate cross-world anomalies, and unravel a plot that bends both memories and destiny. Build your team from Rookie to Mega, trigger timeline shifts that unlock alternate cases, and sync every decision with a spoiler-aware walkthrough on our site.
+Digimon Story Time Stranger drops you into an original Digimon Story timeline where tamers, hackers, and corporate conspiracies collide. Command a custom squad of partner Digimon, investigate cross-world anomalies, and unravel a plot that bends both memories and destiny. Build your team from Rookie to Mega, trigger Digimon Story Time Stranger timeline shifts that unlock alternate cases, and sync every decision with a spoiler-aware Digimon Story Time Stranger walkthrough on our site.
 
 ## Mission-Based Exploration & Turn Strategy
 
-Each chapter blends investigative adventure segments with signature turn-based battles. Explore neon server cities, AR-infected districts, and hidden Eden layers to collect case intel and timeline fragments. Combat features the Speed-based turn order from prior Digimon Story entries with new Timeline Burst triggers, tag-team skills, and dual-type counters that reward clever squad composition.
+Each Digimon Story Time Stranger chapter blends investigative adventure segments with signature turn-based battles. Explore neon server cities, AR-infected districts, and hidden Eden layers to collect case intel and timeline fragments. Combat features the Speed-based turn order from prior Digimon Story entries with new Digimon Story Time Stranger Timeline Burst triggers, tag-team skills, and dual-type counters that reward clever squad composition.
 
 ## Build the Perfect Strike Team
 
-Recruit over 450 Digimon across mainline quests, hacker boards, and raid-style event inserts. Scan encounter data, evolve along branching trees, and imprint memory sets that drastically alter stats and support skills. Our database keeps track of armor evolutions, jogress routes, and talent breakpoints so you never waste precious DigiFarm cycles.
+Recruit over 450 Digimon across mainline quests, hacker boards, and raid-style event inserts. Scan encounter data, evolve along branching trees, and imprint memory sets that drastically alter stats and support skills. Our database keeps track of armor evolutions, jogress routes, and talent breakpoints so you never waste precious Digimon Story Time Stranger DigiFarm cycles.
 
 ## Tips for New Tamers
 
-* **Track timeline choices:** Key story decisions trigger ripple events—review our walkthrough toggles before locking in a branch.
-* **Balance resistances:** Boss patterns lean on dual elements; bring coverage cores and timeline burst counters.
-* **Upgrade support memories early:** Craft loadout slots for extra SP regen, ailment cleanse, and scan boosts to speed farm rare lines.
+* **Track timeline choices:** Key Digimon Story Time Stranger story decisions trigger ripple events—review our Digimon Story Time Stranger walkthrough toggles before locking in a branch.
+* **Balance resistances:** Digimon Story Time Stranger boss patterns lean on dual elements; bring coverage cores and timeline burst counters.
+* **Upgrade support memories early:** Craft Digimon Story Time Stranger loadout slots for extra SP regen, ailment cleanse, and scan boosts to speed farm rare lines.
 
-Ready to sync your squad with the official Time Stranger route? Launch the campaign now and keep our guide hub open for real-time chapter inserts, collectible callouts, and roster planning tools.
+Ready to sync your squad with the official Digimon Story Time Stranger route? Launch Digimon Story Time Stranger now and keep our guide hub open for real-time chapter inserts, collectible callouts, and roster planning tools.
 `,
   },
   stickHoleIo: {
