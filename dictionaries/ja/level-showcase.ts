@@ -1,16 +1,14 @@
 export const levelShowcase = {
-  title: "(夢の部屋)ドリーミールーム レベル攻略＆ヒント | Dreamy Room",
+  title: "Knit Out のレベル攻略と解決策",
   nav: {
-    featured: "おすすめ",
+    featured: "特集",
     rangePrefix: "レベル ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "(夢の部屋)ドリーミールーム レベル ",
+    titlePrefix: "Knit Out レベル ",
   },
-  showMoreButton: "さらに表示",
-  noLevelsFound: "この範囲のレベルは見つかりませんでした。",
+  showMoreButton: "さらに多くのレベルを表示",
+  noLevelsFound: "この範囲ではレベルが見つかりませんでした。",
   searchPlaceholder: "IDまたはタイトルでレベルを検索...",
 } as const;
-
-export default levelShowcase;

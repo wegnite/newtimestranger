@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Dreamy Room Tahap {{level}} - Panduan Permainan dan Walkthrough - Dreamy Room {{level}} & Petua Video`,
-    description: `Dreamy Room {{level}}, Panduan lengkap untuk Dreamy Room Tahap {{level}}, menyediakan petua penyusunan terperinci, penyelesaian penempatan item, dan walkthrough video. Bantu anda melengkapkan tahap dengan mudah dan mencipta ruang tamu yang selesa dan sempurna.`,
-    siteName: "Panduan Rasmi Dreamy Room",
+    title: `Knit Out Tahap {{level}} - Panduan & Penyelesaian & Permainan`,
+    description: `Knit Out {{level}}, Panduan lengkap untuk Knit Out Tahap {{level}}, menyediakan petunjuk strategi terperinci, penyelesaian tali dan bobin, dan panduan video. Membantu anda dengan mudah melengkapi tahap dan membuka semua simpul.`,
+    siteName: "Panduan Rasmi Knit Out",
     invalidId: {
       title: "Nombor Tahap Tidak Sah",
       description: `Sila masukkan nombor tahap yang sah (1-${levels.length})`,
@@ -28,17 +28,15 @@ export const levelDetail = {
         "Tahap yang anda cuba akses tidak wujud, sila pilih tahap lain",
     },
     langNotFound: {
-      title: "Pek Bahasa Tidak Ditemui",
+      title: "Pakej Bahasa Tidak Ditemui",
       description:
         "Kandungan terjemahan untuk bahasa semasa tidak ditemui, sila tukar ke bahasa lain",
     },
   },
   sidebar: {
-    adjacentLevels: "Tahap Bersebelahan",
+    adjacentLevels: "Tahap Bertetangga",
     allLevels: "Semua Tahap",
   },
   shareLabel: "Kongsi Panduan Tahap",
-  linkCopiedText: "Pautan disalin!",
+  linkCopiedText: "Berjaya Disalin!",
 } as const;
-
-export default levelDetail;

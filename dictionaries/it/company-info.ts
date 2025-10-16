@@ -1,24 +1,22 @@
 export const companyInfo = {
-  title: "Informazioni su Dreamy Room",
-  subtitle: "Un Accogliente Gioco di Organizzazione Amato da Milioni nel Mondo",
+  title: "Su Knit Out",
+  subtitle: "Sblocca i nodi! Un gioco di puzzle vivace e rilassante.",
   stats: {
-    players: "+1M", // M = Milione
+    players: "+100K",
     countries: "+150",
-    recipes: "+50", // Nota: 'Ricette' è corretto qui?
-    rating: "4.8/5",
+    recipes: "+300",
+    rating: "4,7/5",
   },
   sections: {
     about: {
-      title: "Chi Siamo",
+      title: "Sul Gioco",
       content:
-        "Dreamy Room è un accogliente gioco di organizzazione. La nostra missione è portare calore e gioia attraverso l'organizzazione e la decorazione delle stanze.",
+        "Knit Out è un gioco di puzzle rilassante in cui il tuo compito è quello di eliminare righe di nodi colorati, liberando le funi che devono trovare i loro bobine corrispondenti in basso.",
     },
     mission: {
-      title: "La Nostra Missione",
+      title: "Caratteristiche Principali",
       content:
-        "Creare un'esperienza di organizzazione rilassante e affascinante che combina perfettamente la bellezza della vita con storie commoventi.",
+        "Centinaia di puzzle complessi, una palette di colori vivaci e un gameplay rilassante senza timer.",
     },
   },
 } as const;
-
-export default companyInfo;

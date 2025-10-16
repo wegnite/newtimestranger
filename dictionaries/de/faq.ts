@@ -1,39 +1,35 @@
 export const faq = {
-  title: "FAQ",
-  subtitle: "Häufig gestellte Fragen zu Traumzimmer & Dreamy Room",
+  title: "Knit Out FAQ",
+  subtitle: "Häufig gestellte Fragen zu Knit Out",
   questions: [
     {
-      question: "Wie fange ich an zu spielen?",
+      question: "Wie spiele ich Knit Out?",
       answer:
-        "Nachdem Sie das Spiel heruntergeladen und installiert haben, können Sie verschiedene Räume erkunden und durch das Organisieren von Gegenständen gemütliche Wohnräume schaffen.",
+        "Ihre Aufgabe ist es, Zeilen farbiger Knoten von oben zu löschen, indem Sie die richtigen Spulen aus dem unten stehenden Gitter auswählen, um die Seile zu sammeln.",
     },
     {
-      question: "Ist das Spiel kostenlos?",
+      question: "Ist Knit Out kostenlos?",
       answer:
-        "Das Spiel ist kostenlos spielbar, enthält aber Werbung und In-App-Käufe.",
+        "Das Spiel kann kostenlos gespielt werden, bietet jedoch In-App-Käufe an und enthält Werbung.",
     },
     {
-      question: "Wie schließe ich Level ab?",
+      question: "Was tun, wenn ich auf einem Level hängenbleibe?",
       answer:
-        "Beobachten Sie sorgfältig die Eigenschaften jedes Gegenstands und platzieren Sie ihn an geeigneten Orten. Wenn Sie Hilfe benötigen, können Sie die Hinweis-Funktion verwenden.",
+        "Einige Level können herausfordernd sein. Das Spiel bietet Power-Ups, die mit Münzen erworben werden können. Einige Spieler empfehlen, informierte Vermutungen zu machen, wenn der Weg vorwärts nicht klar ist.",
     },
     {
-      question: "Gibt es ein Zeitlimit?",
-      answer:
-        "Einige Level können Zeitlimits haben, aber Sie können die Zeit verlängern, indem Sie Werbung ansehen oder Spielmünzen verwenden.",
+      question: "Kann ich offline spielen?",
+      answer: "Ja, laut Nutzerbewertungen kann Knit Out offline gespielt werden.",
     },
     {
-      question:
-        "Was ist, wenn ich einen Gegenstand nicht richtig platzieren kann?",
+      question: "Gibt es bekannte Probleme?",
       answer:
-        "Versuchen Sie, die Position und den Winkel des Gegenstands anzupassen, und stellen Sie sicher, dass der Platzierungsbereich korrekt ist. Wenn mehrere Versuche fehlschlagen, können Sie die Hinweis-Funktion verwenden.",
+        "Einige Nutzer haben Bugs wie Bildschirmflackern gemeldet. Wenn Sie Probleme auftauchen, können Sie versuchen, das Spiel neu zu starten oder den Support zu kontaktieren.",
     },
     {
-      question: "Was ist, wenn ich auf Probleme stoße?",
+      question: "Wie kann ich den Support kontaktieren?",
       answer:
-        "Sie können unser Support-Team über die In-Game-Support-Funktion oder per E-Mail an hieplm@abigames.com.vn kontaktieren.",
+        "Sie können den Support per E-Mail an info@superblast.games oder über die App-Support-Links im App Store oder Google Play kontaktieren.",
     },
   ],
 } as const;
-
-export default faq;

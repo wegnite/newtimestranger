@@ -11,13 +11,6 @@ export default async function RootLayout({
 }) {
     return (
         <html lang="en" dir="ltr" suppressHydrationWarning>
-        <head>
-            <link rel="icon" href="/digimon/favicon.ico" sizes="any" />
-            <link rel="icon" href="/digimon/favicon-16x16.png" type="image/png" sizes="16x16" />
-            <link rel="icon" href="/digimon/favicon-32x32.png" type="image/png" sizes="32x32" />
-            <link rel="apple-touch-icon" href="/digimon/apple-touch-icon.png" sizes="180x180" />
-            <link rel="manifest" href="/site.webmanifest" />
-        </head>
         <body
             className={`${josefinSans.variable} ${notoSansSC.variable} ltr font-josefin`}
         >

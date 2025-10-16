@@ -2,30 +2,30 @@ import levels from "@/data/levels";
 
 export const levelDetail = {
   breadcrumb: {
-    levelList: "Chapter List",
+    levelList: "Level List",
   },
   notFound: {
-    title: "Chapter Not Found",
-    description: "Sorry, the chapter you are looking for does not exist",
-    backToList: "Back to Chapter List",
+    title: "Level Not Found",
+    description: "Sorry, the level you are looking for does not exist",
+    backToList: "Back to Level List",
   },
-  levelNumber: "Chapter",
+  levelNumber: "Level",
   levelRange: {
-    prefix: "Chapter",
+    prefix: "Day",
     suffix: "",
   },
   meta: {
-    title: `Digimon Story Time Stranger Chapter {{level}} - Guide, Walkthrough & Video Briefing`,
-    description: `Digimon Story Time Stranger Chapter {{level}} complete guide covering branch choices, encounter prep, and embedded video walkthroughs so your squad stays aligned with the Digimon Story Time Stranger timeline.`,
-    siteName: "Digimon Story Time Stranger Guide Hub",
+    title: `Knit Out Level {{level}} - Walkthrough & Solution & Game`,
+    description: `Knit Out {{level}}, Complete guide for Knit Out Level {{level}}, providing detailed strategy tips, rope and bobbin solutions, and video walkthroughs. Help you easily complete the level and untangle all the knots.`,
+    siteName: "Knit Out Official Guide",
     invalidId: {
-      title: "Invalid Chapter Number",
-      description: `Please enter a valid chapter number (1-${levels.length})`,
+      title: "Invalid Level Number",
+      description: `Please enter a valid level number (1-${levels.length})`,
     },
     notFound: {
-      title: "Chapter Does Not Exist",
+      title: "Level Does Not Exist",
       description:
-        "The chapter you are trying to access does not exist, please select another chapter",
+        "The level you are trying to access does not exist, please select another level",
     },
     langNotFound: {
       title: "Language Pack Not Found",
@@ -34,11 +34,11 @@ export const levelDetail = {
     },
   },
   sidebar: {
-    adjacentLevels: "Adjacent Chapters",
-    allLevels: "All Chapters",
+    adjacentLevels: "Adjacent Levels",
+    allLevels: "All Levels",
   },
-  shareLabel: "Share Chapter Guide",
-  linkCopiedText: "Link copied!",
+  shareLabel: "Share Level Guide",
+  linkCopiedText: "Copied Successfully!",
 } as const;
 
 export default levelDetail;

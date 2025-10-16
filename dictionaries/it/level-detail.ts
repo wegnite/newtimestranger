@@ -2,12 +2,12 @@ import levels from "@/data/levels";
 
 export const levelDetail = {
   breadcrumb: {
-    levelList: "Elenco Livelli",
+    levelList: "Elenco livelli",
   },
   notFound: {
-    title: "Livello Non Trovato",
-    description: "Spiacenti, il livello che stai cercando non esiste",
-    backToList: "Torna all'Elenco Livelli",
+    title: "Livello non trovato",
+    description: "Spiacente, il livello che stai cercando non esiste",
+    backToList: "Torna all'elenco livelli",
   },
   levelNumber: "Livello",
   levelRange: {
@@ -15,30 +15,28 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Dreamy Room Livello {{level}} - Guida al Gioco e Walkthrough - Dreamy Room {{level}} & Suggerimenti Video`,
-    description: `Dreamy Room {{level}}, Guida completa per Dreamy Room Livello {{level}}, che fornisce suggerimenti dettagliati sull'organizzazione, soluzioni per il posizionamento degli oggetti e walkthrough video. Ti aiuta a completare facilmente il livello e a creare lo spazio abitativo accogliente perfetto.`,
-    siteName: "Guida Ufficiale Dreamy Room",
+    title: `Knit Out Livello {{level}} - Guida e soluzione e gioco`,
+    description: `Knit Out {{level}}, guida completa per il livello Knit Out {{level}}, fornendo consigli di strategia dettagliati, soluzioni per corda e bobina e walkthrough video. Ti aiuta a completare facilmente il livello e slegare tutti i nodi.`,
+    siteName: "Guida ufficiale di Knit Out",
     invalidId: {
-      title: "Numero Livello Non Valido",
+      title: "Numero di livello non valido",
       description: `Inserisci un numero di livello valido (1-${levels.length})`,
     },
     notFound: {
-      title: "Il Livello Non Esiste",
+      title: "Livello non esistente",
       description:
-        "Il livello a cui stai tentando di accedere non esiste, seleziona un altro livello",
+        "Il livello che stai cercando di accedere non esiste, seleziona un altro livello",
     },
     langNotFound: {
-      title: "Pacchetto Lingua Non Trovato",
+      title: "Pacchetto di lingue non trovato",
       description:
-        "Contenuto della traduzione per la lingua corrente non trovato, passa a un'altra lingua",
+        "Contenuto di traduzione per la lingua corrente non trovato, passa a un'altra lingua",
     },
   },
   sidebar: {
-    adjacentLevels: "Livelli Adiacenti",
-    allLevels: "Tutti i Livelli",
+    adjacentLevels: "Livelli adiacenti",
+    allLevels: "Tutti i livelli",
   },
-  shareLabel: "Condividi Guida del Livello",
-  linkCopiedText: "Link copiato!",
+  shareLabel: "Condividi guida livello",
+  linkCopiedText: "Copiato con successo!",
 } as const;
-
-export default levelDetail;

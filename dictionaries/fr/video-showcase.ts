@@ -1,11 +1,9 @@
 export const videoShowcase = {
-  title: "Vitrine vidéo du jeu",
-  subtitle: "Regardez le gameplay et découvrez la joie de gérer un café",
+  title: "Démonstration de vidéos de jeux",
+  subtitle: "Vivez le plaisir et le défi de la résolution de puzzles stratégiques",
   video: {
-    title: "Dreamy Room - Gérez le café de vos rêves",
+    title: "Knit Out - Détanglez les noeuds colorés!",
     description:
-      "Dans ce jeu de gestion de café cosy et créatif, vous incarnez un propriétaire de café passionné. Commencez par la préparation simple du café, développez progressivement votre empire du café, débloquez de nouvelles recettes, décorez votre établissement et offrez le meilleur service à vos clients.",
+      "Dans ce jeu de puzzle relaxant et stratégique, vous éliminerez les lignes de noeuds colorés en les appariant aux bobines correctes. Planifiez vos coups pour dénouer les cordes et complétez centaines de niveaux. Profitez ensemble du plaisir satisfaisant de Knit Out!",
   },
 } as const;
-
-export default videoShowcase;

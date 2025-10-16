@@ -2,13 +2,13 @@ import levels from "@/data/levels";
 
 export const home = {
   meta: {
-    title: `Chambre de Rêve / Dreamy Room Niveau 1-${levels.length} Solution Complète & Guide | Tutoriels Vidéo`,
-    description: `Vous cherchez un guide pour Chambre de Rêve ou Dreamy Room ? Nous proposons des soluces vidéo détaillées et des guides pour tous les niveaux (Niveau 1-${levels.length}), couvrant les techniques de résolution d'énigmes pour chaque niveau de Chambre de Rêve (Dreamy Room) afin de vous aider à passer facilement. Obtenez le dernier guide de niveau et profitez du jeu !`,
-    siteName: "Guide du Jeu Chambre de Rêve / Dreamy Room",
-    author: "Équipe du Guide Chambre de Rêve / Dreamy Room",
-    category: "Guide de jeu",
-    classification: "Jeu",
+    title: `Knit Out Niveau 1-${levels.length} Parcours complet et guide | Collection de tutoriels vidéo`,
+    description: `Cherchez un guide pour Knit Out? Nous fournissons des parcours vidéo détaillés et des guides pour tous les niveaux de Knit Out (Niveau 1-${levels.length}), couvrant les techniques de démêlage pour chaque niveau de Knit Out pour vous aider à passer facilement. Obtenez le dernier guide de niveau de Knit Out et profitez du jeu!`,
+    keywords:
+      "Knit Out, Jeu de puzzle, Démêler, Nœuds, Cordes, Bobines, Guide du jeu, Solutions de niveau, Jeux Rollic, Parcours",
+    siteName: "Guide du jeu Knit Out",
+    author: "Équipe du guide de Knit Out",
+    category: "Guide du jeu",
+    classification: "Jeu de puzzle",
   },
 } as const;
-
-export default home;

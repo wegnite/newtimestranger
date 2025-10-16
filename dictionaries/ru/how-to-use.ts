@@ -1,6 +1,6 @@
 export const howToUse = {
-  title: "Как использовать Dreamy Room",
-  subtitle: "Начните общаться с Dreamy Room за три простых шага",
+  title: "Как использовать Knit Out",
+  subtitle: "Начните общаться с Knit Out за три простых шага",
   steps: [
     {
       title: "Перейдите на страницу чата",
@@ -14,7 +14,7 @@ export const howToUse = {
     {
       title: "Дождитесь ответа",
       description:
-        "Dreamy Room быстро сгенерирует ответ, обычно в течение нескольких секунд",
+        "Knit Out быстро сгенерирует ответ, обычно в течение нескольких секунд",
     },
   ],
   startButton: "Начать чат сейчас",

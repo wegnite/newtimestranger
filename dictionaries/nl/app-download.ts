@@ -1,37 +1,35 @@
 export const appDownload = {
   meta: {
-    title: "Download Dreamy Room - Een Gezellig Kamer Organisatie Spel",
+    title: "Download Knit Out - Los de knopen op!",
     description:
-      "Download Dreamy Room en begin je hartverwarmende reis van het organiseren en decoreren van kamers. Creëer je perfecte leefruimte door bewuste organisatie.",
+      "Download Knit Out en begin met het losmaken van kleurrijke knopen. Een ontspannend en strategisch puzzelspel.",
   },
-  title: "Download Dreamy Room",
-  subtitle: "Een Gezellig en Helend Kamer Organisatie Spel",
+  title: "Download Knit Out",
+  subtitle: "Los de knopen op!",
   stats: {
-    rating: "4.8",
-    downloads: "1M+ Downloads",
+    rating: "4,7",
+    downloads: "100K+ Downloads",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
-      description: "Download in de App Store",
-      link: "https://apps.apple.com/us/app/dreamy-room/id6742221896",
+      description: "Download op App Store",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Download via Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.abi.dream.unpacking",
+      description: "Haal het op via Google Play",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "Organisatie",
-      description: "Vind de perfecte plek voor elk item",
+      title: "Honderden Puzzels",
+      description: "Honderden ingewikkelde puzzels om op te lossen",
     },
     story: {
-      title: "Hartverwarmend Verhaal",
-      description: "Vertel levensverhalen door item plaatsing",
+      title: "Ontspannend Gameplay",
+      description: "Ontspannend gameplay zonder tijdlimieten - ideaal om te ontspannen",
     },
   },
 } as const;
-
-export default appDownload;

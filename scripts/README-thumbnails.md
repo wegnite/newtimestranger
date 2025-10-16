@@ -7,7 +7,7 @@ This script downloads YouTube video thumbnails from `levelsSitemap.json` and con
 1. **YouTube Thumbnail URL Pattern**:
 
    ```
-   https://img.youtube.com/vi/{VIDEO_ID}/hqdefault.jpg
+   https://img.youtube.com/vi/{VIDEO_ID}/maxresdefault.jpg
    ```
 
 2. **Video ID Extraction**:
@@ -76,7 +76,7 @@ After running this script, you can update the level showcase component to use lo
 
 ```typescript
 // Instead of:
-src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
 
 // Use:
 src={`/images/thumbnails/level-${level.id}.webp`}

@@ -1,29 +1,25 @@
 export const about = {
-  title: "Tungkol sa Dreamy Room Guide Site",
-  subtitle: "Komunidad ng Manlalaro at Mga Mapagkukunan ng Laro",
+  title: "Tungkol sa Knit Out Guide Site",
+  subtitle: "Pamayanan ng Mga Manlalaro at Mga Mapagkukunan ng Laro",
   content: {
     mission: {
-      title: "Ang Aming Misyon",
-      text: "Simple lang ang aming misyon: lumikha ng pinaka-kapaki-pakinabang, tumpak, at madaling gamitin na mapagkukunan para sa mga manlalaro ng Dreamy Room. Kung ikaw ay natigil sa isang partikular na mapaghamong puzzle o gusto mo lang tiyakin na wala kang napalampas na anumang collectible, narito kami upang tumulong.",
-    },
-    vision: {
-      title: "Ang Aming Bisyon",
-      text: "Nagsusumikap kaming itulak ang pagsulong ng teknolohiya ng AI sa pamamagitan ng patuloy na pagbabago at mga teknolohikal na tagumpay, na lumilikha ng higit na halaga para sa lipunan ng tao.",
+      title: "Aming Misyon",
+      text: "Ang aming misyon ay simpleng: lumikha ng pinakamakatulong, tumpak, at maging user-friendly na mapagkukunan para sa mga manlalaro ng Knit Out. Kung naiwan ka sa isang partikular na hamon na palaisipan o gusto lang matuto ng pinakamahusay na diskarte, narito kami upang tumulong.",
     },
     values: {
       title: "Mga Pangunahing Halaga",
       items: [
         {
-          title: "Manlalaro Muna",
-          text: "Laging unahin ang mga pangangailangan ng manlalaro, nagbibigay ng pinaka-praktikal at nauunawaang mga gabay sa laro.",
+          title: "Player First",
+          text: "Palaging ibigay-prioridad ang mga pangangailangan ng mga manlalaro, na nagbibigay ng pinakamapraktikal at nauunawaan na mga gabay sa laro.",
         },
         {
-          title: "Komprehensibo at Tumpak",
-          text: "Magsikap na sakupin ang lahat ng antas ng laro, tinitiyak ang pagiging napapanahon at katumpakan ng impormasyon sa gabay.",
+          title: "Comprehensive & Accurate",
+          text: "Sumisikap na sakupin ang lahat ng antas ng laro, tinitiyak ang pagiging tapat at tumpak ng impormasyon sa gabay.",
         },
         {
-          title: "Matulungin at Mapagsuporta",
-          text: "Baguhan ka man o beteranong manlalaro, masaya kaming tulungan kang malampasan ang mga paghihirap at masiyahan sa laro.",
+          title: "Helpful & Supportive",
+          text: "Kahit ikaw ay isang baguhan o isang matandang manlalaro, masaya kaming tumulong sa iyo upang malampasan ang mga problema at masiyahan sa laro.",
         },
       ],
     },
@@ -31,82 +27,81 @@ export const about = {
 } as const;
 
 export const privacy = {
-  title: "Patakaran sa Privacy",
-  subtitle: "Ang iyong privacy at seguridad ang aming pangunahing priyoridad",
-  lastUpdated: "Huling Na-update: Abril 1, 2025",
+  title: "Patakaran sa Privasiya",
+  subtitle: "Ang iyong privacy at seguridad ay ang aming pinakamataas na priyoridad",
+  lastUpdated: "Huling Pag-update: Abril 1, 2025",
   content: {
     introduction: {
-      title: "Panimula",
-      text: "Ipinapaliwanag ng Patakaran sa Privacy na ito kung paano kinokolekta, ginagamit, at pinoprotektahan ng Dreamy Room ang iyong personal na impormasyon. Sa paggamit ng aming mga serbisyo, sumasang-ayon ka sa mga tuntunin ng Patakaran sa Privacy na ito.",
+      title: "Pagpapakilala",
+      text: "Ipinapaliwanag ng Patakaran sa Privasiya na ito kung paano nakukuha, ginagamit, at pinoprotektahan ng Knit Out Guide Site ang iyong personal na impormasyon. Sa pamamagitan ng paggamit ng aming mga serbisyo, sumasang-ayon ka sa mga tuntunin ng Patakaran sa Privasiya na ito.",
     },
     dataCollection: {
-      title: "Pagkolekta ng Datos",
-      text: "Kinokolekta namin ang sumusunod na impormasyon:",
+      title: "Pagkolekta ng Data",
+      text: "Kinokolekta namin ang mga sumusunod na impormasyon:",
       items: [
         "Personal na impormasyon na kusang-loob mong ibinibigay (hal., email address)",
-        "Pangunahing teknikal na datos (hal., uri ng browser, oras ng pag-access, datos ng paggamit na nakuha sa pamamagitan ng mga tool sa analytics)",
+        "Mga pangunahing teknikal na data (hal., uri ng browser, oras ng pag-access, data ng paggamit na nakuha sa pamamagitan ng mga tool sa analytics)",
       ],
     },
     dataUsage: {
-      title: "Paggamit ng Datos",
-      text: "Ang limitadong impormasyon na aming kinokolekta ay ginagamit lamang para sa:",
+      title: "Paggamit ng Data",
+      text: "Ang limitadong impormasyon na kinokolekta ay ginagamit lamang para sa:",
       items: [
         "Pagpapanatili at pagpapabuti ng pangunahing paggana ng website",
-        "Pagbibigay ng kinakailangang teknikal na suporta",
-        "Pagtitiyak ng seguridad ng serbisyo",
-        "Pag-optimize ng karanasan ng gumagamit",
+        "Pagbibigay ng kinakailangang suportang teknikal",
+        "Pagtiyak ng seguridad ng serbisyo",
+        "Pag-optimize ng karanasan ng user",
       ],
     },
     dataSecurity: {
-      title: "Seguridad ng Datos",
-      text: "Nagpapatupad kami ng mga makatwirang hakbang sa seguridad upang protektahan ang iyong personal na impormasyon. Gayunpaman, pakitandaan na walang paraan ng paghahatid sa Internet o elektronikong pag-iimbak ang 100% na ligtas.",
+      title: "Security ng Data",
+      text: "Nagsasagawa kami ng makatwirang mga hakbang sa seguridad upang protektahan ang iyong personal na impormasyon. Gayunpaman, tandaan na walang paraan ng paghahatid sa Internet o elektronikong imbakan ang 100% ligtas.",
     },
     userRights: {
-      title: "Mga Karapatan ng Gumagamit",
-      text: "May karapatan kang tingnan, iwasto, at tanggalin ang iyong personal na impormasyon. Upang gamitin ang mga karapatang ito, mangyaring makipag-ugnayan sa aming koponan sa suporta.",
+      title: "Mga Karapatan ng User",
+      text: "Mayroon kang karapatang tingnan, ayusin, at tanggalin ang iyong personal na impormasyon. Upang gamitin ang mga karapatang ito, pakitungo sa aming koponan ng suporta.",
     },
     contact: {
       title: "Makipag-ugnayan sa Amin",
-      text: "Kung mayroon kang anumang mga katanungan tungkol sa Patakaran sa Privacy na ito, mangyaring makipag-ugnayan sa amin sa:",
-      email: "3500412641@outlook.com",
+      text: "Kung mayroon kang anumang katanungan tungkol sa Patakaran sa Privasiya na ito, pakitungo sa amin sa:",
+      email: "info@superblast.games",
     },
   },
 } as const;
 
-// Mga Tuntunin ng Serbisyo
 export const termsOfService = {
-  title: "Mga Tuntunin ng Serbisyo",
-  subtitle: "Mangyaring basahin nang mabuti bago gamitin ang website na ito",
+  title: "Mga Tuntunin ng Paggamit",
+  subtitle: "Basahin nang mabuti bago gamitin ang website na ito",
   content: {
     introduction: {
-      title: "Panimula",
-      text: "Maligayang pagdating sa Dreamy Room Guide Site, isang website na gawa ng fan na nakatuon sa pagbibigay ng mga walkthrough at gabay para sa larong Dreamy Room. Sa pag-access o paggamit ng aming website, sumasang-ayon kang mapailalim sa Mga Tuntunin ng Serbisyo na ito.",
+      title: "Pagpapakilala",
+      text: "Maligayang pagdating sa Knit Out Guide Site, isang website na gawa ng mga tagahanga na naglalayong magbigay ng mga walkthrough at gabay para sa laro ng Knit Out. Sa pamamagitan ng pag-access o paggamit ng aming website, sumasang-ayon ka na maging binu-bind ng mga Tuntunin ng Paggamit na ito.",
     },
     disclaimer: {
       title: "Disclaimer",
-      text: "Ang Dreamy Room Guide Site ay hindi kaakibat, inendorso ng, o sa anumang paraan opisyal na konektado sa opisyal na larong Dreamy Room o mga developer nito. Ang lahat ng nilalaman ng laro, mga imahe, at mga trademark ay pag-aari ng kani-kanilang mga may-ari.",
+      text: "Ang Knit Out Guide Site ay hindi kaakibat, hindi indorsado, o kahit saan na opisyal na konektado sa opisyal na laro ng Knit Out o sa developer nito na Rollic Games. Ang lahat ng nilalaman ng laro, mga larawan, at mga trademark ay ari-arian ng kanilang mga may-ari.",
     },
     userConduct: {
-      title: "Pag-uugali ng Gumagamit",
-      text: "Sa paggamit ng aming website, sumasang-ayon kang hindi:",
+      title: "Pag-uugali ng User",
+      text: "Sa paggamit ng aming website, sumasang-ayon ka na hindi gagawin ang mga sumusunod:",
       items: [
         "Gamitin ang aming website sa anumang paraan na lumalabag sa anumang naaangkop na batas",
-        "Subukang makialam sa wastong paggana ng website",
-        "Makisali sa anumang pag-uugali na naghihigpit o pumipigil sa paggamit o kasiyahan ng sinuman sa website",
-        "Gamitin ang website para sa anumang layunin na labag sa batas o ipinagbabawal ng Mga Tuntunin ng Serbisyo na ito",
+        "Subukang makagambala sa tamang paggana ng website",
+        "Makibahagi sa anumang pag-uugali na naghihigpit o pumipigil sa paggamit o pagkagustuhan ng sinuman sa website",
+        "Gamitin ang website para sa anumang layunin na ilegal o ipinagbabawal ng mga Tuntunin ng Paggamit na ito",
       ],
     },
     contentPolicy: {
       title: "Nilalaman",
-      text: "Ang lahat ng nilalaman sa website na ito ay para lamang sa mga layuning pang-impormasyon at pang-edukasyon. Nagsusumikap kaming magbigay ng tumpak at kapaki-pakinabang na mga gabay, ngunit hindi namin magagarantiya ang katumpakan o pagkakumpleto ng anumang impormasyon sa aming site.",
+      text: "Ang lahat ng nilalaman sa website na ito ay para lamang sa layuning impormatibo at edukasyon. Sumisikap kami na magbigay ng tumpak at makatwirang mga gabay, ngunit hindi namin maaaring garantiya ang katumpakan o pagkumpleto ng anumang impormasyon sa aming site.",
     },
     changesToTerms: {
       title: "Mga Pagbabago sa Mga Tuntunin",
-      text: "Inilalaan namin ang karapatang baguhin ang mga tuntuning ito anumang oras. Palagi naming ipo-post ang pinakabagong bersyon sa aming website. Sa pamamagitan ng patuloy na paggamit ng website pagkatapos magawa ang mga pagbabago, sumasang-ayon kang mapailalim sa mga binagong tuntunin.",
+      text: "May karapatan kaming baguhin ang mga tuntunin na ito anumang oras. Palaging ipapost namin ang pinakabagong bersyon sa aming website. Sa pamamagitan ng pagpapatuloy sa paggamit ng website pagkatapos ng pagbabago, sumasang-ayon ka na maging binu-bind ng mga bagong tuntunin.",
     },
     contact: {
       title: "Makipag-ugnayan sa Amin",
-      text: "Kung mayroon kang anumang mga katanungan tungkol sa Mga Tuntunin ng Serbisyo na ito, mangyaring makipag-ugnayan sa amin sa 3500412641@outlook.com.",
+      text: "Kung mayroon kang anumang katanungan tungkol sa mga Tuntunin ng Paggamit na ito, pakitungo sa amin sa info@superblast.games.",
     },
   },
 } as const;

@@ -1,12 +1,9 @@
 export const videoShowcase = {
-  title: "Spelvideo Showcase",
-  subtitle:
-    "Bekijk gameplaybeelden en ontdek het plezier van het inrichten van je droomkamer",
+  title: "Game Video Showcase",
+  subtitle: "ervaar de plezier en uitdaging van strategisch puzzelen",
   video: {
-    title: "Dreamy Room - Richt Je Droomkamer In",
+    title: "Knit Out - Untangle Colorful Knots!",
     description:
-      "In dit gezellige en creatieve kamerinrichtingsspel kruip je in de huid van een gepassioneerde interieurontwerper. Begin met eenvoudige kamers, ontgrendel geleidelijk nieuwe items, versier je ruimte en creëer de perfecte woning die jouw stijl weerspiegelt.",
+      "In dit ontspannende en strategische puzzelspel ontgrendel je lijnen met kleurrijke knopen door ze aan de juiste draadjes te matchen. Plan je zetten om de touwen los te krijgen en voltooi honderden niveaus. Laten we genieten van het bevredigende plezier van Knit Out!",
   },
 } as const;
-
-export default videoShowcase;

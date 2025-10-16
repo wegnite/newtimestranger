@@ -18,16 +18,10 @@ const dictionaries = {
   fr: () => import("@/dictionaries/fr").then((module) => module.default),
   fil: () => import("@/dictionaries/fil").then((module) => module.default),
   id: () => import("@/dictionaries/id").then((module) => module.default),
-  kk: () => import("@/dictionaries/kk").then((module) => module.default),
   ms: () => import("@/dictionaries/ms").then((module) => module.default),
   vi: () => import("@/dictionaries/vi").then((module) => module.default),
-  "en-AU": () =>
-      import("@/dictionaries/en-AU").then((module) => module.default),
   nl: () => import("@/dictionaries/nl").then((module) => module.default),
-  "es-MX": () =>
-      import("@/dictionaries/es-MX").then((module) => module.default),
   it: () => import("@/dictionaries/it").then((module) => module.default),
-  pt: () => import("@/dictionaries/pt").then((module) => module.default),
   th: () => import("@/dictionaries/th").then((module) => module.default),
 } as const;
 

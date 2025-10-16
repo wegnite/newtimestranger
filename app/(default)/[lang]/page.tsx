@@ -9,7 +9,6 @@ import { i18n, type Locale } from "@/i18n";
 import { ensureTrailingSlash } from "@/lib/utils";
 import { createLevelItemList } from "@/lib/jsonldUtils";
 import {OnlineGamingBanner} from "@/components/sections/online-gaming-banner"; // Import the new function
-import { getSiteUrl } from "@/lib/siteConfig";
 
 // 为所有语言生成静态路径
 export async function generateStaticParams() {
@@ -24,17 +23,11 @@ export async function generateMetadata({
   params: { lang: Locale };
 }) {
   const dict = await getDictionary(lang);
-  const siteUrl = getSiteUrl();
-  const title = dict.home.meta.title;
-  const description = dict.home.meta.description;
-  const pageUrl = `${siteUrl}/${lang}`;
-  const socialImage = `${siteUrl}/images/screenshot/time-stranger1.jpg`;
-
   return {
-    title,
-    description,
+    title: dict.home.meta.title,
+    description: dict.home.meta.description,
     alternates: {
-      canonical: pageUrl,
+      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}`,
       languages: Object.fromEntries(
         i18n.locales.map((locale: Locale) => [
           locale,
@@ -52,27 +45,6 @@ export async function generateMetadata({
         "max-snippet": -1,
       },
     },
-    openGraph: {
-      type: "website",
-      url: pageUrl,
-      title,
-      description,
-      siteName: dict.home.meta.siteName,
-      images: [
-        {
-          url: socialImage,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [socialImage],
-    },
   };
 }
 
@@ -83,9 +55,9 @@ export default async function Home({
 }) {
   const dict = await getDictionary(lang);
 
-  const siteUrl = getSiteUrl();
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
   const pageUrl = `${siteUrl}/${lang}`;
-  const logoUrl = siteUrl + "/logo.png"; // Use siteUrl for consistency
+  const logoUrl = siteUrl + "/images/logo.webp"; // Use siteUrl for consistency
   const searchUrlTemplate = `${siteUrl}/${lang}/level?search={search_term_string}`;
 
   const jsonLd = {
@@ -97,7 +69,7 @@ export default async function Home({
         "@type": "WebSite", // 类型：网站
         "@id": `${siteUrl}/#website`, // 网站的唯一标识符
         url: siteUrl, // 网站主页 URL
-        name: dict.home.meta.siteName || "Time Stranger Guide Hub", // 网站名称
+        name: dict.home.meta.siteName || "Knit Out Game Guide", // 网站名称
         logo: logoUrl, // 网站 Logo URL
         // publisher: 关联发布该网站的组织
         publisher: {
@@ -151,7 +123,7 @@ export default async function Home({
       {
         "@type": "Organization", // 类型：组织
         "@id": `${siteUrl}/#organization`, // 组织的唯一标识符
-        name: dict.home.meta.siteName || "Time Stranger Guide Hub", // 组织名称 (与网站名称一致)
+        name: dict.home.meta.siteName || "Knit Out Game Guide", // 组织名称 (与网站名称一致)
         url: siteUrl, // 组织官方网站 URL (通常是网站主页)
         logo: {
           "@type": "ImageObject", // Logo 作为图片对象

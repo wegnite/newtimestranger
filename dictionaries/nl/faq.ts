@@ -1,38 +1,35 @@
 export const faq = {
-  title: "Veelgestelde Vragen",
-  subtitle: "Veelgestelde Vragen over Dreamy Room",
+  title: "Knit Out - Veelgestelde vragen",
+  subtitle: "Veelgestelde vragen over Knit Out",
   questions: [
     {
-      question: "Hoe begin ik met spelen?",
+      question: "Hoe speel ik Knit Out?",
       answer:
-        "Nadat je het spel hebt gedownload en geïnstalleerd, kun je beginnen met het verkennen van verschillende kamers en gezellige leefruimtes creëren door items te organiseren.",
+        "Je uitdaging is om lijnen met kleurrijke knopen van boven te verwijderen door de juiste draadrollen te kiezen uit het rooster hieronder om de touwen te verzamelen.",
     },
     {
-      question: "Is het spel gratis?",
+      question: "Is Knit Out gratis?",
       answer:
-        "Het spel is gratis te spelen, maar bevat advertenties en in-app aankopen.",
+        "Het spel is gratis te spelen, maar biedt in-app aankopen en bevat advertenties.",
     },
     {
-      question: "Hoe voltooi ik niveaus?",
+      question: "Wat als ik vast zit op een niveau?",
       answer:
-        "Observeer zorgvuldig de kenmerken van elk item en plaats ze op de juiste locaties. Als je hulp nodig hebt, kun je de hintfunctie gebruiken.",
+        "Sommige niveaus kunnen uitdagend zijn. Het spel biedt power-ups die met munten kunnen worden verkregen. Sommige spelers adviseren om gerichte gokken te doen wanneer de weg naar voren niet duidelijk is.",
     },
     {
-      question: "Is er een tijdslimiet?",
-      answer:
-        "Sommige niveaus kunnen tijdslimieten hebben, maar je kunt de tijd verlengen door advertenties te bekijken of spelmunten te gebruiken.",
+      question: "Kan ik offline spelen?",
+      answer: "Ja, volgens gebruikersbeoordelingen kan Knit Out offline worden gespeeld.",
     },
     {
-      question: "Wat als ik een item niet correct kan plaatsen?",
+      question: "Zijn er bekende problemen?",
       answer:
-        "Probeer de positie en hoek van het item aan te passen en zorg ervoor dat het plaatsingsgebied correct is. Als meerdere pogingen mislukken, kun je de hintfunctie gebruiken.",
+        "Sommige gebruikers hebben bugs gemeld zoals het knipperen van het scherm. Als je problemen ondervindt, kun je proberen het spel opnieuw te starten of contact op te nemen met de ondersteuning.",
     },
     {
-      question: "Wat als ik problemen tegenkom?",
+      question: "Hoe kan ik contact opnemen met de ondersteuning?",
       answer:
-        "Je kunt contact opnemen met ons ondersteuningsteam via de ondersteuningsfunctie in het spel of door te e-mailen naar hieplm@abigames.com.vn.",
+        "Je kunt contact opnemen met de ondersteuning via e-mail naar info@superblast.games of via de app ondersteuningslinks in de App Store of Google Play.",
     },
   ],
 } as const;
-
-export default faq;

@@ -2,13 +2,13 @@ import levels from "@/data/levels";
 
 export const home = {
   meta: {
-    title: `Habitación de Ensueño / Dreamy Room Nivel 1-${levels.length} Guía Completa y Soluciones | Videotutoriales`,
-    description: `¿Buscas una guía de Habitación de Ensueño o Dreamy Room? Ofrecemos detalladas videoguías y tutoriales para todos los niveles (Nivel 1-${levels.length}), cubriendo técnicas de resolución de puzzles para cada nivel de Dreamy Room (Habitación de Ensueño) para ayudarte a superarlos fácilmente. ¡Consigue la última guía de niveles y disfruta del juego!`,
-    siteName: "Guía del Juego Habitación de Ensueño / Dreamy Room",
-    author: "Equipo de la Guía Habitación de Ensueño / Dreamy Room",
+    title: `Guía detallada y recorrido completo del Nivel 1-${levels.length} de Knit Out | Colección de Tutoriales en Vídeo`,
+    description: `¿Está buscando una guía de Knit Out? Proporcionamos recorridos detallados en video y guías para todos los niveles de Knit Out (Nivel 1-${levels.length}), cubriendo técnicas de desenredado para cada nivel de Knit Out para ayudarlo a pasar fácilmente. Obtenga la última guía de nivel de Knit Out y disfrute del juego!`,
+    keywords:
+      "Knit Out, Juego de Puzzle, Desenredar, Nudos, Cuerdas, Bobinas, Guía del Juego, Soluciones de Nivel, Juegos de Rollic, Recorrido",
+    siteName: "Guía del Juego Knit Out",
+    author: "Equipo de Guía de Knit Out",
     category: "Guía del Juego",
-    classification: "Juego",
+    classification: "Juego de Puzzle",
   },
 } as const;
-
-export default home;

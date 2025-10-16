@@ -1,15 +1,12 @@
 export const blog = {
-  title: "Hướng dẫn Trò chơi Dreamy Room",
-  subtitle:
-    "Khám phá thêm mẹo chơi trò chơi, nguồn cảm hứng trang trí và những câu chuyện cảm động",
+  title: "Hướng dẫn cho trò chơi Knit Out",
+  subtitle: "Khám phá thêm các mẹo chơi, chiến lược và bí mật hướng dẫn",
   breadcrumbs: {
     blog: "Hướng dẫn",
     page: "Trang {0}",
   },
   posts: {
-    title: "Bài viết Hướng dẫn Trò chơi Dreamy Room",
-    readMore: "Xem Chi tiết",
+    title: "Các bài viết về hướng dẫn cho trò chơi Knit Out",
+    readMore: "Xem chi tiết",
   },
 } as const;
-
-export default blog;

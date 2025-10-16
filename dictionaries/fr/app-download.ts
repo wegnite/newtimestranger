@@ -1,39 +1,35 @@
 export const appDownload = {
   meta: {
-    title:
-      "Télécharger Chambre de Rêve / Dreamy Room - Jeu d'organisation cosy",
+    title: "Téléchargez Knit Out - Détanglez les Nœuds!",
     description:
-      "Téléchargez Chambre de Rêve (ou Dreamy Room) et commencez votre voyage réconfortant d'organisation et de décoration. Créez l'espace de vie parfait grâce à une organisation attentive.",
+      "Téléchargez Knit Out et commencez à délier des nœuds colorés. Un jeu de puzzle relaxant et stratégique.",
   },
-  title: "Télécharger Chambre de Rêve / Dreamy Room",
-  subtitle: "Un jeu d'organisation de pièce cosy et apaisant",
+  title: "Téléchargez Knit Out",
+  subtitle: "Détanglez les nœuds!",
   stats: {
-    rating: "4.8",
-    downloads: "1 M+ Téléchargements",
+    rating: "4,7",
+    downloads: "Plus de 100 000 téléchargements",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
-      description: "Télécharger sur l'App Store",
-      link: "https://apps.apple.com/us/app/dreamy-room/id6742221896",
+      description: "Téléchargez sur l'App Store",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Disponible sur Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.abi.dream.unpacking",
+      description: "Obtenez-le sur Google Play",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "Organisation",
-      description: "Trouvez l'endroit parfait pour chaque objet",
+      title: "Centaines de Puzzles",
+      description: "Centaines de puzzles complexes à résoudre",
     },
     story: {
-      title: "Histoire touchante",
-      description:
-        "Racontez des histoires de vie à travers le placement d'objets",
+      title: "Jeu de Plateforme Relaxant",
+      description: "Jeu de plateforme relaxant sans chronomètre - parfait pour se détendre",
     },
   },
 } as const;
-
-export default appDownload;

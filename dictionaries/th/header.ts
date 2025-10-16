@@ -1,12 +1,10 @@
 export const header = {
-  brand: "Dreamy Room",
+  brand: "คู่มือ Knit Out",
   navItems: [
-    { name: "หน้าแรก", href: "/" },
-    { name: "ระดับ", href: "/level/" },
+    { name: "หน้าหลัก", href: "/" },
+    { name: "ระดับ", href: "/level" },
     { name: "เล่นออนไลน์", href: "/game" },
-    { name: "ดาวน์โหลด", href: "/app/" },
-    { name: "บล็อก", href: "/blog/" },
+    { name: "ดาวน์โหลด", href: "/app" },
+    { name: "บล็อก", href: "/blog" },
   ],
 } as const;
-
-export default header;

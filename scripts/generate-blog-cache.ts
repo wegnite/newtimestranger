@@ -4,21 +4,12 @@ import { getAllPosts, BlogPost } from "../lib/blog";
 import { i18n } from "../i18n";
 
 async function generateBlogCache() {
-  const defaultLocale = i18n.defaultLocale;
-  const languages = [defaultLocale];
+  const languages = i18n.locales;
   const cacheDir = path.join(process.cwd(), ".cache/blog");
 
   // 确保缓存目录存在
   if (!fs.existsSync(cacheDir)) {
     fs.mkdirSync(cacheDir, { recursive: true });
-  }
-
-  // 清理已有的缓存文件，只保留默认语言
-  const cacheFiles = fs
-    .readdirSync(cacheDir)
-    .filter((file) => file.endsWith(".json") && file !== `${defaultLocale}.json`);
-  for (const file of cacheFiles) {
-    fs.unlinkSync(path.join(cacheDir, file));
   }
 
   for (const lang of languages) {

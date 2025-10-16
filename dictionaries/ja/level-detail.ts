@@ -6,39 +6,37 @@ export const levelDetail = {
   },
   notFound: {
     title: "レベルが見つかりません",
-    description: "申し訳ありませんが、お探しのレベルは存在しません",
+    description: "申し訳ありませんが、探しているレベルは存在しません",
     backToList: "レベル一覧に戻る",
   },
-  levelNumber: "攻略レベル",
+  levelNumber: "レベル",
   levelRange: {
-    prefix: "第",
-    suffix: "日目",
+    prefix: "日",
+    suffix: "",
   },
   meta: {
-    title: `ドリーミールーム レベル {{level}} 攻略ガイド(夢の部屋)Dreamy Room`,
-    description: `(夢の部屋)ドリーミールーム レベル {{level}} の完全攻略ガイドです。クリア方法、動画解説、そして「ドリーミー ルーム」レベル {{level}} のヒントを提供します。このパズルを解き明かしましょう！Your guide for Dreamy Room!`,
-    siteName: "Dreamy Room公式攻略サイト",
+    title: `Knit Out レベル{{level}} - 攻略と解決策とゲーム`,
+    description: `Knit Out {{level}}、Knit Out レベル{{level}}の完全ガイド。詳細な戦略ヒント、ロープとボビンの解決策、ビデオ攻略を提供します。あなたが簡単にレベルをクリアし、すべての結び目を解くのを助けます。`,
+    siteName: "Knit Out公式ガイド",
     invalidId: {
       title: "無効なレベル番号",
-      description: `有効なレベル番号を入力してください（1-${levels.length}）`,
+      description: `有効なレベル番号(1-${levels.length})を入力してください`,
     },
     notFound: {
       title: "レベルが存在しません",
       description:
-        "アクセスしようとしたレベルは存在しません。他のレベルを選択してください",
+        "アクセスしようとしているレベルは存在しません。別のレベルを選択してください",
     },
     langNotFound: {
       title: "言語パックが見つかりません",
       description:
-        "現在の言語の翻訳コンテンツが見つかりません。他の言語に切り替えてください",
+        "現在の言語の翻訳内容が見つかりません。別の言語に切り替えてください",
     },
   },
   sidebar: {
-    adjacentLevels: "隣接レベル",
+    adjacentLevels: "隣接するレベル",
     allLevels: "すべてのレベル",
   },
   shareLabel: "レベルガイドを共有",
-  linkCopiedText: "リンクをコピーしました！",
+  linkCopiedText: "コピー完了！",
 } as const;
-
-export default levelDetail;

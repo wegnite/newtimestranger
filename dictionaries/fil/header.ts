@@ -1,12 +1,10 @@
 export const header = {
-  brand: "Dreamy Room",
+  brand: "Knit Out Guide",
   navItems: [
-    { name: "Tahanan", href: "/" },
-    { name: "Mga Antas", href: "/level/" },
-    { name: "Laruin Online", href: "/game" },
-    { name: "I-download", href: "/app/" },
-    { name: "Blog", href: "/blog/" },
+    { name: "Home", href: "/" },
+    { name: "Levels", href: "/level" },
+    { name: "Play Online", href: "/game" },
+    { name: "Download", href: "/app" },
+    { name: "Blog", href: "/blog" },
   ],
 } as const;
-
-export default header;

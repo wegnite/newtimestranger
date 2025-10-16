@@ -15,7 +15,7 @@ interface FAQProps {
 export function FAQ({ faqDict }: FAQProps) {
   // Prepare FAQ data for JSON-LD using the passed prop
   const faqData = {
-    "@context": "https://digimonstorytimestranger.com",
+    "@context": "https://knitoutlevel.com",
     "@type": "FAQPage",
     mainEntity: faqDict.questions.map((item) => ({
       "@type": "Question",

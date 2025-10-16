@@ -1,12 +1,9 @@
 export const videoShowcase = {
-  title: "Spielvideo-Showcase",
-  subtitle:
-    "Sehen Sie Gameplay-Material und entdecken Sie die Freude am Führen eines Cafés",
+  title: "Spielvideoschau",
+  subtitle: "Erleben Sie das Vergnügen und die Herausforderung des strategischen Rätselauflösens",
   video: {
-    title: "Traumzimmer & Dreamy Room - Führen Sie Ihr Traumcafé",
+    title: "Knit Out - Entwirren Sie farbige Knoten!",
     description:
-      "In diesem gemütlichen und kreativen Café-Management-Spiel schlüpfen Sie in die Rolle eines leidenschaftlichen Café-Besitzers. Beginnen Sie mit einfachem Kaffeebrauen, erweitern Sie schrittweise Ihr Kaffeeimperium, schalten Sie neue Rezepte frei, dekorieren Sie Ihr Geschäft und bieten Sie Ihren Kunden das beste Serviceerlebnis.",
+      "In diesem entspannenden und strategischen Puzzle-Spiel werden Sie Farbknäuel durch Zuordnen zu den richtigen Spulen löschen. Planen Sie Ihre Züge, um die Seile zu entwirren und hunderte von Ebenen zu absolvieren. Lassen Sie uns das befriedigende Vergnügen von Knit Out genießen!",
   },
 } as const;
-
-export default videoShowcase;

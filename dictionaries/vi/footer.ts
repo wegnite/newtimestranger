@@ -1,19 +1,19 @@
 export const footer = {
   links: {
     about: "Về Chúng Tôi",
-    privacy: "Chính sách Bảo mật",
-    contact: "Liên hệ Chúng Tôi",
-    levels: "Cấp độ",
-    download: "Tải xuống",
-    blog: "Blog",
+    privacy: "Chính Sách Bảo Mật",
+    contact: "Liên Hệ Chúng Tôi",
     terms: "Điều khoản Dịch vụ",
+    levels: "Cấp độ",
+    download: "Tải về",
+    blog: "Blog",
   },
   contact: {
-    email: "3500412641@outlook.com",
+    email: "info@superblast.games",
   },
-  copyright: "© 2024 Dreamy Room. Đã đăng ký Bản quyền.",
+  copyright: "© 2024 Hướng Dẫn Cho Knit Out. Tất cả các quyền được bảo lưu.",
   disclaimer:
-    "Dreamy Room là một trang web hướng dẫn trò chơi do người hâm mộ tạo ra. Tất cả các nhãn hiệu và bản quyền thuộc về chủ sở hữu tương ứng của họ.",
+    "Hướng Dẫn Cho Knit Out là một trang web ủng hộ hướng dẫn cho trò chơi. Knit Out là thương hiệu của Rollic Games. Tất cả các thương hiệu và bản quyền thuộc sở hữu tương ứng.",
 } as const;
 
 export default footer;

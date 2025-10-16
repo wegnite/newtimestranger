@@ -126,7 +126,7 @@ export function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
               >
                 <img
                   src={suggestion.icon}
-                  alt={suggestion.name}
+                  alt=""
                   width="16"
                   height="16"
                   className="h-4 w-4 rounded-sm object-cover" // 调整尺寸

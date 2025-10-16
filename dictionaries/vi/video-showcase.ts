@@ -1,12 +1,9 @@
 export const videoShowcase = {
-  title: "Trưng bày Video Trò chơi",
-  subtitle:
-    "Xem cảnh chơi trò chơi và khám phá niềm vui sắp xếp căn phòng mơ ước",
+  title: "Trang chiếu video game",
+  subtitle: "Trải nghiệm niềm vui và thách thức trong việc giải bài toán phức tạp chiến lược",
   video: {
-    title: "Dreamy Room - Sắp xếp Căn phòng Mơ ước của Bạn",
+    title: "Knit Out - Giải纷乱 những chiếc nút đầy màu sắc!",
     description:
-      "Trong trò chơi sắp xếp phòng ấm cúng và sáng tạo này, bạn sẽ bước vào vai một người yêu thích trang trí nội thất. Bắt đầu với những căn phòng đơn giản, dần dần mở khóa các vật phẩm mới, trang trí không gian của bạn và tạo ra nơi ở hoàn hảo phản ánh phong cách của bạn.",
+      "Trong trò chơi giải bài toán thư giãn và chiến lược này, bạn sẽ loại bỏ các dòng nút đầy màu sắc bằng cách khớp chúng với các cán thép đúng. Kế hoạch các nước đi của bạn để giải纷乱 dây thừng và hoàn thành hàng trăm cấp. Hãy thưởng thức niềm vui thỏa mãn của Knit Out!",
   },
 } as const;
-
-export default videoShowcase;

@@ -1,6 +1,6 @@
 export const faq = {
   title: "ЖҚС",
-  subtitle: "Dreamy Room туралы жиі қойылатын сұрақтар",
+  subtitle: "Knit Out туралы жиі қойылатын сұрақтар",
   questions: [
     {
       question: "Ойынды қалай бастаймын?",

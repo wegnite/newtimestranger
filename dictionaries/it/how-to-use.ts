@@ -1,5 +1,5 @@
 export const howToUse = {
-  title: "Come Usare Dreamy Room",
+  title: "Come Usare Knit Out",
   subtitle: "Inizia il tuo viaggio organizzativo in tre semplici passaggi",
   steps: [
     {

@@ -1,38 +1,35 @@
 export const appDownload = {
   meta: {
-    title: "Tải xuống Dreamy Room - Trò chơi Sắp xếp Phòng Ấm cúng",
+    title: "Tải xuống Knit Out - Giải quyết những đám rối!",
     description:
-      "Tải xuống Dreamy Room và bắt đầu hành trình sắp xếp và trang trí phòng đầy cảm động của bạn. Tạo không gian sống hoàn hảo của bạn thông qua việc sắp xếp có ý thức.",
+      "Tải xuống Knit Out và bắt đầu giải quyết những đám rối màu sắc. Một trò chơi thám tử thư giãn và chiến lược.",
   },
-  title: "Tải xuống Dreamy Room",
-  subtitle: "Trò chơi Sắp xếp Phòng Ấm cúng và Chữa lành",
+  title: "Tải xuống Knit Out",
+  subtitle: "Giải quyết những đám rối!",
   stats: {
-    rating: "4.8",
-    downloads: "1Tr+ Lượt tải", // Tr = Triệu
+    rating: "4.7",
+    downloads: "Đã tải hơn 100K lần",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
       description: "Tải xuống trên App Store",
-      link: "https://apps.apple.com/us/app/dreamy-room/id6742221896",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Tải về trên Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.abi.dream.unpacking",
+      description: "Nhận nó trên Google Play",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "Sắp xếp",
-      description: "Tìm vị trí hoàn hảo cho mọi vật phẩm",
+      title: "Hàng trăm câu đố",
+      description: "Hàng trăm câu đố phức tạp để giải quyết",
     },
     story: {
-      title: "Câu chuyện Cảm động",
-      description:
-        "Kể những câu chuyện cuộc đời thông qua việc sắp đặt vật phẩm",
+      title: "Trò chơi thư giãn",
+      description: "Trò chơi thư giãn không có đồng hồ đếm giờ - hoàn hảo để thư giãn",
     },
   },
 } as const;
-
-export default appDownload;

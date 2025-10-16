@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(pnpm install:*)",
+      "Bash(node:*)",
+      "Bash(mkdir:*)",
+      "WebFetch(domain:fonts.google.com)",
+      "Bash(curl:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": []
+  }
+}

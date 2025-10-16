@@ -1,23 +1,22 @@
 export const companyInfo = {
-  title: "About Digimon Story Time Stranger Guides",
-  subtitle:
-    "Digimon Story Time Stranger timeline intel curated for squads around the world",
+  title: "About Knit Out",
+  subtitle: "Untangle the Knots! A vibrant and relaxing puzzle game.",
   stats: {
-    players: "+1M",
+    players: "+100K",
     countries: "+150",
-    recipes: "+50",
-    rating: "4.8/5",
+    recipes: "+300",
+    rating: "4.7/5",
   },
   sections: {
     about: {
-      title: "About Us",
+      title: "About The Game",
       content:
-        "We compile spoiler-aware Digimon Story Time Stranger walkthroughs, boss prep sheets, and collectible trackers so every Digimon Story Time Stranger tamer stays in sync.",
+        "Knit Out is a relaxing puzzle game where your challenge is to clear lines of colorful knots, releasing ropes that need to find their matching bobbins below.",
     },
     mission: {
-      title: "Our Mission",
+      title: "Key Features",
       content:
-        "Deliver fast, accurate Digimon Story Time Stranger strategy updates that help the community master each timeline shift without missing Digimon Story Time Stranger rewards.",
+        "Hundreds of intricate puzzles, a vibrant palette of colors, and relaxing gameplay with no timers.",
     },
   },
 } as const;

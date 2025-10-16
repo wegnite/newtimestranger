@@ -2,7 +2,7 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "Coleção de Guias do Jogo",
-  title: "Ver Todos os Guias de Nível do Dreamy Room",
+  title: "Ver Todos os Guias de Nível do Knit Out",
   description:
     "Explore guias detalhados, dicas e estratégias para cada nível de quarto. Insira um número de nível para ir diretamente ao guia correspondente.",
   stats: {
@@ -23,7 +23,7 @@ export const hero = {
     downloadGame: "Baixar Jogo",
   },
   downloadCard: {
-    title: "Baixar Dreamy Room",
+    title: "Baixar Knit Out",
     description:
       "Comece uma jornada aconchegante e curativa de arrumação e organização!",
   },

@@ -4,9 +4,10 @@ import {
   Search,
   Calendar,
   Youtube,
+  Coffee,
   Download,
+  Star,
   Gamepad2,
-  Globe2,
 } from "lucide-react";
 import Link from "next/link";
 import { HeroSearch } from "./hero-search";
@@ -91,7 +92,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
             <div className="space-y-8">
               <div className="flex items-center gap-2">
                 <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full border border-border/50">
-                  <Globe2 className="h-6 w-6 text-primary" />
+                  <Coffee className="h-6 w-6 text-primary" />
                   <span className="font-semibold">{heroDict.badge}</span>
                 </div>
               </div>
@@ -183,12 +184,12 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
                     <div className="absolute top-6 left-1/2 transform -translate-x-1/2 w-24 h-4 bg-black rounded-full" />
                     <div className="relative w-full h-full rounded-[1.7rem] overflow-hidden bg-black">
                       <img
-                        src="/images/screenshot/time-stranger1.jpg"
-                        alt={
-                          heroDict.mainScreenshotAlt ||
-                          "Time Stranger main screenshot"
-                        }
-                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                          src="/images/screenshot/unnamed1.webp"
+                          alt={
+                              heroDict.mainScreenshotAlt ||
+                              "Knit Out main screenshot"
+                          }
+                          className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                       />
                       {/* 标题和描述覆盖层 */}
                       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent pt-20 pb-6 px-6">

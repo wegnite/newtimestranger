@@ -6,18 +6,18 @@ export const levelDetail = {
   },
   notFound: {
     title: "Niveau non trouvé",
-    description: "Désolé, le niveau que vous recherchez n'existe pas",
+    description: "Désolé, le niveau que vous cherchez n'existe pas",
     backToList: "Retour à la liste des niveaux",
   },
   levelNumber: "Niveau",
   levelRange: {
-    prefix: "Jour ",
+    prefix: "Jour",
     suffix: "",
   },
   meta: {
-    title: `Chambre de Rêve (Dreamy Room) Niveau {{level}} - Guide et Soluce | Conseils Vidéo`,
-    description: `Guide complet pour Chambre de Rêve (Dreamy Room) Niveau {{level}}, fournissant des astuces d'organisation détaillées, des solutions de placement d'objets et des soluces vidéo. Terminez facilement le niveau de Dreamy Room / Chambre de Rêve et créez l'espace parfait.`,
-    siteName: "Guide officiel de Chambre de Rêve / Dreamy Room",
+    title: `Knit Out Niveau {{level}} - Guide étape par étape & Solution & Jeu`,
+    description: `Knit Out {{level}}, Guide complet pour le niveau Knit Out {{level}}, fournissant des conseils stratégiques détaillés, des solutions pour les cordes et les bobines, et des vidéos de guide étape par étape. Vous aider à compléter facilement le niveau et à démêler tous les noeuds.`,
+    siteName: "Guide officiel de Knit Out",
     invalidId: {
       title: "Numéro de niveau invalide",
       description: `Veuillez entrer un numéro de niveau valide (1-${levels.length})`,
@@ -25,20 +25,18 @@ export const levelDetail = {
     notFound: {
       title: "Le niveau n'existe pas",
       description:
-        "Le niveau auquel vous essayez d'accéder n'existe pas, veuillez sélectionner un autre niveau",
+        "Le niveau que vous essayez d'accéder n'existe pas, veuillez sélectionner un autre niveau",
     },
     langNotFound: {
-      title: "Pack de langue introuvable",
+      title: "Paquet de langue non trouvé",
       description:
-        "Le contenu de traduction pour la langue actuelle est introuvable, veuillez passer à une autre langue",
+        "Contenu de traduction pour la langue actuelle non trouvé, veuillez basculer sur une autre langue",
     },
   },
   sidebar: {
-    adjacentLevels: "Niveaux Adjacents",
-    allLevels: "Tous les Niveaux",
+    adjacentLevels: "Niveaux adjacents",
+    allLevels: "Tous les niveaux",
   },
-  shareLabel: "Partager le Guide du Niveau",
-  linkCopiedText: "Lien copié !",
+  shareLabel: "Partager le guide du niveau",
+  linkCopiedText: "Copié avec succès!",
 } as const;
-
-export default levelDetail;

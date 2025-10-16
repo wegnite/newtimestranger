@@ -2,15 +2,13 @@ import levels from "@/data/levels";
 
 export const home = {
   meta: {
-    title: `Dreamy Room Cấp độ 1-${levels.length} Hướng dẫn & Giải pháp Hoàn chỉnh | Bộ sưu tập Video Hướng dẫn`,
-    description: `Bạn đang tìm hướng dẫn Dreamy Room? Chúng tôi cung cấp các hướng dẫn và video chi tiết cho tất cả các cấp độ Dreamy Room (Level 1-${levels.length}), bao gồm các kỹ thuật giải đố cho mỗi Dreamy Room Level để giúp bạn vượt qua dễ dàng. Nhận hướng dẫn cấp độ Dreamy Room mới nhất và tận hưởng trò chơi!`,
+    title: `Kết thúc bài giảng và hướng dẫn chi tiết về Knit Out Level 1-${levels.length} | Bộ sưu tập hướng dẫn video`,
+    description: `Tìm kiếm hướng dẫn cho Knit Out? Chúng tôi cung cấp các bài giảng video chi tiết và hướng dẫn cho tất cả các cấp độ của Knit Out (Cấp 1-${levels.length}), bao gồm các kỹ thuật giải đuối cho mỗi cấp độ của Knit Out để giúp bạn vượt qua dễ dàng. Nhận được hướng dẫn cấp độ mới nhất của Knit Out và tận hưởng trò chơi!`,
     keywords:
-      "Dreamy Room, Trò chơi Cafe, Công thức Cà phê, Hướng dẫn Trò chơi, Mô phỏng Barista, Quản lý Cafe, Mẹo Trò chơi, Đơn hàng Khách hàng, Trang trí Cà phê, Hướng dẫn chi tiết",
-    siteName: "Hướng dẫn Trò chơi Dreamy Room",
-    author: "Đội ngũ Hướng dẫn Dreamy Room",
-    category: "Hướng dẫn Trò chơi",
-    classification: "Trò chơi",
+      "Knit Out, Trò chơi拼图, Giải đuối, Đoạn dây, Ròng rọc, Bánh cán, Hướng dẫn trò chơi, Các giải pháp cấp độ, Rollic Games, Bài giảng",
+    siteName: "Hướng dẫn cho trò chơi Knit Out",
+    author: "Nhóm Hướng dẫn cho Knit Out",
+    category: "Hướng dẫn trò chơi",
+    classification: "Trò chơi拼图",
   },
 } as const;
-
-export default home;

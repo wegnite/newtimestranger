@@ -2,15 +2,13 @@ import levels from "@/data/levels";
 
 export const home = {
   meta: {
-    title: `Dreamy Room Level 1-${levels.length} Complete Gids & Oplossingen | Videotutorial Collectie`,
-    description: `Op zoek naar een Dreamy Room gids? Wij bieden gedetailleerde video walkthroughs en handleidingen voor alle Dreamy Room levels (Level 1-${levels.length}), inclusief puzzeloplossingstechnieken voor elk Dreamy Room Level om je te helpen gemakkelijk te slagen. Krijg de nieuwste Dreamy Room level gids en geniet van het spel!`,
+    title: `Knit Out Niveau 1-${levels.length} Volledige Walkthrough & Handleiding | Videotutorials`,
+    description: `Zoekt u een handleiding voor Knit Out? Wij bieden gedetailleerde videowalkthroughs en handleidingen voor alle Knit Out niveaus (Niveau 1-${levels.length}), waarbij we de ontmengingstechnieken voor elk Knit Out niveau behandelen om u te helpen gemakkelijk door te komen. Ontvang de laatste handleiding voor het Knit Out niveau en geniet van het spel!`,
     keywords:
-      "Dreamy Room, Café Spel, Koffierecepten, Spelgids, Barista Simulator, Café Management, Speltips, Klantbestellingen, Koffiedecoratie, Walkthrough",
-    siteName: "Dreamy Room Spelgids",
-    author: "Dreamy Room Gids Team",
-    category: "Spelgids",
-    classification: "Spel",
+      "Knit Out, Puzzelspel, Ontmengen, Knotten, Ropen, Bobbins, Spelhandleiding, Niveaulozen, Rollic Games, Walkthrough",
+    siteName: "Knit Out Spelhandleiding",
+    author: "Knit Out Handleidingsteam",
+    category: "Spelhandleiding",
+    classification: "Puzzelspel",
   },
 } as const;
-
-export default home;

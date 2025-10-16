@@ -1,38 +1,35 @@
 export const faq = {
-  title: "FAQ",
-  subtitle: "Mga Madalas Itanong tungkol sa Dreamy Room",
+  title: "Knit Out常见问题",
+  subtitle: "关于Knit Out的常见问题",
   questions: [
     {
-      question: "Paano ako magsisimulang maglaro?",
+      question: "我如何玩Knit Out？",
       answer:
-        "Pagkatapos i-download at i-install ang laro, maaari kang magsimulang mag-explore ng iba't ibang kwarto at lumikha ng maaliwalas na mga espasyo sa pamumuhay sa pamamagitan ng pag-oorganisa ng mga item.",
+        "你的挑战是通过从下方网格中选择正确的线轴来收集绳索，从而清除顶部的彩色绳结行。",
     },
     {
-      question: "Libre ba ang laro?",
+      question: "Knit Out是免费的吗？",
       answer:
-        "Libre ang laro ngunit naglalaman ito ng mga ad at in-app purchase.",
+        "该游戏可免费游玩，但提供应用内购买且包含广告。",
     },
     {
-      question: "Paano ko makukumpleto ang mga antas?",
+      question: "如果我在某个关卡卡住了怎么办？",
       answer:
-        "Maingat na obserbahan ang mga katangian ng bawat item at ilagay ang mga ito sa naaangkop na mga lokasyon. Kung kailangan mo ng tulong, maaari mong gamitin ang tampok na hint.",
+        "有些关卡可能具有挑战性。游戏提供可以用硬币获得的道具。一些玩家建议在前进道路不明确时进行有根据的猜测。",
     },
     {
-      question: "Mayroon bang limitasyon sa oras?",
-      answer:
-        "Ang ilang mga antas ay maaaring may mga limitasyon sa oras, ngunit maaari mong palawigin ang oras sa pamamagitan ng panonood ng mga ad o paggamit ng mga coin sa laro.",
+      question: "我可以离线玩吗？",
+      answer: "是的，根据用户评论，Knit Out可以离线游玩。",
     },
     {
-      question: "Paano kung hindi ko mailagay nang tama ang isang item?",
+      question: "有任何已知问题吗？",
       answer:
-        "Subukang ayusin ang posisyon at anggulo ng item, siguraduhing tama ang lugar ng paglalagay. Kung mabigo ang maraming pagsubok, maaari mong gamitin ang tampok na hint.",
+        "一些用户报告了诸如屏幕闪烁之类的错误。如果你遇到问题，可以尝试重新启动游戏或联系支持人员。",
     },
     {
-      question: "Paano kung makaranas ako ng mga isyu?",
+      question: "我如何联系支持人员？",
       answer:
-        "Maaari kang makipag-ugnayan sa aming support team sa pamamagitan ng in-game support feature o sa pag-email sa hieplm@abigames.com.vn.",
+        "你可以通过发送电子邮件至info@superblast.games或通过App Store或Google Play上的应用支持链接联系支持人员。",
     },
   ],
 } as const;
-
-export default faq;

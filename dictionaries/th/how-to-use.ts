@@ -1,5 +1,5 @@
 export const howToUse = {
-  title: "วิธีใช้คู่มือ Dreamy Room",
+  title: "วิธีใช้คู่มือ Knit Out",
   subtitle: "ค้นหาคู่มือและวิธีแก้ปัญหาในสามขั้นตอนง่ายๆ",
   steps: [
     {

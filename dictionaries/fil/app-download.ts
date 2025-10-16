@@ -1,40 +1,35 @@
 export const appDownload = {
   meta: {
-    title:
-      "I-download ang Dreamy Room - Isang Maaliwalas na Laro ng Organisasyon ng Kwarto",
+    title: "Download Knit Out - Ihiwalay ang mga Nakabitin!",
     description:
-      "I-download ang Dreamy Room at simulan ang iyong nakakaantig na paglalakbay sa pag-aayos at pagpapalamuti ng mga kwarto. Lumikha ng iyong perpektong espasyo sa pamumuhay sa pamamagitan ng maingat na organisasyon.",
+      "Mag-download ng Knit Out at simulan ang paghiwalay ng mga kulay na nakabitin. Isang nakapagpapahinga at istraktikong laro ng palaisipan.",
   },
-  title: "I-download ang Dreamy Room",
-  subtitle:
-    "Isang Maaliwalas at Nakakagaling na Laro ng Organisasyon ng Kwarto",
+  title: "Download Knit Out",
+  subtitle: "Ihiwalay ang mga nakabitin!",
   stats: {
-    rating: "4.8",
-    downloads: "1M+ Mga Pag-download",
+    rating: "4.7",
+    downloads: "100K+ Downloads",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
-      description: "I-download sa App Store",
-      link: "https://apps.apple.com/us/app/dreamy-room/id6742221896",
+      description: "Mag-download sa App Store",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Kunin ito sa Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.abi.dream.unpacking",
+      description: "Kumuha nito sa Google Play",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "Organisasyon",
-      description: "Hanapin ang perpektong lugar para sa bawat item",
+      title: "Daang mga Palaisipan",
+      description: "Daang mga kumplikadong palaisipan upang lutasin",
     },
     story: {
-      title: "Nakakaantig na Kwento",
-      description:
-        "Isalaysay ang mga kwento ng buhay sa pamamagitan ng paglalagay ng item",
+      title: "Nakapagpapahingang Laro",
+      description: "Nakapagpapahingang gameplay nang walang mga timer—perpekto para sa pagpapahinga",
     },
   },
 } as const;
-
-export default appDownload;

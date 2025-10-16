@@ -6,8 +6,8 @@ export const levelDetail = {
   },
   notFound: {
     title: "ไม่พบระดับ",
-    description: "ขออภัย ไม่พบระดับที่คุณกำลังค้นหา",
-    backToList: "กลับไปที่รายการระดับ",
+    description: "ขออภัย คุณกำลังค้นหาระดับที่ไม่มีอยู่",
+    backToList: "กลับไปยังรายการระดับ",
   },
   levelNumber: "ระดับ",
   levelRange: {
@@ -15,29 +15,28 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Dreamy Room ระดับ {{level}} - คู่มือเกมและคำแนะนำ - Dreamy Room {{level}} & เคล็ดลับวิดีโอ`,
-    description: `Dreamy Room {{level}}, คู่มือฉบับสมบูรณ์สำหรับ Dreamy Room ระดับ {{level}} พร้อมเคล็ดลับการจัดระเบียบโดยละเอียด วิธีแก้ปัญหาการวางไอเทม และคำแนะนำวิดีโอ ช่วยให้คุณผ่านด่านได้อย่างง่ายดายและสร้างพื้นที่อยู่อาศัยที่อบอุ่นสมบูรณ์แบบ`,
-    siteName: "คู่มืออย่างเป็นทางการของ Dreamy Room",
+    title: `Knit Out Level {{level}} - วิธีผ่านและคำเฉลยและเกม`,
+    description: `Knit Out {{level}}, แนะนำครบถ้วนสำหรับ Knit Out Level {{level}}, ให้คำแนะนำยุทธศาสตร์รายละเอียด, แก้ไขปัญหาของเชือกและหม้อเย็บ, และวิดีโอวิธีผ่าน. ช่วยให้คุณสามารถเสร็จสิ้นระดับได้อย่างง่ายและแก้ปัญหาเส้นพันธุ์ทั้งหมด.`,
+    siteName: "คู่มือทางการเล่น Knit Out公式",
     invalidId: {
       title: "หมายเลขระดับไม่ถูกต้อง",
-      description: `โปรดป้อนหมายเลขระดับที่ถูกต้อง (1-${levels.length})`,
+      description: `กรุณาป้อนหมายเลขระดับที่ถูกต้อง (1-${levels.length})`,
     },
     notFound: {
       title: "ระดับไม่มีอยู่",
-      description: "ระดับที่คุณพยายามเข้าถึงไม่มีอยู่ โปรดเลือกระดับอื่น",
+      description:
+        "ระดับที่คุณพยายามเข้าถึงไม่มีอยู่ โปรดเลือกระดับอื่น",
     },
     langNotFound: {
       title: "ไม่พบแพ็กภาษา",
       description:
-        "ไม่พบเนื้อหาการแปลสำหรับภาษาปัจจุบัน โปรดเปลี่ยนไปใช้ภาษาอื่น",
+        "ไม่พบเนื้อหาประกอบคำแปลสำหรับภาษาปัจจุบัน โปรดเปลี่ยนภาษาเป็นภาษาอื่น",
     },
   },
   sidebar: {
-    adjacentLevels: "ด่านที่อยู่ติดกัน",
-    allLevels: "ด่านทั้งหมด",
+    adjacentLevels: "ระดับที่ติดกัน",
+    allLevels: "ทั้งหมดระดับ",
   },
-  shareLabel: "แชร์คู่มือด่าน",
-  linkCopiedText: "คัดลอกลิงก์แล้ว!",
+  shareLabel: "แชร์คู่มือระดับ",
+  linkCopiedText: "คัดลอกสำเร็จ!",
 } as const;
-
-export default levelDetail;

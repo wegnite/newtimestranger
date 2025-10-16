@@ -1,5 +1,5 @@
 export const companyInfo = {
-  title: "Sobre o Dreamy Room",
+  title: "Sobre o Knit Out",
   subtitle:
     "Um Jogo de Organização Aconchegante Amado por Milhões em Todo o Mundo",
   stats: {
@@ -12,7 +12,7 @@ export const companyInfo = {
     about: {
       title: "Sobre Nós",
       content:
-        "Dreamy Room é um jogo aconchegante de organização. Nossa missão é trazer calor e alegria através da organização e decoração de quartos.",
+        "Knit Out é um jogo aconchegante de organização. Nossa missão é trazer calor e alegria através da organização e decoração de quartos.",
     },
     mission: {
       title: "Nossa Missão",

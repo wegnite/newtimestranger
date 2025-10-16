@@ -252,7 +252,7 @@ export default async function LevelDetailPage({
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
         name: dict.levelDetail.meta.siteName || "Drop Away Game Guide",
-        logo: `${siteUrl}/logo.png`,
+        logo: `${siteUrl}/images/logo.webp`,
         publisher: {
           "@id": `${siteUrl}/#organization`,
         },
@@ -272,8 +272,8 @@ export default async function LevelDetailPage({
         url: siteUrl,
         logo: {
           "@type": "ImageObject",
-          "@id": `${siteUrl}/logo.png`,
-          url: `${siteUrl}/logo.png`,
+          "@id": `${siteUrl}/images/logo.webp`,
+          url: `${siteUrl}/images/logo.webp`,
         },
         description:
             dict.companyInfo?.sections?.about?.content ||

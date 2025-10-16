@@ -1,25 +1,22 @@
 export const companyInfo = {
-  title: "Tentang Dreamy Room",
-  subtitle:
-    "Game Organisasi Nyaman yang Dicintai Jutaan Orang di Seluruh Dunia",
+  title: "Tentang Knit Out",
+  subtitle: "Bersantailah dengan Knots! Permainan teka-teki yang segar dan menenangkan.",
   stats: {
-    players: "+1M",
+    players: "+100K",
     countries: "+150",
-    recipes: "+50",
-    rating: "4.8/5",
+    recipes: "+300",
+    rating: "4.7/5",
   },
   sections: {
     about: {
-      title: "Tentang Kami",
+      title: "Tentang Permainan",
       content:
-        "Dreamy Room adalah game organisasi yang nyaman. Misi kami adalah membawa kehangatan dan kegembiraan melalui organisasi dan dekorasi ruangan.",
+        "Knit Out adalah permainan teka-teki yang menenangkan di mana tantangan Anda adalah untuk membersihkan baris simpul warna-warni, melepaskan tali yang perlu menemukan bobbin yang cocok di bawahnya.",
     },
     mission: {
-      title: "Misi Kami",
+      title: "Fitur Utama",
       content:
-        "Menciptakan pengalaman organisasi yang santai dan menawan yang secara sempurna menggabungkan keindahan hidup dengan kisah-kisah yang mengharukan.",
+        "Ratusan teka-teki rumit, palet warna yang segar, dan gameplay yang menenangkan tanpa timer.",
     },
   },
 } as const;
-
-export default companyInfo;

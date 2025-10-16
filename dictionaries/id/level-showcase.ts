@@ -1,16 +1,14 @@
 export const levelShowcase = {
-  title: "Cheat & Solusi Level Dreamy Room",
+  title: "Cara Mengatasi dan Solusi Level Knit Out",
   nav: {
-    featured: "Unggulan",
+    featured: "Terpopuler",
     rangePrefix: "Level ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Dreamy Room Level ",
+    titlePrefix: "Level Knit Out ",
   },
   showMoreButton: "Tampilkan Lebih Banyak Level",
   noLevelsFound: "Tidak ada level yang ditemukan dalam rentang ini.",
   searchPlaceholder: "Cari level berdasarkan ID atau judul...",
 } as const;
-
-export default levelShowcase;

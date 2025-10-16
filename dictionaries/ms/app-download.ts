@@ -1,37 +1,35 @@
 export const appDownload = {
   meta: {
-    title: "Muat Turun Dreamy Room - Permainan Menyusun Bilik yang Selesa",
+    title: "Unduh Knit Out - Buka Simpul!",
     description:
-      "Muat turun Dreamy Room dan mulakan perjalanan menyentuh hati anda dalam menyusun dan menghias bilik. Cipta ruang kediaman sempurna anda melalui penyusunan yang teliti.",
+      "Unduh Knit Out dan mula buka simpul berwarna-warni. Satu permainan teka-teki yang santai dan strategik.",
   },
-  title: "Muat Turun Dreamy Room",
-  subtitle: "Permainan Menyusun Bilik yang Selesa dan Menenangkan",
+  title: "Unduh Knit Out",
+  subtitle: "Buka Simpul!",
   stats: {
-    rating: "4.8",
-    downloads: "1J+ Muat Turun",
+    rating: "4.7",
+    downloads: "Lebih 100K Unduhan",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
-      description: "Muat Turun di App Store",
-      link: "https://apps.apple.com/us/app/dreamy-room/id6742221896",
+      description: "Unduh di App Store",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Dapatkannya di Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.abi.dream.unpacking",
+      description: "Dapatkan di Google Play",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "Penyusunan",
-      description: "Cari tempat yang sempurna untuk setiap item",
+      title: "Ratusan Puzzle",
+      description: "Ratusan puzzle rumit untuk diselesaikan",
     },
     story: {
-      title: "Kisah Menyentuh Hati",
-      description: "Ceritakan kisah hidup melalui penempatan item",
+      title: "Permainan Santai",
+      description: "Permainan yang santai tanpa pengatur masa—sempurna untuk bersantailah",
     },
   },
 } as const;
-
-export default appDownload;

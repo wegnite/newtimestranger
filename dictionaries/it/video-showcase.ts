@@ -1,12 +1,9 @@
 export const videoShowcase = {
-  title: "Vetrina Video del Gioco",
-  subtitle:
-    "Guarda i filmati di gioco e scopri la gioia di organizzare la stanza dei tuoi sogni",
+  title: "Mostra video dei giochi",
+  subtitle: "Vivi la divertimento e la sfida della risoluzione di puzzle strategici",
   video: {
-    title: "Dreamy Room - Organizza la Stanza dei Tuoi Sogni",
+    title: "Knit Out - Scompiglia i nodi colorati!",
     description:
-      "In questo accogliente e creativo gioco di organizzazione di stanze, vestirai i panni di un appassionato decoratore d'interni. Inizia con stanze semplici, sblocca gradualmente nuovi oggetti, decora il tuo spazio e crea l'abitazione perfetta che riflette il tuo stile.",
+      "In questo gioco di puzzle rilassante e strategico, pulirai le righe di nodi colorati accoppiandoli ai bobine corretti. Pianifica i tuoi movimenti per scompigliare le funi e completare centinaia di livelli. Andiamo a godere del divertimento soddisfacente di Knit Out!",
   },
 } as const;
-
-export default videoShowcase;

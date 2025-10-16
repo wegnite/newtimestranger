@@ -1,15 +1,12 @@
 export const blog = {
-  title: "Guida al Gioco Dreamy Room",
-  subtitle:
-    "Scopri altri suggerimenti di gioco, ispirazioni per la decorazione e storie commoventi",
+  title: "Guida al gioco Knit Out",
+  subtitle: "Scopri ulteriori consigli, strategie e segreti per superare i livelli",
   breadcrumbs: {
     blog: "Guida",
     page: "Pagina {0}",
   },
   posts: {
-    title: "Articoli Guida al Gioco Dreamy Room",
-    readMore: "Visualizza Dettagli",
+    title: "Articoli sulla guida al gioco Knit Out",
+    readMore: "Visualizza dettagli",
   },
 } as const;
-
-export default blog;

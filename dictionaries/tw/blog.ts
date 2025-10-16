@@ -1,14 +1,12 @@
 export const blog = {
-  title: "Dreamy Room 遊戲攻略",
-  subtitle: "發現更多遊戲技巧、裝飾靈感和溫馨故事",
+  title: "Knit Out游戏指南",
+  subtitle: "发现更多游戏技巧、策略和通关秘籍",
   breadcrumbs: {
-    blog: "攻略",
-    page: "第 {0} 頁",
+    blog: "指南",
+    page: "第 {0} 页",
   },
   posts: {
-    title: "Dreamy Room 遊戲攻略文章",
-    readMore: "查看詳情",
+    title: "Knit Out游戏指南文章",
+    readMore: "查看详情",
   },
 } as const;
-
-export default blog;

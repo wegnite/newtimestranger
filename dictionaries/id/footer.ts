@@ -3,17 +3,17 @@ export const footer = {
     about: "Tentang Kami",
     privacy: "Kebijakan Privasi",
     contact: "Hubungi Kami",
-    levels: "Level",
+    terms: "Syarat & Ketentuan",
+    levels: "Tingkat",
     download: "Unduh",
     blog: "Blog",
-    terms: "Ketentuan Layanan",
   },
   contact: {
-    email: "3500412641@outlook.com",
+    email: "info@superblast.games",
   },
-  copyright: "© 2024 Dreamy Room. Hak cipta dilindungi undang-undang.",
+  copyright: "© 2024 Panduan Knit Out. Hak Cipta Dilindungi.",
   disclaimer:
-    "Dreamy Room adalah situs penggemar panduan game. Semua merek dagang dan hak cipta adalah milik dari pemiliknya masing-masing.",
+    "Panduan Knit Out adalah situs fans panduan game. Knit Out adalah merek dagang dari Rollic Games. Semua merek dagang dan hak cipta milik pemiliknya masing-masing.",
 } as const;
 
 export default footer;

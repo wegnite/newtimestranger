@@ -1,22 +1,21 @@
 export const howToUse = {
-  title: "Dreamy Room 사용 방법",
-  subtitle: "간단한 3단계로 Dreamy Room와 대화를 시작하세요",
+  title: "Knit Out 게임 가이드 사용 방법",
+  subtitle: "간단한 3단계로 Knit Out 게임 공략을 시작하세요",
   steps: [
     {
-      title: "채팅 페이지 방문",
+      title: "레벨 선택",
       description:
-        '페이지 상단의 "Try Chat" 버튼을 클릭하여 채팅 인터페이스로 이동',
+        '페이지 상단의 "레벨 목록" 버튼을 클릭하여 원하는 레벨을 찾으세요',
     },
     {
-      title: "질문 입력",
-      description: "채팅 입력창에 궁금한 질문을 입력하세요",
+      title: "공략 확인",
+      description: "선택한 레벨의 상세 공략과 비디오 가이드를 확인하세요",
     },
     {
-      title: "답변 대기",
-      description:
-        "Dreamy Room가 빠르게 답변을 생성합니다. 보통 몇 초면 충분합니다",
+      title: "퍼즐 해결",
+      description: "공략을 참고하여 캐릭터와 구멍을 매칭하며 퍼즐을 해결하세요",
     },
   ],
-  startButton: "지금 대화 시작하기",
+  startButton: "지금 시작하기",
   stepLabel: "단계",
 } as const;

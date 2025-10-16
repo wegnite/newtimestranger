@@ -1,9 +1,10 @@
 import Link from "next/link";
+import { useTheme } from "next-themes";
 import { useDictionary } from "@/hooks/useDictionary";
 
 export function Logo() {
+  const { theme } = useTheme();
   const dict = useDictionary();
-  const logoSrc = "/digimon/favicon-32x32.png";
 
   return (
     <Link
@@ -11,8 +12,8 @@ export function Logo() {
       className="flex items-center gap-2 rtl:flex-row-reverse"
     >
       <img
-        src={logoSrc}
-        alt={`${dict.header.brand} logo`}
+        src="/images/logo.webp"
+        alt="logo"
         width="32"
         height="32"
         className="w-8 h-8"

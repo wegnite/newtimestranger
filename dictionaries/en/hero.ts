@@ -1,36 +1,35 @@
 import levels from "@/data/levels";
 
 export const hero = {
-  badge: "Digimon Story Time Stranger Walkthrough HQ",
-  title: "Track Every Digimon Story Time Stranger Story Chapter",
+  badge: "Game Guides Collection",
+  title: "View All Knit Out Level Guides",
   description:
-    "Digimon Story Time Stranger squads follow spoiler-aware routes, boss prep, and collectible notes as you progress through the Digital World's timeline. Keep Digimon Story Time Stranger decisions aligned with our live timeline monitors.",
+    "Explore detailed walkthroughs, tips, and strategies for each level. Enter a level number to jump directly to the corresponding guide.",
   stats: {
-    guides: `${levels.length}+ Digimon Story Time Stranger Story Routes`,
-    videoTutorials: `${levels.length}+ Digimon Story Time Stranger Briefings`,
-    quickSearch: "Instant Digimon Story Time Stranger Chapter Lookup",
+    guides: levels.length + "+ Level Guides",
+    videoTutorials: `${levels.length}+ Video Tutorials`,
+    quickSearch: "Quick Level Search",
   },
   search: {
-    placeholder: `Enter chapter number (1-${levels.length})`,
-    button: "Find Walkthrough",
+    placeholder: `Enter level number (1-${levels.length})`,
+    button: "Search Guide",
     error: {
-      invalid: "Please enter a valid chapter number",
-      notFound: "No walkthrough found for this chapter",
+      invalid: "Please enter a valid level number",
+      notFound: "No guide found for this level",
     },
   },
   buttons: {
-    browseAll: "Browse Digimon Story Time Stranger Walkthroughs",
-    downloadGame: "Download Digimon Story Time Stranger",
+    browseAll: "Browse All Level Guides",
+    downloadGame: "Download Game",
   },
   downloadCard: {
-    title: "Download Digimon Story Time Stranger",
-    description:
-      "Jump into Digimon Story Time Stranger and sync your squad with our Digimon Story Time Stranger guides.",
+    title: "Download Knit Out",
+    description: "Begin a relaxing and strategic puzzle adventure!",
   },
   videoSection: {
-    title: "Featured Digimon Story Time Stranger Videos",
+    title: "Knit Out Strategy Videos",
     description:
-      "Preview Digimon Story Time Stranger walkthrough clips before diving into the next mission.",
+      "Watch detailed game video tutorials to learn strategies for completing levels",
   },
 } as const;
 

@@ -1,16 +1,14 @@
 export const levelShowcase = {
-  title: "Dreamy Room Level Cheats & Solutions",
+  title: "Knit Out Level Cheats & Solutions",
   nav: {
     featured: "Featured",
-    rangePrefix: "Level ",
+    rangePrefix: "ระดับ ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Dreamy Room Level ",
+    titlePrefix: "Knit Out Level ",
   },
-  showMoreButton: "Show More Levels",
-  noLevelsFound: "No levels found in this range.",
-  searchPlaceholder: "Search levels by ID or title...",
+  showMoreButton: "แสดงระดับเพิ่มเติม",
+  noLevelsFound: "ไม่พบระดับในช่วงนี้",
+  searchPlaceholder: "ค้นหาระดับโดยใช้รหัสหรือชื่อ...",
 } as const;
-
-export default levelShowcase;

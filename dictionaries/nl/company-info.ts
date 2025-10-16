@@ -1,24 +1,22 @@
 export const companyInfo = {
-  title: "Over Dreamy Room",
-  subtitle: "Een Gezellig Organisatiespel Geliefd bij Miljoenen Wereldwijd",
+  title: "Over Knit Out",
+  subtitle: "Los de knopen op! Een levendig en ontspannend puzzelspel.",
   stats: {
-    players: "+1M",
+    players: "+100K",
     countries: "+150",
-    recipes: "+50",
-    rating: "4.8/5",
+    recipes: "+300",
+    rating: "4,7/5",
   },
   sections: {
     about: {
-      title: "Over Ons",
+      title: "Over het spel",
       content:
-        "Dreamy Room is een gezellig organisatiespel. Onze missie is om warmte en vreugde te brengen door kamerorganisatie en decoratie.",
+        "Knit Out is een ontspannend puzzelspel waarbij je uitdaging is om lijnen met kleurrijke knopen te verwijderen, waardoor touwen loskomen die hun passende bobijnen onderaan moeten vinden.",
     },
     mission: {
-      title: "Onze Missie",
+      title: "Belangrijkste kenmerken",
       content:
-        "Creëer een ontspannende en charmante organisatie-ervaring die de schoonheid van het leven perfect combineert met hartverwarmende verhalen.",
+        "Honderden ingewikkelde puzzels, een levendige kleurpalet en ontspannend gameplay zonder tijdlimieten.",
     },
   },
 } as const;
-
-export default companyInfo;

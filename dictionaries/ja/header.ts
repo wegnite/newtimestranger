@@ -1,12 +1,10 @@
 export const header = {
-  brand: "(夢の部屋)ドリーミールーム",
+  brand: "Knit Outガイド",
   navItems: [
     { name: "ホーム", href: "/" },
     { name: "レベル", href: "/level" },
-    { name: "オンラインプレイ", href: "/game" },
+    { name: "オンラインで遊ぶ", href: "/game" },
     { name: "ダウンロード", href: "/app" },
     { name: "ブログ", href: "/blog" },
   ],
 } as const;
-
-export default header;

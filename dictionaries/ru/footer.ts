@@ -2,18 +2,18 @@ export const footer = {
   links: {
     about: "О нас",
     privacy: "Политика конфиденциальности",
-    contact: "Контакты",
+    contact: "Свяжитесь с нами",
+    terms: "Условия использования",
     levels: "Уровни",
     download: "Скачать",
     blog: "Блог",
-    terms: "Условия обслуживания",
   },
   contact: {
-    email: "3500412641@outlook.com",
+    email: "info@superblast.games",
   },
-  copyright: "© 2024 Dreamy Room. Все права защищены.",
+  copyright: "© 2024 Knit Out Guide. Все права защищены.",
   disclaimer:
-    "Dreamy Room - фанатский сайт с руководствами по игре. Все товарные знаки и авторские права принадлежат их соответствующим владельцам.",
+    "Knit Out Guide - это сайт-фан сайт по игре. Knit Out - товарный знак компании Rollic Games. Все товарные знаки и права на авторские работы принадлежат их respective владельцам.",
 } as const;
 
 export default footer;

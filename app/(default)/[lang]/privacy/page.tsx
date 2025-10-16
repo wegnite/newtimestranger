@@ -28,7 +28,7 @@ export async function generateMetadata({
 
   return {
     title: {
-      template: `%s | Dreamy Room`,
+      template: `%s | Knit Out`,
       default: dict.privacy.title,
     },
     description: dict.privacy.subtitle,

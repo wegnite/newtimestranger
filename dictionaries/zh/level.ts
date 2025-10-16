@@ -1,23 +1,23 @@
 import levels from "@/data/levels";
 
 export const level = {
-  title: `Dreamy Room 游戏关卡攻略，1-${levels.length}完整通关指南`,
-  subtitle: `${levels.length}关完整通关攻略 | 收纳整理技巧 | 房间布置方案`,
-  searchPlaceholder: `输入关卡编号 (1-${levels.length})`,
+  title: `《Knit Out》游戏关卡指南，第1-${levels.length}关完整攻略`,
+  subtitle: `${levels.length}关完整攻略 | 策略提示 | 解结方案`,
+  searchPlaceholder: `输入关卡编号(1-${levels.length})`,
   levelRange: {
     start: "第",
     end: "关",
   },
-  levelNumber: "关卡",
+  levelNumber: "第",
   meta: {
-    title: `Dreamy Room游戏攻略|第1到${levels.length} 关完整通关视频指南_收纳整理技巧`,
-    description: `Dreamy Room游戏官方攻略网站，提供1-${levels.length}关完整图文攻略，包含详细的收纳技巧、物品摆放方案和通关视频。让您轻松通关，打造完美温馨的生活空间。`,
+    title: `《Knit Out》游戏指南 | 第1-${levels.length}关完整视频攻略 | 策略提示`,
+    description: `《Knit Out》官方游戏指南网站，提供第1-${levels.length}关的完整攻略，包括详细的策略提示、解结方案和视频指南。帮助您轻松通关并解决所有谜题。`,
     keywords:
-      "Dreamy Room攻略,Dreamy Room通关攻略,收纳游戏攻略,房间布置游戏,整理游戏技巧,治愈系游戏,解压游戏",
-    siteName: "Dreamy Room官方攻略站",
-    author: "Dreamy Room攻略组",
-    category: "游戏攻略",
-    classification: "休闲解谜游戏",
+      "《Knit Out》指南, 《Knit Out》攻略, 益智游戏指南, 解结游戏, 策略游戏提示, 解谜, 休闲游戏",
+    siteName: "《Knit Out》官方指南",
+    author: "《Knit Out》指南团队",
+    category: "游戏指南",
+    classification: "休闲益智游戏",
   },
 } as const;
 

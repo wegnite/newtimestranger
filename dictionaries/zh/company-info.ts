@@ -1,24 +1,22 @@
 export const companyInfo = {
-  title: "关于 Dreamy Room",
-  subtitle: "一款深受全球数百万玩家喜爱的温馨治愈收纳游戏",
+  title: "关于Knit Out",
+  subtitle: "解开绳结！一款充满活力且令人放松的益智游戏。",
   stats: {
-    players: "+100万",
+    players: "+100K",
     countries: "+150",
-    recipes: "+50",
-    rating: "4.8/5",
+    recipes: "+300",
+    rating: "4.7/5",
   },
   sections: {
     about: {
-      title: "关于我们",
+      title: "关于游戏",
       content:
-        "Dreamy Room 是一款温馨治愈的收纳整理游戏。我们的使命是通过整理和装饰房间，为玩家带来一段温暖的生活故事。",
+        "Knit Out是一款令人放松的益智游戏，你的挑战是清除彩色绳结的行，释放需要在下方找到匹配线轴的绳索。",
     },
     mission: {
-      title: "我们的使命",
+      title: "主要特点",
       content:
-        "创造一个轻松愉快且富有魅力的收纳整理体验，将生活的美好与温馨的故事完美结合。",
+        "数百个复杂的谜题、充满活力的色彩调色板以及无时间限制的轻松游戏玩法。",
     },
   },
 } as const;
-
-export default companyInfo;

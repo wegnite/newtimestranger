@@ -1,39 +1,33 @@
 export const mediaCoverage = {
   title: "Fitur Game",
   subtitle:
-    "Jelajahi konten yang kaya dan alami kesenangan organisasi yang unik",
+    "Jelajahi konten game yang kaya dan nikmati kegembiraan penyelesaian teka-teki yang unik",
   features: [
     {
-      title: "Pelarian Santai",
-      content:
-        "Perpaduan sempurna antara perhatian penuh dan kreativitas, menawarkan tempat peristirahatan yang damai dari kehidupan sehari-hari",
+      title: "Ratusan Teka-Teki",
+      content: "Ratusan teka-teki rumit untuk diselesaikan",
     },
     {
-      title: "Kisah Mengharukan",
-      content:
-        "Setiap item menceritakan kisah hidup, mengungkapkan momen-momen mengharukan melalui organisasi",
+      title: "Warna Cerah",
+      content: "Palet warna cerah untuk menjaga pikiran Anda tajam",
     },
     {
-      title: "Suasana Nyaman",
-      content:
-        "Visual lembut, musik menenangkan, tanpa tekanan waktu - nikmati proses organisasi",
+      title: "Gameplay Santai",
+      content: "Gameplay santai tanpa timer—sempurna untuk bersantailah",
     },
     {
-      title: "Kegembiraan Organisasi",
-      content:
-        "Tempatkan setiap item di tempat yang sempurna untuk menciptakan ruang yang damai",
+      title: "Pengalaman Memuaskan",
+      content: "Animasi yang memuaskan dan efek suara yang menyenangkan",
     },
     {
-      title: "Resonansi Emosional",
+      title: "Pemikiran Strategis",
       content:
-        "Dari kamar tidur masa kecil hingga apartemen pertama, setiap ruangan membangkitkan kenangan bersama",
+        "Pilih bobbin yang tepat secara strategis dari grid untuk mengumpulkan tali dan menyelesaikan setiap level.",
     },
     {
-      title: "Gameplay Unik",
+      title: "Mekanika Baru",
       content:
-        "Pengalaman bermain game yang sederhana, intuitif, dan menawan membuat organisasi menjadi menyenangkan dan santai",
+        "Game diupdate dengan mekanika baru seperti pita pengantar untuk bobbin.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

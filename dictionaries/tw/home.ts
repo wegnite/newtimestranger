@@ -2,15 +2,13 @@ import levels from "@/data/levels";
 
 export const home = {
   meta: {
-    title: `Dreamy Room 1-${levels.length} 完整關卡攻略與解決方案大全 | 影片教學合輯`,
-    description: `正在尋找 Dreamy Room 攻略？我們提供 Dreamy Room 所有關卡 (Level 1-${levels.length}) 的詳盡影片攻略和圖文指南，涵蓋每一個 Dreamy Room Level 的解謎技巧，助您輕鬆通關。獲取最新 Dreamy Room 關卡攻略，享受遊戲！`,
+    title: `《Knit Out》第1-${levels.length}关完整攻略与指南 | 视频教程合辑`,
+    description: `在寻找《Knit Out》的攻略吗？我们为《Knit Out》的所有关卡（第1-${levels.length}关）提供详细的视频攻略和指南，涵盖每个关卡的解绳技巧，助您轻松通关。获取最新的《Knit Out》关卡指南，尽情享受游戏！`,
     keywords:
-      "Dreamy Room, 咖啡店遊戲, 咖啡配方, 遊戲攻略, 咖啡師模擬器, 咖啡店經營, 遊戲技巧, 顧客訂單, 咖啡裝飾",
-    siteName: "Dreamy Room 遊戲攻略",
-    author: "Dreamy Room 攻略團隊",
-    category: "遊戲攻略",
-    classification: "遊戲",
+      "《Knit Out》, 益智游戏, 解绳, 绳结, 绳索, 线轴, 游戏指南, 关卡解决方案, Rollic Games, 攻略",
+    siteName: "《Knit Out》游戏指南",
+    author: "《Knit Out》指南团队",
+    category: "游戏指南",
+    classification: "益智游戏",
   },
 } as const;
-
-export default home;

@@ -36,10 +36,9 @@ export default async function GamePage({ params }: GamePageProps) {
 
   // 构建绝对URL用于分享
   const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    "https://digimonstorytimestranger.com";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://dreamyroom.vercel.app";
   const pageUrl = `${baseUrl}/${params.lang}/game/${params.id}`;
-  const logoUrl = `${baseUrl}/logo.png`;
+  const logoUrl = `${baseUrl}/images/logo.webp`;
 
   // 页面标题用于分享
   const pageTitle = dictionary.gamePage.metaTitle.replace(
@@ -56,7 +55,7 @@ export default async function GamePage({ params }: GamePageProps) {
         "@type": "WebSite", // 网站实体
         "@id": `${baseUrl}/#website`, // 网站唯一标识符
         url: baseUrl, // 网站URL
-        name: dictionary.home?.meta?.siteName || "Time Stranger Guide Hub", // 网站名称
+        name: dictionary.home?.meta?.siteName || "Knit Out Game Guide", // 网站名称
         logo: logoUrl, // 网站Logo
       },
       {

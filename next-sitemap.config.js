@@ -2,8 +2,6 @@
 const fs = require("fs");
 const path = require("path");
 
-const LOCALE_PREFIX_REGEX = /^\/[a-z]{2,3}(?:-[a-z]{2})?(?:\/|$)/i;
-
 // 添加日期格式化函数
 function formatDate(dateString) {
   try {
@@ -29,7 +27,16 @@ const routes = [
   "game",
 ];
 
-const defaultLocale = "en";
+// 定义所有支持的语言
+const locales = [
+  "en",
+  "ja",
+  "de",
+  "fr",
+   "ko",
+  "zh",
+  "tw",
+];
 
 // 读取关卡数据
 const levelsPath = path.join(process.cwd(), "data", "levelsSitemap.json");
@@ -38,7 +45,7 @@ const levels = fs.existsSync(levelsPath)
   : [];
 
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://digimonstorytimestranger.com",
+  siteUrl: process.env.SITE_URL || "https://knitoutlevel.com",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: "./public",
@@ -52,10 +59,6 @@ module.exports = {
     "/*.json$",
   ],
   transform: async (config, path) => {
-    if (LOCALE_PREFIX_REGEX.test(path)) {
-      return null;
-    }
-
     const result = {
       loc: path,
       changefreq: config.changefreq,
@@ -69,13 +72,26 @@ module.exports = {
 
     // 添加不带语言前缀的路径
     for (const route of routes) {
-      const routePath = `/${route}`;
+      const localePath = `/${route}`;
       result.push({
-        loc: routePath,
+        loc: localePath,
         priority: route === "" ? 0.9 : 0.8,
         changefreq: "daily",
         lastmod: new Date().toISOString(),
       });
+    }
+
+    // 添加各语言版本的路径
+    for (const locale of locales) {
+      for (const route of routes) {
+        const localePath = route ? `/${locale}/${route}` : `/${locale}`;
+        result.push({
+          loc: localePath,
+          priority: route === "" ? 0.9 : 0.8,
+          changefreq: "daily",
+          lastmod: new Date().toISOString(),
+        });
+      }
     }
 
     // 添加关卡详情页面的路径
@@ -87,41 +103,54 @@ module.exports = {
         changefreq: "weekly",
         lastmod: new Date().toISOString(),
       });
+
+      // 添加各语言版本的路径
+      for (const locale of locales) {
+        const localeLevelPath = `/${locale}/level/${level.id}`;
+        result.push({
+          loc: localeLevelPath,
+          priority: 0.7,
+          changefreq: "weekly",
+          lastmod: new Date().toISOString(),
+        });
+      }
     }
 
     // 处理博客相关路径
-    const cachePath = path.join(
-      process.cwd(),
-      ".cache",
-      "blog",
-      `${defaultLocale}.json`
-    );
-    if (fs.existsSync(cachePath)) {
-      const cacheContent = fs.readFileSync(cachePath, "utf-8");
-      const { posts } = JSON.parse(cacheContent);
+    for (const locale of locales) {
+      const cachePath = path.join(
+        process.cwd(),
+        ".cache",
+        "blog",
+        `${locale}.json`
+      );
+      if (fs.existsSync(cachePath)) {
+        const cacheContent = fs.readFileSync(cachePath, "utf-8");
+        const { posts } = JSON.parse(cacheContent);
 
-      // 添加每篇文章的URL
-      for (const post of posts) {
-        const postPath = `/blog/${post.slug}`;
-        result.push({
-          loc: postPath,
-          priority: 0.6,
-          changefreq: "weekly",
-          lastmod: formatDate(post.date),
-        });
-      }
+        // 添加每篇文章的URL
+        for (const post of posts) {
+          const postPath = `/${locale}/blog/${post.slug}`;
+          result.push({
+            loc: postPath,
+            priority: 0.6,
+            changefreq: "weekly",
+            lastmod: formatDate(post.date),
+          });
+        }
 
-      // 添加分页
-      const postsPerPage = 10;
-      const totalPages = Math.ceil(posts.length / postsPerPage);
-      for (let page = 2; page <= totalPages; page++) {
-        const pagePath = `/blog/${page}`;
-        result.push({
-          loc: pagePath,
-          priority: 0.5,
-          changefreq: "daily",
-          lastmod: new Date().toISOString(),
-        });
+        // 添加分页
+        const postsPerPage = 10;
+        const totalPages = Math.ceil(posts.length / postsPerPage);
+        for (let page = 2; page <= totalPages; page++) {
+          const pagePath = `/${locale}/blog/${page}`;
+          result.push({
+            loc: pagePath,
+            priority: 0.5,
+            changefreq: "daily",
+            lastmod: new Date().toISOString(),
+          });
+        }
       }
     }
 

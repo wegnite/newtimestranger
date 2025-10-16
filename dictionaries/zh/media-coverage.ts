@@ -1,32 +1,33 @@
 export const mediaCoverage = {
-  title: "Dreamy Room 游戏特色",
-  subtitle: "探索丰富的游戏内容，体验独特的收纳整理乐趣",
+  title: "游戏特色",
+  subtitle:
+    "探索丰富的游戏内容，体验独特的解谜乐趣",
   features: [
     {
-      title: "轻松解压",
-      content: "完美融合正念与创造力，为您提供一个远离日常喧嚣的平静港湾",
+      title: "数百道谜题",
+      content: "数百道错综复杂的谜题等你来解",
     },
     {
-      title: "温馨故事",
-      content: "每个物品都讲述着生活的故事，通过物品展现温暖人心的生活点滴",
+      title: "色彩鲜艳",
+      content: "色彩鲜艳的调色板，让你的思维保持敏锐",
     },
     {
-      title: "舒适氛围",
-      content: "柔和的视觉效果，平静的音乐，没有时间压力，尽情享受整理的过程",
+      title: "轻松的游戏玩法",
+      content: "无时间限制的轻松游戏玩法——非常适合放松身心",
     },
     {
-      title: "整理乐趣",
-      content: "将每件物品放在完美的位置，创造令人心安的空间",
+      title: "令人满意的体验",
+      content: "令人满意的动画和愉悦的音效",
     },
     {
-      title: "情感共鸣",
-      content: "从童年卧室到第一个公寓，每个房间都唤起共同的回忆与情感",
+      title: "策略性思考",
+      content:
+        "从网格中策略性地选择合适的线轴来收集绳索并完成每个关卡。",
     },
     {
-      title: "独特玩法",
-      content: "简单直观又富有魅力的游戏体验，让整理变得有趣而放松",
+      title: "新机制",
+      content:
+        "游戏更新了新机制，如用于线轴的传送带。",
     },
   ],
 } as const;
-
-export default mediaCoverage;

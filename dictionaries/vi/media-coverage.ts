@@ -1,39 +1,33 @@
 export const mediaCoverage = {
-  title: "Tính năng Trò chơi",
+  title: "Tính năng của trò chơi",
   subtitle:
-    "Khám phá nội dung phong phú và trải nghiệm niềm vui sắp xếp độc đáo",
+    "Khám phá nội dung trò chơi phong phú và trải nghiệm thú vị giải đố",
   features: [
     {
-      title: "Lối thoát Thư giãn",
-      content:
-        "Sự pha trộn hoàn hảo giữa chánh niệm và sáng tạo, mang đến một nơi ẩn náu yên bình khỏi cuộc sống hàng ngày",
+      title: "Hàng trăm câu đố",
+      content: "Hàng trăm câu đố phức tạp để giải quyết",
     },
     {
-      title: "Câu chuyện Cảm động",
-      content:
-        "Mỗi vật phẩm kể một câu chuyện cuộc đời, tiết lộ những khoảnh khắc cảm động thông qua việc sắp xếp",
+      title: "Màu sắc rực rỡ",
+      content: "Một palette màu sắc rực rỡ để giữ tâm trí bạn sắc sảo",
     },
     {
-      title: "Bầu không khí Ấm cúng",
-      content:
-        "Hình ảnh nhẹ nhàng, âm nhạc êm dịu, không áp lực thời gian - tận hưởng quá trình sắp xếp",
+      title: "Trò chơi thư giãn",
+      content: "Trò chơi thư giãn không có đồng hồ đếm giờ - hoàn hảo để thư giãn",
     },
     {
-      title: "Niềm vui Sắp xếp",
-      content:
-        "Đặt từng vật phẩm vào vị trí hoàn hảo của nó để tạo ra một không gian yên bình",
+      title: "Trải nghiệm thỏa mãn",
+      content: "Các hoạt hình thỏa mãn và hiệu ứng âm thanh thú vị",
     },
     {
-      title: "Cộng hưởng Cảm xúc",
+      title: "Suy nghĩ chiến lược",
       content:
-        "Từ phòng ngủ thời thơ ấu đến căn hộ đầu tiên, mỗi căn phòng gợi lên những kỷ niệm chung",
+        "Chọn chiến lược bobbins đúng từ lưới để thu thập dây và hoàn thành mỗi cấp độ.",
     },
     {
-      title: "Lối chơi Độc đáo",
+      title: "Các cơ chế mới",
       content:
-        "Trải nghiệm trò chơi đơn giản, trực quan và quyến rũ làm cho việc sắp xếp trở nên thú vị và thư giãn",
+        "Trò chơi được cập nhật với các cơ chế mới như dây chuyền cho bobbins.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

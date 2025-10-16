@@ -1,38 +1,33 @@
 export const mediaCoverage = {
-  title: "Spelfuncties",
-  subtitle: "Verken rijke inhoud en ervaar uniek organisatieplezier",
+  title: "Spelkarakteristieken",
+  subtitle:
+    "Ontdek rijk spelinhoud en beleef uniek puzzelenplezier",
   features: [
     {
-      title: "Ontspannende Ontsnapping",
-      content:
-        "Perfecte mix van mindfulness en creativiteit, biedt een vredig toevluchtsoord uit het dagelijks leven",
+      title: "Honderden Puzzels",
+      content: "Honderden ingewikkelde puzzels om op te lossen",
     },
     {
-      title: "Hartverwarmend Verhaal",
-      content:
-        "Elk item vertelt een levensverhaal, onthult hartverwarmende momenten door organisatie",
+      title: "Levendige Kleuren",
+      content: "Een levendige kleurenschema om je geest scherp te houden",
     },
     {
-      title: "Gezellige Sfeer",
-      content:
-        "Zachte visuals, kalmerende muziek, geen tijdsdruk - geniet van het organisatieproces",
+      title: "Ontspannend Gameplay",
+      content: "Ontspannend gameplay zonder tijdlimieten - ideaal om te ontspannen",
     },
     {
-      title: "Organisatie Vreugde",
-      content:
-        "Plaats elk item op zijn perfecte plek om een vredige ruimte te creëren",
+      title: "Voldoende Voorstelling",
+      content: "Voldoende animaties en aangename geluids-effecten",
     },
     {
-      title: "Emotionele Resonantie",
+      title: "Strategisch Denken",
       content:
-        "Van kinderkamers tot eerste appartementen, elke kamer roept gedeelde herinneringen op",
+        "Kies strategisch de juiste bobbins uit het rooster om de touwen te verzamelen en elk niveau te voltooien.",
     },
     {
-      title: "Unieke Gameplay",
+      title: "Nieuwe Mechanica",
       content:
-        "Eenvoudige, intuïtieve en charmante spelervaring maakt organisatie leuk en ontspannend",
+        "Het spel wordt bijgewerkt met nieuwe mechanismen zoals de transportband voor bobbins.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

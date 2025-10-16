@@ -1,12 +1,10 @@
 export const header = {
-  brand: "Dreamy Room",
+  brand: "Guida di Knit Out",
   navItems: [
     { name: "Home", href: "/" },
-    { name: "Livelli", href: "/level/" },
-    { name: "Gioca Online", href: "/game" },
-    { name: "Scarica", href: "/app/" },
-    { name: "Blog", href: "/blog/" },
+    { name: "Livelli", href: "/level" },
+    { name: "Gioca online", href: "/game" },
+    { name: "Scarica", href: "/app" },
+    { name: "Blog", href: "/blog" },
   ],
 } as const;
-
-export default header;

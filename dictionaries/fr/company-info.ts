@@ -1,25 +1,22 @@
 export const companyInfo = {
-  title: "À propos de Chambre de Rêve / Dreamy Room",
-  subtitle:
-    "Un jeu d'organisation cosy apprécié par des millions dans le monde (Chambre de Rêve / Dreamy Room)",
+  title: "À propos de Knit Out",
+  subtitle: "Désenlacez les noeuds! Un jeu de puzzles dynamique et relaxant.",
   stats: {
-    players: "+1 M",
+    players: "+100K",
     countries: "+150",
-    recipes: "+50",
-    rating: "4.8/5",
+    recipes: "+300",
+    rating: "4,7/5",
   },
   sections: {
     about: {
-      title: "À propos de nous",
+      title: "À propos du jeu",
       content:
-        "Chambre de Rêve (Dreamy Room) est un jeu d'organisation cosy. Notre mission est d'apporter chaleur et joie à travers l'organisation et la décoration de pièces.",
+        "Knit Out est un jeu de puzzles relaxant où votre défi est de débarrasser les lignes de noeuds colorés, libérant les cordes qui doivent trouver leur bobine correspondante en dessous.",
     },
     mission: {
-      title: "Notre mission",
+      title: "Caractéristiques clés",
       content:
-        "Créer une expérience d'organisation relaxante et charmante qui mélange parfaitement la beauté de la vie avec des histoires touchantes.",
+        "Centaines de puzzles complexes, une palette de couleurs dynamique et un gameplay relaxant sans horloges.",
     },
   },
 } as const;
-
-export default companyInfo;

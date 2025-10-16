@@ -1,12 +1,9 @@
 export const videoShowcase = {
-  title: "Pameran Video Permainan",
-  subtitle:
-    "Tonton rakaman permainan dan temui keseronokan menguruskan kedai kopi",
+  title: "Pameran Video Game",
+  subtitle: "Rasakan kegembiraan dan cabaran dalam menyelesaikan teka-teki strategik",
   video: {
-    title: "Dreamy Room - Uruskan Kafe Impian Anda",
+    title: "Knit Out - Buka Simpul Warna!",
     description:
-      "Dalam permainan pengurusan kedai kopi yang selesa dan kreatif ini, anda akan menjadi pemilik kafe yang bersemangat. Mulakan dengan membancuh kopi ringkas, kembangkan empayar kopi anda secara beransur-ansur, buka resipi baharu, hias kedai anda, dan berikan pengalaman perkhidmatan terbaik untuk pelanggan anda.",
+      "Dalam permainan teka-teki santai dan strategik ini, anda akan membersihkan barisan simpul warna dengan menyepadankannya kepada bobin yang betul. Rancang langkah-langkah anda untuk membuka tali dan melengkapkan ratusan aras. Mari nikmati kegembiraan yang memuaskan dari Knit Out!",
   },
 } as const;
-
-export default videoShowcase;

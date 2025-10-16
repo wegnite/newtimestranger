@@ -1,37 +1,33 @@
 export const mediaCoverage = {
-  title: "Game Features",
-  subtitle: "Explore rich content and experience unique organization fun",
+  title: "Особенности игры",
+  subtitle:
+    "Изучайте богатый игровой контент и получайте уникальное удовольствие от решения головоломок",
   features: [
     {
-      title: "Relaxing Escape",
-      content:
-        "Perfect blend of mindfulness and creativity, offering a peaceful retreat from daily life",
+      title: "Сотни головоломок",
+      content: "Сотни сложных головоломок для решения",
     },
     {
-      title: "Heartwarming Story",
-      content:
-        "Each item tells a life story, revealing heartwarming moments through organization",
+      title: "Яркие цвета",
+      content: "Яркий набор цветов, чтобы держать ум в тонусе",
     },
     {
-      title: "Cozy Atmosphere",
-      content:
-        "Soft visuals, calming music, no time pressure - enjoy the organization process",
+      title: "Расслабляющий игровой процесс",
+      content: "Расслабляющий игровой процесс без таймеров - идеально для расслабления",
     },
     {
-      title: "Organization Joy",
-      content: "Place each item in its perfect spot to create a peaceful space",
+      title: "Удовлетворяющее ощущение",
+      content: "Удовлетворяющие анимации и приятные звуковые эффекты",
     },
     {
-      title: "Emotional Resonance",
+      title: "Стратегическое мышление",
       content:
-        "From childhood bedrooms to first apartments, each room evokes shared memories",
+        "Стратегически выберите правильные вилки из сетки, чтобы собрать веревки и пройти каждый уровень.",
     },
     {
-      title: "Unique Gameplay",
+      title: "Новые механики",
       content:
-        "Simple, intuitive, and charming game experience makes organization fun and relaxing",
+        "В игре обновлены новые механики, такие как конвейер для вилок.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

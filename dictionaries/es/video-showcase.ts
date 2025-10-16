@@ -1,12 +1,9 @@
 export const videoShowcase = {
-  title: "Presentación de Vídeo del Juego",
-  subtitle:
-    "Mira imágenes del juego y descubre la alegría de dirigir una cafetería",
+  title: "Exhibición de vídeos de juegos",
+  subtitle: "Experimenta la diversión y el reto de resolver enigmas estratégicos",
   video: {
-    title: "Dreamy Room - Dirige la Cafetería de Tus Sueños",
+    title: "Knit Out - Deshazte de nudos coloridos!",
     description:
-      "En este acogedor y creativo juego de gestión de cafeterías, te pondrás en la piel de un apasionado dueño de café. Comienza con la simple preparación de café, expande gradualmente tu imperio cafetero, desbloquea nuevas recetas, decora tu tienda y brinda la mejor experiencia de servicio a tus clientes.",
+      "En este juego de puzzles relajante y estratégico, deshaces líneas de nudos coloridos al combinarlos con los devanados correctos. Planifica tus movimientos para deshacer las cuerdas y completar cientos de niveles. ¡Vamos a disfrutar de la satisfactoria diversión de Knit Out!",
   },
 } as const;
-
-export default videoShowcase;

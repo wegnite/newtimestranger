@@ -26,13 +26,13 @@ export const common = {
     contact: "Contact",
     features: "Features",
     pricing: "Pricing",
-    guides: "Digimon Story Time Stranger Guides",
+    guides: "Guides",
     settings: "Settings",
   },
-  activePlayers: "Digimon Story Time Stranger Tamers",
-  countries: "Regions",
-  coffeeRecipes: "Digimon Story Time Stranger Routes",
-  userRating: "Digimon Story Time Stranger Rating",
+  activePlayers: "Active Players",
+  countries: "Countries",
+  coffeeRecipes: "Levels",
+  userRating: "User Rating",
   localeSuggest: {
     switchToTitle: "Switch to {langName}?",
     currentLangDesc: "Current language is {langName}.",
@@ -41,13 +41,13 @@ export const common = {
     switchToButton: "Switch",
   },
   onlineGames: {
-    bannerTitle: "Play Digimon Story Time Stranger Online",
+    bannerTitle: "Want to play games directly?",
     bannerDescription:
-      "Experience Digimon Story Time Stranger directly in your browser with synchronized walkthrough overlays and other timeline adventures.",
-    playNowButton: "Play Digimon Story Time Stranger",
-    featured: "Digimon Story Time Stranger Media",
-    viewAllGames: "View Digimon Story Time Stranger Games",
-    levelCompletionText: "Play Digimon Story Time Stranger Online!",
+      "Experience Knit Out and more games directly in your browser, no download required",
+    playNowButton: "Play Now",
+    featured: "Featured Games",
+    viewAllGames: "View All Games",
+    levelCompletionText: "Play Knit Out Online!",
   },
 } as const;
 

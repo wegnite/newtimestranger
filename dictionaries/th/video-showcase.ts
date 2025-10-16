@@ -1,10 +1,9 @@
 export const videoShowcase = {
-  title: "Game Video Showcase",
-  subtitle: "Watch gameplay footage and discover the joy of running a coffee shop",
+  title: "การแสดงวิดีโอเกม",
+  subtitle: "สัมผัสประสบการณ์ความสนุกและความท้าทายในการแก้ปริศนาฟันธงแบบยุทธศาสตร์",
   video: {
-    title: "Dreamy Room - Run Your Dream Café",
-    description: "In this cozy and creative coffee shop management game, you'll step into the shoes of a passionate café owner. Start with simple coffee brewing, gradually expand your coffee empire, unlock new recipes, decorate your shop, and provide the best service experience for your customers."
-  }
+    title: "Knit Out - Untangle Colorful Knots!",
+    description:
+      "ในเกมปริศนาฟันธงแบบผ่อนคลาดและยุทธศาสตร์นี้ คุณจะล้างเส้นของก้อนผ้าสีสดใสโดยการจับคู่มันกับแก้วหมึกที่ถูกต้อง. วางแผนการเคลื่อนไหวของคุณเพื่อแก้ปัญหาของเส้นเชือกและทำสำเร็จหลายร้อยระดับ. ลองเพลิดเพลินกับความสนุกที่ทำให้พอใจของ Knit Out!",
+  },
 } as const;
-
-export default videoShowcase;

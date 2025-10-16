@@ -1,0 +1,153 @@
+=== AI翻译修复失败报告 ===
+文件: dictionaries\id\game.ts
+目标语言: Indonesian (id)
+生成时间: 2025/6/22 18:14:45
+
+错误列表:
+• 第 91 行可能有未闭合的模板字符串: ## Crazy Cattle 3D: Hancurkan Setiap Hambatan!
+• 第 93 行可能有未闭合的模板字符串: Crazy Cattle 3D membawa pemain ke dalam pertempuran royale yang kacau di mana tabrakan domba yang meledak mendominasi arena dan kecepatan adalah segala sesuatu. Dengan dunia 3D yang cerah penuh dengan aksi liar, setiap pertandingan menjadi uji refleks, kesadaran, dan gerakan cerdas. Selain itu, tekanan tidak pernah berkurang, menuntut pemikiran cepat dan adaptasi cepat untuk tetap di depan. Apakah tujuan Anda adalah menguasai papan pemimpin atau hanya menikmati kekacauan, selalu ada ruang untuk melepaskan destruksi kambing gila Anda!
+• 第 95 行可能有未闭合的模板字符串: ## Gameplay: Tabrakan Kacau di Arena Kaca
+• 第 97 行可能有未闭合的模板字符串: Dalam Crazy Cattle 3D, pemain mengontrol domba mereka, memasuki arena yang cerah penuh dengan aksi tak berhenti. Setiap pertandingan mendorong pemain untuk bergerak cepat, menyerang dengan cerdas, dan bertahan hidup melalui kombinasi strategi dan pemikiran cepat. Dengan kemampuan meledak dan skenario yang selalu berubah, setiap putaran membawa tantangan baru.
+• 第 99 行可能有未闭合的模板字符串: Untuk menjadi domba teratas di lapangan, pemain perlu:
+• 第 101 行可能有未闭合的模板字符串: * Melalui belokan yang sempit dan menghindari perangkap saat mengejar lawan di arena 3D.
+• 第 102 行可能有未闭合的模板字符串: * Mengumpulkan dorongan daya yang tersebar di seluruh peta untuk meningkatkan kecepatan, pertahanan, atau serangan.
+• 第 103 行可能有未闭合的模板字符串: * Waktu gerakan khusus dengan bijak untuk menghentikan musuh dan mengalihkan arus pertempuran.
+• 第 104 行可能有未闭合的模板字符串: * Gunakan keuntungan lingkungan untuk menarik lawan ke daerah berbahaya.
+• 第 106 行可能有未闭合的模板字符串: ## Cara Mengontrol
+• 第 108 行可能有未闭合的模板字符串: Gunakan tombol panah atau WASD untuk menggerakkan domba Anda di sekitar arena.
+• 第 110 行可能有未闭合的模板字符串: ## Fitur Unik: Mengapa Game Ini Berharga Dicoba
+• 第 112 行可能有未闭合的模板字符串: * Fisika domba yang realistis membawa gerakan kacau dan tak terduga.
+• 第 113 行可能有未闭合的模板字符串: * Tabrakan berdasarkan presisi menyebabkan penyerangan konyol dan dodging taktis.
+• 第 114 行可能有未闭合的模板字符串: * Tiga peta dengan terrain unik: Bukit, Gunung Api, dan Pegunungan yang membentuk strategi Anda.
+• 第 115 行可能有未闭合的模板字符串: * Kemajuan keterampilan murni tanpa upgrade atau sistem bayar untuk menang.
+• 第 116 行可能有未闭合的模板字符串: }
+• 第 117 行可能有未闭合的模板字符串: },
+• 第 119 行可能有未闭合的模板字符串: } as const;
+• 花括号不匹配: 缺少 2 个闭合花括号
+
+原始翻译内容:
+--------------------------------------------------
+export const gamePage = {
+  title: "Mainkan {gameName}", // Tempat penampung untuk nama game
+  metaTitle: "Mainkan {gameName} Secara Online - Panduan Knit Out",
+  metaDescription:
+    "Mainkan {gameName} secara gratis online, tidak perlu mengunduh. {descriptionSnippet}", // descriptionSnippet bisa menjadi tagline dari markdown
+  loadingText: "Memuat game, harap tunggu...",
+  // Teks untuk komponen ShareButtons khusus untuk halaman ini
+  shareLabel: "Bagikan game ini",
+  linkCopiedText: "Link telah disalin!",
+  recommendedGames: "Game yang Direkomendasikan",
+  playNow: "Mainkan Sekarang",
+  fullscreen: "Layar Penuh",
+  exitFullscreen: "Keluar dari Layar Penuh",
+  ratingLabel: "{rating} Rating",
+  loading: "Memuat {gameName}...",
+  bookmarkTip: "Tekan {key} untuk menyimpan game ini",
+  dismiss: "Tutup",
+};
+
+export const gamesText = {
+  dreamyRoom: {
+    name: "Knit Out", // Nilai untuk tempat penampung gamePage.title
+    descriptionMarkdown: `
+## Knit Out – Buka Simpul Simpul!
+
+Bergabunglah dalam seni membuka simpul dengan Knit Out! Tantangan Anda adalah untuk membersihkan baris simpul berwarna dari atas, melepaskan tali yang perlu menemukan bobbin yang cocok di bawahnya. Pilih bobbin yang tepat secara strategis dari grid untuk mengumpulkan tali dan menyelesaikan setiap level. Tanpa timer atau tekanan, semuanya adalah tentang bersantailah, bersantailah dengan permainan yang strategis.
+
+## Gameplay Santailah namun Menantang
+
+Dalam Knit Out, setiap level menampilkan puzzle baru yang rumit dari simpul berwarna. Tugas Anda adalah mengamati pola tali dan memilih bobbin di bawah secara strategis untuk mengumpulkan mereka satu per satu. Saat Anda membuka simpul, animasi yang memuaskan dan efek suara akan menemani kemajuan Anda. Gameplaynya mudah dipahami tetapi membutuhkan pemikiran cermat untuk menguasainya saat puzzle menjadi lebih kompleks. Ini adalah game yang sempurna untuk bersantailah dan mengasah pikiran Anda.
+
+## Cara Berinteraksi
+
+Gunakan mouse Anda untuk mengklik bobbin di bawah layar untuk menarik tali yang cocok dari atas.
+
+## Siapa yang Akan Menyukai Game Ini
+
+*   Penggemar puzzle yang menyukai tantangan strategis.
+*   Pemain yang mencari pengalaman bermain santailah, bebas stres tanpa timer.
+*   Siapa pun yang menghargai mekanisme yang memuaskan dan estetika yang cerah dan berwarna.
+`,
+  },
+  stickHoleIo: {
+    name: "Stick Hole IO",
+    descriptionMarkdown: `
+## Stick Hole IO - Game Koleksi dan Pertempuran Strategis
+
+Kontrol sosok Anda dalam Stick Hole IO, musnahkan lawan dan tumbuh menjadi kekuatan terkuat untuk menguasai arena dalam game casual yang menggoda ini.
+
+## Pengalaman Koleksi dan Pertempuran Strategis
+
+Stick Hole IO adalah game terbaik untuk keterampilan dan strategi, menggabungkan gameplay koleksi, upgrade, dan pertempuran. Anda akan bermain sebagai seorang pemimpin militer berbakat yang merekrut tentara untuk berperang melawan monster yang menakutkan. Tugas Anda adalah menangkap prajurit dengan melemparkannya ke dalam lubang Anda. Perhatikan ukuran lubang Anda dan terapkan strategi pengumpulan yang tepat untuk mendapatkan prajurit terkuat. Selain itu, tekanan waktu adalah faktor penting yang perlu dipertimbangkan. Anda perlu mengoptimalkan waktu Anda untuk menyiapkan potongan yang tak tergoyahkan untuk pertempuran yang tidak berkompromi.
+
+## Koleksi dan Bercinta!
+
+Pemain mengontrol lubang dengan menahan dan menggerakkan mouse. Bimbing entitas untuk bergerak dalam rentang yang sebesar mungkin, mengumpulkan semua karakter di lapangan. Ketika sejumlah energi tersimpan, kawah akan membuka, membuatnya lebih mudah untuk mengumpulkan prajurit besar.
+
+Selain itu, gunakan bonus untuk mengaktifkan power-up hebat. Anda dapat membeli lebih banyak waktu, meningkatkan ukuran lubang awal, dan meningkatkan kekuatan pertempuran tentara Anda. Anda tidak tahu seberapa kuat Bosnya, jadi cobalah untuk memasang tentara Anda dengan yang terbaik untuk meningkatkan peluang kemenangan Anda.
+
+## Cara Mengontrol
+
+Gunakan mouse untuk menahan dan menggerakkan untuk mengontrol arah lubang hitam.
+`,
+  },
+  holeIo: {
+    name: "Hole IO",
+    descriptionMarkdown: `
+## Hole IO: Hancurkan Kota, Kuasai Arena!
+
+Hole IO adalah game multiplayer yang menggoda dan kompetitif di mana pemain mengontrol lubang hitam dengan tujuan untuk mengkonsumsi sebanyak mungkin objek dan lawan untuk menjadi lubang terbesar di peta. Pertandingan seru dimulai saat Anda mengkonsumsi segala sesuatu yang terlihat—dari tong sampah dan pohon hingga seluruh bangunan! Setiap item yang dikonsumsi membuat Anda tumbuh, mengubah Anda dari kebahagiaan kecil menjadi monster yang menghancurkan kota. Bergabunglah ke dalam kekacauan dan aturi jalanan dalam pesta liar dan cepat ini!
+
+## Gameplay Menegangkan
+
+Hole IO meletakkan Anda dalam kendali lubang hitam yang kuat dengan satu misi: hancurkan kota. Semuanya memiliki nilai—konsumsi hydran, tanda jalan, mobil, dan bahkan lubang hitam yang dikontrol pemain lain. Di sini, ukuran benar-benar penting, karena bertumbuh membuka kemampuan untuk mengkonsumsi objek yang lebih besar dan bahkan lubang hitam yang lebih kecil yang dikontrol pemain lain. Gerakan cepat dan pencarian jalur yang cerdas akan membantu Anda bertahan lebih lama dan naik ke papan pemimpin. Menaklukkan kota dan tunjukkan kepada semua siapa bos di arena multiplayer ini.
+
+## Panduan Kontrol
+
+* Gunakan WASD, tombol panah, atau kursor mouse untuk bergerak.
+
+## Fitur Game
+
+* Pertempuran multiplayer yang penuh dengan kegembiraan dan aksi tak berhenti di lingkungan kota yang kompetitif.
+* Peta dinamis yang penuh dengan banyak objek yang dapat dihancurkan untuk membuat lubang hitam Anda lebih besar.
+* Papan pemimpin real-time untuk melacak kemajuan Anda dan mengalahkan semua pesaing.
+* Gameplay cepat yang membuat Anda terus bergerak dan mengkonsumsi dari awal hingga akhir.
+`,
+  },
+  crazyCattle: {
+    name: "Crazy Cattle 3D",
+    descriptionMarkdown: `
+## Crazy Cattle 3D: Hancurkan Setiap Hambatan!
+
+Crazy Cattle 3D membawa pemain ke dalam pertempuran royale yang kacau di mana tabrakan domba yang meledak mendominasi arena dan kecepatan adalah segala sesuatu. Dengan dunia 3D yang cerah penuh dengan aksi liar, setiap pertandingan menjadi uji refleks, kesadaran, dan gerakan cerdas. Selain itu, tekanan tidak pernah berkurang, menuntut pemikiran cepat dan adaptasi cepat untuk tetap di depan. Apakah tujuan Anda adalah menguasai papan pemimpin atau hanya menikmati kekacauan, selalu ada ruang untuk melepaskan destruksi kambing gila Anda!
+
+## Gameplay: Tabrakan Kacau di Arena Kaca
+
+Dalam Crazy Cattle 3D, pemain mengontrol domba mereka, memasuki arena yang cerah penuh dengan aksi tak berhenti. Setiap pertandingan mendorong pemain untuk bergerak cepat, menyerang dengan cerdas, dan bertahan hidup melalui kombinasi strategi dan pemikiran cepat. Dengan kemampuan meledak dan skenario yang selalu berubah, setiap putaran membawa tantangan baru.
+
+Untuk menjadi domba teratas di lapangan, pemain perlu:
+
+* Melalui belokan yang sempit dan menghindari perangkap saat mengejar lawan di arena 3D.
+* Mengumpulkan dorongan daya yang tersebar di seluruh peta untuk meningkatkan kecepatan, pertahanan, atau serangan.
+* Waktu gerakan khusus dengan bijak untuk menghentikan musuh dan mengalihkan arus pertempuran.
+* Gunakan keuntungan lingkungan untuk menarik lawan ke daerah berbahaya.
+
+## Cara Mengontrol
+
+Gunakan tombol panah atau WASD untuk menggerakkan domba Anda di sekitar arena.
+
+## Fitur Unik: Mengapa Game Ini Berharga Dicoba
+
+* Fisika domba yang realistis membawa gerakan kacau dan tak terduga.
+* Tabrakan berdasarkan presisi menyebabkan penyerangan konyol dan dodging taktis.
+* Tiga peta dengan terrain unik: Bukit, Gunung Api, dan Pegunungan yang membentuk strategi Anda.
+* Kemajuan keterampilan murni tanpa upgrade atau sistem bayar untuk menang.
+},
+  // Terjemahan untuk game lainnya akan ditempatkan di sini
+} as const;
+
+--------------------------------------------------
+
+说明: 
+该文件因为语法错误无法正常使用，已恢复为英文原版以确保项目正常运行。
+请手动检查上述错误并重新翻译此文件。

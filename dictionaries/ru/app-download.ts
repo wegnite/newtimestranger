@@ -1,37 +1,35 @@
 export const appDownload = {
   meta: {
-    title: "Скачать Dreamy Room - Уютная игра об организации комнат",
+    title: "Скачать Knit Out - Разобрать узлы!",
     description:
-      "Скачайте Dreamy Room и начните свое трогательное путешествие по организации и декорированию комнат. Создайте идеальное жилое пространство с помощью осознанной организации.",
+      "Скачайте Knit Out и начните разбирать цветные узлы. Это расслабляющая и стратегическая益智-игра.",
   },
-  title: "Скачать Dreamy Room",
-  subtitle: "Уютная и исцеляющая игра об организации комнат",
+  title: "Скачать Knit Out",
+  subtitle: "Разобрать узлы!",
   stats: {
-    rating: "4.8",
-    downloads: "1 млн+ Скачиваний",
+    rating: "4,7",
+    downloads: "100 тыс. + загрузок",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
-      description: "Загрузите в App Store",
-      link: "https://apps.apple.com/us/app/dreamy-room/id6742221896",
+      description: "Скачать в App Store",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Доступно в Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.abi.dream.unpacking",
+      description: "Получить в Google Play",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "Организация",
-      description: "Найдите идеальное место для каждого предмета",
+      title: "Сотни пазлов",
+      description: "Сотни сложных пазлов для решения",
     },
     story: {
-      title: "Трогательная история",
-      description: "Рассказывайте жизненные истории через размещение предметов",
+      title: "Расслабляющий игровой процесс",
+      description: "Расслабляющий игровой процесс без таймеров - идеально для расслабления",
     },
   },
 } as const;
-
-export default appDownload;

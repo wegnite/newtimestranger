@@ -1,15 +1,14 @@
 export const levelShowcase = {
-  title: "Dreamy Room Niveaux Soluces & Solutions",
+  title: "Astuces et solutions pour les niveaux de Knit Out",
   nav: {
     featured: "En vedette",
     rangePrefix: "Niveau ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Dreamy Room Niveau ",
+    titlePrefix: "Niveau de Knit Out ",
   },
   showMoreButton: "Afficher plus de niveaux",
   noLevelsFound: "Aucun niveau trouvé dans cette plage.",
+  searchPlaceholder: "Rechercher des niveaux par ID ou titre...",
 } as const;
-
-export default levelShowcase;

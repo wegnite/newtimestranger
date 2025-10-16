@@ -1,12 +1,9 @@
 export const videoShowcase = {
-  title: "Pagpapakita ng Video ng Laro",
-  subtitle:
-    "Panoorin ang gameplay footage at tuklasin ang saya ng pagpapatakbo ng isang coffee shop",
+  title: "Video Showcase ng Laro",
+  subtitle: "Maranasan ang saya at hamon ng paglutas ng mga lohikal na palaisipan",
   video: {
-    title: "Dreamy Room - Patakbuhin ang Iyong Pangarap na Café",
+    title: "Knit Out - Untangle Colorful Knots!",
     description:
-      "Sa maaliwalas at malikhaing larong ito ng pamamahala ng coffee shop, gagampanan mo ang papel ng isang masigasig na may-ari ng café. Magsimula sa simpleng paggawa ng kape, unti-unting palawakin ang iyong imperyo ng kape, i-unlock ang mga bagong recipe, palamutihan ang iyong tindahan, at magbigay ng pinakamahusay na karanasan sa serbisyo para sa iyong mga customer.",
+      "Sa laro na ito na nakakapagpahinga at may diskarte, aalisin mo ang mga linya ng mga kulay-kulay na tambiolo sa pamamagitan ng pagtugma nila sa tamang bobin. Planohin ang iyong mga galaw upang mabunot ang mga lubid at makumpleto ang daan-daang mga antas. Sama-samang maranasan ang kasiyahan ng Knit Out!",
   },
 } as const;
-
-export default videoShowcase;

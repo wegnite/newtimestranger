@@ -1,16 +1,14 @@
 export const levelShowcase = {
-  title: "Tip & Penyelesaian Tahap Dreamy Room",
+  title: "Cara Menipu & Penyelesaian Tahap Knit Out",
   nav: {
-    featured: "Pilihan",
+    featured: "Ditampilkan",
     rangePrefix: "Tahap ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Dreamy Room Tahap ",
+    titlePrefix: "Tahap Knit Out ",
   },
-  showMoreButton: "Tunjuk Lebih Banyak Tahap",
-  noLevelsFound: "Tiada tahap ditemui dalam julat ini.",
-  searchPlaceholder: "Cari tahap mengikut ID atau tajuk...",
+  showMoreButton: "Tunjukkan Lebih Banyak Tahap",
+  noLevelsFound: "Tiada tahap yang ditemui dalam julat ini.",
+  searchPlaceholder: "Cari tahap berdasarkan ID atau tajuk...",
 } as const;
-
-export default levelShowcase;

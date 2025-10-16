@@ -2,13 +2,13 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "Koleksi Panduan Permainan",
-  title: "Lihat Semua Panduan Tahap Dreamy Room",
+  title: "Lihat Semua Panduan Tahap Knit Out",
   description:
-    "Terokai walkthrough terperinci, petua, dan strategi untuk setiap tahap bilik. Masukkan nombor tahap untuk terus ke panduan yang sepadan.",
+    "Jelajahi panduan langkah demi langkah, petunjuk, dan strategi untuk setiap tahap. Masukkan nombor tahap untuk melompat terus ke panduan yang sepadan.",
   stats: {
     guides: levels.length + "+ Panduan Tahap",
     videoTutorials: `${levels.length}+ Tutorial Video`,
-    quickSearch: "Carian Tahap Pantas",
+    quickSearch: "Cari Pantas Tahap",
   },
   search: {
     placeholder: `Masukkan nombor tahap (1-${levels.length})`,
@@ -19,18 +19,16 @@ export const hero = {
     },
   },
   buttons: {
-    browseAll: "Semak Semua Panduan Tahap",
+    browseAll: "Lihat Semua Panduan Tahap",
     downloadGame: "Muat Turun Permainan",
   },
   downloadCard: {
-    title: "Muat Turun Dreamy Room",
-    description: "Mulakan perjalanan mengemas dan menyusun yang menenangkan!",
+    title: "Muat Turun Knit Out",
+    description: "Mula petualangan teka-teki santai dan strategik!",
   },
   videoSection: {
-    title: "Video Strategi Permainan",
+    title: "Video Strategi Knit Out",
     description:
-      "Tonton tutorial video permainan terperinci untuk belajar teknik mengemas dan menyusun",
+      "Tonton tutorial video permainan terperinci untuk belajar strategi untuk menyelesaikan setiap tahap",
   },
 } as const;
-
-export default hero;

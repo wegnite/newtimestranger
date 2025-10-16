@@ -2,41 +2,41 @@ import levels from "@/data/levels";
 
 export const levelDetail = {
   breadcrumb: {
-    levelList: "關卡列表",
+    levelList: "关卡列表",
   },
   notFound: {
-    title: "關卡未找到",
-    description: "抱歉，您要查找的關卡不存在",
-    backToList: "返回關卡列表",
+    title: "关卡未找到",
+    description: "很抱歉，您要查找的关卡不存在",
+    backToList: "返回关卡列表",
   },
-  levelNumber: "關卡",
+  levelNumber: "关卡",
   levelRange: {
     prefix: "第",
     suffix: "天",
   },
   meta: {
-    title: `Dreamy Room 第 {{level}} 關 - 遊戲指南與攻略 - Dreamy Room {{level}} & 影片提示`,
-    description: `Dreamy Room {{level}}, Dreamy Room 第 {{level}} 關完整指南，提供詳細的整理技巧、物品放置解決方案和影片攻略。幫助您輕鬆完成關卡，打造完美的舒適生活空間。`,
-    siteName: "Dreamy Room官方攻略站",
+    title: `Knit Out 关卡 {{level}} - 攻略、解法与游戏`,
+    description: `Knit Out {{level}}，Knit Out 关卡 {{level}} 的完整指南，提供详细的策略提示、绳索和线轴解法以及视频攻略。帮助您轻松完成关卡并解开所有绳结。`,
+    siteName: "Knit Out 官方指南",
     invalidId: {
-      title: "無效的關卡編號",
-      description: `請輸入有效的關卡編號（1-${levels.length}）`,
+      title: "无效的关卡编号",
+      description: `请输入有效的关卡编号 (1-${levels.length})`,
     },
     notFound: {
-      title: "關卡不存在",
-      description: "您訪問的關卡不存在，請選擇其他關卡",
+      title: "关卡不存在",
+      description:
+        "您试图访问的关卡不存在，请选择其他关卡",
     },
     langNotFound: {
-      title: "語言包未找到",
-      description: "當前語言的翻譯內容未找到，請切換其他語言",
+      title: "未找到语言包",
+      description:
+        "未找到当前语言的翻译内容，请切换到其他语言",
     },
   },
   sidebar: {
-    adjacentLevels: "相鄰關卡",
-    allLevels: "全部關卡",
+    adjacentLevels: "相邻关卡",
+    allLevels: "所有关卡",
   },
-  shareLabel: "分享關卡指南",
-  linkCopiedText: "複製成功！",
+  shareLabel: "分享关卡指南",
+  linkCopiedText: "已成功复制！",
 } as const;
-
-export default levelDetail;

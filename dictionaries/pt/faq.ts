@@ -1,6 +1,6 @@
 export const faq = {
   title: "Perguntas Frequentes",
-  subtitle: "Perguntas Frequentes sobre o Dreamy Room",
+  subtitle: "Perguntas Frequentes sobre o Knit Out",
   questions: [
     {
       question: "Como começo a jogar?",

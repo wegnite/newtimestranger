@@ -1,16 +1,14 @@
 export const levelShowcase = {
-  title: "Dreamy Room 레벨 공략 및 팁",
+  title: "Knit Out 레벨 cheats 및 솔루션",
   nav: {
-    featured: "추천 레벨",
+    featured: "특징",
     rangePrefix: "레벨 ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Dreamy Room 레벨 ",
+    titlePrefix: "Knit Out 레벨 ",
   },
-  showMoreButton: "더 보기",
-  noLevelsFound: "이 범위의 레벨을 찾을 수 없습니다.",
+  showMoreButton: "더 많은 레벨 보기",
+  noLevelsFound: "이 범위에서 레벨을 찾을 수 없습니다.",
   searchPlaceholder: "ID 또는 제목으로 레벨 검색...",
 } as const;
-
-export default levelShowcase;

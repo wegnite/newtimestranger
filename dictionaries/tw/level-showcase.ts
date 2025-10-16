@@ -1,16 +1,14 @@
 export const levelShowcase = {
-  title: "Dreamy Room 關卡攻略與秘籍",
+  title: "Knit Out 关卡秘籍与解决方案",
   nav: {
-    featured: "推薦關卡",
-    rangePrefix: "第 ",
-    rangeSuffix: " 關",
+    featured: "精选",
+    rangePrefix: "关卡 ",
+    rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Dreamy Room 關卡 ",
+    titlePrefix: "Knit Out 关卡 ",
   },
-  showMoreButton: "展開更多關卡",
-  noLevelsFound: "未找到該範圍內的關卡。",
-  searchPlaceholder: "按 ID 或標題搜尋關卡...",
+  showMoreButton: "显示更多关卡",
+  noLevelsFound: "在此范围内未找到关卡。",
+  searchPlaceholder: "按ID或标题搜索关卡...",
 } as const;
-
-export default levelShowcase;

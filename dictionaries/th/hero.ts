@@ -1,35 +1,34 @@
 import levels from "@/data/levels";
 
 export const hero = {
-  badge: "คอลเลกชันคู่มือเกม",
-  title: "ดูคู่มือระดับทั้งหมดของ Dreamy Room",
+  badge: "Game Guides Collection",
+  title: "ดูทั้งหมดคู่มือระดับ Knit Out",
   description:
-    "สำรวจคำแนะนำโดยละเอียด เคล็ดลับ และกลยุทธ์สำหรับแต่ละระดับห้อง ป้อนหมายเลขระดับเพื่อข้ามไปยังคู่มือที่เกี่ยวข้องโดยตรง",
+    "สำรวจวิธีการผ่านแต่ละระดับอย่างละเอียด, บทแนะนำ และกลยุทธ์. พิมพ์หมายเลขระดับเพื่อข้ามไปโดยตรงยังคู่มือที่สอดคล้อง.",
   stats: {
-    guides: `${levels.length}+ คู่มือระดับ`,
-    videoTutorials: `${levels.length}+ วิดีโอสอน`,
-    quickSearch: "ค้นหาระดับด่วน",
+    guides: levels.length + "+ คู่มือระดับ",
+    videoTutorials: `${levels.length}+ วิดีโอทutorial`,
+    quickSearch: "ค้นหาระดับอย่างรวดเร็ว",
   },
   search: {
     placeholder: `ป้อนหมายเลขระดับ (1-${levels.length})`,
     button: "ค้นหาคู่มือ",
     error: {
-      invalid: "โปรดป้อนหมายเลขระดับที่ถูกต้อง",
+      invalid: "กรุณาป้อนหมายเลขระดับที่ถูกต้อง",
       notFound: "ไม่พบคู่มือสำหรับระดับนี้",
     },
   },
   buttons: {
-    browseAll: "ดูคู่มือระดับทั้งหมด",
+    browseAll: "ดูทั้งหมดคู่มือระดับ",
     downloadGame: "ดาวน์โหลดเกม",
   },
   downloadCard: {
-    title: "ดาวน์โหลด Dreamy Room",
-    description: "เริ่มต้นการเดินทางที่อบอุ่นและเยียวยาของการจัดระเบียบ!",
+    title: "ดาวน์โหลด Knit Out",
+    description: "เริ่มการผจญภัยพับคำถามแบบผ่อนคลาดและมีกลยุทธ์!",
   },
   videoSection: {
-    title: "วิดีโอกลยุทธ์เกม",
-    description: "ดูวิดีโอสอนเกมโดยละเอียดเพื่อเรียนรู้เทคนิคการจัดระเบียบ",
+    title: "วิดีโอกลยุทธ์ Knit Out",
+    description:
+      "ดูวิดีโอทutorialเกมอย่างละเอียดเพื่อเรียนรู้กลยุทธ์ในการเสร็จสิ้นระดับ",
   },
 } as const;
-
-export default hero;

@@ -1,16 +1,14 @@
 export const levelShowcase = {
-  title: "Mga Cheat at Solusyon sa Antas ng Dreamy Room",
+  title: "Knit Out Level Cheats & Solutions",
   nav: {
-    featured: "Itinatampok",
-    rangePrefix: "Antas ",
+    featured: "Featured",
+    rangePrefix: "Level ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Dreamy Room Antas ",
+    titlePrefix: "Knit Out Level ",
   },
-  showMoreButton: "Magpakita ng Higit pang Mga Antas",
-  noLevelsFound: "Walang mga antas na natagpuan sa saklaw na ito.",
-  searchPlaceholder: "Maghanap ng mga antas ayon sa ID o pamagat...",
+  showMoreButton: "Show More Levels",
+  noLevelsFound: "Walang mga level na natagpuan sa hanay na ito.",
+  searchPlaceholder: "Maghanap ng mga level gamit ang ID o pamagat...",
 } as const;
-
-export default levelShowcase;

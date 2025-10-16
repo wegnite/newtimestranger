@@ -1,36 +1,34 @@
 import levels from "@/data/levels";
 
 export const hero = {
-  badge: "Collectie Spelgidsen",
-  title: "Bekijk Alle Dreamy Room Niveau Gidsen",
+  badge: "Game Guides Collection",
+  title: "Bekijk alle Knit Out Level Guides",
   description:
-    "Verken gedetailleerde walkthroughs, tips en strategieën voor elk kamerniveau. Voer een niveaunummer in om direct naar de bijbehorende gids te springen.",
+    "Ontdek gedetailleerde walkthroughs, tips en strategieën voor elk niveau. Voer een niveau nummer in om direct naar de bijbehorende handleiding te springen.",
   stats: {
-    guides: levels.length + "+ Niveau Gidsen",
+    guides: levels.length + "+ Level Guides",
     videoTutorials: `${levels.length}+ Video Tutorials`,
-    quickSearch: "Snel Niveau Zoeken",
+    quickSearch: "Quick Level Search",
   },
   search: {
-    placeholder: `Voer niveaunummer in (1-${levels.length})`,
-    button: "Zoek Gids",
+    placeholder: `Voer niveau nummer in (1-${levels.length})`,
+    button: "Zoek handleiding",
     error: {
-      invalid: "Voer een geldig niveaunummer in",
-      notFound: "Geen gids gevonden voor dit niveau",
+      invalid: "Voer aub een geldig niveau nummer in",
+      notFound: "Geen handleiding gevonden voor dit niveau",
     },
   },
   buttons: {
-    browseAll: "Blader door Alle Niveau Gidsen",
-    downloadGame: "Download Spel",
+    browseAll: "Bekijk alle Level Guides",
+    downloadGame: "Download Game",
   },
   downloadCard: {
-    title: "Download Dreamy Room",
-    description: "Begin een warme en helende reis van opruimen en organiseren!",
+    title: "Download Knit Out",
+    description: "Begin een ontspannende en strategische puzzelavontuur!",
   },
   videoSection: {
-    title: "Spelstrategie Video's",
+    title: "Knit Out Strategy Videos",
     description:
-      "Bekijk gedetailleerde spelvideo tutorials om opruim- en organisatietechnieken te leren",
+      "Bekijk gedetailleerde game video tutorials om strategieën te leren voor het voltooien van niveaus",
   },
 } as const;
-
-export default hero;

@@ -1,15 +1,12 @@
 export const blog = {
-  title: "Traumzimmer & Dreamy Room: Spielanleitung & Blog",
-  subtitle:
-    "Entdecken Sie mehr Spieltipps, Dekorationsinspirationen und herzerwärmende Geschichten",
+  title: "Knit Out - Spielanleitung",
+  subtitle: "Entdecke mehr Spieltipps, Strategien und Geheimnisse für das Durchspielen",
   breadcrumbs: {
     blog: "Anleitung",
     page: "Seite {0}",
   },
   posts: {
-    title: "Traumzimmer & Dreamy Room: Anleitungs-Artikel",
-    readMore: "Details ansehen",
+    title: "Artikel zur Knit Out - Spielanleitung",
+    readMore: "Details anzeigen",
   },
 } as const;
-
-export default blog;

@@ -1,7 +1,7 @@
 export const features = {
   title: "Recursos Principais",
   subtitle:
-    "Descubra as poderosas capacidades que fazem o Dreamy Room se destacar",
+    "Descubra as poderosas capacidades que fazem o Knit Out se destacar",
   items: [
     {
       title: "Jogabilidade Relaxante",

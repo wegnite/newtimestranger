@@ -1,11 +1,9 @@
 export const videoShowcase = {
   title: "游戏视频展示",
-  subtitle: "体验收纳整理的乐趣与治愈",
+  subtitle: "体验策略解谜的乐趣与挑战",
   video: {
-    title: "Dreamy Room - 温馨治愈的收纳整理游戏",
+    title: "Knit Out - 解开多彩绳结！",
     description:
-      "在这款温馨治愈的收纳整理游戏中，你将通过整理各种生活物品，创造舒适温馨的空间。每个物品都讲述着一个故事，每个房间都承载着温暖的回忆。让我们一起享受整理的乐趣，感受生活的美好。",
+      "在这款轻松且具策略性的解谜游戏中，你需将彩色绳结与正确的线轴匹配，以消除绳结行。规划你的行动来解开绳索，完成数百个关卡。让我们一同享受《Knit Out》带来的满足乐趣！",
   },
 } as const;
-
-export default videoShowcase;

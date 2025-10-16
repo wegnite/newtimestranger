@@ -1,14 +1,10 @@
 export const header = {
-  brand: "Dreamy Room",
+  brand: "Knit Out指南",
   navItems: [
-    { name: "首頁", href: "/" },
-    { name: "關卡", href: "/level" },
-    { name: "線上暢玩", href: "/game" },
-    { name: "應用下載", href: "/app" },
-    { name: "部落格", href: "/blog" },
+    { name: "首页", href: "/" },
+    { name: "关卡", href: "/level" },
+    { name: "在线游玩", href: "/game" },
+    { name: "下载", href: "/app" },
+    { name: "博客", href: "/blog" },
   ],
-  tryButton: "試用 Dreamy Room",
-  tryChatMistralButton: "試用 Chat Mistral",
 } as const;
-
-export default header;

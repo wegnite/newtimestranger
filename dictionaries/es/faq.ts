@@ -1,38 +1,35 @@
 export const faq = {
-  title: "Preguntas Frecuentes",
-  subtitle: "Preguntas Frecuentes sobre Dreamy Room",
+  title: "Preguntas Frecuentes de Knit Out",
+  subtitle: "Preguntas Frecuentes sobre Knit Out",
   questions: [
     {
-      question: "¿Cómo empiezo a jugar?",
+      question: "¿Cómo juego Knit Out?",
       answer:
-        "Después de descargar e instalar el juego, puedes empezar a explorar diferentes habitaciones y crear espacios acogedores organizando los objetos.",
+        "Tu reto es eliminar filas de nudos coloridos desde la parte superior eligiendo los bobines adecuados de la cuadrícula inferior para recolectar las cuerdas.",
     },
     {
-      question: "¿El juego es gratuito?",
+      question: "¿Knit Out es gratis?",
       answer:
-        "El juego es gratuito pero contiene anuncios y compras dentro de la aplicación.",
+        "El juego es gratuito, pero ofrece compras dentro de la aplicación y contiene anuncios.",
     },
     {
-      question: "¿Cómo completo los niveles?",
+      question: "¿Qué hago si me quedo atascado en un nivel?",
       answer:
-        "Observa cuidadosamente las características de cada objeto y colócalos en los lugares apropiados. Si necesitas ayuda, puedes usar la función de pista.",
+        "Algunos niveles pueden ser desafiantes. El juego ofrece potenciadores que se pueden adquirir con monedas. Algunos jugadores sugieren hacer conjeturas informadas cuando el camino adelante no está claro.",
     },
     {
-      question: "¿Hay límite de tiempo?",
-      answer:
-        "Algunos niveles pueden tener límites de tiempo, pero puedes extender el tiempo viendo anuncios o usando monedas del juego.",
+      question: "¿Puedo jugar sin conexión?",
+      answer: "Sí, según las opiniones de los usuarios, Knit Out se puede jugar sin conexión.",
     },
     {
-      question: "¿Qué pasa si no puedo colocar un objeto correctamente?",
+      question: "¿Hay problemas conocidos?",
       answer:
-        "Intenta ajustar la posición y el ángulo del objeto, asegurándote de que el área de colocación sea correcta. Si varios intentos fallan, puedes usar la función de pista.",
+        "Algunos usuarios han informado de errores como parpadeos de pantalla. Si encuentras problemas, puedes intentar reiniciar el juego o contactar con el soporte.",
     },
     {
-      question: "¿Qué pasa si encuentro problemas?",
+      question: "¿Cómo puedo contactar con el soporte?",
       answer:
-        "Puedes contactar a nuestro equipo de soporte a través de la función de soporte en el juego o enviando un correo electrónico a hieplm@abigames.com.vn.",
+        "Puedes contactar con el soporte por correo electrónico a info@superblast.games o a través de los enlaces de soporte de la aplicación en la App Store o Google Play.",
     },
   ],
 } as const;
-
-export default faq;

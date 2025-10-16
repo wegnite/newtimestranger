@@ -40,15 +40,6 @@ export const common = {
     switchToAlt: "{langName} тіліне ауысу",
     switchToButton: "Ауысу",
   },
-  onlineGames: {
-    bannerTitle: "Тікелей ойын ойнағыңыз келе ме?",
-    bannerDescription:
-      "Dreamy Room және басқа ойындарды тікелей браузеріңізде жүктеп алмай-ақ ойнаңыз",
-    playNowButton: "Қазір ойнау",
-    featured: "Танымал ойындар",
-    viewAllGames: "Барлық ойындарды көру",
-    levelCompletionText: "Dreamy Room онлайн ойнаңыз!",
-  },
 } as const;
 
 export default common;

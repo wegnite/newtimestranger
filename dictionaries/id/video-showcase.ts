@@ -1,12 +1,9 @@
 export const videoShowcase = {
   title: "Pameran Video Game",
-  subtitle:
-    "Tonton cuplikan gameplay dan temukan kegembiraan menjalankan kedai kopi",
+  subtitle: "Rasakan kegembiraan dan tantangan dalam menyelesaikan teka-teki strategis",
   video: {
-    title: "Dreamy Room - Jalankan Kafe Impian Anda",
+    title: "Knit Out - Buka Simpul Warna!",
     description:
-      "Dalam game manajemen kedai kopi yang nyaman dan kreatif ini, Anda akan berperan sebagai pemilik kafe yang bersemangat. Mulailah dengan menyeduh kopi sederhana, perluas kerajaan kopi Anda secara bertahap, buka resep baru, hiasi toko Anda, dan berikan pengalaman layanan terbaik untuk pelanggan Anda.",
+      "Dalam game teka-teki santai dan strategis ini, Anda akan membersihkan baris simpul warna dengan menyematkannya ke bobin yang benar. Rencanakan langkah Anda untuk membuka simpul tali dan menyelesaikan ratusan level. Mari nikmati kegembiraan yang memuaskan dari Knit Out!",
   },
 } as const;
-
-export default videoShowcase;

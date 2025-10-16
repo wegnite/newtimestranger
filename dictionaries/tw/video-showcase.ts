@@ -1,10 +1,9 @@
 export const videoShowcase = {
-  title: "影片攻略",
-  subtitle: "觀看專業玩家的遊戲攻略影片，學習高級策略和技巧",
+  title: "遊戲影片展示",
+  subtitle: "體驗策略性解謎的樂趣與挑戰",
   video: {
-    title: "第1天到第100天完整攻略",
-    description: "這個影片將帶你了解遊戲前期的所有重要策略，包括如何高效經營咖啡店、如何快速升級、以及如何獲得最大收益。適合新手玩家觀看。"
-  }
+    title: "Knit Out - 解開五彩繩結！",
+    description:
+      "在這款輕鬆且具策略性的益智遊戲中，你將透過把彩色繩結與正確的紡錘配對，來消除繩結線。規劃你的行動以解開繩索，並完成數百個關卡。讓我們一起享受《Knit Out》令人滿足的樂趣！",
+  },
 } as const;
-
-export default videoShowcase;

@@ -1,23 +1,24 @@
 export const howToUse = {
-  title: "Wie man Dreamy Room benutzt",
+  title: "Wie man Knit Out spielt: Eine Kurzanleitung",
   subtitle:
-    "Beginnen Sie in drei einfachen Schritten mit Dreamy Room zu chatten",
+    "Beginne dein Puzzle-Abenteuer mit Knit Out in drei einfachen Schritten",
   steps: [
     {
-      title: "Chat-Seite besuchen",
+      title: "Spiel herunterladen und starten",
       description:
-        'Klicken Sie oben auf der Seite auf die Schaltfläche "Chat ausprobieren", um die Chat-Oberfläche aufzurufen',
+        "Finde Knit Out im App Store oder Google Play Store. Lade es herunter und öffne die App, um direkt loszulegen.",
     },
     {
-      title: "Ihre Frage eingeben",
-      description: "Geben Sie Ihre Frage in das Chat-Eingabefeld ein",
+      title: "Verstehe das Spielziel",
+      description:
+        "Deine Aufgabe ist es, alle Strichmännchen in die farblich passenden Löcher zu ziehen. Aber Achtung: Deine Slots für wartende Strichmännchen sind begrenzt!",
     },
     {
-      title: "Auf Antwort warten",
+      title: "Plane deine Züge strategisch",
       description:
-        "Dreamy Room generiert schnell eine Antwort, normalerweise innerhalb von Sekunden",
+        "Unterschiedliche Farben blockieren sich gegenseitig. Denke voraus und überlege dir gut, welches Strichmännchen du als Nächstes bewegst, um nicht stecken zu bleiben.",
     },
   ],
-  startButton: "Jetzt mit dem Chatten beginnen",
+  startButton: "Jetzt Knit Out herunterladen",
   stepLabel: "Schritt",
 } as const;

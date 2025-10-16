@@ -1,6 +1,6 @@
 export const common = {
   buttons: {
-    submit: "Einreichen",
+    submit: "Absenden",
     cancel: "Abbrechen",
     confirm: "Bestätigen",
     back: "Zurück",
@@ -13,8 +13,8 @@ export const common = {
     close: "Schließen",
   },
   messages: {
-    loading: "Wird geladen...",
-    success: "Vorgang erfolgreich",
+    loading: "Lädt...",
+    success: "Operation erfolgreich",
     error: "Ein Fehler ist aufgetreten",
     confirm: "Sind Sie sicher?",
     required: "Dieses Feld ist erforderlich",
@@ -22,33 +22,31 @@ export const common = {
   },
   navigation: {
     home: "Startseite",
-    about: "Über uns",
+    about: "Über",
     contact: "Kontakt",
     features: "Funktionen",
     pricing: "Preise",
-    guides: "Anleitungen",
+    guides: "Leitfäden",
     settings: "Einstellungen",
   },
   activePlayers: "Aktive Spieler",
   countries: "Länder",
-  coffeeRecipes: "Kaffeerezepte",
+  coffeeRecipes: "Stufen",
   userRating: "Benutzerbewertung",
   localeSuggest: {
-    switchToTitle: "Zu {langName} wechseln?",
+    switchToTitle: "Auf {langName} umschalten?",
     currentLangDesc: "Aktuelle Sprache ist {langName}.",
-    dismissPermanent: "Nicht erneut fragen",
-    switchToAlt: "Zu {langName} wechseln",
-    switchToButton: "Wechseln",
+    dismissPermanent: "Nicht erneut anzeigen",
+    switchToAlt: "Auf {langName} umschalten",
+    switchToButton: "Umschalten",
   },
   onlineGames: {
-    bannerTitle: "Spiele direkt spielen?",
+    bannerTitle: "Möchten Sie direkt Spiele spielen?",
     bannerDescription:
-      "Erlebe Dreamy Room und weitere Spiele direkt in deinem Browser ohne Download",
-    playNowButton: "Jetzt spielen",
+      "Erleben Sie Knit Out und weitere Spiele direkt in Ihrem Browser, keine Herunterladung erforderlich",
+    playNowButton: "Jetzt Spielen",
     featured: "Empfohlene Spiele",
-    viewAllGames: "Alle Spiele anzeigen",
-    levelCompletionText: "Spiele Dreamy Room online!",
+    viewAllGames: "Alle Spiele ansehen",
+    levelCompletionText: "Spielen Sie Knit Out Online!",
   },
 } as const;
-
-export default common;

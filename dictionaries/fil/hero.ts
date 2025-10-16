@@ -2,36 +2,33 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "Koleksyon ng Mga Gabay sa Laro",
-  title: "Tingnan ang Lahat ng Gabay sa Antas ng Dreamy Room",
+  title: "Tingnan ang Lahat ng Mga Gabay sa Lebel ng Knit Out",
   description:
-    "Galugarin ang mga detalyadong walkthrough, tip, at estratehiya para sa bawat antas ng kwarto. Maglagay ng numero ng antas upang direktang pumunta sa kaukulang gabay.",
+    "Galugarin ang mga detalyadong pagsasama, tips, at diskarte para sa bawat lebel. Ipasok ang isang numero ng lebel upang tumalon direktang sa kaukulang gabay.",
   stats: {
-    guides: levels.length + "+ Mga Gabay sa Antas",
+    guides: levels.length + "+ Mga Gabay sa Lebel",
     videoTutorials: `${levels.length}+ Mga Video Tutorial`,
-    quickSearch: "Mabilis na Paghahanap ng Antas",
+    quickSearch: "Mabilis na Paghahanap sa Lebel",
   },
   search: {
-    placeholder: `Ilagay ang numero ng antas (1-${levels.length})`,
-    button: "Maghanap ng Gabay",
+    placeholder: `Ipasok ang numero ng lebel (1-${levels.length})`,
+    button: "Hanapin ang Gabay",
     error: {
-      invalid: "Mangyaring maglagay ng wastong numero ng antas",
-      notFound: "Walang gabay na natagpuan para sa antas na ito",
+      invalid: "Mangyaring mag-enter ng isang wastong numero ng lebel",
+      notFound: "Walang natagpuan na gabay para sa lebel na ito",
     },
   },
   buttons: {
-    browseAll: "I-browse ang Lahat ng Gabay sa Antas",
-    downloadGame: "I-download ang Laro",
+    browseAll: "Magbrowse ng Lahat ng Mga Gabay sa Lebel",
+    downloadGame: "Mag-download ng Laro",
   },
   downloadCard: {
-    title: "I-download ang Dreamy Room",
-    description:
-      "Simulan ang isang mainit at nakakagaling na paglalakbay ng pag-aayos at pag-oorganisa!",
+    title: "Mag-download ng Knit Out",
+    description: "Simulan ang isang mapapakalma at makatotohanang pakikipagsapalaran sa puzzle!",
   },
   videoSection: {
-    title: "Mga Video ng Estratehiya sa Laro",
+    title: "Mga Video ng Diskarte sa Knit Out",
     description:
-      "Panoorin ang mga detalyadong video tutorial ng laro upang matutunan ang mga teknik sa pag-aayos at pag-oorganisa",
+      "Panoorin ang mga detalyadong video tutorial ng laro upang matuto ng mga diskarte para sa pagkumpleto ng mga lebel",
   },
 } as const;
-
-export default hero;

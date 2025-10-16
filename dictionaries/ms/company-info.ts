@@ -1,25 +1,22 @@
 export const companyInfo = {
-  title: "Tentang Dreamy Room",
-  subtitle:
-    "Permainan Penyusunan Selesa yang Disukai Jutaan Orang di Seluruh Dunia",
+  title: "Tentang Knit Out",
+  subtitle: "Bersantailah dengan permainan teka-teki yang menyenangkan dan menenangkan! Hilangkan kesusahan dengan permainan teka-teki ini.",
   stats: {
-    players: "+1J", // Juta
+    players: "+100K",
     countries: "+150",
-    recipes: "+50", // Nota: Mungkin perlu disemak sama ada 'Resipi' adalah perkataan yang betul di sini
-    rating: "4.8/5",
+    recipes: "+300",
+    rating: "4.7/5",
   },
   sections: {
     about: {
-      title: "Tentang Kami",
+      title: "Tentang Permainan",
       content:
-        "Dreamy Room ialah permainan penyusunan yang selesa. Misi kami adalah untuk membawa kehangatan dan kegembiraan melalui penyusunan dan hiasan bilik.",
+        "Knit Out ialah permainan teka-teki yang menenangkan di mana cabaran anda ialah untuk membersihkan baris simpul warna-warni, melepaskan tali yang perlu mencari bobin sepadan di bawah.",
     },
     mission: {
-      title: "Misi Kami",
+      title: "Ciri-ciri Utama",
       content:
-        "Mencipta pengalaman penyusunan yang menenangkan dan menawan yang menggabungkan keindahan hidup dengan kisah-kisah menyentuh hati secara sempurna.",
+        "Ratusan teka-teki rumit, palet warna yang bercahaya, dan permainan yang menenangkan tanpa penggubal masa.",
     },
   },
 } as const;
-
-export default companyInfo;

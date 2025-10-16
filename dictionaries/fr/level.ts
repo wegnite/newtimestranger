@@ -1,23 +1,23 @@
 import levels from "@/data/levels";
 
 export const level = {
-  title: `Chambre de Rêve / Dreamy Room Guide de Soluce des Niveaux 1-${levels.length}`,
-  subtitle: `Soluce complète pour ${levels.length} niveaux | Astuces d'organisation | Solutions d'agencement de pièce | Chambre de Rêve / Dreamy Room`,
+  title: `Guide des niveaux du jeu Knit Out, Parcours complet pour les niveaux 1-${levels.length}`,
+  subtitle: `Parcours complet pour ${levels.length} niveaux | Conseils de stratégie | Solutions pour démêler les noeuds`,
   searchPlaceholder: `Entrez le numéro de niveau (1-${levels.length})`,
   levelRange: {
-    start: "Niveaux ",
+    start: "Niveau ",
     end: "",
   },
   levelNumber: "Niveau",
-  searchNotFound: "Niveau non trouvé.",
-  rangeNotFound: "Aucun niveau trouvé dans cette plage.",
   meta: {
-    title: `Guide Chambre de Rêve / Dreamy Room | Soluce Vidéo Complète Niveaux 1-${levels.length} | Astuces`,
-    description: `Site officiel du guide du jeu Chambre de Rêve / Dreamy Room, fournissant une soluce complète pour les niveaux 1-${levels.length}, y compris des astuces d'organisation détaillées, des solutions de placement d'objets et des guides vidéo pour Dreamy Room. Vous aide à passer facilement les niveaux de Chambre de Rêve et à créer l'espace parfait.`,
-    siteName: "Guide Officiel Chambre de Rêve / Dreamy Room",
-    author: "Équipe du Guide Chambre de Rêve / Dreamy Room",
+    title: `Guide du jeu Knit Out | Parcours vidéo complet pour les niveaux 1-${levels.length} | Conseils de stratégie`,
+    description: `Site web officiel de guide du jeu Knit Out, offrant des parcours complets pour les niveaux 1-${levels.length}, y compris des conseils de stratégie détaillés, des solutions pour démêler les noeuds et des guides vidéo. Vous aider à compléter facilement les niveaux et à résoudre tous les puzzles.`,
+    keywords:
+      "Guide Knit Out, Parcours Knit Out, Guide de jeu de puzzles, Jeu de démêlage, Conseils de jeu de stratégie, Résolution de puzzles, Jeu de loisirs",
+    siteName: "Guide officiel Knit Out",
+    author: "Équipe de guide Knit Out",
     category: "Guide de jeu",
-    classification: "Puzzle Casual",
+    classification: "Jeu de puzzles de loisirs",
   },
 } as const;
 

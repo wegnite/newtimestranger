@@ -202,19 +202,17 @@ export function LevelShowcase({
                           "absolute top-2 left-2 bg-primary text-primary-foreground text-xs font-semibold px-2 py-1 rounded-full shadow",
                           styles.levelBadge
                       )}
-                      data-prefix={levelShowcaseDict.nav.rangePrefix}
+                      data-prefix="Level "
                   >
                     {level.id}
                   </div>
                 </div>
-                <div className="p-3 space-y-1">
-                  <p className="text-xs font-medium text-muted-foreground uppercase tracking-wide">
-                    {`${levelShowcaseDict.card.titlePrefix}${level.id}`}
-                  </p>
+                <div className="p-3">
                   <h3
                       className="text-sm font-semibold text-gray-800 dark:text-gray-200 group-hover:text-primary truncate"
+                      data-prefix={levelShowcaseDict.card.titlePrefix} // 使用data属性存储前缀文本
                   >
-                    {level.videoTitle}
+                    {level.id}
                   </h3>
                 </div>
               </Link>

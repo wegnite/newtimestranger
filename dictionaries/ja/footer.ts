@@ -3,18 +3,17 @@ export const footer = {
     about: "会社概要",
     privacy: "プライバシーポリシー",
     contact: "お問い合わせ",
-    levels: "レベル攻略",
+    terms: "利用規約",
+    levels: "レベル",
     download: "ダウンロード",
     blog: "ブログ",
-    terms: "利用規約",
   },
   contact: {
-    email: "3500412641@outlook.com",
+    email: "info@superblast.games",
   },
-  copyright:
-    "© 2024 (夢の部屋)ドリーミールーム / Dreamy Room. 無断複写・転載を禁じます。",
+  copyright: "© 2024 Knit Out Guide. All rights reserved.",
   disclaimer:
-    "(夢の部屋)ドリーミールーム / Dreamy Room はゲーム攻略ファンサイトです。すべての商標および著作権はそれぞれの所有者に帰属します。",
+    "Knit Out Guideはゲームガイドのファンサイトです。Knit OutはRollic Gamesの商標です。すべての商標および著作権はそれぞれの所有者に帰属します。",
 } as const;
 
 export default footer;

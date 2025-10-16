@@ -1,37 +1,33 @@
 export const mediaCoverage = {
-  title: "Digimon Story Time Stranger Highlights",
+  title: "Game Features",
   subtitle:
-    "Preview the tactical systems and community intel powering every Digimon Story Time Stranger timeline run.",
+    "Explore rich game content and experience unique puzzle-solving fun",
   features: [
     {
-      title: "Timeline Branching",
-      content:
-        "Track Digimon Story Time Stranger karma decisions and alternate routes that reshape allies, rewards, and endings.",
+      title: "Hundreds of Puzzles",
+      content: "Hundreds of intricate puzzles to solve",
     },
     {
-      title: "Boss Counterplay",
-      content:
-        "Study Digimon Story Time Stranger elemental weaknesses, turn cues, and memory setups before every apex encounter.",
+      title: "Vibrant Colors",
+      content: "A vibrant palette of colors to keep your mind sharp",
     },
     {
-      title: "Squad Synergy",
-      content:
-        "Coordinate Digimon Story Time Stranger rookies, champions, and mega evolutions with skill rotations built for patches.",
+      title: "Relaxing Gameplay",
+      content: "Relaxing gameplay with no timers—perfect for unwinding",
     },
     {
-      title: "Collectible Routing",
-      content:
-        "Overlay Digimon Story Time Stranger cases, hidden chests, and evolution items onto your active walkthrough.",
+      title: "Satisfying Experience",
+      content: "Satisfying animations and delightful sound effects",
     },
     {
-      title: "Event Tracking",
+      title: "Strategic Thinking",
       content:
-        "Stay in sync with Digimon Story Time Stranger limited-time raids, collaboration quests, and reward calendars.",
+        "Strategically choose the right bobbins from the grid to collect the ropes and complete each level.",
     },
     {
-      title: "Localization Ready",
+      title: "New Mechanics",
       content:
-        "Mirror Digimon Story Time Stranger site structure and metadata so every locale gets the same intel simultaneously.",
+        "The game is updated with new mechanics like the Conveyor belt for bobbins.",
     },
   ],
 } as const;

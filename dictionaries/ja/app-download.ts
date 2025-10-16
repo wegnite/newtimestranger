@@ -1,45 +1,35 @@
 export const appDownload = {
   meta: {
-    title:
-      "(夢の部屋)ドリーミールーム ダウンロード - 心温まる片付けゲーム | Dreamy Room",
+    title: "Knit Outをダウンロード - 結び目を解き明かしましょう！",
     description:
-      "(夢の部屋)ドリーミールーム をダウンロードして、心温まる片付けの旅を始めましょう。「ドリーミー ルーム」で部屋を整理整頓し、理想の空間を作りませんか？今すぐ Dreamy Room をゲット！",
+      "Knit Outをダウンロードして、カラフルな結び目を解き始めましょう。リラックスした戦略的なパズルゲームです。",
   },
-  title: "(夢の部屋)ドリーミールーム をダウンロード",
-  subtitle: "心癒される片付けゲーム",
+  title: "Knit Outをダウンロード",
+  subtitle: "結び目を解き明かしましょう！",
   stats: {
-    rating: "4.8",
-    downloads: "100万+ ダウンロード",
+    rating: "4.7",
+    downloads: "10万ダウンロード以上",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
       description: "App Storeでダウンロード",
-      link: "https://apps.apple.com/us/app/dreamy-room/id6742221896",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Google Playでダウンロード",
-      link: "https://play.google.com/store/apps/details?id=com.abi.dream.unpacking",
+      description: "Google Playで入手",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "整理整頓",
-      description: "アイテムごとに最適な場所を見つけよう",
+      title: "何百ものパズル",
+      description: "解くための何百もの複雑なパズル",
     },
     story: {
-      title: "心温まるストーリー",
-      description: "アイテムの配置で物語を紡ぐ",
+      title: "リラックスしたゲームプレイ",
+      description: "タイマーのないリラックスしたゲームプレイ - くつろぐのに最適",
     },
-    title: "ダウンロードする理由",
-    list: [
-      "アイテムを配置して部屋を飾る",
-      "リラックスできる心地よいゲームプレイ",
-      "隠されたストーリーを発見する",
-      "美しいグラフィックとサウンド",
-    ],
   },
 } as const;
-
-export default appDownload;

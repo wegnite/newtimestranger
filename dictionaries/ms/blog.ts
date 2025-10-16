@@ -1,15 +1,12 @@
 export const blog = {
-  title: "Panduan Permainan Dreamy Room",
-  subtitle:
-    "Temui lebih banyak petua permainan, inspirasi hiasan dan kisah-kisah menyentuh hati",
+  title: "Panduan Permainan Knit Out",
+  subtitle: "Ketahui lebih banyak tips permainan, strategi dan rahsia panduan",
   breadcrumbs: {
     blog: "Panduan",
     page: "Halaman {0}",
   },
   posts: {
-    title: "Artikel Panduan Permainan Dreamy Room",
-    readMore: "Lihat Butiran",
+    title: "Artikel Panduan Permainan Knit Out",
+    readMore: "Lihat Rincian",
   },
 } as const;
-
-export default blog;

@@ -1,37 +1,35 @@
 export const appDownload = {
   meta: {
-    title: "Download Digimon Story Time Stranger – Tactical JRPG Adventure",
+    title: "Download Knit Out - Untangle the Knots!",
     description:
-      "Install Digimon Story Time Stranger to explore shifting timelines, recruit iconic partners, and tackle campaign arcs with our Digimon Story Time Stranger companion guides.",
+      "Download Knit Out and start untangling colorful knots. A relaxing and strategic puzzle game.",
   },
-  title: "Download Digimon Story Time Stranger",
-  subtitle: "Timeline-shifting JRPG for Digimon Story Time Stranger tamers",
+  title: "Download Knit Out",
+  subtitle: "Untangle the knots!",
   stats: {
-    rating: "4.8",
-    downloads: "1M+ Downloads",
+    rating: "4.7",
+    downloads: "100K+ Downloads",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
-      description: "Download Digimon Story Time Stranger on App Store",
-      link: "https://digimonstorytimestranger.com/app-store",
+      description: "Download on App Store",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Get Digimon Story Time Stranger on Google Play",
-      link: "https://digimonstorytimestranger.com/google-play",
+      description: "Get it on Google Play",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "Strategic Combat",
-      description:
-        "Coordinate Digimon Story Time Stranger timeline shifts with synchronized squad abilities.",
+      title: "Hundreds of Puzzles",
+      description: "Hundreds of intricate puzzles to solve",
     },
     story: {
-      title: "Branching Story",
-      description:
-        "Navigate Digimon Story Time Stranger timeline choices that shape allies, quests, and endings.",
+      title: "Relaxing Gameplay",
+      description: "Relaxing gameplay with no timers—perfect for unwinding",
     },
   },
 } as const;

@@ -10,20 +10,14 @@ import {MainLayout} from "@/components/layouts/main-layout";
 import AdContainer from "@/components/common/AdContainer";
 import {LocaleSuggest} from "@/components/locale/LocaleSuggest";
 import DictionaryProvider from "@/context/DictionaryContext";
-import { getSiteUrl } from "@/lib/siteConfig";
 
 export async function generateMetadata() {
   const dict = await getDictionary('en');
-  const siteUrl = getSiteUrl();
-  const title = dict.home.meta.title;
-  const description = dict.home.meta.description;
-  const socialImage = `${siteUrl}/images/screenshot/time-stranger1.jpg`;
-
   return {
-    title,
-    description,
+    title: dict.home.meta.title,
+    description: dict.home.meta.description,
     alternates: {
-      canonical: `${siteUrl}/`,
+      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/`,
     },
     robots: {
       index: true,
@@ -35,27 +29,6 @@ export async function generateMetadata() {
         "max-snippet": -1,
       },
     },
-    openGraph: {
-      type: "website",
-      url: `${siteUrl}/`,
-      title,
-      description,
-      siteName: dict.home.meta.siteName,
-      images: [
-        {
-          url: socialImage,
-          width: 1200,
-          height: 630,
-          alt: title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [socialImage],
-    },
   };
 }
 
@@ -64,9 +37,9 @@ export default async function Home() {
   const lang = 'en';
   const dict = await getDictionary(lang);
 
-  const siteUrl = getSiteUrl();
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
   const pageUrl = `${siteUrl}/`;
-  const logoUrl = siteUrl + "/logo.png";
+  const logoUrl = siteUrl + "/images/logo.webp";
   const searchUrlTemplate = `${siteUrl}/level?search={search_term_string}`;
 
   const jsonLd = {
@@ -76,7 +49,7 @@ export default async function Home() {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: dict.home.meta.siteName || "Time Stranger Guide Hub",
+        name: dict.home.meta.siteName || "Knit Out Game Guide",
         logo: logoUrl,
         publisher: {
           "@id": `${siteUrl}/#organization`,
@@ -119,7 +92,7 @@ export default async function Home() {
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: dict.home.meta.siteName || "Time Stranger Guide Hub",
+        name: dict.home.meta.siteName || "Knit Out Game Guide",
         url: siteUrl,
         logo: {
           "@type": "ImageObject",

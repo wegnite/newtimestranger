@@ -1,36 +1,34 @@
 import levels from "@/data/levels";
 
 export const hero = {
-  badge: "Colección de Guías del Juego",
-  title: "Ver Todas las Guías de Nivel de Habitación de Ensueño / Dreamy Room",
+  badge: "Colección de Guías de Juego",
+  title: "Ver todas las guías de niveles de Knit Out",
   description:
-    "Explora soluciones detalladas, consejos y estrategias para cada nivel de habitación. Introduce un número de nivel para ir directamente a la guía correspondiente.",
+    "Explora guías detalladas, consejos y estrategias para cada nivel. Ingresa un número de nivel para saltar directamente a la guía correspondiente.",
   stats: {
-    guides: levels.length + "+ Guías de Nivel",
-    videoTutorials: `${levels.length}+ Tutoriales en Vídeo`,
-    quickSearch: "Búsqueda Rápida de Nivel",
+    guides: levels.length + "+ Guías de Niveles",
+    videoTutorials: `${levels.length}+ Tutoriales de Vídeo`,
+    quickSearch: "Búsqueda Rápida de Niveles",
   },
   search: {
-    placeholder: `Introduce el número de nivel (1-${levels.length})`,
+    placeholder: `Ingresa el número de nivel (1-${levels.length})`,
     button: "Buscar Guía",
     error: {
-      invalid: "Por favor, introduce un número de nivel válido",
-      notFound: "No se encontró guía para este nivel",
+      invalid: "Por favor, ingresa un número de nivel válido",
+      notFound: "No se encontró ninguna guía para este nivel",
     },
   },
   buttons: {
-    browseAll: "Ver Todas las Guías de Nivel",
+    browseAll: "Explorar todas las guías de niveles",
     downloadGame: "Descargar Juego",
   },
   downloadCard: {
-    title: "Descargar Habitación de Ensueño / Dreamy Room",
-    description: "¡Comienza un cálido y sanador viaje de orden y organización!",
+    title: "Descargar Knit Out",
+    description: "¡Comienza una aventura de puzzles relajante y estratégica!",
   },
   videoSection: {
-    title: "Vídeos de Estrategia del Juego",
+    title: "Vídeos de Estrategia de Knit Out",
     description:
-      "Mira tutoriales detallados en vídeo del juego para aprender técnicas de orden y organización",
+      "Ve tutoriales de video detallados del juego para aprender estrategias para completar los niveles",
   },
 } as const;
-
-export default hero;

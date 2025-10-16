@@ -1,38 +1,35 @@
 export const faq = {
-  title: "FAQ",
-  subtitle: "Domande Frequenti su Dreamy Room",
+  title: "Domande frequenti su Knit Out",
+  subtitle: "Domande frequenti relative a Knit Out",
   questions: [
     {
-      question: "Come inizio a giocare?",
+      question: "Come posso giocare a Knit Out?",
       answer:
-        "Dopo aver scaricato e installato il gioco, puoi iniziare a esplorare diverse stanze e creare accoglienti spazi abitativi organizzando gli oggetti.",
+        "La tua sfida è quella di eliminare righe di nodi colorati dall'inizio scegliendo le bobine appropriate dalla griglia qui sotto per raccogliere le funi.",
     },
     {
-      question: "Il gioco è gratuito?",
-      answer: "Il gioco è gratuito ma contiene annunci e acquisti in-app.",
+      question: "Knit Out è gratis?",
+      answer:
+        "Il gioco è gratuito, ma offre acquisti all'interno dell'app e contiene annunci pubblicitari.",
     },
     {
-      question: "Come completo i livelli?",
+      question: "E se mi blocco su un livello?",
       answer:
-        "Osserva attentamente le caratteristiche di ogni oggetto e posizionali nelle posizioni appropriate. Se hai bisogno di aiuto, puoi usare la funzione suggerimento.",
+        "Alcuni livelli possono essere impegnativi. Il gioco offre potenziamenti che possono essere acquistati con le monete. Alcuni giocatori suggeriscono di fare ipotesi informate quando il percorso in avanti non è chiaro.",
     },
     {
-      question: "C'è un limite di tempo?",
-      answer:
-        "Alcuni livelli potrebbero avere limiti di tempo, ma puoi estendere il tempo guardando annunci o usando monete di gioco.",
+      question: "Posso giocare offline?",
+      answer: "Sì, secondo le recensioni degli utenti, Knit Out può essere giocato offline.",
     },
     {
-      question:
-        "Cosa succede se non riesco a posizionare correttamente un oggetto?",
+      question: "Ci sono problemi noti?",
       answer:
-        "Prova a regolare la posizione e l'angolazione dell'oggetto, assicurandoti che l'area di posizionamento sia corretta. Se più tentativi falliscono, puoi usare la funzione suggerimento.",
+        "Alcuni utenti hanno segnalato bug come il lampeggio dello schermo. Se incontri problemi, puoi provare a riavviare il gioco o contattare il supporto.",
     },
     {
-      question: "Cosa succede se incontro problemi?",
+      question: "Come posso contattare il supporto?",
       answer:
-        "Puoi contattare il nostro team di supporto tramite la funzione di supporto in-game o inviando un'email a hieplm@abigames.com.vn.",
+        "Puoi contattare il supporto via email a info@superblast.games o tramite i collegamenti di supporto all'app sulla App Store o su Google Play.",
     },
   ],
 } as const;
-
-export default faq;

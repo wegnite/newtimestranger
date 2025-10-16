@@ -1,39 +1,33 @@
 export const mediaCoverage = {
-  title: "Caratteristiche del Gioco",
+  title: "Caratteristiche del gioco",
   subtitle:
-    "Esplora contenuti ricchi e sperimenta un divertimento organizzativo unico",
+    "Scopri il ricco contenuto del gioco e vivi l'unico divertimento nel risolvere i puzzle",
   features: [
     {
-      title: "Fuga Rilassante",
-      content:
-        "Miscela perfetta di consapevolezza e creatività, che offre un rifugio pacifico dalla vita quotidiana",
+      title: "Cento di puzzle",
+      content: "Cento di puzzle complessi da risolvere",
     },
     {
-      title: "Storia Commovente",
-      content:
-        "Ogni oggetto racconta una storia di vita, rivelando momenti commoventi attraverso l'organizzazione",
+      title: "Colori vibranti",
+      content: "Una palette di colori vibranti per mantenere la tua mente acuta",
     },
     {
-      title: "Atmosfera Accogliente",
-      content:
-        "Grafica delicata, musica rilassante, nessuna pressione temporale - goditi il processo di organizzazione",
+      title: "Gameplay rilassante",
+      content: "Gameplay rilassante senza timer - perfetto per rilassarsi",
     },
     {
-      title: "Gioia dell'Organizzazione",
-      content:
-        "Posiziona ogni oggetto al suo posto perfetto per creare uno spazio pacifico",
+      title: "Esperienza soddisfacente",
+      content: "Animazioni soddisfacenti e effetti sonori deliziosi",
     },
     {
-      title: "Risonanza Emotiva",
+      title: "Pensiero strategico",
       content:
-        "Dalle camere da letto dell'infanzia ai primi appartamenti, ogni stanza evoca ricordi condivisi",
+        "Scegli strategicamente i bobine giuste dalla griglia per raccogliere le funi e completare ogni livello.",
     },
     {
-      title: "Gameplay Unico",
+      title: "Nuove meccaniche",
       content:
-        "Un'esperienza di gioco semplice, intuitiva e affascinante rende l'organizzazione divertente e rilassante",
+        "Il gioco è aggiornato con nuove meccaniche come la cintura trasportatrice per i bobine.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

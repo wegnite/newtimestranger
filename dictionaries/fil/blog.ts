@@ -1,15 +1,12 @@
 export const blog = {
-  title: "Gabay sa Laro ng Dreamy Room",
-  subtitle:
-    "Tuklasin ang higit pang mga tip sa laro, inspirasyon sa dekorasyon at nakakaantig na mga kwento",
+  title: "Knit Out游戏指南",
+  subtitle: "探索更多游戏技巧、策略和通关秘籍",
   breadcrumbs: {
-    blog: "Gabay",
-    page: "Pahina {0}",
+    blog: "指南",
+    page: "第{0}页",
   },
   posts: {
-    title: "Mga Artikulo sa Gabay sa Laro ng Dreamy Room",
-    readMore: "Tingnan ang Mga Detalye",
+    title: "Knit Out游戏指南文章",
+    readMore: "查看详情",
   },
 } as const;
-
-export default blog;

@@ -1,25 +1,22 @@
 export const companyInfo = {
-  title: "Tungkol sa Dreamy Room",
-  subtitle:
-    "Isang Maaliwalas na Laro ng Organisasyon na Minamahal ng Milyun-milyong Tao sa Buong Mundo",
+  title: "Tungkol sa Knit Out",
+  subtitle: "Unahin ang mga Nababalot! Isang masigla at nakapapahinga na laro ng palaisipan.",
   stats: {
-    players: "+1M",
+    players: "+100K",
     countries: "+150",
-    recipes: "+50",
-    rating: "4.8/5",
+    recipes: "+300",
+    rating: "4.7/5",
   },
   sections: {
     about: {
-      title: "Tungkol sa Amin",
+      title: "Tungkol sa Laro",
       content:
-        "Ang Dreamy Room ay isang maaliwalas na laro ng organisasyon. Ang aming misyon ay magdala ng init at saya sa pamamagitan ng pag-oorganisa at pagpapalamuti ng kwarto.",
+        "Ang Knit Out ay isang nakapapahinga na laro ng palaisipan kung saan ang hamon mo ay linisin ang mga linya ng mga kulay na balot, na naglalabas ng mga lubid na kailangang hanapin ang kanilang mga tumutugma na bobin sa ibaba.",
     },
     mission: {
-      title: "Ang Aming Misyon",
+      title: "Pangunahing Katangian",
       content:
-        "Lumikha ng isang nakakarelaks at kaakit-akit na karanasan sa organisasyon na perpektong pinagsasama ang kagandahan ng buhay at mga nakakaantig na kwento.",
+        "Daang mga kumplikadong palaisipan, isang masigla na palette ng mga kulay, at nakapapahinga na gameplay nang walang mga timer.",
     },
   },
 } as const;
-
-export default companyInfo;

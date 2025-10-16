@@ -1,5 +1,5 @@
 export const howToUse = {
-  title: "Como Usar o Guia Dreamy Room",
+  title: "Como Usar o Guia Knit Out",
   subtitle: "Encontre guias e soluções em três passos simples",
   steps: [
     {

@@ -11,7 +11,7 @@ const OPENAI_MODEL = "doubao-1-5-lite-32k-250115";
 // 品牌名称映射 - 如果某个语言有特定的品牌名称，在这里配置
 const BRAND_NAME_MAPPING: Record<string, Record<string, string>> = {
   // 游戏品牌名称映射
-  "Dreamy Room": {
+  "Knit Out": {
     // 如果某些语言有特定的品牌名称翻译，可以在这里添加
     // "zh": "编织解结", // 示例：如果中文有特定名称
     // "ja": "ニットアウト", // 示例：如果日语有特定名称

@@ -36,7 +36,7 @@ export async function generateMetadata({
 
   return {
     title: {
-      template: `%s | Dreamy Room`,
+      template: `%s | Knit Out`,
       default: dict.termsOfService.title,
     },
     description: dict.termsOfService.subtitle,

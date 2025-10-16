@@ -1,8 +1,8 @@
 import levels from "@/data/levels";
 
 export const level = {
-  title: `Panduan Tahap Permainan Dreamy Room, Walkthrough Lengkap untuk Tahap 1-${levels.length}`,
-  subtitle: `Walkthrough Lengkap untuk ${levels.length} Tahap | Petua Penyusunan | Penyelesaian Susun Atur Bilik`,
+  title: `Panduan Tahap Permainan Knit Out, Panduan Lengkap untuk Tahap 1-${levels.length}`,
+  subtitle: `Panduan Lengkap untuk ${levels.length} Tahap | Petunjuk Strategi | Penyelesaian Penyusutan`,
   searchPlaceholder: `Masukkan nombor tahap (1-${levels.length})`,
   levelRange: {
     start: "Tahap ",
@@ -10,14 +10,14 @@ export const level = {
   },
   levelNumber: "Tahap",
   meta: {
-    title: `Panduan Permainan Dreamy Room | Walkthrough Video Lengkap untuk Tahap 1-${levels.length} | Petua Penyusunan`,
-    description: `Laman web panduan permainan rasmi Dreamy Room, menyediakan walkthrough lengkap untuk tahap 1-${levels.length}, termasuk petua penyusunan terperinci, penyelesaian penempatan item, dan panduan video. Bantu anda melengkapkan tahap dengan mudah dan mencipta ruang tamu yang selesa dan sempurna.`,
+    title: `Panduan Permainan Knit Out | Panduan Video Lengkap untuk Tahap 1-${levels.length} | Petunjuk Strategi`,
+    description: `Laman web rasmi panduan permainan Knit Out, menyediakan panduan video lengkap untuk tahap 1-${levels.length}, termasuk petunjuk strategi terperinci, penyelesaian penyusutan simpul, dan panduan video. Membantu anda dengan mudah menyelesaikan tahap dan menyelesaikan semua teka-teki.`,
     keywords:
-      "Panduan Dreamy Room, Walkthrough Dreamy Room, Panduan permainan penyusunan, Permainan hiasan bilik, Petua permainan penyusunan, Permainan menenangkan, Permainan hilangkan stres",
-    siteName: "Panduan Rasmi Dreamy Room",
-    author: "Pasukan Panduan Dreamy Room",
+      "Panduan Knit Out, Panduan Knit Out, Panduan permainan teka-teki, Permainan penyusutan, Petunjuk permainan strategi, Penyelesaian teka-teki, Permainan santai",
+    siteName: "Panduan Resmi Knit Out",
+    author: "Pasukan Panduan Knit Out",
     category: "Panduan Permainan",
-    classification: "Permainan Teka-teki Santai",
+    classification: "Permainan Teka-Teki Santai",
   },
 } as const;
 

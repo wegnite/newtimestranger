@@ -114,69 +114,33 @@ export function Footer({ lang, footerDict }: FooterProps) {
 
       {/* Backlinks Section (Homepage Only) */}
       {isHomePage && (
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 text-center flex justify-center gap-x-4">
-            <a
-                href="https://holepeople.org/en"
-                title="Hole People Levels"
-                target="_blank"
-                rel="noopener"
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Hole People
-            </a>
-            <a
-                href="https://3dfigurines.ai/"
-                title="gemini nano banana ai 3d figurines"
-                target="_blank"
-                rel="noopener"
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-            >
-              3D figurines
-            </a>
-            <a
-                href="https://brainyprankster.com/en"
-                title="Brainy Prankster Levels"
-                target="_blank"
-                rel="noopener"
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Brainy Prankster
-            </a>
-            <a
-                href="https://escapetime.online/en"
-                title="Escape Time Levels Guide"
-                target="_blank"
-                rel="noopener"
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Escape Time Levels
-            </a>
-            <a
-                href="https://dropawaylevel.com/"
-                title="Drop Away"
-                target="_blank"
-                rel="noopener"
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Drop Away
-            </a>
-            <a
-                href="https://meaningintext.com/"
-                title="Meaning in text"
-                target="_blank"
-                rel="noopener"
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-              Meaning in text
-            </a>
-            <a
-                href="https://www.aiheron.com/"
-                title="智鹭AI导航"
-                target="_blank"
-                rel="noopener"
-                className="text-xs text-muted-foreground hover:text-foreground transition-colors"
-            >
-              AiHeron
-            </a>
-          </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 text-center flex justify-center gap-x-4">
+          <a
+              href="https://3dfigurines.ai/"
+              title="gemini nano banana ai 3d figurines"
+              target="_blank"
+              rel="noopener"
+              className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+          >
+            3D figurines
+          </a>
+          <a
+              href="https://dropawaylevel.com/"
+              title="Drop Away"
+              target="_blank"
+              rel="noopener"
+              className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+            Drop Away
+          </a>
+          <a
+              href="https://meaningintext.com/"
+              title="Meaning in text"
+              target="_blank"
+              rel="noopener"
+              className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+            Meaning in text
+          </a>
+        </div>
       )}
     </footer>
   );

@@ -1,12 +1,12 @@
 export const levelShowcase = {
-  title: "Dreamy Room Деңгейінің Читтері мен Шешімдері",
+  title: "Knit Out Деңгейінің Читтері мен Шешімдері",
   nav: {
     featured: "Таңдаулы",
     rangePrefix: "Деңгей ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Dreamy Room Деңгейі ",
+    titlePrefix: "Knit Out Деңгейі ",
   },
   showMoreButton: "Көбірек Деңгейлерді Көрсету",
   noLevelsFound: "Бұл ауқымда деңгейлер табылмады.",

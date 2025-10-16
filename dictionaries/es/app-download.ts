@@ -1,39 +1,35 @@
 export const appDownload = {
   meta: {
-    title:
-      "Descargar Habitación de Ensueño / Dreamy Room - Juego de Organización Acogedor",
+    title: "Descargar Knit Out - Deshacer los Nudos!",
     description:
-      "Descarga Habitación de Ensueño (o Dreamy Room) y comienza tu viaje de organización y decoración. Crea tu espacio vital perfecto.",
+      "Descarga Knit Out y comienza a deshacer nudos coloridos. Un juego de puzzles relajante y estratégico.",
   },
-  title: "Descargar Habitación de Ensueño / Dreamy Room",
-  subtitle: "Un Juego de Organización de Habitaciones Acogedor y Sanador",
+  title: "Descargar Knit Out",
+  subtitle: "¡Deshacer los nudos!",
   stats: {
-    rating: "4.8",
-    downloads: "+1 M Descargas",
+    rating: "4.7",
+    downloads: "Más de 100K descargas",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
       description: "Descargar en App Store",
-      link: "https://apps.apple.com/us/app/dreamy-room/id6742221896",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Consíguelo en Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.abi.dream.unpacking",
+      description: "Obténlo en Google Play",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "Organización",
-      description: "Encuentra el lugar perfecto para cada artículo",
+      title: "Cientos de Puzzles",
+      description: "Cientos de puzzles intrincados para resolver",
     },
     story: {
-      title: "Historia Conmovedora",
-      description:
-        "Cuenta historias de vida a través de la colocación de artículos",
+      title: "Juego Relajante",
+      description: "Juego relajante sin temporizadores, perfecto para relajarse",
     },
   },
 } as const;
-
-export default appDownload;

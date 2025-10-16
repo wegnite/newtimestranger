@@ -1,19 +1,19 @@
 export const footer = {
   links: {
-    about: "關於我們",
-    privacy: "隱私政策",
-    contact: "聯絡我們",
-    levels: "關卡攻略",
-    download: "遊戲下載",
-    blog: "部落格",
-    terms: "服務條款",
+    about: "关于我们",
+    privacy: "隐私政策",
+    contact: "联系我们",
+    terms: "服务条款",
+    levels: "关卡",
+    download: "下载",
+    blog: "博客",
   },
   contact: {
-    email: "3500412641@outlook.com",
+    email: "info@superblast.games",
   },
-  copyright: "© 2024 Dreamy Room. 保留所有權利。",
+  copyright: "© 2024 Knit Out指南。保留所有权利。",
   disclaimer:
-    "Dreamy Room 是一個遊戲攻略粉絲網站。所有商標和版權均屬於其各自所有者。",
+    "Knit Out指南是一个游戏指南粉丝网站。Knit Out是Rollic Games的商标。所有商标和版权均属于其各自所有者。",
 } as const;
 
 export default footer;

@@ -1,10 +1,10 @@
 export const header = {
-  brand: "Digimon Story Time Stranger Hub",
+  brand: "Knit Out Guide",
   navItems: [
     { name: "Home", href: "/" },
-    { name: "Story Chapters", href: "/level" },
+    { name: "Levels", href: "/level" },
     { name: "Play Online", href: "/game" },
-    { name: "Download Game", href: "/app" },
+    { name: "Download", href: "/app" },
     { name: "Blog", href: "/blog" },
   ],
 } as const;

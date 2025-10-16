@@ -1,20 +1,19 @@
 export const footer = {
   links: {
-    about: "About Digimon Story Time Stranger",
+    about: "About Us",
     privacy: "Privacy Policy",
     contact: "Contact Us",
     terms: "Terms of Service",
-    levels: "Digimon Story Time Stranger Levels",
-    download: "Download Digimon Story Time Stranger",
-    blog: "Digimon Story Time Stranger Blog",
+    levels: "Levels",
+    download: "Download",
+    blog: "Blog",
   },
   contact: {
-    email: "3500412641@outlook.com",
+    email: "info@superblast.games",
   },
-  copyright:
-    "© 2024 Digimon Story Time Stranger Guide Hub. All rights reserved.",
+  copyright: "© 2024 Knit Out Guide. All rights reserved.",
   disclaimer:
-    "Digimon Story Time Stranger is a fan-made guide project. All trademarks and copyrights belong to their respective owners.",
+    "Knit Out Guide is a game guide fan site. Knit Out is a trademark of Rollic Games. All trademarks and copyrights belong to their respective owners.",
 } as const;
 
 export default footer;

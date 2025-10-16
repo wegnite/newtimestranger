@@ -2,18 +2,18 @@ export const footer = {
   links: {
     about: "Über uns",
     privacy: "Datenschutzrichtlinie",
-    contact: "Kontakt",
+    contact: "Kontaktieren Sie uns",
+    terms: "Nutzungsbedingungen",
     levels: "Level",
     download: "Download",
     blog: "Blog",
-    terms: "Nutzungsbedingungen",
   },
   contact: {
-    email: "3500412641@outlook.com",
+    email: "info@superblast.games",
   },
-  copyright: `© ${new Date().getFullYear()} Traumzimmer & Dreamy Room Guide. Alle Rechte vorbehalten.`,
+  copyright: "© 2024 Knit Out Guide. Alle Rechte vorbehalten.",
   disclaimer:
-    "Traumzimmer & Dreamy Room Guide ist eine Fanseite für Spielanleitungen. Alle Marken und Urheberrechte gehören ihren jeweiligen Eigentümern.",
+    "Knit Out Guide ist eine Fansite für das Spielhandbuch. Knit Out ist eine Marke von Rollic Games. Alle Marken und Urheberrechte gehören ihren jeweiligen Besitzern an.",
 } as const;
 
 export default footer;

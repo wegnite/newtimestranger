@@ -1,7 +1,7 @@
 export const howToUse = {
-  title: "Paano Gamitin ang Dreamy Room",
+  title: "Paano Gamitin ang Knit Out",
   subtitle:
-    "Simulan ang pakikipag-chat sa Dreamy Room sa tatlong simpleng hakbang",
+    "Simulan ang pakikipag-chat sa Knit Out sa tatlong simpleng hakbang",
   steps: [
     {
       title: "Bisitahin ang Pahina ng Chat",
@@ -15,7 +15,7 @@ export const howToUse = {
     {
       title: "Maghintay ng Tugon",
       description:
-        "Mabilis na bubuo ng tugon ang Dreamy Room, karaniwan sa loob ng ilang segundo",
+        "Mabilis na bubuo ng tugon ang Knit Out, karaniwan sa loob ng ilang segundo",
     },
   ],
   startButton: "Simulan ang Pakikipag-chat Ngayon",

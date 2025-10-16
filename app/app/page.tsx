@@ -33,7 +33,7 @@ export default async function DownloadPage() {
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
   const pageUrl = `${siteUrl}/app`;
-  const logoUrl = siteUrl + "/logo.png";
+  const logoUrl = siteUrl + "/images/logo.webp";
   const searchUrlTemplate = `${siteUrl}/level?search={search_term_string}`;
 
   // Prepare SoftwareApplication data
@@ -80,7 +80,7 @@ export default async function DownloadPage() {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: dict.home?.meta?.siteName || "Time Stranger Guide Hub",
+        name: dict.home?.meta?.siteName || "Knit Out Game Guide",
         logo: logoUrl,
         publisher: {
           "@id": `${siteUrl}/#organization`,
@@ -98,7 +98,7 @@ export default async function DownloadPage() {
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: dict.home?.meta?.siteName || "Time Stranger Guide Hub",
+        name: dict.home?.meta?.siteName || "Knit Out Game Guide",
         url: siteUrl,
         logo: {
           "@type": "ImageObject",

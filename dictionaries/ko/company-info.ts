@@ -1,24 +1,22 @@
 export const companyInfo = {
-  title: "Dreamy Room 소개",
-  subtitle: "전 세계 수백만 플레이어가 사랑하는 따뜻한 정리정돈 게임",
+  title: "Knit Out에 대해",
+  subtitle: "꼬임을 풀어내세요! 활기찬 휴식감을 주는 퍼즐 게임.",
   stats: {
-    players: "+100만",
-    countries: "+150",
-    recipes: "+50",
-    rating: "4.8/5",
+    players: "+10만 이상",
+    countries: "+150개",
+    recipes: "+300개",
+    rating: "4.7/5",
   },
   sections: {
     about: {
-      title: "회사 소개",
+      title: "게임에 대해",
       content:
-        "Dreamy Room은 따뜻한 치유의 정리정돈 게임입니다. 우리의 사명은 방 정리와 꾸미기를 통해 플레이어에게 따뜻한 삶의 이야기를 전하는 것입니다.",
+        "Knit Out은 휴식감을 주는 퍼즐 게임으로, 여러 가지 색상의 꼬임을 줄지어 제거하며, 아래에 있는 맞는 넥깃을 찾아가는 밧줄을 풀어내는 것이 과제입니다.",
     },
     mission: {
-      title: "우리의 미션",
+      title: "주요 기능",
       content:
-        "즐겁고 매력적인 정리정돈 경험을 만들어 삶의 아름다움과 따뜻한 이야기를 완벽하게 결합합니다.",
+        "수백 개의 복잡한 퍼즐, 활기찬 색상 팔레트, 그리고 타이머 없는 휴식감 넘치는 게임 플레이.",
     },
   },
 } as const;
-
-export default companyInfo;

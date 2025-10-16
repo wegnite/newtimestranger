@@ -1,25 +1,22 @@
 export const companyInfo = {
-  title: "Về Dreamy Room",
-  subtitle:
-    "Trò chơi Sắp xếp Ấm cúng Được Yêu thích Bởi Hàng triệu Người Trên Toàn thế giới",
+  title: "Về Knit Out",
+  subtitle: "Giải quyết những thắt lưng! Một trò chơi пазl sôi động và thư giãn.",
   stats: {
-    players: "+1Tr", // Tr = Triệu
+    players: "+100K",
     countries: "+150",
-    recipes: "+50", // Lưu ý: Có thể cần kiểm tra xem 'Công thức' có phải là từ đúng ở đây không
-    rating: "4.8/5",
+    recipes: "+300",
+    rating: "4,7/5",
   },
   sections: {
     about: {
-      title: "Về Chúng Tôi",
+      title: "Về Trò Chơi",
       content:
-        "Dreamy Room là một trò chơi sắp xếp ấm cúng. Nhiệm vụ của chúng tôi là mang lại sự ấm áp và niềm vui thông qua việc sắp xếp và trang trí phòng.",
+        "Knit Out là một trò chơi пазl thư giãn nơi thách thức của bạn là loại bỏ các dòng thắt lưng màu sắc, giải phóng các dây cần tìm bobbins phù hợp bên dưới.",
     },
     mission: {
-      title: "Nhiệm vụ của Chúng Tôi",
+      title: "Đặc điểm chính",
       content:
-        "Tạo ra một trải nghiệm sắp xếp thư giãn và quyến rũ, kết hợp hoàn hảo vẻ đẹp của cuộc sống với những câu chuyện cảm động.",
+        "Hàng trăm câu đố phức tạp, một palette màu sắc sôi động, và gameplay thư giãn không có đồng hồ đếm ngược.",
     },
   },
 } as const;
-
-export default companyInfo;

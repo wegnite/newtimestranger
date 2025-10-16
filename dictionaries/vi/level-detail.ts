@@ -2,43 +2,41 @@ import levels from "@/data/levels";
 
 export const levelDetail = {
   breadcrumb: {
-    levelList: "Danh sách Cấp độ",
+    levelList: "Danh sách关卡",
   },
   notFound: {
-    title: "Không tìm thấy Cấp độ",
-    description: "Xin lỗi, cấp độ bạn đang tìm kiếm không tồn tại",
-    backToList: "Quay lại Danh sách Cấp độ",
+    title: "关卡未找到",
+    description: "Xin lỗi,关卡 bạn đang tìm kiếm không tồn tại",
+    backToList: "Quay lại Danh sách关卡",
   },
-  levelNumber: "Cấp độ",
+  levelNumber: "关卡",
   levelRange: {
     prefix: "Ngày",
     suffix: "",
   },
   meta: {
-    title: `Dreamy Room Cấp độ {{level}} - Hướng dẫn trò chơi và Walkthrough - Dreamy Room {{level}} & Mẹo Video`,
-    description: `Dreamy Room {{level}}, Hướng dẫn đầy đủ cho Dreamy Room Cấp độ {{level}}, cung cấp các mẹo sắp xếp chi tiết, giải pháp đặt vật phẩm và walkthrough video. Giúp bạn dễ dàng hoàn thành cấp độ và tạo ra không gian sống ấm cúng hoàn hảo.`,
-    siteName: "Hướng dẫn Chính thức Dreamy Room",
+    title: `Knit Out关卡{{level}} - Hướng dẫn và Giải pháp & Trò chơi`,
+    description: `Knit Out {{level}}, Hướng dẫn đầy đủ cho关卡Knit Out {{level}}, cung cấp các mẹo chiến lược chi tiết, giải pháp dây và bobbing, và các hướng dẫn video. Giúp bạn dễ dàng hoàn thành关卡và giải quyết tất cả các nút bấm.`,
+    siteName: "Hướng dẫn chính thức Knit Out",
     invalidId: {
-      title: "Số Cấp độ Không hợp lệ",
-      description: `Vui lòng nhập số cấp độ hợp lệ (1-${levels.length})`,
+      title: "Số关卡không hợp lệ",
+      description: `Vui lòng nhập một số关卡đúng (1-${levels.length})`,
     },
     notFound: {
-      title: "Cấp độ Không tồn tại",
+      title: "关卡không tồn tại",
       description:
-        "Cấp độ bạn đang cố gắng truy cập không tồn tại, vui lòng chọn cấp độ khác",
+        "关卡 bạn đang cố truy cập không tồn tại, vui lòng chọn một关卡khác",
     },
     langNotFound: {
-      title: "Không tìm thấy Gói ngôn ngữ",
+      title: "Gói ngôn ngữ không tìm thấy",
       description:
-        "Không tìm thấy nội dung dịch cho ngôn ngữ hiện tại, vui lòng chuyển sang ngôn ngữ khác",
+        "Nội dung dịch cho ngôn ngữ hiện tại không tìm thấy, vui lòng chuyển sang ngôn ngữ khác",
     },
   },
   sidebar: {
-    adjacentLevels: "Cấp độ Liền kề",
-    allLevels: "Tất cả Cấp độ",
+    adjacentLevels: "Các关卡kề",
+    allLevels: "Tất cả các关卡",
   },
-  shareLabel: "Chia sẻ Hướng dẫn Cấp độ",
-  linkCopiedText: "Đã sao chép liên kết!",
+  shareLabel: "Chia sẻ Hướng dẫn关卡",
+  linkCopiedText: "Đã sao chép thành công!",
 } as const;
-
-export default levelDetail;

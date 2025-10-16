@@ -1,37 +1,33 @@
 export const mediaCoverage = {
-  title: "Game Features",
-  subtitle: "Explore rich content and experience unique organization fun",
+  title: "คุณสมบัติเกม",
+  subtitle:
+    "สำรวจเนื้อหาเกมที่มีความหลากหลายและสัมผัสความสนุกในการแก้ปริศนาแบบไม่เหมือนใคร",
   features: [
     {
-      title: "Relaxing Escape",
-      content:
-        "Perfect blend of mindfulness and creativity, offering a peaceful retreat from daily life",
+      title: "พิซซลหลายร้อย",
+      content: "พิซซลซับซ้อนหลายร้อยที่ต้องแก้",
     },
     {
-      title: "Heartwarming Story",
-      content:
-        "Each item tells a life story, revealing heartwarming moments through organization",
+      title: "สีสดใส",
+      content: "Palette สีสดใสเพื่อทำให้สมองคุณไวมีตระกูล",
     },
     {
-      title: "Cozy Atmosphere",
-      content:
-        "Soft visuals, calming music, no time pressure - enjoy the organization process",
+      title: "เกมเพื่อผ่อนคลาด",
+      content: "เกมเพื่อผ่อนคลาดโดยไม่มี тайม์ - เหมาะสำหรับการผ่อนคลาด",
     },
     {
-      title: "Organization Joy",
-      content: "Place each item in its perfect spot to create a peaceful space",
+      title: "ประสบการณ์ที่พอใจ",
+      content: "ภาพเคลื่อนไหวที่พอใจและเสียงฟังเพื่อเพลิดเพลิน",
     },
     {
-      title: "Emotional Resonance",
+      title: "การคิดแบบกลยุทธ์",
       content:
-        "From childhood bedrooms to first apartments, each room evokes shared memories",
+        "เลือกสายหมึกที่ถูกต้องจากตารางอย่างมีกลยุทธ์เพื่อเก็บสายเชือกและเสร็จสิ้นแต่ละระดับ.",
     },
     {
-      title: "Unique Gameplay",
+      title: "กลไกใหม่",
       content:
-        "Simple, intuitive, and charming game experience makes organization fun and relaxing",
+        "เกมได้รับการอัพเดทด้วยกลไกใหม่เช่น เส้นคันสำหรับสายหมึก.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

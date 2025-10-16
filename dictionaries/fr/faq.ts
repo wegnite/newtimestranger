@@ -1,39 +1,35 @@
 export const faq = {
-  title: "FAQ",
-  subtitle: "Questions fréquemment posées sur Dreamy Room",
+  title: "FAQ de Knit Out",
+  subtitle: "Questions fréquemment posées sur Knit Out",
   questions: [
     {
-      question: "Comment commencer à jouer à Dreamy Room ?",
+      question: "Comment jouer à Knit Out?",
       answer:
-        "Après avoir téléchargé et installé Dreamy Room, vous pouvez commencer à explorer différentes pièces et créer des espaces de vie confortables en organisant les objets.",
+        "Votre défi est de vider des lignes de noeuds colorés depuis le haut en choisissant les bonnes bobines dans la grille ci-dessous pour collecter les cordes.",
     },
     {
-      question: "Dreamy Room est-il gratuit ?",
+      question: "Knit Out est-il gratuit?",
       answer:
-        "Dreamy Room est gratuit, mais il contient des publicités et des achats intégrés.",
+        "Le jeu est gratuit à jouer, mais propose des achats dans l'application et contient des publicités.",
     },
     {
-      question: "Comment passer les niveaux dans Dreamy Room ?",
+      question: "Que faire si je suis bloqué à un niveau?",
       answer:
-        "Dans Dreamy Room, observez attentivement les caractéristiques de chaque objet et placez-les aux endroits appropriés. Si vous avez besoin d'aide, vous pouvez utiliser l'indice.",
+        "Certains niveaux peuvent être difficiles. Le jeu propose des boosts que l'on peut acquérir avec des pièces. Certains joueurs suggèrent de faire des suppositions éclairées lorsque le chemin à suivre n'est pas clair.",
     },
     {
-      question: "Y a-t-il une limite de temps dans Dreamy Room ?",
-      answer:
-        "Certains niveaux de Dreamy Room peuvent avoir des limites de temps, mais vous pouvez prolonger le temps en regardant des publicités ou en utilisant des pièces de jeu.",
+      question: "Peux - je jouer hors ligne?",
+      answer: "Oui, selon les commentaires des utilisateurs, Knit Out peut être joué hors ligne.",
     },
     {
-      question:
-        "Que faire si je ne peux pas placer un objet correctement dans Dreamy Room ?",
+      question: "Y a - t - il des problèmes connus?",
       answer:
-        "Dans Dreamy Room, essayez d'ajuster la position et l'angle de l'objet, assurez-vous que l'emplacement est correct. Si plusieurs tentatives échouent, vous pouvez utiliser l'indice.",
+        "Certains utilisateurs ont signalé des bugs tels que le clignotement de l'écran. Si vous rencontrez des problèmes, vous pouvez essayer de redémarrer le jeu ou de contacter le support.",
     },
     {
-      question: "Que faire si je rencontre des problèmes dans Dreamy Room ?",
+      question: "Comment contacter le support?",
       answer:
-        "Vous pouvez contacter notre équipe de support via la fonction de support en jeu dans Dreamy Room ou par e-mail à hieplm@abigames.com.vn.",
+        "Vous pouvez contacter le support par e - mail à info@superblast.games ou via les liens de support de l'application sur l'App Store ou Google Play.",
     },
   ],
 } as const;
-
-export default faq;

@@ -1,19 +1,19 @@
 export const footer = {
   links: {
-    about: "À propos",
+    about: "À propos de nous",
     privacy: "Politique de confidentialité",
-    contact: "Contact",
+    contact: "Contactez - nous",
+    terms: "Conditions d'utilisation",
     levels: "Niveaux",
     download: "Télécharger",
     blog: "Blog",
-    terms: "Conditions d'utilisation",
   },
   contact: {
-    email: "3500412641@outlook.com",
+    email: "info@superblast.games",
   },
-  copyright: "© 2024 Chambre de Rêve / Dreamy Room. Tous droits réservés.",
+  copyright: "© 2024 Guide Knit Out. Tous droits réservés.",
   disclaimer:
-    "Chambre de Rêve / Dreamy Room est un site de fans proposant des guides de jeu. Toutes les marques et droits d'auteur appartiennent à leurs propriétaires respectifs.",
+    "Le Guide Knit Out est un site fan de guides de jeux. Knit Out est une marque déposée de Rollic Games. Toutes les marques et les droits d'auteur appartiennent à leurs propriétaires respectifs.",
 } as const;
 
 export default footer;

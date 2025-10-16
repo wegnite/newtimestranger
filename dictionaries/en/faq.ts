@@ -1,31 +1,35 @@
 export const faq = {
-  title: "FAQ",
-  subtitle: "Frequently Asked Questions about Digimon Story Time Stranger",
+  title: "Knit Out FAQ",
+  subtitle: "Frequently Asked Questions about Knit Out",
   questions: [
     {
-      question: "How often are walkthroughs and databases updated?",
+      question: "How do I play Knit Out?",
       answer:
-        "Major Digimon Story Time Stranger updates land within 24 hours of a new patch. Community-reviewed tweaks and localization notes for Digimon Story Time Stranger content are merged continuously afterward.",
+        "Your challenge is to clear lines of colorful knots from the top by choosing the right bobbins from the grid below to collect the ropes.",
     },
     {
-      question: "Can I contribute localization fixes or strategy tips?",
+      question: "Is Knit Out free?",
       answer:
-        "Absolutely. Use the community submission form to send in Digimon Story Time Stranger guide corrections, language updates, or encounter notes for editorial review.",
+        "The game is free to play but offers in-app purchases and contains ads.",
     },
     {
-      question: "How do I use the chapter walkthroughs effectively?",
+      question: "What if I get stuck on a level?",
       answer:
-        "Begin with the spoiler-safe Digimon Story Time Stranger overview, then expand sections for full instructions, boss prep, and collectible callouts as needed.",
+        "Some levels can be challenging. The game offers power-ups that can be acquired with coins. Some players suggest making educated guesses when the path forward isn't clear.",
     },
     {
-      question: "Do I need premium access for planning tools?",
-      answer:
-        "All Digimon Story Time Stranger chapter guides, boss dossiers, and squad planners remain free while we evaluate future pro features such as sync alerts.",
+      question: "Can I play offline?",
+      answer: "Yes, according to user reviews, Knit Out can be played offline.",
     },
     {
-      question: "How can I stay on top of limited-time events?",
+      question: "Are there any known issues?",
       answer:
-        "Bookmark the Digimon Story Time Stranger events calendar for raid timers, reward rotations, and links to the relevant boss strategy inserts inside each chapter.",
+        "Some users have reported bugs like screen flickering. If you encounter issues, you can try restarting the game or contact support.",
+    },
+    {
+      question: "How can I contact support?",
+      answer:
+        "You can contact support via email at info@superblast.games or through the app support links on the App Store or Google Play.",
     },
   ],
 } as const;

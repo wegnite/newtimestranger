@@ -1,16 +1,14 @@
 export const levelShowcase = {
-  title: "Dreamy Room Прохождение Уровней и Решения",
+  title: "Книжный выход. Хитрости и решения для уровней",
   nav: {
-    featured: "Избранные",
+    featured: "Рекомендованные",
     rangePrefix: "Уровень ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Dreamy Room Уровень ",
+    titlePrefix: "Уровень Книжного выхода ",
   },
   showMoreButton: "Показать больше уровней",
-  noLevelsFound: "В этом диапазоне уровни не найдены.",
-  searchPlaceholder: "Искать уровни по ID или названию...",
+  noLevelsFound: "В этом диапазоне уровней не найдено.",
+  searchPlaceholder: "Поиск уровней по ID или названию...",
 } as const;
-
-export default levelShowcase;

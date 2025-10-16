@@ -1,39 +1,35 @@
 export const faq = {
-  title: "FAQ",
-  subtitle: "Pertanyaan yang Sering Diajukan tentang Dreamy Room",
+  title: "Pertanyaan yang Sering Diajukan tentang Knit Out",
+  subtitle: "Pertanyaan yang Sering Diajukan tentang Knit Out",
   questions: [
     {
-      question: "Bagaimana cara mulai bermain?",
+      question: "Bagaimana cara saya bermain Knit Out?",
       answer:
-        "Setelah mengunduh dan menginstal game, Anda dapat mulai menjelajahi berbagai ruangan dan menciptakan ruang tamu yang nyaman dengan mengatur item.",
+        "Tantangan Anda adalah untuk membersihkan baris simpul berwarna dari bagian atas dengan memilih bobbin yang tepat dari grid di bawah untuk mengumpulkan tali.",
     },
     {
-      question: "Apakah game ini gratis?",
+      question: "Apakah Knit Out gratis?",
       answer:
-        "Game ini gratis untuk dimainkan tetapi berisi iklan dan pembelian dalam aplikasi.",
+        "Permainan ini dapat dimainkan secara gratis tetapi menawarkan pembelian dalam aplikasi dan mengandung iklan.",
     },
     {
-      question: "Bagaimana cara menyelesaikan level?",
+      question: "Bagaimana jika saya terjebak di suatu level?",
       answer:
-        "Amati karakteristik setiap item dengan cermat dan tempatkan di lokasi yang sesuai. Jika Anda membutuhkan bantuan, Anda dapat menggunakan fitur petunjuk.",
+        "Beberapa level dapat menjadi tantangan. Permainan ini menawarkan power-up yang dapat diperoleh dengan koin. Beberapa pemain menyarankan melakukan tebakan yang bijak ketika jalan ke depan tidak jelas.",
     },
     {
-      question: "Apakah ada batas waktu?",
-      answer:
-        "Beberapa level mungkin memiliki batas waktu, tetapi Anda dapat memperpanjang waktu dengan menonton iklan atau menggunakan koin game.",
+      question: "Bisakah saya bermain secara offline?",
+      answer: "Ya, menurut ulasan pengguna, Knit Out dapat dimainkan secara offline.",
     },
     {
-      question:
-        "Bagaimana jika saya tidak dapat menempatkan item dengan benar?",
+      question: "Apakah ada masalah yang diketahui?",
       answer:
-        "Coba sesuaikan posisi dan sudut item, pastikan area penempatan sudah benar. Jika beberapa upaya gagal, Anda dapat menggunakan fitur petunjuk.",
+        "Beberapa pengguna telah melaporkan bug seperti berkedipnya layar. Jika Anda menemui masalah, Anda dapat mencoba mengulangi permainan atau menghubungi dukungan.",
     },
     {
-      question: "Bagaimana jika saya mengalami masalah?",
+      question: "Bagaimana cara saya menghubungi dukungan?",
       answer:
-        "Anda dapat menghubungi tim dukungan kami melalui fitur dukungan dalam game atau dengan mengirim email ke hieplm@abigames.com.vn.",
+        "Anda dapat menghubungi dukungan melalui email ke info@superblast.games atau melalui tautan dukungan aplikasi di App Store atau Google Play.",
     },
   ],
 } as const;
-
-export default faq;

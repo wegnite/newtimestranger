@@ -2,9 +2,9 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "Koleksi Panduan Game",
-  title: "Lihat Semua Panduan Level Dreamy Room",
+  title: "Lihat Semua Panduan Level Knit Out",
   description:
-    "Jelajahi walkthrough terperinci, tips, dan strategi untuk setiap level ruangan. Masukkan nomor level untuk melompat langsung ke panduan yang sesuai.",
+    "Jelajahi petunjuk langkah demi langkah, tips, dan strategi untuk setiap level. Masukkan nomor level untuk langsung melompat ke panduan yang sesuai.",
   stats: {
     guides: levels.length + "+ Panduan Level",
     videoTutorials: `${levels.length}+ Tutorial Video`,
@@ -15,7 +15,7 @@ export const hero = {
     button: "Cari Panduan",
     error: {
       invalid: "Silakan masukkan nomor level yang valid",
-      notFound: "Tidak ada panduan yang ditemukan untuk level ini",
+      notFound: "Tidak ada panduan ditemukan untuk level ini",
     },
   },
   buttons: {
@@ -23,15 +23,12 @@ export const hero = {
     downloadGame: "Unduh Game",
   },
   downloadCard: {
-    title: "Unduh Dreamy Room",
-    description:
-      "Mulailah perjalanan yang hangat dan menyembuhkan dalam merapikan dan mengatur!",
+    title: "Unduh Knit Out",
+    description: "Mulai petualangan teka-teki santai dan strategis!",
   },
   videoSection: {
-    title: "Video Strategi Game",
+    title: "Video Strategi Knit Out",
     description:
-      "Tonton tutorial video game terperinci untuk mempelajari teknik merapikan dan mengatur",
+      "Tonton tutorial video game terperinci untuk belajar strategi menyelesaikan level",
   },
 } as const;
-
-export default hero;

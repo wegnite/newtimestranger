@@ -4,11 +4,11 @@
 
 # 不同国家的名称
 
-德语：(Traumzimmer)Dreamy Room
-日语：(夢の部屋)Dreamy Room(ドリーミールーム)
-法语：(Chambre de Rêve)Dreamy Room
-英语：Dreamy Room
-西班牙语：(Habitación de Ensueño)Dreamy Room
+德语：(Traumzimmer)Knit Out
+日语：(夢の部屋)Knit Out(ドリーミールーム)
+法语：(Chambre de Rêve)Knit Out
+英语：Knit Out
+西班牙语：(Habitación de Ensueño)Knit Out
 
 # 自动联网搜索内容写 blog
 

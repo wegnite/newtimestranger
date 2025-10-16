@@ -1,37 +1,35 @@
 export const faq = {
-  title: "Dreamy Room 常见问题",
-  subtitle: "关于 Dreamy Room 的常见问题解答",
+  title: "Knit Out常见问题解答",
+  subtitle: "关于Knit Out的常见问题",
   questions: [
     {
-      question: "Dreamy Room 如何开始游戏？",
+      question: "我如何玩Knit Out？",
       answer:
-        "下载并安装游戏后，你可以开始探索不同的房间，通过整理物品来创造温馨的生活空间。",
+        "你的挑战是通过从下方网格中选择正确的线轴来收集绳索，从而从顶部清除彩色绳结的行。",
     },
     {
-      question: "Dreamy Room 游戏是免费的吗？",
-      answer: "游戏是免费的，但包含广告和应用内购买内容。",
+      question: "Knit Out是免费的吗？",
+      answer:
+        "该游戏可免费游玩，但提供应用内购买且包含广告。",
     },
     {
-      question: "Dreamy Room 如何通过关卡？",
+      question: "如果我卡在某个关卡怎么办？",
       answer:
-        "仔细观察每个物品的特征，将它们放置在合适的位置。如果遇到困难，可以使用提示功能获取帮助。",
+        "有些关卡可能具有挑战性。游戏提供可以用硬币获得的道具。一些玩家建议在前进道路不明确时进行有根据的猜测。",
     },
     {
-      question: "Dreamy Room 游戏有时间限制吗？",
-      answer:
-        "部分关卡可能有时间限制，但你可以通过观看广告或使用游戏币来延长时间。",
+      question: "我可以离线玩吗？",
+      answer: "是的，根据用户评论，Knit Out可以离线游玩。",
     },
     {
-      question: "Dreamy Room 物品放置不成功怎么办？",
+      question: "有任何已知问题吗？",
       answer:
-        "请尝试调整物品的位置和角度，确保放置区域正确。如果多次尝试仍然失败，可以使用提示功能。",
+        "一些用户报告了诸如屏幕闪烁之类的错误。如果你遇到问题，可以尝试重新启动游戏或联系支持人员。",
     },
     {
-      question: "Dreamy Room 遇到问题怎么办？",
+      question: "我如何联系支持人员？",
       answer:
-        "你可以通过游戏内的支持功能或发送邮件至 hieplm@abigames.com.vn 联系我们的客服团队。",
+        "你可以通过发送电子邮件至info@superblast.games联系支持人员，或通过App Store或Google Play上的应用支持链接联系。",
     },
   ],
 } as const;
-
-export default faq;

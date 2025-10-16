@@ -18,21 +18,21 @@ function getArgsFromCommandLine() {
       '📖 使用方法：node download-youtube-thumbnails.js "游戏名称" [网站URL]'
     );
     console.log(
-      '📖 示例：npm run download:thumbnails "Time Stranger" "digimonstorytimestranger.com"'
+      '📖 示例：npm run download:thumbnails "Knit Out" "knitoutlevel.com"'
     );
     process.exit(1);
   }
 
   return {
     gameName: args[0],
-    websiteUrl: args[1] || "digimonstorytimestranger.com", // 默认URL
+    websiteUrl: args[1] || "knitoutlevel.com", // 默认URL
   };
 }
 
 // 配置选项
 const CONFIG = {
   concurrency: 8, // 并发下载数量（Windows推荐8以下，避免文件句柄冲突）
-  quality: 80, // WebP质量
+  quality: 70, // WebP质量
   retryAttempts: 3, // 失败重试次数
   timeout: 30000, // 超时时间（毫秒）
   resize: {

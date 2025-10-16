@@ -1,39 +1,33 @@
 export const mediaCoverage = {
   title: "Mga Tampok ng Laro",
   subtitle:
-    "Galugarin ang mayamang nilalaman at maranasan ang natatanging saya ng organisasyon",
+    "Galugarin ang mayamang nilalaman ng laro at maranasan ang natatanging saya sa paglutas ng mga palaisipan",
   features: [
     {
-      title: "Nakakarelaks na Pagtakas",
-      content:
-        "Perpektong timpla ng pagiging maingat at pagkamalikhain, nag-aalok ng mapayapang pahinga mula sa pang-araw-araw na buhay",
+      title: "Daang mga Palaisipan",
+      content: "Daang mga kumplikadong palaisipan upang lutasin",
     },
     {
-      title: "Nakakaantig na Kwento",
-      content:
-        "Ang bawat item ay nagsasabi ng isang kwento ng buhay, na nagpapakita ng mga nakakaantig na sandali sa pamamagitan ng organisasyon",
+      title: "Mga Bungang Kulay",
+      content: "Isang mayabong palette ng mga kulay upang panatilihing matalas ang iyong isip",
     },
     {
-      title: "Maaliwalas na Atmospera",
-      content:
-        "Malambot na visual, nakakapagpakalmang musika, walang pressure sa oras - tamasahin ang proseso ng organisasyon",
+      title: "Relaksing na Gameplay",
+      content: "Relaksing na gameplay nang walang mga timer - perpekto para sa pagpapahinga",
     },
     {
-      title: "Saya ng Organisasyon",
-      content:
-        "Ilagay ang bawat item sa perpektong lugar nito upang lumikha ng isang mapayapang espasyo",
+      title: "Kasiyahan sa Karanasan",
+      content: "Kasiyahan sa mga animasyon at kasiya - siyang mga epekto ng tunog",
     },
     {
-      title: "Emosyonal na Resonansiya",
+      title: "Pagsisikap sa Diskarte",
       content:
-        "Mula sa mga silid-tulugan noong bata pa hanggang sa mga unang apartment, ang bawat kwarto ay pumupukaw ng mga nakabahaging alaala",
+        "Diskarte sa pagpili ng tamang mga bobbin mula sa grid upang kolektahin ang mga rope at kumpletuhin ang bawat antas.",
     },
     {
-      title: "Natatanging Gameplay",
+      title: "Mga Bagong Mekanika",
       content:
-        "Simple, madaling maunawaan, at kaakit-akit na karanasan sa laro na ginagawang masaya at nakakarelaks ang organisasyon",
+        "Ang laro ay na - update sa mga bagong mekanika tulad ng Conveyor belt para sa mga bobbin.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

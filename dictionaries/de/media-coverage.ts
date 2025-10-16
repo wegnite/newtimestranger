@@ -1,39 +1,33 @@
 export const mediaCoverage = {
-  title: "Spielfunktionen",
+  title: "Spieleigenschaften",
   subtitle:
-    "Entdecken Sie reichhaltige Inhalte und erleben Sie einzigartigen Organisationsspaß",
+    "Entdecke reichhaltiges Spielinhalte und erlebe einzigartiges Rätsel lösen Spaß",
   features: [
     {
-      title: "Entspannende Auszeit",
-      content:
-        "Perfekte Mischung aus Achtsamkeit und Kreativität, bietet einen friedlichen Rückzugsort vom Alltag.",
+      title: "Hunderte von Rätseln",
+      content: "Hunderte von komplizierten Rätseln, die zu lösen sind",
     },
     {
-      title: "Herzerwärmende Geschichte",
-      content:
-        "Jeder Gegenstand erzählt eine Lebensgeschichte und enthüllt durch Organisation herzerwärmende Momente.",
+      title: "Vibrierende Farben",
+      content: "Eine vibrierende Farbpalette, um Ihren Geist scharf zu halten",
     },
     {
-      title: "Gemütliche Atmosphäre",
-      content:
-        "Sanfte Optik, beruhigende Musik, kein Zeitdruck – genießen Sie den Organisationsprozess.",
+      title: "Entspannendes Gameplay",
+      content: "Entspannendes Gameplay ohne Zeitlimite - perfekt zum Entspannen",
     },
     {
-      title: "Freude am Organisieren",
-      content:
-        "Platzieren Sie jeden Gegenstand an seinem perfekten Platz, um einen friedlichen Raum zu schaffen.",
+      title: "Zufriedenstellende Erfahrung",
+      content: "Zufriedenstellende Animationen und erfreuliche Soundeffekte",
     },
     {
-      title: "Emotionale Resonanz",
+      title: "Strategisches Denken",
       content:
-        "Vom Kinderzimmer bis zur ersten Wohnung – jedes Zimmer weckt gemeinsame Erinnerungen.",
+        "Wähle strategisch die richtigen Spulen aus dem Gitter, um die Seile zu sammeln und jedes Level zu absolvieren.",
     },
     {
-      title: "Einzigartiges Gameplay",
+      title: "Neue Mechaniken",
       content:
-        "Einfaches, intuitives und charmantes Spielerlebnis macht Organisation unterhaltsam und entspannend.",
+        "Das Spiel wird mit neuen Mechaniken wie der Förderband für Spulen aktualisiert.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

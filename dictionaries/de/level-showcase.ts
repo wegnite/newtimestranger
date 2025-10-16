@@ -1,16 +1,14 @@
 export const levelShowcase = {
-  title: "Traumzimmer & Dreamy Room: Level Cheats & Lösungen",
+  title: "Knit Out Level Cheats & Lösungen",
   nav: {
     featured: "Empfohlen",
     rangePrefix: "Level ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Traumzimmer Level ",
+    titlePrefix: "Knit Out Level ",
   },
-  showMoreButton: "Mehr Level anzeigen",
-  noLevelsFound: "In diesem Bereich wurden keine Level gefunden.",
-  searchPlaceholder: "Suche Level nach ID oder Titel...",
+  showMoreButton: "Weitere Level anzeigen",
+  noLevelsFound: "Keine Level in diesem Bereich gefunden.",
+  searchPlaceholder: "Level nach ID oder Titel suchen...",
 } as const;
-
-export default levelShowcase;

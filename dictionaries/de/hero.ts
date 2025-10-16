@@ -1,37 +1,34 @@
 import levels from "@/data/levels";
 
 export const hero = {
-  badge: "Spielanleitungs-Sammlung",
-  title: "Alle Traumzimmer & Dreamy Room Level-Anleitungen ansehen",
+  badge: "Spielleitfäden-Sammlung",
+  title: "Alle Knit Out Levelleitfäden anzeigen",
   description:
-    "Entdecken Sie detaillierte Komplettlösungen, Tipps und Strategien für jedes Raumlevel. Geben Sie eine Levelnummer ein, um direkt zur entsprechenden Anleitung zu springen.",
+    "Entdecken Sie detaillierte Durchführungen, Tipps und Strategien für jedes Level. Geben Sie eine Levelnummer ein, um direkt zum entsprechenden Leitfaden zu springen.",
   stats: {
-    guides: levels.length + "+ Level-Anleitungen",
-    videoTutorials: `${levels.length}+ Video-Tutorials`,
-    quickSearch: "Schnelle Level-Suche",
+    guides: levels.length + "+ Levelleitfäden",
+    videoTutorials: `${levels.length}+ Videotutorials`,
+    quickSearch: "Schnelle Levelsuche",
   },
   search: {
-    placeholder: `Levelnummer eingeben (1-${levels.length})`,
-    button: "Anleitung suchen",
+    placeholder: `Geben Sie die Levelnummer ein (1-${levels.length})`,
+    button: "Leitfaden suchen",
     error: {
       invalid: "Bitte geben Sie eine gültige Levelnummer ein",
-      notFound: "Keine Anleitung für dieses Level gefunden",
+      notFound: "Für dieses Level wurde kein Leitfaden gefunden",
     },
   },
   buttons: {
-    browseAll: "Alle Level-Anleitungen durchsuchen",
+    browseAll: "Alle Levelleitfäden durchsuchen",
     downloadGame: "Spiel herunterladen",
   },
   downloadCard: {
-    title: "Traumzimmer & Dreamy Room herunterladen",
-    description:
-      "Beginnen Sie eine warme und heilsame Reise des Aufräumens und Organisierens!",
+    title: "Knit Out herunterladen",
+    description: "Beginne ein entspanntes und strategisches Puzzleabenteuer!",
   },
   videoSection: {
-    title: "Spielstrategie-Videos",
+    title: "Knit Out Strategievideos",
     description:
-      "Sehen Sie sich detaillierte Spiel-Video-Tutorials an, um Aufräum- und Organisationstechniken zu lernen.",
+      "Schauen Sie sich detaillierte Videotutorials des Spiels an, um Strategien zum Beenden der Level zu lernen",
   },
 } as const;
-
-export default hero;

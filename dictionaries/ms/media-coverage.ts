@@ -1,39 +1,33 @@
 export const mediaCoverage = {
   title: "Ciri-ciri Permainan",
   subtitle:
-    "Terokai kandungan yang kaya dan alami keseronokan menyusun yang unik",
+    "Jelajahi kandungan permainan yang kaya dan nikmati kesenangan penyelesaian teka-teki yang unik",
   features: [
     {
-      title: "Pelepasan yang Menenangkan",
-      content:
-        "Gabungan sempurna antara kesedaran dan kreativiti, menawarkan tempat percutian yang damai dari kehidupan seharian",
+      title: "Ratusan Teka-Teki",
+      content: "Ratusan teka-teki rumit untuk diselesaikan",
     },
     {
-      title: "Kisah yang Menyentuh Hati",
-      content:
-        "Setiap item menceritakan kisah hidup, mendedahkan detik-detik menyentuh hati melalui penyusunan",
+      title: "Warna Cerah",
+      content: "Sebuah palet warna cerah untuk menjaga fikiran anda tajam",
     },
     {
-      title: "Suasana Selesa",
-      content:
-        "Visual lembut, muzik menenangkan, tiada tekanan masa - nikmati proses penyusunan",
+      title: "Permainan Santai",
+      content: "Permainan santai tanpa pengatur masa—sempurna untuk berehat",
     },
     {
-      title: "Kegembiraan Menyusun",
-      content:
-        "Letakkan setiap item di tempatnya yang sempurna untuk mencipta ruang yang tenang",
+      title: "Pengalaman Memuaskan",
+      content: "Animasi yang memuaskan dan efek bunyi yang menyenangkan",
     },
     {
-      title: "Gema Emosi",
+      title: "Pemikiran Strategik",
       content:
-        "Dari bilik tidur zaman kanak-kanak hingga pangsapuri pertama, setiap bilik membangkitkan kenangan bersama",
+        "Pilih gelang yang betul secara strategik dari grid untuk mengumpul tali dan melengkapkan setiap aras.",
     },
     {
-      title: "Permainan Unik",
+      title: "Mekanik Baru",
       content:
-        "Pengalaman permainan yang ringkas, intuitif dan menawan menjadikan penyusunan menyeronokkan dan menenangkan",
+        "Permainan diupdate dengan mekanik baru seperti tali pengangkut untuk gelang.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

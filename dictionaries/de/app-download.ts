@@ -1,38 +1,35 @@
 export const appDownload = {
   meta: {
-    title: "Traumzimmer & Dreamy Room App herunterladen",
+    title: "Download Knit Out - Entwirrle die Knoten!",
     description:
-      "Laden Sie die Traumzimmer (Dreamy Room) App herunter und beginnen Sie Ihre herzerwärmende Reise des Organisierens und Dekorierens von Räumen. Schaffen Sie Ihren perfekten Wohnraum durch achtsame Organisation.",
+      "Lade Knit Out herunter und beginne, farbige Knoten zu entwirren. Ein entspannendes und strategisches Puzzle-Spiel.",
   },
-  title: "Traumzimmer & Dreamy Room App herunterladen",
-  subtitle: "Ein gemütliches und heilsames Raumorganisationsspiel",
+  title: "Download Knit Out",
+  subtitle: "Entwirrle die Knoten!",
   stats: {
-    rating: "4,8",
-    downloads: "1 Mio.+ Downloads",
+    rating: "4,7",
+    downloads: "100.000+ Downloads",
   },
   downloadOptions: {
     appStore: {
       platform: "App Store",
-      description: "Im App Store laden",
-      link: "https://apps.apple.com/us/app/dreamy-room/id6742221896",
+      description: "Lade auf der App Store herunter",
+      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
     },
     googlePlay: {
       platform: "Google Play",
-      description: "Jetzt bei Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.abi.dream.unpacking",
+      description: "Hol es auf Google Play",
+      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
     },
   },
   features: {
     organize: {
-      title: "Organisation",
-      description: "Finden Sie den perfekten Platz für jeden Gegenstand",
+      title: "Hunderte von Puzzles",
+      description: "Hunderte von komplexen Puzzles, die zu lösen sind",
     },
     story: {
-      title: "Herzerwärmende Geschichte",
-      description:
-        "Erzählen Sie Lebensgeschichten durch die Platzierung von Gegenständen",
+      title: "Entspannendes Spielgeschehen",
+      description: "Entspannendes Spielgeschehen ohne Zeitlimiter - perfekt zum Entspannen",
     },
   },
 } as const;
-
-export default appDownload;

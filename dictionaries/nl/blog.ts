@@ -1,15 +1,12 @@
 export const blog = {
-  title: "Dreamy Room Spelgids",
-  subtitle:
-    "Ontdek meer speltips, decoratie-inspiratie en hartverwarmende verhalen",
+  title: "Knit Out - Spelgids",
+  subtitle: "Ontdek meer speltrucs, strategieën en doorstroomgeheimen",
   breadcrumbs: {
     blog: "Gids",
     page: "Pagina {0}",
   },
   posts: {
-    title: "Dreamy Room Spelgids Artikelen",
+    title: "Artikelen over de Knit Out - Spelgids",
     readMore: "Bekijk Details",
   },
 } as const;
-
-export default blog;

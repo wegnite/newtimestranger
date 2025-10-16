@@ -53,7 +53,7 @@ export default async function LevelPage({
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
   const pageUrl = `${siteUrl}/${lang}/level`;
-  const logoUrl = siteUrl + "/logo.png";
+  const logoUrl = siteUrl + "/images/logo.webp";
   const searchUrlTemplate = `${siteUrl}/${lang}/level?search={search_term_string}`;
 
   const jsonLd = {
@@ -63,7 +63,7 @@ export default async function LevelPage({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: dict.home?.meta?.siteName || "Time Stranger Guide Hub", // Use consistent site name
+        name: dict.home?.meta?.siteName || "Knit Out Game Guide", // Use consistent site name
         logo: logoUrl,
         publisher: {
           "@id": `${siteUrl}/#organization`,
@@ -94,7 +94,7 @@ export default async function LevelPage({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: dict.home?.meta?.siteName || "Time Stranger Guide Hub",
+        name: dict.home?.meta?.siteName || "Knit Out Game Guide",
         url: siteUrl,
         logo: {
           "@type": "ImageObject",

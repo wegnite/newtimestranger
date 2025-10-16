@@ -9,10 +9,8 @@ import { about, privacy, termsOfService } from "./about";
 import { footer } from "./footer";
 import locale from "./locale";
 import { faq } from "./faq";
-import { howToUse } from "./how-to-use";
 import { home } from "./home";
 import { appDownload } from "./app-download";
-import { adFreeDialog } from "./ad-free-dialog";
 import { level } from "./level";
 import { levelDetail } from "./level-detail";
 import { levelShowcase } from "./level-showcase";
@@ -32,10 +30,8 @@ const dictionary = {
   termsOfService,
   footer,
   faq,
-  howToUse,
   home,
   appDownload,
-  adFreeDialog,
   level,
   levelDetail,
   levelShowcase,

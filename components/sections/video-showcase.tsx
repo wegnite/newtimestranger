@@ -32,12 +32,11 @@ export function VideoShowcase() {
           <Card className="overflow-hidden bg-card/50 backdrop-blur-sm">
             <div className="relative pb-[56.25%] h-0">
               <iframe
-                src="https://www.youtube.com/embed/iDVaI2Yaj0A"
+                src="https://www.youtube.com/embed/5WZ0pFfdrbQ"
                 title={dict.videoShowcase.video.title}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 loading="lazy"
-                referrerPolicy="strict-origin-when-cross-origin"
                 className="absolute top-0 left-0 w-full h-full"
               />
             </div>

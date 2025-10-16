@@ -1,29 +1,25 @@
 export const about = {
-  title: "Über Traumzimmer & Dreamy Room Guide Seite",
-  subtitle: "Spieler-Community & Spielressourcen - Traumzimmer & Dreamy Room",
+  title: "Über die Knit Out Guide Site",
+  subtitle: "Spielergemeinschaft & Game Resources",
   content: {
     mission: {
       title: "Unsere Mission",
-      text: "Unsere Mission ist einfach: die hilfreichste, genaueste und benutzerfreundlichste Ressource für Dreamy Room-Spieler zu schaffen. Egal, ob Sie bei einem besonders herausfordernden Rätsel feststecken oder einfach nur sicherstellen möchten, dass Sie keine Sammlerstücke verpasst haben, wir sind hier, um zu helfen.",
-    },
-    vision: {
-      title: "Unsere Vision",
-      text: "Wir streben danach, den Fortschritt der KI-Technologie durch kontinuierliche Innovation und technologische Durchbrüche voranzutreiben und mehr Wert für die menschliche Gesellschaft zu schaffen.",
+      text: "Unsere Mission ist einfach: Die hilfreichste, genaueste und nutzerfreundlichste Ressource für Knit Out Spieler zu schaffen. Ob Sie sich an einem besonders herausfordernden Puzzle feststecken oder einfach die besten Strategien lernen möchten, wir helfen Ihnen gerne.",
     },
     values: {
-      title: "Kernwerte",
+      title: "Kerngesellschaften",
       items: [
         {
           title: "Spieler zuerst",
-          text: "Priorisieren Sie immer die Bedürfnisse der Spieler und stellen Sie die praktischsten und verständlichsten Spielanleitungen zur Verfügung.",
+          text: "Priorisieren Sie immer die Bedürfnisse der Spieler und geben Sie die praktikabelsten und verständlichsten Spielleitfäden.",
         },
         {
           title: "Umfassend & Genau",
-          text: "Bemühen Sie sich, alle Spiellevel abzudecken und die Aktualität und Genauigkeit der Anleitungsinformationen sicherzustellen.",
+          text: "Versuchen Sie, alle Spielstände zu decken und die Aktualität und Genauigkeit der Leitfadeninformationen sicherzustellen.",
         },
         {
-          title: "Hilfsbereit & Unterstützend",
-          text: "Egal, ob Sie Anfänger oder erfahrener Spieler sind, wir helfen Ihnen gerne, Schwierigkeiten zu überwinden und das Spiel zu genießen.",
+          title: "Hilfreich & Unterstützend",
+          text: "Ob Sie ein Neuling oder ein erfahrenen Spieler sind, wir freuen uns, Ihnen zu helfen, Schwierigkeiten zu überwinden und das Spiel zu genießen.",
         },
       ],
     },
@@ -31,83 +27,81 @@ export const about = {
 } as const;
 
 export const privacy = {
-  title: "Datenschutzrichtlinie",
-  subtitle: "Ihre Privatsphäre und Sicherheit haben für uns oberste Priorität",
-  lastUpdated: "Letzte Aktualisierung: 1. April 2025",
+  title: "Datenschutzerklärung",
+  subtitle: "Ihre Privatsphäre und Sicherheit sind unsere oberste Priorität",
+  lastUpdated: "Zuletzt aktualisiert: 1. April 2025",
   content: {
     introduction: {
       title: "Einführung",
-      text: "Diese Datenschutzrichtlinie erläutert, wie Dreamy Room Ihre persönlichen Daten sammelt, verwendet und schützt. Durch die Nutzung unserer Dienste stimmen Sie den Bedingungen dieser Datenschutzrichtlinie zu.",
+      text: "Diese Datenschutzerklärung erklärt, wie die Knit Out Guide Site Ihre persönlichen Informationen sammelt, verwendet und schützt. Indem Sie unsere Dienste nutzen, stimmen Sie den Bedingungen dieser Datenschutzerklärung zu.",
     },
     dataCollection: {
-      title: "Datenerhebung",
-      text: "Wir sammeln folgende Informationen:",
+      title: "Datenerfassung",
+      text: "Wir sammeln die folgenden Informationen:",
       items: [
-        "Persönliche Informationen, die Sie freiwillig angeben (z. B. E-Mail-Adresse)",
-        "Grundlegende technische Daten (z. B. Browsertyp, Zugriffszeiten, Nutzungsdaten, die durch Analysetools gewonnen werden)",
+        "Persönliche Informationen, die Sie freiwillig angeben (z.B. E-Mail-Adresse)",
+        "Grundlegende technische Daten (z.B. Browsertyp, Zugangzeiten, Nutzungsdaten, die durch Analysetools erhalten werden)",
       ],
     },
     dataUsage: {
       title: "Datennutzung",
       text: "Die begrenzten Informationen, die wir sammeln, werden ausschließlich verwendet für:",
       items: [
-        "Wartung und Verbesserung der grundlegenden Website-Funktionalität",
+        "Wahrung und Verbesserung der grundlegenden Websitefunktionalität",
         "Bereitstellung notwendiger technischer Unterstützung",
-        "Gewährleistung der Servicesicherheit",
-        "Optimierung des Benutzererlebnisses",
+        "Sicherstellung der Dienstsicherheit",
+        "Optimierung der Benutzererfahrung",
       ],
     },
     dataSecurity: {
       title: "Datensicherheit",
-      text: "Wir implementieren angemessene Sicherheitsmaßnahmen, um Ihre persönlichen Daten zu schützen. Bitte beachten Sie jedoch, dass keine Methode der Übertragung über das Internet oder der elektronischen Speicherung zu 100 % sicher ist.",
+      text: "Wir setzen vernünftige Sicherheitsmaßnahmen ein, um Ihre persönlichen Informationen zu schützen. Beachten Sie jedoch, dass keine Methode der Übertragung über das Internet oder elektronischen Speicher 100% sicher ist.",
     },
     userRights: {
       title: "Benutzerrechte",
-      text: "Sie haben das Recht, Ihre persönlichen Daten einzusehen, zu korrigieren und zu löschen. Um diese Rechte auszuüben, kontaktieren Sie bitte unser Support-Team.",
+      text: "Sie haben das Recht, Ihre persönlichen Informationen anzusehen, zu korrigieren und zu löschen. Um diese Rechte auszuüben, wenden Sie sich bitte an unser Supportteam.",
     },
     contact: {
       title: "Kontaktieren Sie uns",
-      text: "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte unter:",
-      email: "3500412641@outlook.com",
+      text: "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, wenden Sie sich bitte an uns unter:",
+      email: "info@superblast.games",
     },
   },
 } as const;
 
-// Nutzungsbedingungen
 export const termsOfService = {
   title: "Nutzungsbedingungen",
-  subtitle:
-    "Bitte lesen Sie diese sorgfältig durch, bevor Sie diese Website nutzen",
+  subtitle: "Bitte lesen Sie sich vor der Verwendung dieser Website sorgfältig durch",
   content: {
     introduction: {
       title: "Einführung",
-      text: "Willkommen auf der Dreamy Room Guide Seite, einer von Fans erstellten Website, die sich der Bereitstellung von Komplettlösungen und Anleitungen für das Dreamy Room-Spiel widmet. Durch den Zugriff auf oder die Nutzung unserer Website erklären Sie sich mit diesen Nutzungsbedingungen einverstanden.",
+      text: "Willkommen auf der Knit Out Guide Site, einer fanbasierten Website, die sich darauf verpflichtet, Walkthroughs und Leitfäden für das Knit Out Spiel anzubieten. Indem Sie unsere Website zugreifen oder nutzen, stimmen Sie zu, sich diesen Nutzungsbedingungen zu unterwerfen.",
     },
     disclaimer: {
       title: "Haftungsausschluss",
-      text: "Die Dreamy Room Guide Seite ist nicht mit dem offiziellen Dreamy Room-Spiel oder seinen Entwicklern verbunden, wird von diesen nicht unterstützt oder steht in irgendeiner Weise offiziell mit ihnen in Verbindung. Alle Spielinhalte, Bilder und Marken sind Eigentum ihrer jeweiligen Inhaber.",
+      text: "Knit Out Guide Site ist nicht mit der offiziellen Knit Out Spiel oder seinem Entwickler Rollic Games verbunden, von ihnen indiziert oder auf irgend eine Weise offiziell verbunden. Alle Spielinhalte, Bilder und Markenzeichen sind Eigentum ihrer jeweiligen Besitzer.",
     },
     userConduct: {
-      title: "Benutzerverhalten",
-      text: "Bei der Nutzung unserer Website stimmen Sie zu, Folgendes nicht zu tun:",
+      title: "Verhalten der Benutzer",
+      text: "Wenn Sie unsere Website verwenden, stimmen Sie zu, nicht zu:",
       items: [
-        "Unsere Website in einer Weise zu nutzen, die gegen geltende Gesetze verstößt",
-        "Zu versuchen, das ordnungsgemäße Funktionieren der Website zu stören",
-        "Sich an Verhaltensweisen zu beteiligen, die die Nutzung oder Freude an der Website durch andere einschränken oder behindern",
-        "Die Website für Zwecke zu nutzen, die rechtswidrig sind oder durch diese Nutzungsbedingungen verboten sind",
+        "Unsere Website auf irgend eine Weise verwenden, die gegen geltende Gesetze verstößt",
+        "Versuchen, die ordnungsgemäße Funktion der Website zu stören",
+        "An irgendwelche Verhaltensweisen teilnehmen, die die Nutzung oder Freude eines anderen an der Website einschränken oder hemmen",
+        "Unsere Website zu irgendwelchen Zwecken verwenden, die unrechtmäßig oder durch diese Nutzungsbedingungen verboten sind",
       ],
     },
     contentPolicy: {
       title: "Inhalt",
-      text: "Alle Inhalte auf dieser Website dienen nur zu Informations- und Bildungszwecken. Wir bemühen uns, genaue und hilfreiche Anleitungen bereitzustellen, können jedoch die Genauigkeit oder Vollständigkeit der Informationen auf unserer Website nicht garantieren.",
+      text: "Aller Inhalt auf dieser Website dient ausschließlich informativen und erzieherischen Zwecken. Wir streben danach, genaue und hilfreiche Leitfäden bereitzustellen, können jedoch die Genauigkeit oder Vollständigkeit irgendeiner Information auf unserer Website nicht gewährleisten.",
     },
     changesToTerms: {
       title: "Änderungen der Bedingungen",
-      text: "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Wir werden immer die aktuellste Version auf unserer Website veröffentlichen. Indem Sie die Website nach erfolgten Änderungen weiterhin nutzen, erklären Sie sich mit den überarbeiteten Bedingungen einverstanden.",
+      text: "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Wir werden immer die neueste Version auf unserer Website veröffentlichen. Indem Sie die Website nach Änderungen weiterhin nutzen, stimmen Sie zu, sich den geänderten Bedingungen zu unterwerfen.",
     },
     contact: {
       title: "Kontaktieren Sie uns",
-      text: "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter 3500412641@outlook.com.",
+      text: "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, wenden Sie sich bitte an uns unter info@superblast.games.",
     },
   },
 } as const;

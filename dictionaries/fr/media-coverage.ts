@@ -1,39 +1,33 @@
 export const mediaCoverage = {
-  title: "Fonctionnalités du jeu",
+  title: "Caractéristiques du jeu",
   subtitle:
-    "Explorez un contenu riche et vivez un plaisir d'organisation unique",
+    "Explorez le riche contenu du jeu et vivez le plaisir unique de résolution de puzzles",
   features: [
     {
-      title: "Évasion relaxante",
-      content:
-        "Mélange parfait de pleine conscience et de créativité, offrant une retraite paisible de la vie quotidienne",
+      title: "Centaines de puzzles",
+      content: "Centaines de puzzles complexes à résoudre",
     },
     {
-      title: "Histoire touchante",
-      content:
-        "Chaque objet raconte une histoire de vie, révélant des moments touchants à travers l'organisation",
+      title: "Couleurs vives",
+      content: "Une palette de couleurs vives pour maintenir votre esprit aigu",
     },
     {
-      title: "Ambiance chaleureuse",
-      content:
-        "Visuels doux, musique apaisante, pas de pression temporelle - profitez du processus d'organisation",
+      title: "Jeu de détente",
+      content: "Un jeu de détente sans horloge - parfait pour se détendre",
     },
     {
-      title: "Joie de l'organisation",
-      content:
-        "Placez chaque objet à sa place parfaite pour créer un espace paisible",
+      title: "Expérience satisfaisante",
+      content: "Animations satisfaisantes et effets sonores délicieux",
     },
     {
-      title: "Résonance émotionnelle",
+      title: "Raisonnement stratégique",
       content:
-        "Des chambres d'enfant aux premiers appartements, chaque pièce évoque des souvenirs partagés",
+        "Choisissez stratégiquement les bonnes bobines dans la grille pour collecter les cordes et terminer chaque niveau.",
     },
     {
-      title: "Gameplay unique",
+      title: "Nouvelles mécanismes",
       content:
-        "Une expérience de jeu simple, intuitive et charmante rend l'organisation amusante et relaxante",
+        "Le jeu est mis à jour avec de nouveaux mécanismes comme la bande transportrice pour les bobines.",
     },
   ],
 } as const;
-
-export default mediaCoverage;

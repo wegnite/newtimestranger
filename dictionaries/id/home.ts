@@ -2,15 +2,13 @@ import levels from "@/data/levels";
 
 export const home = {
   meta: {
-    title: `Dreamy Room Level 1-${levels.length} Panduan Lengkap & Solusi | Kumpulan Tutorial Video`,
-    description: `Mencari panduan Dreamy Room? Kami menyediakan panduan video terperinci dan panduan untuk semua level Dreamy Room (Level 1-${levels.length}), mencakup teknik pemecahan teka-teki untuk setiap Dreamy Room Level untuk membantu Anda lulus dengan mudah. Dapatkan panduan level Dreamy Room terbaru dan nikmati permainannya!`,
+    title: `Knit Out Level 1-${levels.length} Seluruh Panduan Langkah demi Langkah & Panduan | Koleksi Tutorial Video`,
+    description: `Mencari panduan Knit Out? Kami menyediakan panduan langkah demi langkah video yang terperinci untuk semua level Knit Out (Level 1-${levels.length}), mencakup teknik membongkar untuk setiap level Knit Out untuk membantu Anda melewati dengan mudah. Dapatkan panduan level Knit Out terbaru dan nikmati permainan!`,
     keywords:
-      "Dreamy Room, Game Kafe, Resep Kopi, Panduan Game, Simulator Barista, Manajemen Kafe, Tips Game, Pesanan Pelanggan, Dekorasi Kopi, Panduan Lengkap",
-    siteName: "Panduan Game Dreamy Room",
-    author: "Tim Panduan Dreamy Room",
+      "Knit Out, Permainan Puzzle, Membongkar, Simpul, Tali, Bobbin, Panduan Permainan, Solusi Level, Rollic Games, Panduan Langkah demi Langkah",
+    siteName: "Panduan Game Knit Out",
+    author: "Tim Panduan Knit Out",
     category: "Panduan Game",
-    classification: "Game",
+    classification: "Permainan Puzzle",
   },
 } as const;
-
-export default home;
