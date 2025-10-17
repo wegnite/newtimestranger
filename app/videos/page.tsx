@@ -1,5 +1,5 @@
 import { getDictionary } from "@/lib/dictionary";
-import LevelContent from "@/app/(default)/[lang]/level/components/level-content";
+import LevelContent from "@/app/(default)/[lang]/videos/components/level-content";
 import { Metadata } from "next";
 import {OnlineGamingBanner} from "@/components/sections/online-gaming-banner";
 import {MainLayout} from "@/components/layouts/main-layout";
@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: dict.level.meta.title,
     description: dict.level.meta.description,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/level`,
+      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/videos`,
     },
     robots: {
       index: true,
@@ -34,7 +34,7 @@ export default async function LevelPage() {
   const dict = await getDictionary(lang);
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
-  const pageUrl = `${siteUrl}/level`;
+  const pageUrl = `${siteUrl}/videos`;
   const logoUrl = siteUrl + "/images/logo.webp";
   const searchUrlTemplate = `${siteUrl}/level?search={search_term_string}`;
 

@@ -43,11 +43,11 @@ export async function generateMetadata({
 
 ```typescript
 alternates: {
-  canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/app`,
+  canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/download`,
   languages: Object.fromEntries(
     i18n.locales.map((locale: Locale) => [
       locale,
-      ensureTrailingSlash(`/${locale}/app`),
+      ensureTrailingSlash(`/${locale}/download`),
     ])
   ),
 }
@@ -63,7 +63,7 @@ alternates: {
 openGraph: {
   title: dict.appDownload.meta.title,
   description: dict.appDownload.meta.description,
-  url: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/app`,
+  url: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/download`,
   siteName: "Knit Out",
   locale: lang,
   type: "website",

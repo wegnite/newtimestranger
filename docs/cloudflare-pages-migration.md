@@ -36,7 +36,7 @@ const nextConfig = {
 静态导出要求所有动态路由必须在构建时预生成。需要为每个动态路由添加 `generateStaticParams` 函数：
 
 ```typescript
-// app/(default)/[lang]/level/[id]/page.tsx
+// app/(default)/[lang]/videos/[id]/page.tsx
 export async function generateStaticParams() {
   const langs = i18n.locales;
   const levels = await getAllLevels();
@@ -53,7 +53,7 @@ export async function generateStaticParams() {
 
 **需要添加 generateStaticParams 的文件：**
 - `app/(default)/[lang]/page.tsx`
-- `app/(default)/[lang]/level/[id]/page.tsx`
+- `app/(default)/[lang]/videos/[id]/page.tsx`
 - `app/(default)/[lang]/blog/page.tsx`
 - `app/(default)/[lang]/blog/[slug]/page.tsx`
 - `app/(default)/[lang]/game/[id]/page.tsx`
@@ -127,7 +127,7 @@ import Image from "next/image";
 ```typescript
 // 创建根路由页面
 // app/page.tsx - 默认英文内容
-// app/level/page.tsx - 英文关卡页
+// app/videos/page.tsx - 英文关卡页
 // app/[lang]/page.tsx - 其他语言页面
 ```
 

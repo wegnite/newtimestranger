@@ -2,8 +2,8 @@ export const header = {
   brand: "Knit Out",
   navItems: [
     { name: "Басты бет", href: "/" },
-    { name: "Деңгейлер", href: "/level/" },
-    { name: "Жүктеп алу", href: "/app/" },
+    { name: "Видеолар", href: "/videos" },
+    { name: "Жүктеп алу", href: "/download" },
     { name: "Блог", href: "/blog/" },
   ],
 } as const;

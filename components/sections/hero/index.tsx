@@ -132,7 +132,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
                     className="flex-1 hover:bg-primary/10"
                     asChild
                 >
-                  <Link href={`/${lang}/level`}>
+                  <Link href={`/${lang}/videos`}>
                     {heroDict.buttons.browseAll}{" "}
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
@@ -143,7 +143,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
                     className="flex-1 bg-primary hover:bg-primary/80 text-primary-foreground"
                     asChild
                 >
-                  <Link href={`/${lang}/app`}>
+                  <Link href={`/${lang}/download`}>
                     {heroDict.buttons.downloadGame}{" "}
                     <Download className="ml-2 h-4 w-4" />
                   </Link>

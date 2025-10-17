@@ -191,21 +191,21 @@ const levels = fs.existsSync(levelsPath)
 for (const level of levels) {
   // 添加基础路径（不带语言前缀）
   result.push({
-    loc: `/level/${level.id}`,
+    loc: `/videos/${level.id}`,
     priority: 0.7,
     changefreq: "weekly",
     lastmod: new Date().toISOString(),
-    alternateRefs: generateAlternateRefs("", `/level/${level.id}`),
+    alternateRefs: generateAlternateRefs("", `/videos/${level.id}`),
   });
 
   // 添加各语言版本的路径
   for (const locale of locales) {
     result.push({
-      loc: `/${locale}/level/${level.id}`,
+      loc: `/${locale}/videos/${level.id}`,
       priority: 0.7,
       changefreq: "weekly",
       lastmod: new Date().toISOString(),
-      alternateRefs: generateAlternateRefs(locale, `/level/${level.id}`),
+      alternateRefs: generateAlternateRefs(locale, `/videos/${level.id}`),
     });
   }
 }
@@ -231,7 +231,7 @@ SyntaxError: Unexpected identifier 'LevelData'
 如果生成的替代链接出现重复路径，如：
 
 ```xml
-<xhtml:link rel="alternate" hreflang="es" href="https://your-domain.com/es/level/97/ru/level/97"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://your-domain.com/es/videos/97/ru/videos/97"/>
 ```
 
 解决方案是在 `generateAlternateRefs` 函数中清理路径：
@@ -279,7 +279,7 @@ SyntaxError: Unexpected identifier 'LevelData'
 如果生成的替代链接出现错误的路径，如：
 
 ```xml
-<xhtml:link rel="alternate" hreflang="es" href="https://your-domain.com/esvel/97/ru/level/97"/>
+<xhtml:link rel="alternate" hreflang="es" href="https://your-domain.com/esvel/97/ru/videos/97"/>
 ```
 
 这是因为：
@@ -335,13 +335,13 @@ SITE_URL=https://your-domain.com
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://your-domain.com/level/97</loc>
+    <loc>https://your-domain.com/videos/97</loc>
     <lastmod>2024-03-23T03:43:43.209Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.com/en/level/97"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://your-domain.com/de/level/97"/>
-    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://your-domain.com/cn/level/97"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://your-domain.com/en/videos/97"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://your-domain.com/de/videos/97"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://your-domain.com/cn/videos/97"/>
     <!-- 其他语言版本 -->
   </url>
 </urlset>

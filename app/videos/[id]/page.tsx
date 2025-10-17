@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { getDictionary } from "@/lib/dictionary";
 import levels from "@/data/levels";
-import LevelDetailClient from "@/app/(default)/[lang]/level/[id]/level-detail-client";
+import LevelDetailClient from "@/app/(default)/[lang]/videos/[id]/level-detail-client";
 import { ensureTrailingSlash } from "@/lib/utils";
 import { LevelShowcase } from "@/components/sections/level-showcase";
 import {OnlineGamingBanner} from "@/components/sections/online-gaming-banner";
@@ -51,7 +51,7 @@ export async function generateMetadata({
         level.id.toString()
     )}`,
     alternates: {
-      canonical: ensureTrailingSlash(`/level/${level.id}`),
+      canonical: ensureTrailingSlash(`/videos/${level.id}`),
     },
   };
 }
@@ -94,7 +94,7 @@ export default async function LevelDetailPage({
   }
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
-  const pageUrl = siteUrl ? `${siteUrl}/level/${level.id}` : `/level/${level.id}`;
+  const pageUrl = siteUrl ? `${siteUrl}/videos/${level.id}` : `/videos/${level.id}`;
 
   // Calculate nearby level IDs
   const allLevelIds = levels.map((l) => l.id).sort((a, b) => a - b);

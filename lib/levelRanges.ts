@@ -15,12 +15,12 @@ export const levelRangeDefinitions = (() => {
   const ranges = [];
 
   // 第一组：1-20关
-  const firstGroupEnd = Math.min(minLevel + 30, maxLevel);
+  const firstGroupEnd = Math.min(minLevel + 14, maxLevel);
   ranges.push({ start: minLevel, end: firstGroupEnd });
 
   // 后续组：每组40关
   let nextStart = firstGroupEnd + 1;
-  const groupSize = 40;
+  const groupSize = 15;
 
   while (nextStart <= maxLevel) {
     const end = Math.min(nextStart + groupSize - 1, maxLevel);

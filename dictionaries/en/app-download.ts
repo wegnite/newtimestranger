@@ -1,35 +1,43 @@
 export const appDownload = {
   meta: {
-    title: "Download Knit Out - Untangle the Knots!",
+    title:
+      "Download Digimon Story: Time Stranger - Complete Guide & Walkthrough",
     description:
-      "Download Knit Out and start untangling colorful knots. A relaxing and strategic puzzle game.",
+      "Download Digimon Story: Time Stranger on Steam, PlayStation, and Xbox. Experience the ultimate Digimon RPG adventure with time travel mechanics.",
   },
-  title: "Download Knit Out",
-  subtitle: "Untangle the knots!",
+  title: "Download Digimon Story: Time Stranger",
+  subtitle:
+    "Embark on an epic time-traveling adventure with your Digimon partners!",
   stats: {
-    rating: "4.7",
-    downloads: "100K+ Downloads",
+    rating: "4.8",
+    downloads: "70K+ Concurrent Players",
   },
   downloadOptions: {
-    appStore: {
-      platform: "App Store",
-      description: "Download on App Store",
-      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
+    steam: {
+      platform: "Steam",
+      description: "Download on Steam",
+      link: "https://store.steampowered.com/app/1984270/Digimon_Story_Time_Stranger/",
     },
-    googlePlay: {
-      platform: "Google Play",
-      description: "Get it on Google Play",
-      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
+    playstation: {
+      platform: "PlayStation Store",
+      description: "Get it on PlayStation",
+      link: "https://store.playstation.com/en-us/product/UP0700-PPSA25917_00-DSTS0DEMO0000000",
+    },
+    xbox: {
+      platform: "Xbox Store",
+      description: "Download on Xbox",
+      link: "https://www.xbox.com/en-US/games/store/digimon-story-time-stranger-demo/9NXKLQWLZ637/0010",
     },
   },
   features: {
     organize: {
-      title: "Hundreds of Puzzles",
-      description: "Hundreds of intricate puzzles to solve",
+      title: "450+ Digimon",
+      description: "Collect and train over 450 different Digimon species",
     },
     story: {
-      title: "Relaxing Gameplay",
-      description: "Relaxing gameplay with no timers—perfect for unwinding",
+      title: "Time Travel Adventure",
+      description:
+        "Experience a unique time-traveling storyline across two worlds",
     },
   },
 } as const;

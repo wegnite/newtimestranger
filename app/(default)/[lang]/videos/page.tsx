@@ -23,11 +23,11 @@ export async function generateMetadata({
     title: dict.level.meta.title,
     description: dict.level.meta.description,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/level`,
+      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/videos`,
       languages: Object.fromEntries(
         i18n.locales.map((locale: Locale) => [
           locale,
-          ensureTrailingSlash(`/${locale}/level`),
+          ensureTrailingSlash(`/${locale}/videos`),
         ])
       ),
     },
@@ -52,7 +52,7 @@ export default async function LevelPage({
   const dict = await getDictionary(lang);
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
-  const pageUrl = `${siteUrl}/${lang}/level`;
+  const pageUrl = `${siteUrl}/${lang}/videos`;
   const logoUrl = siteUrl + "/images/logo.webp";
   const searchUrlTemplate = `${siteUrl}/${lang}/level?search={search_term_string}`;
 

@@ -34,7 +34,7 @@ export function HeroSearch({ lang, searchDict }: HeroSearchProps) {
     const level = levels.find((level) => level.id === levelNumber);
 
     if (level) {
-      router.push(`/${lang}/level/${level.id}`);
+      router.push(`/${lang}/videos/${level.id}`);
     } else {
       setError(searchDict.error.notFound);
     }

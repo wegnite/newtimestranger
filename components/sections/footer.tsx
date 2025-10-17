@@ -42,7 +42,7 @@ export function Footer({ lang, footerDict }: FooterProps) {
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             {footerDict.links.levels && (
               <Link
-                href={`/${lang}/level`}
+                href={`/${lang}/videos`}
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 {footerDict.links.levels}
@@ -50,7 +50,7 @@ export function Footer({ lang, footerDict }: FooterProps) {
             )}
             {footerDict.links.download && (
               <Link
-                href={`/${lang}/app`}
+                href={`/${lang}/download`}
                 className="text-sm text-muted-foreground hover:text-foreground transition-colors"
               >
                 {footerDict.links.download}

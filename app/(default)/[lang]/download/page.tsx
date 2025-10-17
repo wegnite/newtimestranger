@@ -1,18 +1,34 @@
 import AppDownload from "@/components/sections/app-download";
+import SystemRequirements from "@/components/sections/system-requirements";
 import { getDictionary } from "@/lib/dictionary";
+import { i18n, type Locale } from "@/i18n";
+import { ensureTrailingSlash } from "@/lib/utils";
 import { LevelShowcase } from "@/components/sections/level-showcase";
-import {MainLayout} from "@/components/layouts/main-layout";
-import AdContainer from "@/components/common/AdContainer";
-import {LocaleSuggest} from "@/components/locale/LocaleSuggest";
-import DictionaryProvider from "@/context/DictionaryContext";
 
-export async function generateMetadata() {
-  const dict = await getDictionary('en');
+// 为所有语言生成静态路径
+export async function generateStaticParams() {
+  return i18n.locales.map((lang) => ({
+    lang,
+  }));
+}
+
+export async function generateMetadata({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
+  const dict = await getDictionary(lang);
   return {
     title: dict.appDownload.meta.title,
     description: dict.appDownload.meta.description,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/app`,
+      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/download`,
+      languages: Object.fromEntries(
+        i18n.locales.map((locale: Locale) => [
+          locale,
+          ensureTrailingSlash(`/${locale}/download`),
+        ])
+      ),
     },
     robots: {
       index: true,
@@ -26,15 +42,17 @@ export async function generateMetadata() {
   };
 }
 
-export default async function DownloadPage() {
-  // 默认使用英文
-  const lang = 'en';
+export default async function DownloadPage({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
   const dict = await getDictionary(lang);
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
-  const pageUrl = `${siteUrl}/app`;
+  const pageUrl = `${siteUrl}/${lang}/download`;
   const logoUrl = siteUrl + "/images/logo.webp";
-  const searchUrlTemplate = `${siteUrl}/level?search={search_term_string}`;
+  const searchUrlTemplate = `${siteUrl}/${lang}/level?search={search_term_string}`;
 
   // Prepare SoftwareApplication data
   const softwareApplication = {
@@ -42,31 +60,43 @@ export default async function DownloadPage() {
     "@id": `${pageUrl}/#app`, // Unique ID for the application on this page
     name: dict.appDownload.title,
     description: dict.appDownload.subtitle,
-    operatingSystem: "iOS, Android", // Specify supported OS
+    operatingSystem: "Windows, PlayStation, Xbox", // Specify supported OS
     applicationCategory: "GameApplication", // General category
     offers: [
-      // Offer for App Store
+      // Offer for Steam
       {
         "@type": "Offer",
-        price: "0", // Assuming free with potential IAPs
+        price: "59.99", // Estimated price
         priceCurrency: "USD", // Standard currency
         availability: "https://schema.org/InStock", // Indicate it's available
-        url: dict.appDownload.downloadOptions.appStore.link,
+        url: dict.appDownload.downloadOptions.steam.link,
         seller: {
           "@type": "Organization",
-          name: "App Store", // Platform name
+          name: "Steam", // Platform name
         },
       },
-      // Offer for Google Play
+      // Offer for PlayStation Store
       {
         "@type": "Offer",
-        price: "0",
+        price: "59.99",
         priceCurrency: "USD",
         availability: "https://schema.org/InStock",
-        url: dict.appDownload.downloadOptions.googlePlay.link,
+        url: dict.appDownload.downloadOptions.playstation.link,
         seller: {
           "@type": "Organization",
-          name: "Google Play", // Platform name
+          name: "PlayStation Store", // Platform name
+        },
+      },
+      // Offer for Xbox Store
+      {
+        "@type": "Offer",
+        price: "59.99",
+        priceCurrency: "USD",
+        availability: "https://schema.org/InStock",
+        url: dict.appDownload.downloadOptions.xbox.link,
+        seller: {
+          "@type": "Organization",
+          name: "Xbox Store", // Platform name
         },
       },
     ],
@@ -80,7 +110,7 @@ export default async function DownloadPage() {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: dict.home?.meta?.siteName || "Knit Out Game Guide",
+        name: dict.home?.meta?.siteName || "Digimon Story Time Stranger Guide",
         logo: logoUrl,
         publisher: {
           "@id": `${siteUrl}/#organization`,
@@ -98,7 +128,7 @@ export default async function DownloadPage() {
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: dict.home?.meta?.siteName || "Knit Out Game Guide",
+        name: dict.home?.meta?.siteName || "Digimon Story Time Stranger Guide",
         url: siteUrl,
         logo: {
           "@type": "ImageObject",
@@ -129,24 +159,21 @@ export default async function DownloadPage() {
   };
 
   return (
-    <DictionaryProvider dictionary={dict}>
-      <MainLayout lang={lang} footerDict={dict.footer}>
-        {/* Add JSON-LD to the head */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    <>
+      {/* Add JSON-LD to the head */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="container mx-auto px-4 mt-20">
+        <AppDownload />
+        <SystemRequirements />
+        <LevelShowcase
+          lang={lang}
+          levelShowcaseDict={dict.levelShowcase}
+          commonDict={dict.common}
         />
-        <div className="container mx-auto px-4 mt-20">
-          <AppDownload />
-          <LevelShowcase
-              lang={lang}
-              levelShowcaseDict={dict.levelShowcase}
-              commonDict={dict.common}
-          />
-        </div>
-        <AdContainer/>
-        <LocaleSuggest currentLang={lang}/>
-      </MainLayout>
-    </DictionaryProvider>
+      </div>
+    </>
   );
 }

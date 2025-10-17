@@ -1,33 +1,18 @@
 import AppDownload from "@/components/sections/app-download";
 import { getDictionary } from "@/lib/dictionary";
-import { i18n, type Locale } from "@/i18n";
-import { ensureTrailingSlash } from "@/lib/utils";
 import { LevelShowcase } from "@/components/sections/level-showcase";
+import {MainLayout} from "@/components/layouts/main-layout";
+import AdContainer from "@/components/common/AdContainer";
+import {LocaleSuggest} from "@/components/locale/LocaleSuggest";
+import DictionaryProvider from "@/context/DictionaryContext";
 
-// 为所有语言生成静态路径
-export async function generateStaticParams() {
-  return i18n.locales.map((lang) => ({
-    lang,
-  }));
-}
-
-export async function generateMetadata({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
-  const dict = await getDictionary(lang);
+export async function generateMetadata() {
+  const dict = await getDictionary('en');
   return {
     title: dict.appDownload.meta.title,
     description: dict.appDownload.meta.description,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/app`,
-      languages: Object.fromEntries(
-        i18n.locales.map((locale: Locale) => [
-          locale,
-          ensureTrailingSlash(`/${locale}/app`),
-        ])
-      ),
+      canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/download`,
     },
     robots: {
       index: true,
@@ -41,18 +26,15 @@ export async function generateMetadata({
   };
 }
 
-
-export default async function DownloadPage({
-  params: { lang },
-}: {
-  params: { lang: Locale };
-}) {
+export default async function DownloadPage() {
+  // 默认使用英文
+  const lang = 'en';
   const dict = await getDictionary(lang);
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
-  const pageUrl = `${siteUrl}/${lang}/app`;
+  const pageUrl = `${siteUrl}/download`;
   const logoUrl = siteUrl + "/images/logo.webp";
-  const searchUrlTemplate = `${siteUrl}/${lang}/level?search={search_term_string}`;
+  const searchUrlTemplate = `${siteUrl}/level?search={search_term_string}`;
 
   // Prepare SoftwareApplication data
   const softwareApplication = {
@@ -147,20 +129,24 @@ export default async function DownloadPage({
   };
 
   return (
-    <>
-      {/* Add JSON-LD to the head */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <div className="container mx-auto px-4 mt-20">
-        <AppDownload />
-        <LevelShowcase
-            lang={lang}
-            levelShowcaseDict={dict.levelShowcase}
-            commonDict={dict.common}
+    <DictionaryProvider dictionary={dict}>
+      <MainLayout lang={lang} footerDict={dict.footer}>
+        {/* Add JSON-LD to the head */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-      </div>
-    </>
+        <div className="container mx-auto px-4 mt-20">
+          <AppDownload />
+          <LevelShowcase
+              lang={lang}
+              levelShowcaseDict={dict.levelShowcase}
+              commonDict={dict.common}
+          />
+        </div>
+        <AdContainer/>
+        <LocaleSuggest currentLang={lang}/>
+      </MainLayout>
+    </DictionaryProvider>
   );
 }

@@ -2,9 +2,9 @@ export const header = {
   brand: "Guida di Knit Out",
   navItems: [
     { name: "Home", href: "/" },
-    { name: "Livelli", href: "/level" },
+    { name: "Video", href: "/videos" },
     { name: "Gioca online", href: "/game" },
-    { name: "Scarica", href: "/app" },
+    { name: "Scarica", href: "/download" },
     { name: "Blog", href: "/blog" },
   ],
 } as const;

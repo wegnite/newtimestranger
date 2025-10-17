@@ -98,7 +98,7 @@ module.exports = {
     for (const level of levels) {
       // 添加不带语言前缀的路径
       result.push({
-        loc: `/level/${level.id}`,
+        loc: `/videos/${level.id}`,
         priority: 0.7,
         changefreq: "weekly",
         lastmod: new Date().toISOString(),
@@ -106,7 +106,7 @@ module.exports = {
 
       // 添加各语言版本的路径
       for (const locale of locales) {
-        const localeLevelPath = `/${locale}/level/${level.id}`;
+        const localeLevelPath = `/${locale}/videos/${level.id}`;
         result.push({
           loc: localeLevelPath,
           priority: 0.7,

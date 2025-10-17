@@ -178,7 +178,7 @@ export function LevelShowcase({
           {filteredLevels.map((level) => (
               <Link
                   key={level.id}
-                  href={`/${lang}/level/${level.id}`}
+                  href={`/${lang}/videos/${level.id}`}
                   className={cn(
                       "group block bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg",
                       styles.levelCard // 添加CSS模块类名

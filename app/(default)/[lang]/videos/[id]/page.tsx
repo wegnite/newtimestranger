@@ -139,11 +139,11 @@ export async function generateMetadata({
         level.id.toString()
     )}`,
     alternates: {
-      canonical: ensureTrailingSlash(`/${params.lang}/level/${level.id}`),
+      canonical: ensureTrailingSlash(`/${params.lang}/videos/${level.id}`),
       languages: Object.fromEntries(
           i18n.locales.map((locale) => [
             locale,
-            ensureTrailingSlash(`/${locale}/level/${level.id}`),
+            ensureTrailingSlash(`/${locale}/videos/${level.id}`),
           ])
       ),
     },
@@ -205,8 +205,8 @@ export default async function LevelDetailPage({
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
   const pageUrl = siteUrl
-      ? `${siteUrl}/${params.lang}/level/${level.id}`
-      : `/${params.lang}/level/${level.id}`;
+      ? `${siteUrl}/${params.lang}/videos/${level.id}`
+      : `/${params.lang}/videos/${level.id}`;
 
   // Calculate nearby level IDs using the actual list of IDs
   const allLevelIds = levels.map((l) => l.id).sort((a, b) => a - b); // Extract and sort IDs
@@ -232,7 +232,7 @@ export default async function LevelDetailPage({
       "@type": "ListItem",
       position: index + 1,
       name: `${dict.levelDetail.levelNumber || "Level"} ${nearbyId}`,
-      url: ensureTrailingSlash(`/${params.lang}/level/${nearbyId}`),
+      url: ensureTrailingSlash(`/${params.lang}/videos/${nearbyId}`),
     })),
   };
 

@@ -44,7 +44,7 @@ export function createLevelItemList(
         ) || `Level ${level.id}`
       }`,
       // Ensure absolute URL using siteUrl
-      url: ensureTrailingSlash(`/${lang}/level/${level.id}`),
+      url: ensureTrailingSlash(`/${lang}/videos/${level.id}`),
     })),
   };
 }

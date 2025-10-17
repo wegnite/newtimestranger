@@ -47,7 +47,7 @@ export default function LevelDetailContent({
 
     return (
         <Link
-            href={`/${lang}/level/${levelData.id}`}
+            href={`/${lang}/videos/${levelData.id}`}
             className="block bg-card rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow"
         >
           <div className="p-3 border-b border-border/60">
@@ -94,7 +94,7 @@ export default function LevelDetailContent({
           {/* Breadcrumbs */}
           <div className="flex items-center gap-2 mb-6 text-sm text-muted-foreground">
             <Link
-                href={`/${lang}/level`}
+                href={`/${lang}/videos`}
                 className="hover:text-primary transition-colors inline-flex items-center"
             >
               <Home className="w-4 h-4 mr-1" />
@@ -177,7 +177,7 @@ export default function LevelDetailContent({
                       asChild
                       className="text-xs h-7 px-2"
                   >
-                    <Link href={`/${lang}/level`}>
+                    <Link href={`/${lang}/videos`}>
                       {dict.levelDetail.sidebar?.allLevels || "All Levels"}
                       <ChevronRight className="h-3 w-3 ml-1" />
                     </Link>
@@ -187,7 +187,7 @@ export default function LevelDetailContent({
                   {nearbyLevelIds.map((levelId) => (
                       <Link
                           key={levelId}
-                          href={`/${lang}/level/${levelId}`}
+                          href={`/${lang}/videos/${levelId}`}
                           className={cn(
                               "flex items-center justify-center rounded-md border text-xs font-medium transition-colors px-1 p-5",
                               levelId === level.id
