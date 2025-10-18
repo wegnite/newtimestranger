@@ -33,7 +33,7 @@ export function MainStorylineList({ lang, posts }: MainStorylineListProps) {
           <div className="space-y-4 text-gray-700 dark:text-gray-300">
             <p>
               Main Missions in <strong>Digimon Story Time Stranger</strong> get
-              added to your Digivice as you play through the game's story. Each
+              added to your Digivice as you play through the game&apos;s story. Each
               Main Mission provides a list of objectives to help you navigate
               through areas and progress the story.
             </p>
@@ -61,7 +61,7 @@ export function MainStorylineList({ lang, posts }: MainStorylineListProps) {
                 <strong>Digimon Story Time Stranger walkthrough</strong> covers
                 all 42 main story chapters, providing detailed step-by-step
                 instructions, boss strategies, and tips to help you complete
-                each mission efficiently. Whether you're a newcomer to the
+                each mission efficiently. Whether you&apos;re a newcomer to the
                 Digimon series or a veteran player, this guide will help you
                 navigate through the time-traveling adventure.
               </p>

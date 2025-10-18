@@ -89,9 +89,12 @@ export async function getWalkthroughPostBySlug(
   slug: string
 ): Promise<WalkthroughPost | null> {
   const posts = await getAllWalkthroughPosts(lang);
-  // Decode the URL-encoded slug to match with the original filename
+  // The slug may come from URL, which could be encoded
+  // Try both the original slug and decoded version
   const decodedSlug = decodeURIComponent(slug);
-  return posts.find((post) => post.slug === decodedSlug) || null;
+  return posts.find((post) =>
+    post.slug === slug || post.slug === decodedSlug
+  ) || null;
 }
 
 export async function getCachedWalkthroughPosts(
@@ -132,9 +135,8 @@ export async function generateWalkthroughStaticParams() {
 
       const posts = await getAllWalkthroughPosts(lang);
       for (const post of posts) {
-        // URL encode the slug to handle spaces and special characters
-        const encodedSlug = encodeURIComponent(post.slug);
-        params.push({ lang, slug: encodedSlug });
+        // Don't encode the slug here - Next.js handles URL encoding automatically
+        params.push({ lang, slug: post.slug });
       }
     } catch (error) {
       console.warn(`No walkthrough posts found for language: ${lang}`, error);
