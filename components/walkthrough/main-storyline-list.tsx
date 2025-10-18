@@ -15,57 +15,26 @@ export function MainStorylineList({ lang, posts }: MainStorylineListProps) {
   return (
     <div className="space-y-6">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+        <h2 className="text-3xl font-bold text-foreground mb-4">
           Digimon Story Time Stranger Walkthrough - Main Missions
         </h2>
-        <p className="text-lg text-gray-600 dark:text-gray-300">
+        <p className="text-lg text-muted-foreground mb-6">
           Complete walkthrough guide for all main story missions in Digimon
           Story Time Stranger
         </p>
-      </div>
 
-      {/* SEO Content Section */}
-      <div className="bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-lg p-6 mb-8">
-        <div className="max-w-4xl mx-auto">
-          <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">
-            About Main Missions in Digimon Story Time Stranger
-          </h3>
-          <div className="space-y-4 text-gray-700 dark:text-gray-300">
-            <p>
-              Main Missions in <strong>Digimon Story Time Stranger</strong> get
-              added to your Digivice as you play through the game&apos;s story. Each
-              Main Mission provides a list of objectives to help you navigate
-              through areas and progress the story.
+        {/* Simplified SEO Content */}
+        <div className="bg-card rounded-lg p-4 mb-8 max-w-4xl mx-auto">
+          <div className="text-sm text-muted-foreground">
+            <p className="mb-2">
+              Main Missions get added to your Digivice as you play through the
+              game's story. Each mission provides objectives to help you
+              navigate areas and progress the story.
             </p>
-
-            <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border-l-4 border-blue-500">
-              <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
-                How Long is the Story?
-              </h4>
-              <p>
-                The Main Missions in{" "}
-                <strong>Digimon Story Time Stranger</strong> are estimated to
-                take around <strong>40 hours</strong> to complete. However, if
-                you include time spent on doing Side Missions and training your
-                Digimon to adequate levels, your playtime may reach up to{" "}
-                <strong>50 hours</strong> long!
-              </p>
-            </div>
-
-            <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border-l-4 border-green-500">
-              <h4 className="font-semibold text-gray-900 dark:text-white mb-2">
-                Complete Walkthrough Guide
-              </h4>
-              <p>
-                Our comprehensive{" "}
-                <strong>Digimon Story Time Stranger walkthrough</strong> covers
-                all 42 main story chapters, providing detailed step-by-step
-                instructions, boss strategies, and tips to help you complete
-                each mission efficiently. Whether you&apos;re a newcomer to the
-                Digimon series or a veteran player, this guide will help you
-                navigate through the time-traveling adventure.
-              </p>
-            </div>
+            <p>
+              <strong>Estimated playtime:</strong> 40 hours for main missions,
+              up to 50 hours including side quests and training.
+            </p>
           </div>
         </div>
       </div>
@@ -127,7 +96,9 @@ export function MainStorylineList({ lang, posts }: MainStorylineListProps) {
                   <div className="text-center py-4">
                     <div className="flex items-center justify-center text-gray-500 dark:text-gray-400 mb-2">
                       <Clock className="h-4 w-4 mr-2" />
-                      <span className="text-sm">攻略制作中，敬请期待</span>
+                      <span className="text-sm">
+                        Walkthrough in progress, stay tuned
+                      </span>
                     </div>
                     <Button disabled className="w-full">
                       <Lock className="h-4 w-4 mr-2" />
@@ -142,11 +113,11 @@ export function MainStorylineList({ lang, posts }: MainStorylineListProps) {
       </div>
 
       {/* Progress Summary */}
-      <div className="mt-12 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-blue-900/20 dark:to-indigo-900/20 rounded-lg p-6">
-        <h3 className="text-xl font-semibold mb-4 text-center">
+      <div className="mt-8 bg-card rounded-lg p-4">
+        <h3 className="text-lg font-semibold mb-3 text-center text-foreground">
           Progress Summary
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+        <div className="grid grid-cols-3 gap-4 text-center">
           <div>
             <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
               {
@@ -163,9 +134,7 @@ export function MainStorylineList({ lang, posts }: MainStorylineListProps) {
                 }).length
               }
             </div>
-            <div className="text-sm text-gray-600 dark:text-gray-300">
-              Available
-            </div>
+            <div className="text-sm text-muted-foreground">Available</div>
           </div>
           <div>
             <div className="text-2xl font-bold text-orange-600 dark:text-orange-400">
@@ -183,17 +152,13 @@ export function MainStorylineList({ lang, posts }: MainStorylineListProps) {
                 }).length
               }
             </div>
-            <div className="text-sm text-gray-600 dark:text-gray-300">
-              Coming Soon
-            </div>
+            <div className="text-sm text-muted-foreground">Coming Soon</div>
           </div>
           <div>
             <div className="text-2xl font-bold text-green-600 dark:text-green-400">
               {mainStorylineData.length}
             </div>
-            <div className="text-sm text-gray-600 dark:text-gray-300">
-              Total Chapters
-            </div>
+            <div className="text-sm text-muted-foreground">Total Chapters</div>
           </div>
         </div>
       </div>

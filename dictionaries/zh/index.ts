@@ -16,7 +16,7 @@ import { levelDetail } from "./level-detail";
 import { levelShowcase } from "./level-showcase";
 import { gamePage, gamesText } from "./game";
 import { walkthrough } from "./walkthrough";
-import { digimon } from "./digimon";
+import { digimonList, digimonDetail } from "./digimon";
 
 const dictionary = {
   locale,
@@ -40,7 +40,8 @@ const dictionary = {
   gamePage,
   gamesText,
   walkthrough,
-  digimon,
+  digimonList,
+  digimonDetail,
 } as const;
 
 export default dictionary;

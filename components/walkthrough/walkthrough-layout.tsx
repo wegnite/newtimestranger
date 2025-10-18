@@ -60,7 +60,7 @@ export function WalkthroughLayout({
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
+    <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 py-8">
         {/* Breadcrumbs */}
         {breadcrumbs.length > 0 && (
@@ -110,17 +110,13 @@ export function WalkthroughLayout({
             )}
           </div>
 
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            {title}
-          </h1>
+          <h1 className="text-4xl font-bold text-foreground mb-4">{title}</h1>
 
           {subtitle && (
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
-              {subtitle}
-            </p>
+            <p className="text-xl text-muted-foreground mb-6">{subtitle}</p>
           )}
 
-          <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
+          <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
             {date && (
               <div className="flex items-center gap-1">
                 <Calendar className="h-4 w-4" />
@@ -145,9 +141,7 @@ export function WalkthroughLayout({
         </div>
 
         {/* Content */}
-        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
-          {children}
-        </div>
+        <div className="bg-card rounded-lg shadow-lg p-8">{children}</div>
       </div>
     </div>
   );

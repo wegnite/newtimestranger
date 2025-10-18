@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build:levels && npm run build:blog && next build",
+    "build": "npm run build:levels && npm run build:blog && next build && npm run post-build",
+    "post-build": "node scripts/post-build.js",
     "postbuild": "next-sitemap --config next-sitemap.config.js && cp public/robots.txt out/robots.txt 2>/dev/null && cp public/sitemap.xml out/sitemap.xml 2>/dev/null && echo LLM-Content: https://knitoutlevel.com/llms.txt >> out/robots.txt && echo LLM-Full-Content: https://knitoutlevel.com/llms-full.txt >> out/robots.txt",
     "start": "next start",
     "lint": "next lint",
@@ -81,6 +82,7 @@
     "react-turnstile": "^1.1.4",
     "react-youtube": "^10.1.0",
     "rehype-highlight": "^7.0.1",
+    "remark-gfm": "^4.0.1",
     "sharp": "^0.33.0",
     "sonner": "^1.4.3",
     "tailwind-merge": "^2.2.1",

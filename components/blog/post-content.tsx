@@ -1,5 +1,6 @@
 import { type BlogPost } from "@/lib/blog";
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
 import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import javascript from "react-syntax-highlighter/dist/esm/languages/prism/javascript";
@@ -24,6 +25,34 @@ interface PostContentProps {
 }
 
 const components = {
+  table: ({ children }: { children: React.ReactNode }) => (
+    <div className="overflow-x-auto my-6">
+      <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+        {children}
+      </table>
+    </div>
+  ),
+  thead: ({ children }: { children: React.ReactNode }) => (
+    <thead className="bg-gray-50 dark:bg-gray-800">{children}</thead>
+  ),
+  tbody: ({ children }: { children: React.ReactNode }) => (
+    <tbody className="bg-white dark:bg-gray-900 divide-y divide-gray-200 dark:divide-gray-700">
+      {children}
+    </tbody>
+  ),
+  tr: ({ children }: { children: React.ReactNode }) => (
+    <tr className="hover:bg-gray-50 dark:hover:bg-gray-800">{children}</tr>
+  ),
+  th: ({ children }: { children: React.ReactNode }) => (
+    <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">
+      {children}
+    </th>
+  ),
+  td: ({ children }: { children: React.ReactNode }) => (
+    <td className="px-6 py-4 text-sm text-gray-900 dark:text-gray-100">
+      {children}
+    </td>
+  ),
   a: ({ href, children }: { href?: string; children: React.ReactNode }) => {
     // 检查是否是 DeepSeek V3 chat 链接
     if (
@@ -145,7 +174,15 @@ export async function PostContent({
         </>
       )}
       {/* @ts-expect-error Server Component */}
-      <MDXRemote source={contentWithoutH1} components={components} />
+      <MDXRemote
+        source={contentWithoutH1}
+        components={components}
+        options={{
+          mdxOptions: {
+            remarkPlugins: [remarkGfm],
+          },
+        }}
+      />
     </article>
   );
 }
