@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Unduh Knit Out - Buka Simpul!",
+    title: "Unduh Digimon Story Time Stranger - Buka Simpul!",
     description:
-      "Unduh Knit Out dan mula buka simpul berwarna-warni. Satu permainan teka-teki yang santai dan strategik.",
+      "Unduh Digimon Story Time Stranger dan mula buka simpul berwarna-warni. Satu permainan teka-teki yang santai dan strategik.",
   },
-  title: "Unduh Knit Out",
+  title: "Unduh Digimon Story Time Stranger",
   subtitle: "Buka Simpul!",
   stats: {
     rating: "4.7",

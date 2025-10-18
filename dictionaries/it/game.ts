@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Gioca a {gameName}", // Placeholder for game name
-  metaTitle: "Gioca a {gameName} Online - Guida a Knit Out",
+  metaTitle: "Gioca a {gameName} Online - Guida a Digimon Story Time Stranger",
   metaDescription:
     "Gioca a {gameName} online gratuitamente, senza dover scaricare. {descriptionSnippet}", // descriptionSnippet potrebbe essere la frase tagline dal markdown
   loadingText: "Caricamento del gioco, attendere prego...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Valore per il placeholder gamePage.title
+    name: "Digimon Story Time Stranger", // Valore per il placeholder gamePage.title
     descriptionMarkdown: `
-## Knit Out – Sblocca i Nodi!
+## Digimon Story Time Stranger – Sblocca i Nodi!
 
-Immergiti nell'arte di sbloccare i nodi con Knit Out! La tua sfida è quella di eliminare le righe di nodi colorati dall'alto, liberando le funi che devono trovare i loro bobine corrispondenti in basso. Scegli strategicamente i giusti bobine dalla griglia per raccogliere le funi e completare ogni livello. Senza timer o pressioni, tutto gira intorno a una divertente e strategica sfida rilassante.
+Immergiti nell'arte di sbloccare i nodi con Digimon Story Time Stranger! La tua sfida è quella di eliminare le righe di nodi colorati dall'alto, liberando le funi che devono trovare i loro bobine corrispondenti in basso. Scegli strategicamente i giusti bobine dalla griglia per raccogliere le funi e completare ogni livello. Senza timer o pressioni, tutto gira intorno a una divertente e strategica sfida rilassante.
 
 ## Gameplay Rilassante ma Sfidante
 
-In Knit Out, ogni livello ti presenta un nuovo e complesso puzzle di nodi colorati. Il tuo compito è quello di osservare il pattern delle funi e scegliere strategicamente i bobine in basso per raccoglierle una per una. Mentre sblocchi i nodi, animazioni e effetti sonori soddisfacenti accompagneranno il tuo progresso. Il gameplay è facile da capire ma richiede un pensiero acuto per essere dominato poiché i puzzle divengono sempre più complessi. È il gioco perfetto per rilassarsi e affinare la mente.
+In Digimon Story Time Stranger, ogni livello ti presenta un nuovo e complesso puzzle di nodi colorati. Il tuo compito è quello di osservare il pattern delle funi e scegliere strategicamente i bobine in basso per raccoglierle una per una. Mentre sblocchi i nodi, animazioni e effetti sonori soddisfacenti accompagneranno il tuo progresso. Il gameplay è facile da capire ma richiede un pensiero acuto per essere dominato poiché i puzzle divengono sempre più complessi. È il gioco perfetto per rilassarsi e affinare la mente.
 
 ## Come Interagire
 

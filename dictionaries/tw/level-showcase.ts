@@ -1,12 +1,12 @@
 export const levelShowcase = {
-  title: "Knit Out 关卡秘籍与解决方案",
+  title: "Digimon Story Time Stranger 关卡秘籍与解决方案",
   nav: {
     featured: "精选",
     rangePrefix: "关卡 ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Knit Out 关卡 ",
+    titlePrefix: "Digimon Story Time Stranger 关卡 ",
   },
   showMoreButton: "显示更多关卡",
   noLevelsFound: "在此范围内未找到关卡。",

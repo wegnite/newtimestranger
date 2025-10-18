@@ -1,14 +1,14 @@
 export const faq = {
-  title: "Câu hỏi thường gặp về Knit Out",
-  subtitle: "Các câu hỏi thường gặp về Knit Out",
+  title: "Câu hỏi thường gặp về Digimon Story Time Stranger",
+  subtitle: "Các câu hỏi thường gặp về Digimon Story Time Stranger",
   questions: [
     {
-      question: "Làm thế nào để tôi chơi Knit Out?",
+      question: "Làm thế nào để tôi chơi Digimon Story Time Stranger?",
       answer:
         "Thách thức của bạn là loại bỏ các dòng dây nút màu sắc từ trên bằng cách chọn những ống cán phù hợp từ lưới bên dưới để thu thập các sợi dây.",
     },
     {
-      question: "Knit Out có miễn phí không?",
+      question: "Digimon Story Time Stranger có miễn phí không?",
       answer:
         "Trò chơi miễn phí nhưng có các khoản mua trong ứng dụng và có quảng cáo.",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "Tôi có thể chơi offline được không?",
-      answer: "Có, theo đánh giá của người dùng, Knit Out có thể chơi offline.",
+      answer: "Có, theo đánh giá của người dùng, Digimon Story Time Stranger có thể chơi offline.",
     },
     {
       question: "Có những vấn đề đã biết không?",

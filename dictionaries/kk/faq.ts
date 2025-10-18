@@ -1,6 +1,6 @@
 export const faq = {
   title: "ЖҚС",
-  subtitle: "Knit Out туралы жиі қойылатын сұрақтар",
+  subtitle: "Digimon Story Time Stranger туралы жиі қойылатын сұрақтар",
   questions: [
     {
       question: "Ойынды қалай бастаймын?",

@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Scarica Knit Out - Svelta i nodi!",
+    title: "Scarica Digimon Story Time Stranger - Svelta i nodi!",
     description:
-      "Scarica Knit Out e inizia a svelta i colorati nodi. Un gioco di puzzle rilassante e strategico.",
+      "Scarica Digimon Story Time Stranger e inizia a svelta i colorati nodi. Un gioco di puzzle rilassante e strategico.",
   },
-  title: "Scarica Knit Out",
+  title: "Scarica Digimon Story Time Stranger",
   subtitle: "Svelta i nodi!",
   stats: {
     rating: "4,7",

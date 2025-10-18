@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Téléchargez Knit Out - Détanglez les Nœuds!",
+    title: "Téléchargez Digimon Story Time Stranger - Détanglez les Nœuds!",
     description:
-      "Téléchargez Knit Out et commencez à délier des nœuds colorés. Un jeu de puzzle relaxant et stratégique.",
+      "Téléchargez Digimon Story Time Stranger et commencez à délier des nœuds colorés. Un jeu de puzzle relaxant et stratégique.",
   },
-  title: "Téléchargez Knit Out",
+  title: "Téléchargez Digimon Story Time Stranger",
   subtitle: "Détanglez les nœuds!",
   stats: {
     rating: "4,7",

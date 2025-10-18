@@ -1,5 +1,5 @@
 export const companyInfo = {
-  title: "About Knit Out",
+  title: "About Digimon Story Time Stranger",
   subtitle: "Untangle the Knots! A vibrant and relaxing puzzle game.",
   stats: {
     players: "+100K",
@@ -11,7 +11,7 @@ export const companyInfo = {
     about: {
       title: "About The Game",
       content:
-        "Knit Out is a relaxing puzzle game where your challenge is to clear lines of colorful knots, releasing ropes that need to find their matching bobbins below.",
+        "Digimon Story Time Stranger is a relaxing puzzle game where your challenge is to clear lines of colorful knots, releasing ropes that need to find their matching bobbins below.",
     },
     mission: {
       title: "Key Features",

@@ -1,16 +1,16 @@
-# Knit Out Game Guide - Complete Introduction
+# Digimon Story Time Stranger Game Guide - Complete Introduction
 
-> Knit Out Game Guide (knitoutlevel.com) is the definitive fan-made resource for players of the popular cozy organization game, Knit Out. We provide detailed, easy-to-follow walkthroughs, video solutions, and helpful tips for every level (currently 1-89+). Our goal is to enhance your gaming experience by helping you overcome challenges smoothly and fully appreciate the game's relaxing and heartwarming journey. We cater to a global audience with support for multiple languages.
+> Digimon Story Time Stranger Game Guide (knitoutlevel.com) is the definitive fan-made resource for players of the popular cozy organization game, Digimon Story Time Stranger. We provide detailed, easy-to-follow walkthroughs, video solutions, and helpful tips for every level (currently 1-89+). Our goal is to enhance your gaming experience by helping you overcome challenges smoothly and fully appreciate the game's relaxing and heartwarming journey. We cater to a global audience with support for multiple languages.
 
 ## 网站背景 (Website Background)
-This website was created by passionate Knit Out players who wanted to build a central, reliable hub for strategies and solutions. We noticed players often sought clear guidance for specific levels and decided to create a comprehensive, high-quality resource. Our mission is to foster a helpful community and be the go-to guide for Knit Out enthusiasts worldwide, ensuring everyone can enjoy the charming process of organizing and discovering the stories within each room without frustration.
+This website was created by passionate Digimon Story Time Stranger players who wanted to build a central, reliable hub for strategies and solutions. We noticed players often sought clear guidance for specific levels and decided to create a comprehensive, high-quality resource. Our mission is to foster a helpful community and be the go-to guide for Digimon Story Time Stranger enthusiasts worldwide, ensuring everyone can enjoy the charming process of organizing and discovering the stories within each room without frustration.
 
 ## 内容分类详情 (Content Category Details)
 ### [Level Guides & Details](https://knitoutlevel.com/${lang}/level)
-This is the core section of our site, featuring a complete collection of guides for every level in Knit Out. The main `/videos` page provides an overview and quick search. Each individual level page (e.g., `/${lang}/videos/1`, `/${lang}/videos/89`) offers a detailed step-by-step walkthrough, identifying key items and their correct placements. Crucially, each guide is accompanied by a dedicated video tutorial showing the exact solution, making it easy to follow along visually. We strive for clarity and accuracy in all guides.
+This is the core section of our site, featuring a complete collection of guides for every level in Digimon Story Time Stranger. The main `/videos` page provides an overview and quick search. Each individual level page (e.g., `/${lang}/videos/1`, `/${lang}/videos/89`) offers a detailed step-by-step walkthrough, identifying key items and their correct placements. Crucially, each guide is accompanied by a dedicated video tutorial showing the exact solution, making it easy to follow along visually. We strive for clarity and accuracy in all guides.
 
 ### [Game Download Info](https://knitoutlevel.com/${lang}/app)
-While we are a fan guide site, we provide convenient links and information directing users to the official sources (like Google Play and Apple App Store) where they can download the Knit Out game itself. This section also highlights the game's key features like its relaxing escape, heartwarming story, and unique organization gameplay, encouraging new players to try it out.
+While we are a fan guide site, we provide convenient links and information directing users to the official sources (like Google Play and Apple App Store) where they can download the Digimon Story Time Stranger game itself. This section also highlights the game's key features like its relaxing escape, heartwarming story, and unique organization gameplay, encouraging new players to try it out.
 
 ### [Blog (If Applicable)](https://knitoutlevel.com/${lang}/blog)
 Our blog section serves as a space for game news, announcements about updates, deeper dives into game mechanics or strategies, and potentially community highlights. Content aims to keep players informed and engaged beyond the level guides. (Adjust this description based on actual blog content frequency and focus).
@@ -39,7 +39,7 @@ Our guides and website interface are available in multiple languages to serve a 
 - ไทย (th)
 
 ## 用户价值 (User Value)
-Players visiting Knit Out Game Guide benefit from quick and reliable solutions to specific game levels they might be stuck on, saving time and reducing frustration. Our clear written guides and accompanying videos cater to different learning preferences. Beyond just solutions, users discover efficient strategies and potentially hidden details within levels. The multi-language support makes the guides accessible to a global player base. Ultimately, we help users maximize their enjoyment of Knit Out's cozy and satisfying gameplay loop.
+Players visiting Digimon Story Time Stranger Game Guide benefit from quick and reliable solutions to specific game levels they might be stuck on, saving time and reducing frustration. Our clear written guides and accompanying videos cater to different learning preferences. Beyond just solutions, users discover efficient strategies and potentially hidden details within levels. The multi-language support makes the guides accessible to a global player base. Ultimately, we help users maximize their enjoyment of Digimon Story Time Stranger's cozy and satisfying gameplay loop.
 
 ## 最新更新内容 (Latest Update Content)
 ### [Level 1 Guide Example](https://knitoutlevel.com/en/videos/1)

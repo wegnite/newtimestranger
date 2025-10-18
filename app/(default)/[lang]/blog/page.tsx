@@ -32,7 +32,7 @@ export async function generateMetadata({
 
   return {
     title: {
-      template: `%s | Knit Out`,
+      template: `%s | Digimon Story Time Stranger`,
       default: dict.blog.title,
     },
     description: dict.blog.subtitle,

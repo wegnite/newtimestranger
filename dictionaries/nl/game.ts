@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Speel {gameName}", // Plaatsaanduiding voor de naam van het spel
-  metaTitle: "Speel {gameName} Online - Knit Out Handleiding",
+  metaTitle: "Speel {gameName} Online - Digimon Story Time Stranger Handleiding",
   metaDescription:
     "Speel {gameName} gratis online, download niet nodig. {descriptionSnippet}", // descriptionSnippet kan de tagline zijn uit de markdown
   loadingText: "Spel wordt geladen, even geduld a.u.b...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Waarde voor de gamePage.title-plaatsaanduiding
+    name: "Digimon Story Time Stranger", // Waarde voor de gamePage.title-plaatsaanduiding
     descriptionMarkdown: `
-## Knit Out – Ontsnel de Knots!
+## Digimon Story Time Stranger – Ontsnel de Knots!
 
-Dui in op de kunst van het ontstekelen met Knit Out! Je uitdaging is om lijnen met kleurrijke knopen van boven te verwijderen, waardoor touwen vrijkomen die hun passende bobijnen onderaan moeten vinden. Kies strategisch de juiste bobijnen uit het rooster om de touwen te verzamelen en elk niveau te voltooien. Zonder tijdlimieten of druk is het allemaal over ontspannen, strategisch plezier.
+Dui in op de kunst van het ontstekelen met Digimon Story Time Stranger! Je uitdaging is om lijnen met kleurrijke knopen van boven te verwijderen, waardoor touwen vrijkomen die hun passende bobijnen onderaan moeten vinden. Kies strategisch de juiste bobijnen uit het rooster om de touwen te verzamelen en elk niveau te voltooien. Zonder tijdlimieten of druk is het allemaal over ontspannen, strategisch plezier.
 
 ## Ontspannend Maar Uitdagend Gameplay
 
-In Knit Out presenteert elk niveau je een nieuw, ingewikkeld puzzel van kleurrijke knopen. Je taak is om het patroon van de touwen te observeren en strategisch de bobijnen onderaan te selecteren om ze één voor één te verzamelen. Terwijl je de knopen ontstekelt, zullen bevredigende animaties en geluids-effecten je vooruitgang bijstaan. Het gameplay is gemakkelijk te begrijpen, maar vereist scherpe denkwerk om te beheersen als de puzzels complexer worden. Het is het ideale spel om te ontspannen en je geest te scherpen.
+In Digimon Story Time Stranger presenteert elk niveau je een nieuw, ingewikkeld puzzel van kleurrijke knopen. Je taak is om het patroon van de touwen te observeren en strategisch de bobijnen onderaan te selecteren om ze één voor één te verzamelen. Terwijl je de knopen ontstekelt, zullen bevredigende animaties en geluids-effecten je vooruitgang bijstaan. Het gameplay is gemakkelijk te begrijpen, maar vereist scherpe denkwerk om te beheersen als de puzzels complexer worden. Het is het ideale spel om te ontspannen en je geest te scherpen.
 
 ## Hoe je moet interageren
 

@@ -1,6 +1,6 @@
 export const features = {
-  title: "Schlüsselfunktionen von Knit Out",
-  subtitle: "Entdecke, was Knit Out so fesselnd und unterhaltsam macht",
+  title: "Schlüsselfunktionen von Digimon Story Time Stranger",
+  subtitle: "Entdecke, was Digimon Story Time Stranger so fesselnd und unterhaltsam macht",
   items: [
     {
       title: "Einfaches & Süchtig Machendes Gameplay",

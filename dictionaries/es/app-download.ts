@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Descargar Knit Out - Deshacer los Nudos!",
+    title: "Descargar Digimon Story Time Stranger - Deshacer los Nudos!",
     description:
-      "Descarga Knit Out y comienza a deshacer nudos coloridos. Un juego de puzzles relajante y estratégico.",
+      "Descarga Digimon Story Time Stranger y comienza a deshacer nudos coloridos. Un juego de puzzles relajante y estratégico.",
   },
-  title: "Descargar Knit Out",
+  title: "Descargar Digimon Story Time Stranger",
   subtitle: "¡Deshacer los nudos!",
   stats: {
     rating: "4.7",

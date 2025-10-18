@@ -1,12 +1,12 @@
 export const levelShowcase = {
-  title: "Knit Out Деңгейінің Читтері мен Шешімдері",
+  title: "Digimon Story Time Stranger Деңгейінің Читтері мен Шешімдері",
   nav: {
     featured: "Таңдаулы",
     rangePrefix: "Деңгей ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Knit Out Деңгейі ",
+    titlePrefix: "Digimon Story Time Stranger Деңгейі ",
   },
   showMoreButton: "Көбірек Деңгейлерді Көрсету",
   noLevelsFound: "Бұл ауқымда деңгейлер табылмады.",

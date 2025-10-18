@@ -1,6 +1,6 @@
 export const features = {
   title: "핵심 기능",
-  subtitle: "Knit Out의 매력적인 게임 요소",
+  subtitle: "Digimon Story Time Stranger의 매력적인 게임 요소",
   items: [
     {
       title: "컬러 매칭 퍼즐",

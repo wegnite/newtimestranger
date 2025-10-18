@@ -105,7 +105,7 @@ export default function SystemRequirements() {
           <h3 className="font-semibold mb-2">Installation Guide:</h3>
           <ol className="list-decimal list-inside space-y-1 text-sm text-muted-foreground">
             <li>Click the download link for your preferred platform above</li>
-            <li>Follow the store's purchase/download process</li>
+            <li>Follow the store&apos;s purchase/download process</li>
             <li>Download and run the installation file</li>
             <li>Follow the installation wizard instructions</li>
             <li>Launch the game and start your adventure!</li>

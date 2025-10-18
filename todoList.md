@@ -4,11 +4,11 @@
 
 # 不同国家的名称
 
-德语：(Traumzimmer)Knit Out
-日语：(夢の部屋)Knit Out(ドリーミールーム)
-法语：(Chambre de Rêve)Knit Out
-英语：Knit Out
-西班牙语：(Habitación de Ensueño)Knit Out
+德语：(Traumzimmer)Digimon Story Time Stranger
+日语：(夢の部屋)Digimon Story Time Stranger(ドリーミールーム)
+法语：(Chambre de Rêve)Digimon Story Time Stranger
+英语：Digimon Story Time Stranger
+西班牙语：(Habitación de Ensueño)Digimon Story Time Stranger
 
 # 自动联网搜索内容写 blog
 

@@ -1,6 +1,6 @@
 export const features = {
-  title: "Knit Out の主な特徴",
-  subtitle: "Knit Out がなぜこんなにも人を惹きつけ、楽しいのかを発見しよう",
+  title: "Digimon Story Time Stranger の主な特徴",
+  subtitle: "Digimon Story Time Stranger がなぜこんなにも人を惹きつけ、楽しいのかを発見しよう",
   items: [
     {
       title: "シンプルながら中毒性のあるゲームプレイ",

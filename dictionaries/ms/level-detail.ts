@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Knit Out Tahap {{level}} - Panduan & Penyelesaian & Permainan`,
-    description: `Knit Out {{level}}, Panduan lengkap untuk Knit Out Tahap {{level}}, menyediakan petunjuk strategi terperinci, penyelesaian tali dan bobin, dan panduan video. Membantu anda dengan mudah melengkapi tahap dan membuka semua simpul.`,
-    siteName: "Panduan Rasmi Knit Out",
+    title: `Digimon Story Time Stranger Tahap {{level}} - Panduan & Penyelesaian & Permainan`,
+    description: `Digimon Story Time Stranger {{level}}, Panduan lengkap untuk Digimon Story Time Stranger Tahap {{level}}, menyediakan petunjuk strategi terperinci, penyelesaian tali dan bobin, dan panduan video. Membantu anda dengan mudah melengkapi tahap dan membuka semua simpul.`,
+    siteName: "Panduan Rasmi Digimon Story Time Stranger",
     invalidId: {
       title: "Nombor Tahap Tidak Sah",
       description: `Sila masukkan nombor tahap yang sah (1-${levels.length})`,

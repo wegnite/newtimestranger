@@ -2,7 +2,7 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "Tập hợp Hướng dẫn Trò chơi",
-  title: "Xem tất cả Hướng dẫn Cấp độ Knit Out",
+  title: "Xem tất cả Hướng dẫn Cấp độ Digimon Story Time Stranger",
   description:
     "Khám phá các hướng dẫn chi tiết, mẹo và chiến lược cho mỗi cấp độ. Nhập số cấp độ để nhảy trực tiếp đến hướng dẫn tương ứng.",
   stats: {
@@ -23,11 +23,11 @@ export const hero = {
     downloadGame: "Tải xuống Trò chơi",
   },
   downloadCard: {
-    title: "Tải xuống Knit Out",
+    title: "Tải xuống Digimon Story Time Stranger",
     description: "Bắt đầu một cuộc phiêu lưu thách đấu giải đố thư giãn và có chiến lược!",
   },
   videoSection: {
-    title: "Video Chiến lược Knit Out",
+    title: "Video Chiến lược Digimon Story Time Stranger",
     description:
       "Xem các hướng dẫn video chi tiết của trò chơi để học các chiến lược hoàn thành các cấp độ",
   },

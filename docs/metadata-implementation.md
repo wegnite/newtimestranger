@@ -2,7 +2,7 @@
 
 ## 1. 概述
 
-本文档详细说明了 Knit Out 应用中应用下载页面的元数据生成实现。该实现基于 Next.js 13+ 的新元数据 API，提供了完整的 SEO 支持、多语言支持和社交媒体分享优化。
+本文档详细说明了 Digimon Story Time Stranger 应用中应用下载页面的元数据生成实现。该实现基于 Next.js 13+ 的新元数据 API，提供了完整的 SEO 支持、多语言支持和社交媒体分享优化。
 
 ## 2. 核心实现
 
@@ -64,7 +64,7 @@ openGraph: {
   title: dict.appDownload.meta.title,
   description: dict.appDownload.meta.description,
   url: `${process.env.NEXT_PUBLIC_SITE_URL}/${lang}/download`,
-  siteName: "Knit Out",
+  siteName: "Digimon Story Time Stranger",
   locale: lang,
   type: "website",
   images: [

@@ -126,11 +126,11 @@ export function Footer({ lang, footerDict }: FooterProps) {
           </a>
           <a
               href="https://dropawaylevel.com/"
-              title="Drop Away"
+              title="Digimon Story Time Stranger"
               target="_blank"
               rel="noopener"
               className="text-xs text-muted-foreground hover:text-foreground transition-colors">
-            Drop Away
+            Digimon Story Time Stranger
           </a>
           <a
               href="https://meaningintext.com/"

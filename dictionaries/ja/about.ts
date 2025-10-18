@@ -1,10 +1,10 @@
 export const about = {
-  title: "Knit Outガイドサイトについて",
+  title: "Digimon Story Time Strangerガイドサイトについて",
   subtitle: "プレイヤーコミュニティとゲームリソース",
   content: {
     mission: {
       title: "当サイトのミッション",
-      text: "当サイトのミッションは簡単です。Knit Outのプレイヤーにとって最も役立ち、正確でユーザーフレンドリーなリソースを作成することです。特に難しいパズルに引っかかっている場合でも、最良の戦略を学びたい場合でも、私たちはお手伝いします。",
+      text: "当サイトのミッションは簡単です。Digimon Story Time Strangerのプレイヤーにとって最も役立ち、正確でユーザーフレンドリーなリソースを作成することです。特に難しいパズルに引っかかっている場合でも、最良の戦略を学びたい場合でも、私たちはお手伝いします。",
     },
     values: {
       title: "コアバリュー",
@@ -33,7 +33,7 @@ export const privacy = {
   content: {
     introduction: {
       title: "はじめに",
-      text: "このプライバシーポリシーは、Knit Outガイドサイトがあなたの個人情報を収集、利用、保護する方法を説明しています。当サービスを利用することで、このプライバシーポリシーの条件に同意したものとみなされます。",
+      text: "このプライバシーポリシーは、Digimon Story Time Strangerガイドサイトがあなたの個人情報を収集、利用、保護する方法を説明しています。当サービスを利用することで、このプライバシーポリシーの条件に同意したものとみなされます。",
     },
     dataCollection: {
       title: "データ収集",
@@ -75,11 +75,11 @@ export const termsOfService = {
   content: {
     introduction: {
       title: "はじめに",
-      text: "Knit Outガイドサイトへようこそ。Knit Outゲームの攻略ガイドを提供するファンメイドのウェブサイトです。当ウェブサイトにアクセスまたは利用することで、これらの利用規約に拘束されることに同意したものとみなされます。",
+      text: "Digimon Story Time Strangerガイドサイトへようこそ。Digimon Story Time Strangerゲームの攻略ガイドを提供するファンメイドのウェブサイトです。当ウェブサイトにアクセスまたは利用することで、これらの利用規約に拘束されることに同意したものとみなされます。",
     },
     disclaimer: {
       title: "免責事項",
-      text: "Knit Outガイドサイトは、公式のKnit Outゲームまたはその開発元であるRollic Gamesとは提携、推薦、または公式に関連していません。すべてのゲームコンテンツ、画像、およびトレードマークは、それぞれの所有者の財産です。",
+      text: "Digimon Story Time Strangerガイドサイトは、公式のDigimon Story Time Strangerゲームまたはその開発元であるRollic Gamesとは提携、推薦、または公式に関連していません。すべてのゲームコンテンツ、画像、およびトレードマークは、それぞれの所有者の財産です。",
     },
     userConduct: {
       title: "ユーザーの行動規範",

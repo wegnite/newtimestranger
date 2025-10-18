@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Knit Out Level {{level}} - Walkthrough & Solution & Game`,
-    description: `Knit Out {{level}}, Volledige handleiding voor Knit Out Level {{level}}, met gedetailleerde strategie tips, touw- en bobbin oplossingen en video walkthroughs. Help u gemakkelijk het level te voltooien en alle knopen los te maken.`,
-    siteName: "Knit Out Official Guide",
+    title: `Digimon Story Time Stranger Level {{level}} - Walkthrough & Solution & Game`,
+    description: `Digimon Story Time Stranger {{level}}, Volledige handleiding voor Digimon Story Time Stranger Level {{level}}, met gedetailleerde strategie tips, touw- en bobbin oplossingen en video walkthroughs. Help u gemakkelijk het level te voltooien en alle knopen los te maken.`,
+    siteName: "Digimon Story Time Stranger Official Guide",
     invalidId: {
       title: "Ongeldig Levelnummer",
       description: `Voer a.u.b. een geldig levelnummer in (1-${levels.length})`,

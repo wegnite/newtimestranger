@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Knit Out レベル{{level}} - 攻略と解決策とゲーム`,
-    description: `Knit Out {{level}}、Knit Out レベル{{level}}の完全ガイド。詳細な戦略ヒント、ロープとボビンの解決策、ビデオ攻略を提供します。あなたが簡単にレベルをクリアし、すべての結び目を解くのを助けます。`,
-    siteName: "Knit Out公式ガイド",
+    title: `Digimon Story Time Stranger レベル{{level}} - 攻略と解決策とゲーム`,
+    description: `Digimon Story Time Stranger {{level}}、Digimon Story Time Stranger レベル{{level}}の完全ガイド。詳細な戦略ヒント、ロープとボビンの解決策、ビデオ攻略を提供します。あなたが簡単にレベルをクリアし、すべての結び目を解くのを助けます。`,
+    siteName: "Digimon Story Time Stranger公式ガイド",
     invalidId: {
       title: "無効なレベル番号",
       description: `有効なレベル番号(1-${levels.length})を入力してください`,

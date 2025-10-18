@@ -1,35 +1,40 @@
 export const appDownload = {
   meta: {
-    title: "下载Knit Out - 解开绳结！",
+    title: "下载数码宝贝故事：时间陌生人 - 完整指南与攻略",
     description:
-      "下载Knit Out并开始解开色彩斑斓的绳结。一款轻松且具策略性的益智游戏。",
+      "在Steam、PlayStation和Xbox上下载数码宝贝故事：时间陌生人。体验终极数码宝贝RPG冒险，拥有时间旅行机制。",
   },
-  title: "下载Knit Out",
-  subtitle: "解开绳结！",
+  title: "下载数码宝贝故事：时间陌生人",
+  subtitle: "与您的数码宝贝伙伴一起踏上史诗般的时间旅行冒险！",
   stats: {
-    rating: "4.7",
-    downloads: "100K+ 次下载",
+    rating: "4.8",
+    downloads: "70K+ 同时在线玩家",
   },
   downloadOptions: {
-    appStore: {
-      platform: "App Store",
-      description: "在App Store上下载",
-      link: "https://apps.apple.com/us/app/knit-out/id6740406762",
+    steam: {
+      platform: "Steam",
+      description: "在Steam上下载",
+      link: "https://store.steampowered.com/app/1984270/Digimon_Story_Time_Stranger/",
     },
-    googlePlay: {
-      platform: "Google Play",
-      description: "在Google Play上获取",
-      link: "https://play.google.com/store/apps/details?id=com.sbg.knitout",
+    playstation: {
+      platform: "PlayStation商店",
+      description: "在PlayStation上获取",
+      link: "https://store.playstation.com/en-us/product/UP0700-PPSA25917_00-DSTS0DEMO0000000",
+    },
+    xbox: {
+      platform: "Xbox商店",
+      description: "在Xbox上下载",
+      link: "https://www.xbox.com/en-US/games/store/digimon-story-time-stranger-demo/9NXKLQWLZ637/0010",
     },
   },
   features: {
     organize: {
-      title: "数百个谜题",
-      description: "数百个复杂的谜题等待解决",
+      title: "450+ 数码宝贝",
+      description: "收集和训练超过450种不同的数码宝贝",
     },
     story: {
-      title: "轻松的游戏玩法",
-      description: "无时间限制的轻松游戏玩法 - 非常适合放松身心",
+      title: "时间旅行冒险",
+      description: "体验跨越两个世界的独特时间旅行故事情节",
     },
   },
 } as const;

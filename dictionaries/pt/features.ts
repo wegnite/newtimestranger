@@ -1,7 +1,7 @@
 export const features = {
   title: "Recursos Principais",
   subtitle:
-    "Descubra as poderosas capacidades que fazem o Knit Out se destacar",
+    "Descubra as poderosas capacidades que fazem o Digimon Story Time Stranger se destacar",
   items: [
     {
       title: "Jogabilidade Relaxante",

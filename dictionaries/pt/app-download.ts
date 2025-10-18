@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Baixe Knit Out - Um Jogo Aconchegante de Organização de Quartos",
+    title: "Baixe Digimon Story Time Stranger - Um Jogo Aconchegante de Organização de Quartos",
     description:
-      "Baixe Knit Out e comece sua jornada emocionante de organizar e decorar quartos. Crie seu espaço perfeito através da organização consciente.",
+      "Baixe Digimon Story Time Stranger e comece sua jornada emocionante de organizar e decorar quartos. Crie seu espaço perfeito através da organização consciente.",
   },
-  title: "Baixe Knit Out",
+  title: "Baixe Digimon Story Time Stranger",
   subtitle: "Um Jogo Aconchegante e Relaxante de Organização de Quartos",
   stats: {
     rating: "4.8",

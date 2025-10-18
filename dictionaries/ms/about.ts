@@ -1,10 +1,10 @@
 export const about = {
-  title: "Tentang Laman Panduan Knit Out",
+  title: "Tentang Laman Panduan Digimon Story Time Stranger",
   subtitle: "Komuniti Pemain & Sumber Permainan",
   content: {
     mission: {
       title: "Misi Kami",
-      text: "Misi kami adalah sederhana: untuk mencipta sumber yang paling berguna, tepat, dan mesra pengguna untuk pemain Knit Out. Sama ada anda terjebak dalam teka-teki yang sangat mencabar atau hanya ingin belajar strategi terbaik, kami berada di sini untuk membantu.",
+      text: "Misi kami adalah sederhana: untuk mencipta sumber yang paling berguna, tepat, dan mesra pengguna untuk pemain Digimon Story Time Stranger. Sama ada anda terjebak dalam teka-teki yang sangat mencabar atau hanya ingin belajar strategi terbaik, kami berada di sini untuk membantu.",
     },
     values: {
       title: "Nilai Inti",
@@ -33,7 +33,7 @@ export const privacy = {
   content: {
     introduction: {
       title: "Pengenalan",
-      text: "Dasar Privasi ini menjelaskan bagaimana Laman Panduan Knit Out mengumpul, menggunakan, dan melindungi maklumat peribadi anda. Dengan menggunakan perkhidmatan kami, anda bersetuju dengan syarat Dasar Privasi ini.",
+      text: "Dasar Privasi ini menjelaskan bagaimana Laman Panduan Digimon Story Time Stranger mengumpul, menggunakan, dan melindungi maklumat peribadi anda. Dengan menggunakan perkhidmatan kami, anda bersetuju dengan syarat Dasar Privasi ini.",
     },
     dataCollection: {
       title: "Pengumpulan Data",
@@ -75,11 +75,11 @@ export const termsOfService = {
   content: {
     introduction: {
       title: "Pengenalan",
-      text: "Selamat datang ke Laman Panduan Knit Out, laman web yang dibuat oleh penggemar dan bertujuan untuk menyediakan panduan dan petunjuk untuk permainan Knit Out. Dengan mengakses atau menggunakan laman web kami, anda bersetuju untuk terikat oleh Syarat & Ketentuan ini.",
+      text: "Selamat datang ke Laman Panduan Digimon Story Time Stranger, laman web yang dibuat oleh penggemar dan bertujuan untuk menyediakan panduan dan petunjuk untuk permainan Digimon Story Time Stranger. Dengan mengakses atau menggunakan laman web kami, anda bersetuju untuk terikat oleh Syarat & Ketentuan ini.",
     },
     disclaimer: {
       title: "Pengecualian",
-      text: "Laman Panduan Knit Out tidak berkaitan, tidak diendors, atau dalam sebarang cara secara rasmi berkaitan dengan permainan Knit Out rasmi atau pengembangnya Rollic Games. Semua kandungan permainan, imej, dan tanda dagangan adalah harta milik pemilik masing-masing.",
+      text: "Laman Panduan Digimon Story Time Stranger tidak berkaitan, tidak diendors, atau dalam sebarang cara secara rasmi berkaitan dengan permainan Digimon Story Time Stranger rasmi atau pengembangnya Rollic Games. Semua kandungan permainan, imej, dan tanda dagangan adalah harta milik pemilik masing-masing.",
     },
     userConduct: {
       title: "Kelakuan Pengguna",

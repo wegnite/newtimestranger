@@ -2,7 +2,7 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "Koleksyon ng Mga Gabay sa Laro",
-  title: "Tingnan ang Lahat ng Mga Gabay sa Lebel ng Knit Out",
+  title: "Tingnan ang Lahat ng Mga Gabay sa Lebel ng Digimon Story Time Stranger",
   description:
     "Galugarin ang mga detalyadong pagsasama, tips, at diskarte para sa bawat lebel. Ipasok ang isang numero ng lebel upang tumalon direktang sa kaukulang gabay.",
   stats: {
@@ -23,11 +23,11 @@ export const hero = {
     downloadGame: "Mag-download ng Laro",
   },
   downloadCard: {
-    title: "Mag-download ng Knit Out",
+    title: "Mag-download ng Digimon Story Time Stranger",
     description: "Simulan ang isang mapapakalma at makatotohanang pakikipagsapalaran sa puzzle!",
   },
   videoSection: {
-    title: "Mga Video ng Diskarte sa Knit Out",
+    title: "Mga Video ng Diskarte sa Digimon Story Time Stranger",
     description:
       "Panoorin ang mga detalyadong video tutorial ng laro upang matuto ng mga diskarte para sa pagkumpleto ng mga lebel",
   },

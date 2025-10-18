@@ -2,12 +2,12 @@ import levels from "@/data/levels";
 
 export const home = {
   meta: {
-    title: `Knit Out Level 1-${levels.length} Complete Walkthrough & Guide | Video Tutorial Collection`,
-    description: `Looking for a Knit Out guide? We provide detailed video walkthroughs and guides for all Knit Out levels (Level 1-${levels.length}), covering untangling techniques for every Knit Out level to help you pass easily. Get the latest Knit Out level guide and enjoy the game!`,
+    title: `Digimon Story Time Stranger Level 1-${levels.length} Complete Walkthrough & Guide | Video Tutorial Collection`,
+    description: `Looking for a Digimon Story Time Stranger guide? We provide detailed video walkthroughs and guides for all Digimon Story Time Stranger levels (Level 1-${levels.length}), covering untangling techniques for every Digimon Story Time Stranger level to help you pass easily. Get the latest Digimon Story Time Stranger level guide and enjoy the game!`,
     keywords:
-      "Knit Out, Puzzle Game, Untangle, Knots, Ropes, Bobbins, Game Guide, Level Solutions, Rollic Games, Walkthrough",
-    siteName: "Knit Out Game Guide",
-    author: "Knit Out Guide Team",
+      "Digimon Story Time Stranger, Puzzle Game, Untangle, Knots, Ropes, Bobbins, Game Guide, Level Solutions, Rollic Games, Walkthrough",
+    siteName: "Digimon Story Time Stranger Game Guide",
+    author: "Digimon Story Time Stranger Guide Team",
     category: "Game Guide",
     classification: "Puzzle Game",
   },

@@ -1,14 +1,14 @@
 export const faq = {
-  title: "Knit Out FAQ",
-  subtitle: "Knit Out에 대한 자주 묻는 질문",
+  title: "Digimon Story Time Stranger FAQ",
+  subtitle: "Digimon Story Time Stranger에 대한 자주 묻는 질문",
   questions: [
     {
-      question: "Knit Out을 어떻게 플레이하나요?",
+      question: "Digimon Story Time Stranger을 어떻게 플레이하나요?",
       answer:
         "아래 그리드에서 올바른 넥깃을 선택하여 로프를 모으고, 상단의 색다른 매듭 줄을 지우는 것이 당신의 과제입니다.",
     },
     {
-      question: "Knit Out은 무료인가요?",
+      question: "Digimon Story Time Stranger은 무료인가요?",
       answer:
         "게임은 무료로 플레이할 수 있지만, 앱 내 구매 기능이 있으며 광고가 포함되어 있습니다.",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "오프라인으로 플레이할 수 있나요?",
-      answer: "네, 사용자 리뷰에 따르면 Knit Out은 오프라인으로 플레이할 수 있습니다.",
+      answer: "네, 사용자 리뷰에 따르면 Digimon Story Time Stranger은 오프라인으로 플레이할 수 있습니다.",
     },
     {
       question: "알려진 문제가 있나요?",

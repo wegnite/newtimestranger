@@ -45,7 +45,7 @@ export default async function LevelPage() {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: dict.home?.meta?.siteName || "Knit Out Game Guide",
+        name: dict.home?.meta?.siteName || "Digimon Story Time Stranger Game Guide",
         logo: logoUrl,
         publisher: {
           "@id": `${siteUrl}/#organization`,
@@ -76,7 +76,7 @@ export default async function LevelPage() {
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: dict.home?.meta?.siteName || "Knit Out Game Guide",
+        name: dict.home?.meta?.siteName || "Digimon Story Time Stranger Game Guide",
         url: siteUrl,
         logo: {
           "@type": "ImageObject",

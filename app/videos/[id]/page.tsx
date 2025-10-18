@@ -146,7 +146,7 @@ export default async function LevelDetailPage({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: dict.levelDetail.meta.siteName || "Drop Away Game Guide",
+        name: dict.levelDetail.meta.siteName || "Digimon Story Time Stranger Game Guide",
         logo: `${siteUrl}/images/logo.webp`,
         publisher: {
           "@id": `${siteUrl}/#organization`,
@@ -163,7 +163,7 @@ export default async function LevelDetailPage({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: dict.levelDetail.meta.siteName || "Drop Away Game Guide",
+        name: dict.levelDetail.meta.siteName || "Digimon Story Time Stranger Game Guide",
         url: siteUrl,
         logo: {
           "@type": "ImageObject",
@@ -173,7 +173,7 @@ export default async function LevelDetailPage({
         description:
             dict.companyInfo?.sections?.about?.content ||
             dict.companyInfo?.subtitle ||
-            "Your reliable source for Drop Away game guides and walkthroughs.",
+            "Your reliable source for Digimon Story Time Stranger game guides and walkthroughs.",
       },
       {
         "@type": "WebPage",

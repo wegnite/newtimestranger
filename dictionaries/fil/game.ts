@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Laro ng {gameName}", // Placeholder for game name
-  metaTitle: "Laro ng {gameName} Online - Gabay sa Knit Out",
+  metaTitle: "Laro ng {gameName} Online - Gabay sa Digimon Story Time Stranger",
   metaDescription:
     "Laruin nang libre ang {gameName} online, walang kinakailangang i-download. {descriptionSnippet}", // descriptionSnippet could be the tagline from markdown
   loadingText: "Nag-i-load ng laro, mangyaring maghintay...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Value for gamePage.title placeholder
+    name: "Digimon Story Time Stranger", // Value for gamePage.title placeholder
     descriptionMarkdown: `
-## Knit Out – Untangle the Knots!
+## Digimon Story Time Stranger – Untangle the Knots!
 
-Lumubog sa sining ng pagtanggal ng mga tambi sa Knit Out! Ang hamon mo ay upang linisin ang mga linya ng mga kulay na tambi mula sa itaas, na naglalabas ng mga lubid na kailangang hanapin ang kanilang mga katugma sa ibaba. Piliin nang makatwiran ang mga tamang bobbin mula sa grid upang kolektahin ang mga lubid at kumpletuhin ang bawat antas. Nang walang mga timer o presyon, ito ay tungkol lamang sa pagpapahinga, makatwirang saya.
+Lumubog sa sining ng pagtanggal ng mga tambi sa Digimon Story Time Stranger! Ang hamon mo ay upang linisin ang mga linya ng mga kulay na tambi mula sa itaas, na naglalabas ng mga lubid na kailangang hanapin ang kanilang mga katugma sa ibaba. Piliin nang makatwiran ang mga tamang bobbin mula sa grid upang kolektahin ang mga lubid at kumpletuhin ang bawat antas. Nang walang mga timer o presyon, ito ay tungkol lamang sa pagpapahinga, makatwirang saya.
 
 ## Pakiramdam ng Pagpapahinga ngunit Nag-uugnay na Laro
 
-Sa Knit Out, ang bawat antas ay nagpapakita sa iyo ng isang bagong, masalimuot na palaisipan ng mga kulay na tambi. Ang iyong gawain ay upang obserbahan ang pattern ng mga lubid at makatwirang pumili ng mga bobbin sa ibaba upang kolektahin ang mga ito isa-isa. Habang tinatanggal mo ang mga tambi, magsasama-sama ang mga nakakaginhawa na animasyon at mga epekto ng tunog sa iyong pag-unlad. Ang gameplay ay madaling maunawaan ngunit nangangailangan ng matalas na pag-iisip upang ma-master dahil ang mga palaisipan ay nagiging mas kumplikado. Ito ang perpektong laro upang magpahinga at palakasin ang iyong isip.
+Sa Digimon Story Time Stranger, ang bawat antas ay nagpapakita sa iyo ng isang bagong, masalimuot na palaisipan ng mga kulay na tambi. Ang iyong gawain ay upang obserbahan ang pattern ng mga lubid at makatwirang pumili ng mga bobbin sa ibaba upang kolektahin ang mga ito isa-isa. Habang tinatanggal mo ang mga tambi, magsasama-sama ang mga nakakaginhawa na animasyon at mga epekto ng tunog sa iyong pag-unlad. Ang gameplay ay madaling maunawaan ngunit nangangailangan ng matalas na pag-iisip upang ma-master dahil ang mga palaisipan ay nagiging mas kumplikado. Ito ang perpektong laro upang magpahinga at palakasin ang iyong isip.
 
 ## Paano Makipag-ugnayan
 

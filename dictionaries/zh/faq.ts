@@ -1,14 +1,14 @@
 export const faq = {
-  title: "Knit Out常见问题解答",
-  subtitle: "关于Knit Out的常见问题",
+  title: "Digimon Story Time Stranger常见问题解答",
+  subtitle: "关于Digimon Story Time Stranger的常见问题",
   questions: [
     {
-      question: "我如何玩Knit Out？",
+      question: "我如何玩Digimon Story Time Stranger？",
       answer:
         "你的挑战是通过从下方网格中选择正确的线轴来收集绳索，从而从顶部清除彩色绳结的行。",
     },
     {
-      question: "Knit Out是免费的吗？",
+      question: "Digimon Story Time Stranger是免费的吗？",
       answer:
         "该游戏可免费游玩，但提供应用内购买且包含广告。",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "我可以离线玩吗？",
-      answer: "是的，根据用户评论，Knit Out可以离线游玩。",
+      answer: "是的，根据用户评论，Digimon Story Time Stranger可以离线游玩。",
     },
     {
       question: "有任何已知问题吗？",

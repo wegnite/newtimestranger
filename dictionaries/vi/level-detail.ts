@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Knit Out关卡{{level}} - Hướng dẫn và Giải pháp & Trò chơi`,
-    description: `Knit Out {{level}}, Hướng dẫn đầy đủ cho关卡Knit Out {{level}}, cung cấp các mẹo chiến lược chi tiết, giải pháp dây và bobbing, và các hướng dẫn video. Giúp bạn dễ dàng hoàn thành关卡và giải quyết tất cả các nút bấm.`,
-    siteName: "Hướng dẫn chính thức Knit Out",
+    title: `Digimon Story Time Stranger关卡{{level}} - Hướng dẫn và Giải pháp & Trò chơi`,
+    description: `Digimon Story Time Stranger {{level}}, Hướng dẫn đầy đủ cho关卡Digimon Story Time Stranger {{level}}, cung cấp các mẹo chiến lược chi tiết, giải pháp dây và bobbing, và các hướng dẫn video. Giúp bạn dễ dàng hoàn thành关卡và giải quyết tất cả các nút bấm.`,
+    siteName: "Hướng dẫn chính thức Digimon Story Time Stranger",
     invalidId: {
       title: "Số关卡không hợp lệ",
       description: `Vui lòng nhập một số关卡đúng (1-${levels.length})`,

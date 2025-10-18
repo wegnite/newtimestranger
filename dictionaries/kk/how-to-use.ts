@@ -1,6 +1,6 @@
 export const howToUse = {
-  title: "Knit Out қалай пайдалануға болады",
-  subtitle: "Knit Out-мен үш қарапайым қадамда сөйлесуді бастаңыз",
+  title: "Digimon Story Time Stranger қалай пайдалануға болады",
+  subtitle: "Digimon Story Time Stranger-мен үш қарапайым қадамда сөйлесуді бастаңыз",
   steps: [
     {
       title: "Чат бетіне кіру",
@@ -14,7 +14,7 @@ export const howToUse = {
     {
       title: "Жауапты күтіңіз",
       description:
-        "Knit Out тез арада жауап береді, әдетте бірнеше секунд ішінде",
+        "Digimon Story Time Stranger тез арада жауап береді, әдетте бірнеше секунд ішінде",
     },
   ],
   startButton: "Сөйлесуді қазір бастау",

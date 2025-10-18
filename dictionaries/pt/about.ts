@@ -1,10 +1,10 @@
 export const about = {
-  title: "Sobre o Site de Guias do Knit Out",
+  title: "Sobre o Site de Guias do Digimon Story Time Stranger",
   subtitle: "Comunidade de Jogadores e Recursos do Jogo",
   content: {
     mission: {
       title: "Nossa Missão",
-      text: "Nossa missão é simples: criar o recurso mais útil, preciso e fácil de usar para os jogadores de Knit Out. Se você está preso em um quebra-cabeça particularmente desafiador ou apenas quer ter certeza de que não perdeu nenhum item colecionável, estamos aqui para ajudar.",
+      text: "Nossa missão é simples: criar o recurso mais útil, preciso e fácil de usar para os jogadores de Digimon Story Time Stranger. Se você está preso em um quebra-cabeça particularmente desafiador ou apenas quer ter certeza de que não perdeu nenhum item colecionável, estamos aqui para ajudar.",
     },
     values: {
       title: "Valores Fundamentais",
@@ -33,7 +33,7 @@ export const privacy = {
   content: {
     introduction: {
       title: "Introdução",
-      text: "Esta Política de Privacidade explica como o Knit Out coleta, usa e protege suas informações pessoais. Ao usar nossos serviços, você concorda com os termos desta Política de Privacidade.",
+      text: "Esta Política de Privacidade explica como o Digimon Story Time Stranger coleta, usa e protege suas informações pessoais. Ao usar nossos serviços, você concorda com os termos desta Política de Privacidade.",
     },
     dataCollection: {
       title: "Coleta de Dados",
@@ -76,11 +76,11 @@ export const termsOfService = {
   content: {
     introduction: {
       title: "Introdução",
-      text: "Bem-vindo ao Site de Guias do Knit Out, um site feito por fãs dedicado a fornecer detonados e guias para o jogo Knit Out. Ao acessar ou usar nosso site, você concorda em ficar vinculado a estes Termos de Serviço.",
+      text: "Bem-vindo ao Site de Guias do Digimon Story Time Stranger, um site feito por fãs dedicado a fornecer detonados e guias para o jogo Digimon Story Time Stranger. Ao acessar ou usar nosso site, você concorda em ficar vinculado a estes Termos de Serviço.",
     },
     disclaimer: {
       title: "Isenção de Responsabilidade",
-      text: "O Site de Guias do Knit Out não é afiliado, endossado ou de forma alguma oficialmente conectado ao jogo oficial Knit Out ou seus desenvolvedores. Todo o conteúdo do jogo, imagens e marcas registradas são propriedade de seus respectivos proprietários.",
+      text: "O Site de Guias do Digimon Story Time Stranger não é afiliado, endossado ou de forma alguma oficialmente conectado ao jogo oficial Digimon Story Time Stranger ou seus desenvolvedores. Todo o conteúdo do jogo, imagens e marcas registradas são propriedade de seus respectivos proprietários.",
     },
     userConduct: {
       title: "Conduta do Usuário",

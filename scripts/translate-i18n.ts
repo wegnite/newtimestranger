@@ -11,7 +11,7 @@ const OPENAI_MODEL = "doubao-1-5-lite-32k-250115";
 // 品牌名称映射 - 如果某个语言有特定的品牌名称，在这里配置
 const BRAND_NAME_MAPPING: Record<string, Record<string, string>> = {
   // 游戏品牌名称映射
-  "Knit Out": {
+  "Digimon Story Time Stranger": {
     // 如果某些语言有特定的品牌名称翻译，可以在这里添加
     // "zh": "编织解结", // 示例：如果中文有特定名称
     // "ja": "ニットアウト", // 示例：如果日语有特定名称
@@ -161,10 +161,10 @@ async function callOpenAI(
 10. 只输出TypeScript代码，不要任何解释、代码块标记或额外注释
 
 示例：
-输入: title: "Download Knit Out - Untangle the Knots!",
-输出: title: "下载 Knit Out - 解开绳结！",
+输入: title: "Download Digimon Story Time Stranger - Untangle the Knots!",
+输出: title: "下载 Digimon Story Time Stranger - 解开绳结！",
 
-注意："Knit Out"作为品牌名称保持英文。`;
+注意："Digimon Story Time Stranger"作为品牌名称保持英文。`;
 
   const userPrompt = `请将这个TypeScript i18n文件翻译成${
     LANGUAGE_MAP[targetLanguage] || targetLanguage

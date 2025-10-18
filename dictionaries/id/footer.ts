@@ -11,9 +11,9 @@ export const footer = {
   contact: {
     email: "info@superblast.games",
   },
-  copyright: "© 2024 Panduan Knit Out. Hak Cipta Dilindungi.",
+  copyright: "© 2024 Panduan Digimon Story Time Stranger. Hak Cipta Dilindungi.",
   disclaimer:
-    "Panduan Knit Out adalah situs fans panduan game. Knit Out adalah merek dagang dari Rollic Games. Semua merek dagang dan hak cipta milik pemiliknya masing-masing.",
+    "Panduan Digimon Story Time Stranger adalah situs fans panduan game. Digimon Story Time Stranger adalah merek dagang dari Rollic Games. Semua merek dagang dan hak cipta milik pemiliknya masing-masing.",
 } as const;
 
 export default footer;

@@ -1,5 +1,5 @@
 export const header = {
-  brand: "Guía de Knit Out",
+  brand: "Guía de Digimon Story Time Stranger",
   navItems: [
     { name: "Inicio", href: "/" },
     { name: "Videos", href: "/videos" },

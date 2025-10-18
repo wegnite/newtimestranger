@@ -1,5 +1,5 @@
 export const companyInfo = {
-  title: "Knit Out Туралы",
+  title: "Digimon Story Time Stranger Туралы",
   subtitle: "Бүкіл Әлемде Миллиондаған Адам Сүйетін Жайлы Ұйымдастыру Ойыны",
   stats: {
     players: "+1M",
@@ -11,7 +11,7 @@ export const companyInfo = {
     about: {
       title: "Біз Туралы",
       content:
-        "Knit Out - бұл жайлы ұйымдастыру ойыны. Біздің миссиямыз - бөлмені ұйымдастыру және безендіру арқылы жылулық пен қуаныш сыйлау.",
+        "Digimon Story Time Stranger - бұл жайлы ұйымдастыру ойыны. Біздің миссиямыз - бөлмені ұйымдастыру және безендіру арқылы жылулық пен қуаныш сыйлау.",
     },
     mission: {
       title: "Біздің Миссиямыз",

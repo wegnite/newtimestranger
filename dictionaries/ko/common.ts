@@ -43,10 +43,10 @@ export const common = {
   onlineGames: {
     bannerTitle: "직접 게임을 플레이하시겠습니까?",
     bannerDescription:
-      "다운로드 없이 브라우저에서 Knit Out 및 더 많은 게임을 직접 경험해보세요",
+      "다운로드 없이 브라우저에서 Digimon Story Time Stranger 및 더 많은 게임을 직접 경험해보세요",
     playNowButton: "지금 플레이",
     featured: "추천 게임",
     viewAllGames: "모든 게임 보기",
-    levelCompletionText: "온라인으로 Knit Out 플레이!",
+    levelCompletionText: "온라인으로 Digimon Story Time Stranger 플레이!",
   },
 } as const;

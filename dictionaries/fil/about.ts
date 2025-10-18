@@ -1,10 +1,10 @@
 export const about = {
-  title: "Tungkol sa Knit Out Guide Site",
+  title: "Tungkol sa Digimon Story Time Stranger Guide Site",
   subtitle: "Pamayanan ng Mga Manlalaro at Mga Mapagkukunan ng Laro",
   content: {
     mission: {
       title: "Aming Misyon",
-      text: "Ang aming misyon ay simpleng: lumikha ng pinakamakatulong, tumpak, at maging user-friendly na mapagkukunan para sa mga manlalaro ng Knit Out. Kung naiwan ka sa isang partikular na hamon na palaisipan o gusto lang matuto ng pinakamahusay na diskarte, narito kami upang tumulong.",
+      text: "Ang aming misyon ay simpleng: lumikha ng pinakamakatulong, tumpak, at maging user-friendly na mapagkukunan para sa mga manlalaro ng Digimon Story Time Stranger. Kung naiwan ka sa isang partikular na hamon na palaisipan o gusto lang matuto ng pinakamahusay na diskarte, narito kami upang tumulong.",
     },
     values: {
       title: "Mga Pangunahing Halaga",
@@ -33,7 +33,7 @@ export const privacy = {
   content: {
     introduction: {
       title: "Pagpapakilala",
-      text: "Ipinapaliwanag ng Patakaran sa Privasiya na ito kung paano nakukuha, ginagamit, at pinoprotektahan ng Knit Out Guide Site ang iyong personal na impormasyon. Sa pamamagitan ng paggamit ng aming mga serbisyo, sumasang-ayon ka sa mga tuntunin ng Patakaran sa Privasiya na ito.",
+      text: "Ipinapaliwanag ng Patakaran sa Privasiya na ito kung paano nakukuha, ginagamit, at pinoprotektahan ng Digimon Story Time Stranger Guide Site ang iyong personal na impormasyon. Sa pamamagitan ng paggamit ng aming mga serbisyo, sumasang-ayon ka sa mga tuntunin ng Patakaran sa Privasiya na ito.",
     },
     dataCollection: {
       title: "Pagkolekta ng Data",
@@ -75,11 +75,11 @@ export const termsOfService = {
   content: {
     introduction: {
       title: "Pagpapakilala",
-      text: "Maligayang pagdating sa Knit Out Guide Site, isang website na gawa ng mga tagahanga na naglalayong magbigay ng mga walkthrough at gabay para sa laro ng Knit Out. Sa pamamagitan ng pag-access o paggamit ng aming website, sumasang-ayon ka na maging binu-bind ng mga Tuntunin ng Paggamit na ito.",
+      text: "Maligayang pagdating sa Digimon Story Time Stranger Guide Site, isang website na gawa ng mga tagahanga na naglalayong magbigay ng mga walkthrough at gabay para sa laro ng Digimon Story Time Stranger. Sa pamamagitan ng pag-access o paggamit ng aming website, sumasang-ayon ka na maging binu-bind ng mga Tuntunin ng Paggamit na ito.",
     },
     disclaimer: {
       title: "Disclaimer",
-      text: "Ang Knit Out Guide Site ay hindi kaakibat, hindi indorsado, o kahit saan na opisyal na konektado sa opisyal na laro ng Knit Out o sa developer nito na Rollic Games. Ang lahat ng nilalaman ng laro, mga larawan, at mga trademark ay ari-arian ng kanilang mga may-ari.",
+      text: "Ang Digimon Story Time Stranger Guide Site ay hindi kaakibat, hindi indorsado, o kahit saan na opisyal na konektado sa opisyal na laro ng Digimon Story Time Stranger o sa developer nito na Rollic Games. Ang lahat ng nilalaman ng laro, mga larawan, at mga trademark ay ari-arian ng kanilang mga may-ari.",
     },
     userConduct: {
       title: "Pag-uugali ng User",

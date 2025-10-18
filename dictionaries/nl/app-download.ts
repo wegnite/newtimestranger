@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Download Knit Out - Los de knopen op!",
+    title: "Download Digimon Story Time Stranger - Los de knopen op!",
     description:
-      "Download Knit Out en begin met het losmaken van kleurrijke knopen. Een ontspannend en strategisch puzzelspel.",
+      "Download Digimon Story Time Stranger en begin met het losmaken van kleurrijke knopen. Een ontspannend en strategisch puzzelspel.",
   },
-  title: "Download Knit Out",
+  title: "Download Digimon Story Time Stranger",
   subtitle: "Los de knopen op!",
   stats: {
     rating: "4,7",

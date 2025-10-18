@@ -1,10 +1,10 @@
 export const about = {
-  title: "關於Knit Out指南網站",
+  title: "關於Digimon Story Time Stranger指南網站",
   subtitle: "玩家社群與遊戲資源",
   content: {
     mission: {
       title: "我們的使命",
-      text: "我們的使命很簡單：為Knit Out玩家創建最有幫助、最準確且最易於使用的資源。無論你是卡在一個特別具有挑戰性的難題上，還是只想學習最佳策略，我們都在這裡提供幫助。",
+      text: "我們的使命很簡單：為Digimon Story Time Stranger玩家創建最有幫助、最準確且最易於使用的資源。無論你是卡在一個特別具有挑戰性的難題上，還是只想學習最佳策略，我們都在這裡提供幫助。",
     },
     values: {
       title: "核心價值觀",
@@ -33,7 +33,7 @@ export const privacy = {
   content: {
     introduction: {
       title: "引言",
-      text: "本隱私政策解釋了Knit Out指南網站如何收集、使用和保護你的個人資訊。使用我們的服務即表示你同意本隱私政策的條款。",
+      text: "本隱私政策解釋了Digimon Story Time Stranger指南網站如何收集、使用和保護你的個人資訊。使用我們的服務即表示你同意本隱私政策的條款。",
     },
     dataCollection: {
       title: "資料收集",
@@ -75,11 +75,11 @@ export const termsOfService = {
   content: {
     introduction: {
       title: "引言",
-      text: "歡迎來到Knit Out指南網站，這是一個由粉絲製作的網站，專門為Knit Out遊戲提供通關指南和攻略。訪問或使用我們的網站即表示你同意受這些服務條款的約束。",
+      text: "歡迎來到Digimon Story Time Stranger指南網站，這是一個由粉絲製作的網站，專門為Digimon Story Time Stranger遊戲提供通關指南和攻略。訪問或使用我們的網站即表示你同意受這些服務條款的約束。",
     },
     disclaimer: {
       title: "免責聲明",
-      text: "Knit Out指南網站與官方Knit Out遊戲或其開發商Rollic Games無關聯、未得到其認可，或以任何方式與之有官方聯繫。所有遊戲內容、圖片和商標均屬於其各自的所有者。",
+      text: "Digimon Story Time Stranger指南網站與官方Digimon Story Time Stranger遊戲或其開發商Rollic Games無關聯、未得到其認可，或以任何方式與之有官方聯繫。所有遊戲內容、圖片和商標均屬於其各自的所有者。",
     },
     userConduct: {
       title: "用戶行為",

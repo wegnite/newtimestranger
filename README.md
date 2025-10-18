@@ -1,6 +1,6 @@
-# Knit Out Levels - 游戏攻略网站
+# Digimon Story Time Stranger Levels - 游戏攻略网站
 
-一个基于 Next.js 和 Cloudflare Workers 的多语言游戏攻略网站，为 Knit Out 游戏提供详细的关卡攻略。
+一个基于 Next.js 和 Cloudflare Workers 的多语言游戏攻略网站，为 Digimon Story Time Stranger 游戏提供详细的关卡攻略。
 
 ## 🚀 特性
 
@@ -76,7 +76,7 @@ crowd-express-levels/
 
 ## 🎮 游戏攻略
 
-网站包含 Knit Out 游戏的详细攻略：
+网站包含 Digimon Story Time Stranger 游戏的详细攻略：
 
 - **关卡 1-169**: 完整的关卡攻略
 - **视频教程**: YouTube 视频链接

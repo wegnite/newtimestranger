@@ -2,7 +2,7 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "ゲームガイドコレクション",
-  title: "すべてのKnit Outのレベルガイドを表示する",
+  title: "すべてのDigimon Story Time Strangerのレベルガイドを表示する",
   description:
     "各レベルの詳細な攻略、ヒント、戦略を探検します。レベル番号を入力して、対応するガイドに直接ジャンプします。",
   stats: {
@@ -23,11 +23,11 @@ export const hero = {
     downloadGame: "ゲームをダウンロードする",
   },
   downloadCard: {
-    title: "Knit Outをダウンロードする",
+    title: "Digimon Story Time Strangerをダウンロードする",
     description: "くつろぎながら戦略的なパズル冒険を始めましょう！",
   },
   videoSection: {
-    title: "Knit Outの攻略動画",
+    title: "Digimon Story Time Strangerの攻略動画",
     description:
       "レベルをクリアするための戦略を学ぶために、詳細なゲーム動画チュートリアルを見てください",
   },

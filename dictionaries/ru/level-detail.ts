@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Knit Out Уровень {{level}} - Руководство, решение и игра`,
-    description: `Knit Out {{level}}, Полное руководство по уровню Knit Out {{level}}, с предоставлением подробных советов по стратегии, решения с веревками и катушками, а также видеороликов по прохождению. Поможет вам легко пройти уровень и развязать все узлы.`,
-    siteName: "Официальное руководство Knit Out",
+    title: `Digimon Story Time Stranger Уровень {{level}} - Руководство, решение и игра`,
+    description: `Digimon Story Time Stranger {{level}}, Полное руководство по уровню Digimon Story Time Stranger {{level}}, с предоставлением подробных советов по стратегии, решения с веревками и катушками, а также видеороликов по прохождению. Поможет вам легко пройти уровень и развязать все узлы.`,
+    siteName: "Официальное руководство Digimon Story Time Stranger",
     invalidId: {
       title: "Некорректный номер уровня",
       description: `Пожалуйста, введите действительный номер уровня (1-${levels.length})`,

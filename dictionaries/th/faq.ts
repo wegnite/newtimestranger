@@ -1,14 +1,14 @@
 export const faq = {
-  title: "คำถามที่พบบ่อยเกี่ยวกับ Knit Out",
-  subtitle: "คำถามที่พบบ่อยเกี่ยวกับ Knit Out",
+  title: "คำถามที่พบบ่อยเกี่ยวกับ Digimon Story Time Stranger",
+  subtitle: "คำถามที่พบบ่อยเกี่ยวกับ Digimon Story Time Stranger",
   questions: [
     {
-      question: "ฉันจะเล่น Knit Out ได้อย่างไร?",
+      question: "ฉันจะเล่น Digimon Story Time Stranger ได้อย่างไร?",
       answer:
         "ความท้าทายของคุณคือการเคลียร์เส้นโต๊ะสายผสมสีจากด้านบนโดยเลือกกล่องหมึกที่ถูกต้องจากตารางด้านล่างเพื่อรวบรวมเส้นเชือก",
     },
     {
-      question: "Knit Out ฟรีใช่ไหม?",
+      question: "Digimon Story Time Stranger ฟรีใช่ไหม?",
       answer:
         "เกมนี้ฟรีในการเล่น แต่มีการซื้อภายในแอปและมีแอดvertising",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "ฉันสามารถเล่นออฟไลน์ได้หรือไม่?",
-      answer: "ใช่  ตามรีวิวผู้ใช้งาน  Knit Out สามารถเล่นออฟไลน์ได้",
+      answer: "ใช่  ตามรีวิวผู้ใช้งาน  Digimon Story Time Stranger สามารถเล่นออฟไลน์ได้",
     },
     {
       question: "มีปัญหาที่รู้จักกันหรือไม่?",

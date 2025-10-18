@@ -1,12 +1,12 @@
 export const levelShowcase = {
-  title: "Cách vượt qua và giải pháp cho các cấp độ trong Knit Out",
+  title: "Cách vượt qua và giải pháp cho các cấp độ trong Digimon Story Time Stranger",
   nav: {
     featured: "Nổi bật",
     rangePrefix: "Cấp độ ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Cấp độ Knit Out ",
+    titlePrefix: "Cấp độ Digimon Story Time Stranger ",
   },
   showMoreButton: "Xem thêm các cấp độ",
   noLevelsFound: "Không tìm thấy các cấp độ trong phạm vi này.",

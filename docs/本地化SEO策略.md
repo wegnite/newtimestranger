@@ -2,11 +2,11 @@
 
 ## 不同国家的名称
 
-德语：(Traumzimmer)Knit Out
-日语：(夢の部屋)Knit Out(ドリーミールーム)
-法语：(Chambre de Rêve)Knit Out
-英语：Knit Out
-西班牙语：(Habitación de Ensueño)Knit Out
+德语：(Traumzimmer)Digimon Story Time Stranger
+日语：(夢の部屋)Digimon Story Time Stranger(ドリーミールーム)
+法语：(Chambre de Rêve)Digimon Story Time Stranger
+英语：Digimon Story Time Stranger
+西班牙语：(Habitación de Ensueño)Digimon Story Time Stranger
 
 ## 1. 背景与目标
 
@@ -14,9 +14,9 @@
 
 ## 2. 挑战：统一名称 vs. 本地化名称
 
-我们的游戏在全球推广时，拥有一个原始英文名称 "Knit Out"。然而，在不同的国家或地区，这款游戏可能存在官方或约定俗成的本地化翻译名称（例如，德语区的 "Traumzimmer"）。
+我们的游戏在全球推广时，拥有一个原始英文名称 "Digimon Story Time Stranger"。然而，在不同的国家或地区，这款游戏可能存在官方或约定俗成的本地化翻译名称（例如，德语区的 "Traumzimmer"）。
 
-直接在所有翻译文件中使用统一的 "Knit Out" 会导致严重的 SEO 问题：
+直接在所有翻译文件中使用统一的 "Digimon Story Time Stranger" 会导致严重的 SEO 问题：
 
 - **关键词错配:** 用户搜索本地化名称时，我们的页面内容（标题、描述等）与之不匹配，搜索引擎会判定相关性低。
 - **错失流量:** 无法捕获搜索本地化名称的用户，损失大量高意图流量。
@@ -26,19 +26,19 @@
 
 仅仅使用本地化名称也存在风险，因为我们观察到：
 
-- **部分用户仍搜索原始名称:** 在一些非英语国家，由于习惯、信息来源或其他原因，仍有相当一部分用户会直接搜索原始英文名称 "Knit Out"。
+- **部分用户仍搜索原始名称:** 在一些非英语国家，由于习惯、信息来源或其他原因，仍有相当一部分用户会直接搜索原始英文名称 "Digimon Story Time Stranger"。
 
 ## 3. 用户搜索行为分析 (以德语区为例)
 
 - **主要搜索词:** 德国用户很可能会搜索 `Traumzimmer Lösung` (Traumzimmer 攻略), `Traumzimmer Level X` 等。
-- **次要但重要的搜索词:** 同时，也有用户会搜索 `Knit Out Anleitung` (Knit Out 指南), `Knit Out Level X` 等。
-- **关键发现:** 根据市场观察和数据分析（或假设，需后续验证），直接搜索 "Knit Out" 相关词的流量不容忽视，甚至可能与本地化名称的搜索量相当或更高。
+- **次要但重要的搜索词:** 同时，也有用户会搜索 `Digimon Story Time Stranger Anleitung` (Digimon Story Time Stranger 指南), `Digimon Story Time Stranger Level X` 等。
+- **关键发现:** 根据市场观察和数据分析（或假设，需后续验证），直接搜索 "Digimon Story Time Stranger" 相关词的流量不容忽视，甚至可能与本地化名称的搜索量相当或更高。
 
 ## 4. 我们的 SEO 策略：融合本地化与原始名称
 
 基于以上分析，我们决定采取一种**融合策略**，以最大化覆盖两类搜索用户：
 
-**核心原则：在关键 SEO 元数据（`title`, `description`）中，必须同时包含本地化游戏名称和原始英文名称 "Knit Out"。**
+**核心原则：在关键 SEO 元数据（`title`, `description`）中，必须同时包含本地化游戏名称和原始英文名称 "Digimon Story Time Stranger"。**
 
 **理由:**
 
@@ -49,17 +49,17 @@
 ## 5. 实施指南 (以德语 `de` 为例)
 
 - **本地化名称:** `Traumzimmer`
-- **原始名称:** `Knit Out`
+- **原始名称:** `Digimon Story Time Stranger`
 
 **示例 (`home.ts`):**
 
 - **`title`:**
-  - **优化后:** `Traumzimmer & Knit Out: Level 1-X Komplettlösung & Guide | Video-Tutorials`
+  - **优化后:** `Traumzimmer & Digimon Story Time Stranger: Level 1-X Komplettlösung & Guide | Video-Tutorials`
   - _(策略：清晰并列两个名称，保持核心信息)_
 - **`description`:**
-  - **优化后:** `Finden Sie die beste Traumzimmer Komplettlösung! Detaillierte Video-Guides für alle Knit Out Level (1-X). Wir zeigen Ihnen, wie Sie jedes Traumzimmer Level meistern. Ihr Guide für Knit Out!`
+  - **优化后:** `Finden Sie die beste Traumzimmer Komplettlösung! Detaillierte Video-Guides für alle Digimon Story Time Stranger Level (1-X). Wir zeigen Ihnen, wie Sie jedes Traumzimmer Level meistern. Ihr Guide für Digimon Story Time Stranger!`
   - _(策略：自然融入两个名称，可读性优先，适当突出本地化名称)_
-- **页面内容 (H1, H2, 正文):** 自然地使用 "Traumzimmer" 和 "Knit Out"，根据语境调整。
+- **页面内容 (H1, H2, 正文):** 自然地使用 "Traumzimmer" 和 "Digimon Story Time Stranger"，根据语境调整。
 
 ## 6. 后续步骤与验证
 

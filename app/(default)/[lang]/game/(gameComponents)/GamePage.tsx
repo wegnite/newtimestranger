@@ -55,7 +55,7 @@ export default async function GamePage({ params }: GamePageProps) {
         "@type": "WebSite", // 网站实体
         "@id": `${baseUrl}/#website`, // 网站唯一标识符
         url: baseUrl, // 网站URL
-        name: dictionary.home?.meta?.siteName || "Knit Out Game Guide", // 网站名称
+        name: dictionary.home?.meta?.siteName || "Digimon Story Time Stranger Game Guide", // 网站名称
         logo: logoUrl, // 网站Logo
       },
       {

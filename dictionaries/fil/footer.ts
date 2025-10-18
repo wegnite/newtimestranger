@@ -11,9 +11,9 @@ export const footer = {
   contact: {
     email: "info@superblast.games",
   },
-  copyright: "© 2024 Knit Out Guide. Lahat Ng Karapatan Ay Inireserba.",
+  copyright: "© 2024 Digimon Story Time Stranger Guide. Lahat Ng Karapatan Ay Inireserba.",
   disclaimer:
-    "Knit Out Guide ay isang fan site ng game guide. Knit Out ay isang trademark ng Rollic Games. Lahat Ng trademark at copyright ay pag-aari ng kanilang mga may-ari.",
+    "Digimon Story Time Stranger Guide ay isang fan site ng game guide. Digimon Story Time Stranger ay isang trademark ng Rollic Games. Lahat Ng trademark at copyright ay pag-aari ng kanilang mga may-ari.",
 } as const;
 
 export default footer;

@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "玩 {游戏名称}", // 游戏名称的占位符
-  metaTitle: "在线玩 {游戏名称} - Knit Out 指南",
+  metaTitle: "在线玩 {游戏名称} - Digimon Story Time Stranger 指南",
   metaDescription:
     "免费在线玩 {游戏名称}，无需下载。{描述片段}", // descriptionSnippet 可能是来自 markdown 的标语
   loadingText: "正在加载游戏，请稍候...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // gamePage.title 占位符的值
+    name: "Digimon Story Time Stranger", // gamePage.title 占位符的值
     descriptionMarkdown: `
-## Knit Out - 解开绳结！
+## Digimon Story Time Stranger - 解开绳结！
 
-投身于 Knit Out 的解结艺术之中！你的挑战是从顶部清除彩色绳结的线条，释放需要在下方找到匹配线轴的绳索。从网格中战略性地选择正确的线轴来收集绳索并完成每个关卡。没有计时器或压力，一切都是为了放松、享受策略性的乐趣。
+投身于 Digimon Story Time Stranger 的解结艺术之中！你的挑战是从顶部清除彩色绳结的线条，释放需要在下方找到匹配线轴的绳索。从网格中战略性地选择正确的线轴来收集绳索并完成每个关卡。没有计时器或压力，一切都是为了放松、享受策略性的乐趣。
 
 ## 轻松又具挑战性的游戏玩法
 
-在 Knit Out 中，每个关卡都为你呈现一个全新的、错综复杂的彩色绳结谜题。你的任务是观察绳索的图案，并从底部战略性地选择线轴，逐个收集它们。当你解开绳结时，令人满意的动画和音效将伴随你的进展。游戏玩法易于掌握，但随着谜题变得更加复杂，需要敏锐的思维才能精通。这是一款放松身心、锻炼思维的完美游戏。
+在 Digimon Story Time Stranger 中，每个关卡都为你呈现一个全新的、错综复杂的彩色绳结谜题。你的任务是观察绳索的图案，并从底部战略性地选择线轴，逐个收集它们。当你解开绳结时，令人满意的动画和音效将伴随你的进展。游戏玩法易于掌握，但随着谜题变得更加复杂，需要敏锐的思维才能精通。这是一款放松身心、锻炼思维的完美游戏。
 
 ## 如何互动
 

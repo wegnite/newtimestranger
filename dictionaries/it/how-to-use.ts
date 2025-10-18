@@ -1,5 +1,5 @@
 export const howToUse = {
-  title: "Come Usare Knit Out",
+  title: "Come Usare Digimon Story Time Stranger",
   subtitle: "Inizia il tuo viaggio organizzativo in tre semplici passaggi",
   steps: [
     {

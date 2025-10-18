@@ -1,8 +1,8 @@
-# Knit Out 游戏介绍
+# Digimon Story Time Stranger 游戏介绍
 
 ## 1. 游戏概述
 
-Knit Out 是由 ABI Games Studio 开发的一款温馨治愈的收纳整理游戏。这是一款免费游戏，通过整理和装饰房间来讲述一个温暖的生活故事。
+Digimon Story Time Stranger 是由 ABI Games Studio 开发的一款温馨治愈的收纳整理游戏。这是一款免费游戏，通过整理和装饰房间来讲述一个温暖的生活故事。
 
 ### 1.1 基本信息
 

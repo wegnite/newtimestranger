@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Tải xuống Knit Out - Giải quyết những đám rối!",
+    title: "Tải xuống Digimon Story Time Stranger - Giải quyết những đám rối!",
     description:
-      "Tải xuống Knit Out và bắt đầu giải quyết những đám rối màu sắc. Một trò chơi thám tử thư giãn và chiến lược.",
+      "Tải xuống Digimon Story Time Stranger và bắt đầu giải quyết những đám rối màu sắc. Một trò chơi thám tử thư giãn và chiến lược.",
   },
-  title: "Tải xuống Knit Out",
+  title: "Tải xuống Digimon Story Time Stranger",
   subtitle: "Giải quyết những đám rối!",
   stats: {
     rating: "4.7",

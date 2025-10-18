@@ -1,5 +1,5 @@
 export const companyInfo = {
-  title: "À propos de Knit Out",
+  title: "À propos de Digimon Story Time Stranger",
   subtitle: "Désenlacez les noeuds! Un jeu de puzzles dynamique et relaxant.",
   stats: {
     players: "+100K",
@@ -11,7 +11,7 @@ export const companyInfo = {
     about: {
       title: "À propos du jeu",
       content:
-        "Knit Out est un jeu de puzzles relaxant où votre défi est de débarrasser les lignes de noeuds colorés, libérant les cordes qui doivent trouver leur bobine correspondante en dessous.",
+        "Digimon Story Time Stranger est un jeu de puzzles relaxant où votre défi est de débarrasser les lignes de noeuds colorés, libérant les cordes qui doivent trouver leur bobine correspondante en dessous.",
     },
     mission: {
       title: "Caractéristiques clés",

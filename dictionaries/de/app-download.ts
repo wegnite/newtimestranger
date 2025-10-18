@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Download Knit Out - Entwirrle die Knoten!",
+    title: "Download Digimon Story Time Stranger - Entwirrle die Knoten!",
     description:
-      "Lade Knit Out herunter und beginne, farbige Knoten zu entwirren. Ein entspannendes und strategisches Puzzle-Spiel.",
+      "Lade Digimon Story Time Stranger herunter und beginne, farbige Knoten zu entwirren. Ein entspannendes und strategisches Puzzle-Spiel.",
   },
-  title: "Download Knit Out",
+  title: "Download Digimon Story Time Stranger",
   subtitle: "Entwirrle die Knoten!",
   stats: {
     rating: "4,7",

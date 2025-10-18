@@ -56,7 +56,7 @@ export async function generateMetadata({
     const page = parseInt(uri[0]);
     return {
       title: {
-        template: `%s | Knit Out`,
+        template: `%s | Digimon Story Time Stranger`,
         default: `${dict.blog.posts.title} - ${dict.blog.breadcrumbs.page.replace("{0}", page.toString())}`,
       },
       description: dict.blog.subtitle,
@@ -77,7 +77,7 @@ export async function generateMetadata({
 
   return {
     title: {
-      template: `%s | Knit Out Blog`,
+      template: `%s | Digimon Story Time Stranger Blog`,
       default: post.title,
     },
     description: post.excerpt,
@@ -88,7 +88,7 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: `${post.title} | Knit Out Blog`,
+      title: `${post.title} | Digimon Story Time Stranger Blog`,
       description: post.excerpt,
       type: "article",
       publishedTime: post.date,

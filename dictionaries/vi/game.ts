@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Chơi {gameName}", // Placeholder cho tên game
-  metaTitle: "Chơi {gameName} Trực tuyến - Hướng dẫn Knit Out",
+  metaTitle: "Chơi {gameName} Trực tuyến - Hướng dẫn Digimon Story Time Stranger",
   metaDescription:
     "Chơi {gameName} miễn phí trực tuyến, không cần tải xuống. {descriptionSnippet}", // descriptionSnippet có thể là dòng chữ nổi bật từ markdown
   loadingText: "Đang tải game, vui lòng đợi...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Giá trị cho placeholder gamePage.title
+    name: "Digimon Story Time Stranger", // Giá trị cho placeholder gamePage.title
     descriptionMarkdown: `
-## Knit Out – Giải Đoạn Cây Rút!
+## Digimon Story Time Stranger – Giải Đoạn Cây Rút!
 
-Nhân vào nghệ thuật giải đoạn với Knit Out! Thách thức của bạn là xóa các dòng dây rút màu sắc từ trên xuống, thả các dây cần tìm bobbins phù hợp bên dưới. Chọn chiến lược để chọn bobbins đúng từ lưới để thu thập các dây và hoàn thành mỗi cấp. Không có đồng hồ đếm giờ hoặc áp lực, mọi thứ đều về việc thư giãn và thú vị về chiến lược.
+Nhân vào nghệ thuật giải đoạn với Digimon Story Time Stranger! Thách thức của bạn là xóa các dòng dây rút màu sắc từ trên xuống, thả các dây cần tìm bobbins phù hợp bên dưới. Chọn chiến lược để chọn bobbins đúng từ lưới để thu thập các dây và hoàn thành mỗi cấp. Không có đồng hồ đếm giờ hoặc áp lực, mọi thứ đều về việc thư giãn và thú vị về chiến lược.
 
 ## Gameplay Thư Giãn Nhưng Có Thách Thức
 
-Trong Knit Out, mỗi cấp trình bày cho bạn một bài toán phức tạp mới với các dây rút màu sắc. Công việc của bạn là quan sát mẫu dây và chọn chiến lược để chọn bobbins ở dưới để thu thập chúng một by một. Khi bạn giải đoạn các dây, các hoạt hình thú vị và hiệu ứng âm thanh sẽ đi kèm với tiến trình của bạn. Gameplay dễ dàng nắm bắt nhưng đòi hỏi suy nghĩ sắc bén để nắm bắt khi các bài toán trở nên phức tạp hơn. Đây là game hoàn hảo để thư giãn và tinh thần trí tuệ của bạn.
+Trong Digimon Story Time Stranger, mỗi cấp trình bày cho bạn một bài toán phức tạp mới với các dây rút màu sắc. Công việc của bạn là quan sát mẫu dây và chọn chiến lược để chọn bobbins ở dưới để thu thập chúng một by một. Khi bạn giải đoạn các dây, các hoạt hình thú vị và hiệu ứng âm thanh sẽ đi kèm với tiến trình của bạn. Gameplay dễ dàng nắm bắt nhưng đòi hỏi suy nghĩ sắc bén để nắm bắt khi các bài toán trở nên phức tạp hơn. Đây là game hoàn hảo để thư giãn và tinh thần trí tuệ của bạn.
 
 ## Cách tương tác
 

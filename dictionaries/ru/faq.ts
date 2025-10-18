@@ -1,14 +1,14 @@
 export const faq = {
-  title: "Часто задаваемые вопросы о Knit Out",
-  subtitle: "Часто задаваемые вопросы по поводу Knit Out",
+  title: "Часто задаваемые вопросы о Digimon Story Time Stranger",
+  subtitle: "Часто задаваемые вопросы по поводу Digimon Story Time Stranger",
   questions: [
     {
-      question: "Как играть в Knit Out?",
+      question: "Как играть в Digimon Story Time Stranger?",
       answer:
         "Ваша задача - очистить линии цветных узлов сверху, выбирая правильные вилки из сетки ниже, чтобы собрать веревки.",
     },
     {
-      question: "Доступна ли игра Knit Out бесплатно?",
+      question: "Доступна ли игра Digimon Story Time Stranger бесплатно?",
       answer:
         "Игра бесплатна, но предлагает встроенные покупки и содержит рекламу.",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "Могу ли я играть оффлайн?",
-      answer: "Да, по отзывам пользователей, Knit Out можно играть оффлайн.",
+      answer: "Да, по отзывам пользователей, Digimon Story Time Stranger можно играть оффлайн.",
     },
     {
       question: "Есть ли известные проблемы?",

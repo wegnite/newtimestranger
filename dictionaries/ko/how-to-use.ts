@@ -1,6 +1,6 @@
 export const howToUse = {
-  title: "Knit Out 게임 가이드 사용 방법",
-  subtitle: "간단한 3단계로 Knit Out 게임 공략을 시작하세요",
+  title: "Digimon Story Time Stranger 게임 가이드 사용 방법",
+  subtitle: "간단한 3단계로 Digimon Story Time Stranger 게임 공략을 시작하세요",
   steps: [
     {
       title: "레벨 선택",

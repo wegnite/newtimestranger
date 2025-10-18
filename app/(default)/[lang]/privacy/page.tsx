@@ -28,7 +28,7 @@ export async function generateMetadata({
 
   return {
     title: {
-      template: `%s | Knit Out`,
+      template: `%s | Digimon Story Time Stranger`,
       default: dict.privacy.title,
     },
     description: dict.privacy.subtitle,

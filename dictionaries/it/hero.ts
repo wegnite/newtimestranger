@@ -2,7 +2,7 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "Collezione di guide per i giochi",
-  title: "Visualizza tutte le guide per i livelli di Knit Out",
+  title: "Visualizza tutte le guide per i livelli di Digimon Story Time Stranger",
   description:
     "Esplora le guide dettagliate, i consigli e le strategie per ogni livello. Inserisci un numero di livello per saltare direttamente alla guida corrispondente.",
   stats: {
@@ -23,11 +23,11 @@ export const hero = {
     downloadGame: "Scarica il gioco",
   },
   downloadCard: {
-    title: "Scarica Knit Out",
+    title: "Scarica Digimon Story Time Stranger",
     description: "Inizia un'avventura di puzzle rilassante e strategica!",
   },
   videoSection: {
-    title: "Video strategici per Knit Out",
+    title: "Video strategici per Digimon Story Time Stranger",
     description:
       "Guarda i video tutorial dettagliati del gioco per imparare le strategie per completare i livelli",
   },

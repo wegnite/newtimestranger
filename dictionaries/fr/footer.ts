@@ -11,9 +11,9 @@ export const footer = {
   contact: {
     email: "info@superblast.games",
   },
-  copyright: "© 2024 Guide Knit Out. Tous droits réservés.",
+  copyright: "© 2024 Guide Digimon Story Time Stranger. Tous droits réservés.",
   disclaimer:
-    "Le Guide Knit Out est un site fan de guides de jeux. Knit Out est une marque déposée de Rollic Games. Toutes les marques et les droits d'auteur appartiennent à leurs propriétaires respectifs.",
+    "Le Guide Digimon Story Time Stranger est un site fan de guides de jeux. Digimon Story Time Stranger est une marque déposée de Rollic Games. Toutes les marques et les droits d'auteur appartiennent à leurs propriétaires respectifs.",
 } as const;
 
 export default footer;

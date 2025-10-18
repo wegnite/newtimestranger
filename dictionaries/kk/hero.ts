@@ -2,7 +2,7 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "Ойын Нұсқаулықтары Жинағы",
-  title: "Барлық Knit Out Деңгей Нұсқаулықтарын Көру",
+  title: "Барлық Digimon Story Time Stranger Деңгей Нұсқаулықтарын Көру",
   description:
     "Әр бөлме деңгейі үшін егжей-тегжейлі өту жолдарын, кеңестерді және стратегияларды зерттеңіз. Сәйкес нұсқаулыққа тікелей өту үшін деңгей нөірін енгізіңіз.",
   stats: {
@@ -23,7 +23,7 @@ export const hero = {
     downloadGame: "Ойынды Жүктеп Алу",
   },
   downloadCard: {
-    title: "Knit Out жүктеп алу",
+    title: "Digimon Story Time Stranger жүктеп алу",
     description:
       "Жинастыру мен ұйымдастырудың жылы әрі емдік саяхатын бастаңыз!",
   },

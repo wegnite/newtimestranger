@@ -1,14 +1,14 @@
 export const faq = {
-  title: "Knit Out FAQ",
-  subtitle: "Frequently Asked Questions about Knit Out",
+  title: "Digimon Story Time Stranger FAQ",
+  subtitle: "Frequently Asked Questions about Digimon Story Time Stranger",
   questions: [
     {
-      question: "How do I play Knit Out?",
+      question: "How do I play Digimon Story Time Stranger?",
       answer:
         "Your challenge is to clear lines of colorful knots from the top by choosing the right bobbins from the grid below to collect the ropes.",
     },
     {
-      question: "Is Knit Out free?",
+      question: "Is Digimon Story Time Stranger free?",
       answer:
         "The game is free to play but offers in-app purchases and contains ads.",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "Can I play offline?",
-      answer: "Yes, according to user reviews, Knit Out can be played offline.",
+      answer: "Yes, according to user reviews, Digimon Story Time Stranger can be played offline.",
     },
     {
       question: "Are there any known issues?",

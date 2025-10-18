@@ -43,10 +43,10 @@ export const common = {
   onlineGames: {
     bannerTitle: "想直接玩游戏吗？",
     bannerDescription:
-      "无需下载，直接在浏览器中体验Knit Out和更多游戏",
+      "无需下载，直接在浏览器中体验Digimon Story Time Stranger和更多游戏",
     playNowButton: "立即游玩",
     featured: "精选游戏",
     viewAllGames: "查看所有游戏",
-    levelCompletionText: "在线玩Knit Out！",
+    levelCompletionText: "在线玩Digimon Story Time Stranger！",
   },
 } as const;

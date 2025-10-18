@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Unduh Knit Out - Putuskan Simpul-simpulnya!",
+    title: "Unduh Digimon Story Time Stranger - Putuskan Simpul-simpulnya!",
     description:
-      "Unduh Knit Out dan mulai menyelesaikan simpul-simpul berwarna. Ini adalah permainan teka-teki yang santai dan strategis.",
+      "Unduh Digimon Story Time Stranger dan mulai menyelesaikan simpul-simpul berwarna. Ini adalah permainan teka-teki yang santai dan strategis.",
   },
-  title: "Unduh Knit Out",
+  title: "Unduh Digimon Story Time Stranger",
   subtitle: "Putuskan simpul-simpulnya!",
   stats: {
     rating: "4.7",

@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Mainkan {gameName}", // Tempat letak nama permainan
-  metaTitle: "Mainkan {gameName} secara Online - Panduan Knit Out",
+  metaTitle: "Mainkan {gameName} secara Online - Panduan Digimon Story Time Stranger",
   metaDescription:
     "Mainkan {gameName} secara percuma tanpa perlu muat turun. {descriptionSnippet}", // descriptionSnippet mungkin ialah tagline daripada markdown
   loadingText: "Memuat permainan, sila tunggu...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Nilai untuk tempat letak gamePage.title
+    name: "Digimon Story Time Stranger", // Nilai untuk tempat letak gamePage.title
     descriptionMarkdown: `
-## Knit Out – Buka Simpul Tali!
+## Digimon Story Time Stranger – Buka Simpul Tali!
 
-Terjunlah ke dalam seni membuka simpul tali dengan Knit Out! Cabaran anda ialah untuk membersihkan baris simpul warna dari atas, melepaskan tali yang perlu mencari bobin sepadan di bawah. Pilih bobin yang betul secara strategik daripada grid untuk mengumpul tali dan melengkapkan setiap aras. Tanpa penggugat masa atau tekanan, semua tentang bersantailah dengan permainan yang serupa dan strategik.
+Terjunlah ke dalam seni membuka simpul tali dengan Digimon Story Time Stranger! Cabaran anda ialah untuk membersihkan baris simpul warna dari atas, melepaskan tali yang perlu mencari bobin sepadan di bawah. Pilih bobin yang betul secara strategik daripada grid untuk mengumpul tali dan melengkapkan setiap aras. Tanpa penggugat masa atau tekanan, semua tentang bersantailah dengan permainan yang serupa dan strategik.
 
 ## Permainan Bermantap namun Menantang
 
-Dalam Knit Out, setiap aras menawarkan anda teka-teki yang baru dan rumit dengan simpul warna. Tugas anda ialah memerhati corak tali dan memilih bobin di bawah secara strategik untuk mengumpulnya satu demi satu. Semasa anda membuka simpul tali, animasi dan kesan bunyi yang memuaskan akan menemani kemajuan anda. Permainannya mudah difahami tetapi memerlukan pemikiran yang tajam untuk dikuasai apabila teka-teki menjadi lebih kompleks. Ia adalah permainan yang sempurna untuk bersantailah dan mengasah fikiran anda.
+Dalam Digimon Story Time Stranger, setiap aras menawarkan anda teka-teki yang baru dan rumit dengan simpul warna. Tugas anda ialah memerhati corak tali dan memilih bobin di bawah secara strategik untuk mengumpulnya satu demi satu. Semasa anda membuka simpul tali, animasi dan kesan bunyi yang memuaskan akan menemani kemajuan anda. Permainannya mudah difahami tetapi memerlukan pemikiran yang tajam untuk dikuasai apabila teka-teki menjadi lebih kompleks. Ia adalah permainan yang sempurna untuk bersantailah dan mengasah fikiran anda.
 
 ## Cara Berinteraksi
 

@@ -1,5 +1,5 @@
 export const companyInfo = {
-  title: "Over Knit Out",
+  title: "Over Digimon Story Time Stranger",
   subtitle: "Los de knopen op! Een levendig en ontspannend puzzelspel.",
   stats: {
     players: "+100K",
@@ -11,7 +11,7 @@ export const companyInfo = {
     about: {
       title: "Over het spel",
       content:
-        "Knit Out is een ontspannend puzzelspel waarbij je uitdaging is om lijnen met kleurrijke knopen te verwijderen, waardoor touwen loskomen die hun passende bobijnen onderaan moeten vinden.",
+        "Digimon Story Time Stranger is een ontspannend puzzelspel waarbij je uitdaging is om lijnen met kleurrijke knopen te verwijderen, waardoor touwen loskomen die hun passende bobijnen onderaan moeten vinden.",
     },
     mission: {
       title: "Belangrijkste kenmerken",

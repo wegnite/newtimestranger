@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Knit Out 다운로드 - 매듭을 풀어내세요!",
+    title: "Digimon Story Time Stranger 다운로드 - 매듭을 풀어내세요!",
     description:
-      "Knit Out을 다운로드하고 색다른 매듭을 풀어내세요. 휴식과 전략이 필요한 퍼즐 게임입니다.",
+      "Digimon Story Time Stranger을 다운로드하고 색다른 매듭을 풀어내세요. 휴식과 전략이 필요한 퍼즐 게임입니다.",
   },
-  title: "Knit Out 다운로드",
+  title: "Digimon Story Time Stranger 다운로드",
   subtitle: "매듭을 풀어내세요!",
   stats: {
     rating: "4.7",

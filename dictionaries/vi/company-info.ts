@@ -1,5 +1,5 @@
 export const companyInfo = {
-  title: "Về Knit Out",
+  title: "Về Digimon Story Time Stranger",
   subtitle: "Giải quyết những thắt lưng! Một trò chơi пазl sôi động và thư giãn.",
   stats: {
     players: "+100K",
@@ -11,7 +11,7 @@ export const companyInfo = {
     about: {
       title: "Về Trò Chơi",
       content:
-        "Knit Out là một trò chơi пазl thư giãn nơi thách thức của bạn là loại bỏ các dòng thắt lưng màu sắc, giải phóng các dây cần tìm bobbins phù hợp bên dưới.",
+        "Digimon Story Time Stranger là một trò chơi пазl thư giãn nơi thách thức của bạn là loại bỏ các dòng thắt lưng màu sắc, giải phóng các dây cần tìm bobbins phù hợp bên dưới.",
     },
     mission: {
       title: "Đặc điểm chính",

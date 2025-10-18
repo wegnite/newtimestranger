@@ -1,6 +1,6 @@
 export const faq = {
   title: "Perguntas Frequentes",
-  subtitle: "Perguntas Frequentes sobre o Knit Out",
+  subtitle: "Perguntas Frequentes sobre o Digimon Story Time Stranger",
   questions: [
     {
       question: "Como começo a jogar?",

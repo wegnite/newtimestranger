@@ -1,12 +1,12 @@
 export const levelShowcase = {
-  title: "Knit Out Level Cheats & Solutions",
+  title: "Digimon Story Time Stranger Level Cheats & Solutions",
   nav: {
     featured: "Gekeurd",
     rangePrefix: "Level ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Knit Out Level ",
+    titlePrefix: "Digimon Story Time Stranger Level ",
   },
   showMoreButton: "Toon meer niveaus",
   noLevelsFound: "Geen niveaus gevonden in dit bereik.",

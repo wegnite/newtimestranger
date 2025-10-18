@@ -1,10 +1,10 @@
 export const about = {
-  title: "Over de Knit Out Guide Site",
+  title: "Over de Digimon Story Time Stranger Guide Site",
   subtitle: "Spelercommunity & Spelbronnen",
   content: {
     mission: {
       title: "Onze Missie",
-      text: "Onze missie is eenvoudig: het meest behulpzame, accurate en gebruiksvriendelijke bronnen voor Knit Out spelers te creëren. Of je nu vast zit bij een bepaald uitdagend puzzelstuk of je gewoon de beste strategieën wilt leren, wij zijn hier om te helpen.",
+      text: "Onze missie is eenvoudig: het meest behulpzame, accurate en gebruiksvriendelijke bronnen voor Digimon Story Time Stranger spelers te creëren. Of je nu vast zit bij een bepaald uitdagend puzzelstuk of je gewoon de beste strategieën wilt leren, wij zijn hier om te helpen.",
     },
     values: {
       title: "Kernwaarden",
@@ -33,7 +33,7 @@ export const privacy = {
   content: {
     introduction: {
       title: "Inleiding",
-      text: "Dit Privacybeleid legt uit hoe Knit Out Guide Site je persoonsgegevens verzamelt, gebruikt en beschermt. Door onze diensten te gebruiken, ga je akkoord met de voorwaarden van dit Privacybeleid.",
+      text: "Dit Privacybeleid legt uit hoe Digimon Story Time Stranger Guide Site je persoonsgegevens verzamelt, gebruikt en beschermt. Door onze diensten te gebruiken, ga je akkoord met de voorwaarden van dit Privacybeleid.",
     },
     dataCollection: {
       title: "Gegevensverzameling",
@@ -75,11 +75,11 @@ export const termsOfService = {
   content: {
     introduction: {
       title: "Inleiding",
-      text: "Welkom bij Knit Out Guide Site, een door fans gemaakt website die zich richt op het geven van walkthroughs en gidsen voor het Knit Out spel. Door onze website te benutten of te bezoeken, ga je akkoord met deze Gebruiksvoorwaarden.",
+      text: "Welkom bij Digimon Story Time Stranger Guide Site, een door fans gemaakt website die zich richt op het geven van walkthroughs en gidsen voor het Digimon Story Time Stranger spel. Door onze website te benutten of te bezoeken, ga je akkoord met deze Gebruiksvoorwaarden.",
     },
     disclaimer: {
       title: "Vrije verklaring",
-      text: "Knit Out Guide Site is niet verbonden met, geëndoarsed door of op enige manier officieel verbonden met het officiële Knit Out spel of zijn ontwikkelaar Rollic Games. Alle spelinhoud, afbeeldingen en handelsmerken zijn eigendom van hun respectieve eigenaars.",
+      text: "Digimon Story Time Stranger Guide Site is niet verbonden met, geëndoarsed door of op enige manier officieel verbonden met het officiële Digimon Story Time Stranger spel of zijn ontwikkelaar Rollic Games. Alle spelinhoud, afbeeldingen en handelsmerken zijn eigendom van hun respectieve eigenaars.",
     },
     userConduct: {
       title: "Gebruikersgedrag",

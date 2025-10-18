@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Knit Out 레벨 {{level}} - 진행 방법 및 솔루션 및 게임`,
-    description: `Knit Out {{level}}, Knit Out 레벨 {{level}}에 대한 완벽한 가이드. 자세한 전략 팁, 밧줄 및 넥타이 솔루션, 그리고 비디오 진행 방법을 제공합니다. 모든 매듭을 풀어 쉽게 레벨을 완료하도록 도와줍니다.`,
-    siteName: "Knit Out 공식 가이드",
+    title: `Digimon Story Time Stranger 레벨 {{level}} - 진행 방법 및 솔루션 및 게임`,
+    description: `Digimon Story Time Stranger {{level}}, Digimon Story Time Stranger 레벨 {{level}}에 대한 완벽한 가이드. 자세한 전략 팁, 밧줄 및 넥타이 솔루션, 그리고 비디오 진행 방법을 제공합니다. 모든 매듭을 풀어 쉽게 레벨을 완료하도록 도와줍니다.`,
+    siteName: "Digimon Story Time Stranger 공식 가이드",
     invalidId: {
       title: "잘못된 레벨 번호",
       description: `유효한 레벨 번호(1-${levels.length})를 입력해주세요.`,

@@ -11,9 +11,9 @@ export const footer = {
   contact: {
     email: "info@superblast.games",
   },
-  copyright: "© 2024 Knit Out Guide. All rights reserved.",
+  copyright: "© 2024 Digimon Story Time Stranger Guide. All rights reserved.",
   disclaimer:
-    "Knit Out Guideはゲームガイドのファンサイトです。Knit OutはRollic Gamesの商標です。すべての商標および著作権はそれぞれの所有者に帰属します。",
+    "Digimon Story Time Stranger Guideはゲームガイドのファンサイトです。Digimon Story Time StrangerはRollic Gamesの商標です。すべての商標および著作権はそれぞれの所有者に帰属します。",
 } as const;
 
 export default footer;

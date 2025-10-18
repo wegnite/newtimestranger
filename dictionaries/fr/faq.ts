@@ -1,14 +1,14 @@
 export const faq = {
-  title: "FAQ de Knit Out",
-  subtitle: "Questions fréquemment posées sur Knit Out",
+  title: "FAQ de Digimon Story Time Stranger",
+  subtitle: "Questions fréquemment posées sur Digimon Story Time Stranger",
   questions: [
     {
-      question: "Comment jouer à Knit Out?",
+      question: "Comment jouer à Digimon Story Time Stranger?",
       answer:
         "Votre défi est de vider des lignes de noeuds colorés depuis le haut en choisissant les bonnes bobines dans la grille ci-dessous pour collecter les cordes.",
     },
     {
-      question: "Knit Out est-il gratuit?",
+      question: "Digimon Story Time Stranger est-il gratuit?",
       answer:
         "Le jeu est gratuit à jouer, mais propose des achats dans l'application et contient des publicités.",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "Peux - je jouer hors ligne?",
-      answer: "Oui, selon les commentaires des utilisateurs, Knit Out peut être joué hors ligne.",
+      answer: "Oui, selon les commentaires des utilisateurs, Digimon Story Time Stranger peut être joué hors ligne.",
     },
     {
       question: "Y a - t - il des problèmes connus?",

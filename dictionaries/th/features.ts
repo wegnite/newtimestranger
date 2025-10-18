@@ -1,6 +1,6 @@
 export const features = {
   title: "คุณสมบัติหลัก",
-  subtitle: "ค้นพบความสามารถอันทรงพลังที่ทำให้ Knit Out โดดเด่น",
+  subtitle: "ค้นพบความสามารถอันทรงพลังที่ทำให้ Digimon Story Time Stranger โดดเด่น",
   items: [
     {
       title: "การเล่นเกมที่ผ่อนคลาย",

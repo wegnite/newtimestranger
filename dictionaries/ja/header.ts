@@ -1,5 +1,5 @@
 export const header = {
-  brand: "Knit Outガイド",
+  brand: "Digimon Story Time Strangerガイド",
   navItems: [
     { name: "ホーム", href: "/" },
     { name: "ビデオ", href: "/videos" },

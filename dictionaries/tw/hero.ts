@@ -2,7 +2,7 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "游戏指南合集",
-  title: "查看所有《Knit Out》关卡指南",
+  title: "查看所有《Digimon Story Time Stranger》关卡指南",
   description:
     "探索每个关卡的详细攻略、提示和策略。输入关卡编号可直接跳转到相应指南。",
   stats: {
@@ -23,11 +23,11 @@ export const hero = {
     downloadGame: "下载游戏",
   },
   downloadCard: {
-    title: "下载《Knit Out》",
+    title: "下载《Digimon Story Time Stranger》",
     description: "开启一场轻松且具策略性的解谜冒险！",
   },
   videoSection: {
-    title: "《Knit Out》策略视频",
+    title: "《Digimon Story Time Stranger》策略视频",
     description:
       "观看详细的游戏视频教程，学习完成关卡的策略",
   },

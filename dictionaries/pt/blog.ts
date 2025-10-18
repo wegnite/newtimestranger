@@ -1,5 +1,5 @@
 export const blog = {
-  title: "Guia do Jogo Knit Out",
+  title: "Guia do Jogo Digimon Story Time Stranger",
   subtitle:
     "Descubra mais dicas de jogo, inspiração para decoração e histórias emocionantes",
   breadcrumbs: {
@@ -7,7 +7,7 @@ export const blog = {
     page: "Página {0}",
   },
   posts: {
-    title: "Artigos do Guia do Jogo Knit Out",
+    title: "Artigos do Guia do Jogo Digimon Story Time Stranger",
     readMore: "Ver Detalhes",
   },
 } as const;

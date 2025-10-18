@@ -9,7 +9,7 @@ interface HeroImageWaterfallProps {
 export function HeroImageWaterfall({
   screenshotAltTemplate,
 }: HeroImageWaterfallProps) {
-  const altTemplate = screenshotAltTemplate || "Knit Out screenshot {num}";
+  const altTemplate = screenshotAltTemplate || "Digimon Story Time Stranger screenshot {num}";
 
   return (
     <motion.div

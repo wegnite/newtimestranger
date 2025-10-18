@@ -112,7 +112,7 @@ export default function LevelDetailContent({
             <main className="lg:col-span-3 space-y-6">
               {/* Title */}
               <h1 className="text-3xl md:text-4xl font-bold">
-                Drop Away {dict.levelDetail.levelNumber} {level.id}
+                Digimon Story Time Stranger {dict.levelDetail.levelNumber} {level.id}
               </h1>
 
               {/* Video Area */}
@@ -216,7 +216,7 @@ export default function LevelDetailContent({
                     </div>
                     <p className="text-sm text-muted-foreground">
                       {dict.common?.onlineGames?.levelCompletionText ||
-                          "在线游玩 Drop Away！"}
+                          "在线游玩 Digimon Story Time Stranger！"}
                     </p>
                   </div>
                   <Button

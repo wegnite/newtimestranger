@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Play {gameName}", // Placeholder for game name
-  metaTitle: "Play {gameName} Online - Knit Out Guide",
+  metaTitle: "Play {gameName} Online - Digimon Story Time Stranger Guide",
   metaDescription:
     "Play {gameName} online for free, no download required. {descriptionSnippet}", // descriptionSnippet could be the tagline from markdown
   loadingText: "Loading game, please wait...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Value for gamePage.title placeholder
+    name: "Digimon Story Time Stranger", // Value for gamePage.title placeholder
     descriptionMarkdown: `
-## Knit Out – An Emotional Home Design Game
+## Digimon Story Time Stranger – An Emotional Home Design Game
 
-Knit Out is an entrancing beauty game where you unpack the chapters of a life, one box at a time. Your goal is to organize treasured belongings, decorate dreamy interiors, and reveal deeply emotional stories through objects alone. With no timers or pressure, it's all about peace, reflection, and cozy creativity. Let yourself unwind and dive into this mindful, memory-rich journey today!
+Digimon Story Time Stranger is an entrancing beauty game where you unpack the chapters of a life, one box at a time. Your goal is to organize treasured belongings, decorate dreamy interiors, and reveal deeply emotional stories through objects alone. With no timers or pressure, it's all about peace, reflection, and cozy creativity. Let yourself unwind and dive into this mindful, memory-rich journey today!
 
 ## Addictive Room Arrangement Gameplay
 
-In Knit Out, every level unfolds a heartfelt chapter in a whole new virtual life through the act of unpacking. You will sort through boxes filled with meaningful belongings—from photo frames and vintage mugs to nostalgic childhood toys. Each item finds a place within beautifully hand-drawn rooms, ranging from cozy dorms to fully grown-up homes. As your management of the decoration and organization, quiet stories emerge through the objects themselves—echoes of growing up, transitions, and cherished memories. The game flows at your pace, so no need to rush, just take your time to find the correct positions for all items! With no timers or stress, this cozy playground invites you to relax, reflect, and enjoy a peaceful, emotionally resonant experience at your own calming moment.
+In Digimon Story Time Stranger, every level unfolds a heartfelt chapter in a whole new virtual life through the act of unpacking. You will sort through boxes filled with meaningful belongings—from photo frames and vintage mugs to nostalgic childhood toys. Each item finds a place within beautifully hand-drawn rooms, ranging from cozy dorms to fully grown-up homes. As your management of the decoration and organization, quiet stories emerge through the objects themselves—echoes of growing up, transitions, and cherished memories. The game flows at your pace, so no need to rush, just take your time to find the correct positions for all items! With no timers or stress, this cozy playground invites you to relax, reflect, and enjoy a peaceful, emotionally resonant experience at your own calming moment.
 
 ## How to Interact
 

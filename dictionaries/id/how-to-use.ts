@@ -1,6 +1,6 @@
 export const howToUse = {
-  title: "How to Use Knit Out",
-  subtitle: "Start chatting with Knit Out in three simple steps",
+  title: "How to Use Digimon Story Time Stranger",
+  subtitle: "Start chatting with Digimon Story Time Stranger in three simple steps",
   steps: [
     {
       title: "Visit Chat Page",
@@ -14,7 +14,7 @@ export const howToUse = {
     {
       title: "Wait for Response",
       description:
-        "Knit Out will quickly generate a response, usually within seconds",
+        "Digimon Story Time Stranger will quickly generate a response, usually within seconds",
     },
   ],
   startButton: "Start Chatting Now",

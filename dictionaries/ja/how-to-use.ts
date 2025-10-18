@@ -1,11 +1,11 @@
 export const howToUse = {
-  title: "Knit Out の遊び方：クイックガイド",
-  subtitle: "簡単な3ステップで Knit Out のパズルアドベンチャーを始めよう",
+  title: "Digimon Story Time Stranger の遊び方：クイックガイド",
+  subtitle: "簡単な3ステップで Digimon Story Time Stranger のパズルアドベンチャーを始めよう",
   steps: [
     {
       title: "ゲームをダウンロードして開始",
       description:
-        "App Store または Google Play Store で Knit Out を見つけましょう。ダウンロードしてアプリを開けば、すぐに始められます。",
+        "App Store または Google Play Store で Digimon Story Time Stranger を見つけましょう。ダウンロードしてアプリを開けば、すぐに始められます。",
     },
     {
       title: "ゲームの目標を理解する",
@@ -18,6 +18,6 @@ export const howToUse = {
         "異なる色は互いにブロックします。先を読み、次にどのスティックマンを動かすかよく考えて、行き詰まらないようにしましょう。",
     },
   ],
-  startButton: "今すぐ Knit Out をダウンロード",
+  startButton: "今すぐ Digimon Story Time Stranger をダウンロード",
   stepLabel: "ステップ",
 } as const;

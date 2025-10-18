@@ -15,7 +15,7 @@ const OPENAI_MODEL = "doubao-1-5-lite-32k-250115";
 // 可以为特定语言指定翻译的名称
 // 如果未指定语言，将使用原始英文名称
 const BRAND_NAME_MAPPING: Record<string, Record<string, string>> = {
-  "Knit Out": {
+  "Digimon Story Time Stranger": {
   },
 };
 

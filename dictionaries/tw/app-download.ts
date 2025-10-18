@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "下載 Knit Out - 解開繩結！",
+    title: "下載 Digimon Story Time Stranger - 解開繩結！",
     description:
-      "下載Knit Out並開始解開五彩繽紛的繩結。一款令人放鬆且具策略性的益智遊戲。",
+      "下載Digimon Story Time Stranger並開始解開五彩繽紛的繩結。一款令人放鬆且具策略性的益智遊戲。",
   },
-  title: "下載 Knit Out",
+  title: "下載 Digimon Story Time Stranger",
   subtitle: "解開繩結！",
   stats: {
     rating: "4.7",

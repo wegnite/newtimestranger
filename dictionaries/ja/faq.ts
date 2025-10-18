@@ -1,14 +1,14 @@
 export const faq = {
-  title: "Knit OutのFAQ",
-  subtitle: "Knit Outに関するよくある質問",
+  title: "Digimon Story Time StrangerのFAQ",
+  subtitle: "Digimon Story Time Strangerに関するよくある質問",
   questions: [
     {
-      question: "Knit Outをどのように遊ぶのですか？",
+      question: "Digimon Story Time Strangerをどのように遊ぶのですか？",
       answer:
         "あなたの課題は、下のグリッドから適切なボビンを選んでロープを集めることで、上から色鮮やかな結び目の列をクリアすることです。",
     },
     {
-      question: "Knit Outは無料ですか？",
+      question: "Digimon Story Time Strangerは無料ですか？",
       answer:
         "このゲームは無料で遊べますが、アプリ内課金があり、広告も含まれています。",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "オフラインで遊べますか？",
-      answer: "はい、ユーザーのレビューによると、Knit Outはオフラインで遊べます。",
+      answer: "はい、ユーザーのレビューによると、Digimon Story Time Strangerはオフラインで遊べます。",
     },
     {
       question: "既知の問題はありますか？",

@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Скачать Knit Out - Разобрать узлы!",
+    title: "Скачать Digimon Story Time Stranger - Разобрать узлы!",
     description:
-      "Скачайте Knit Out и начните разбирать цветные узлы. Это расслабляющая и стратегическая益智-игра.",
+      "Скачайте Digimon Story Time Stranger и начните разбирать цветные узлы. Это расслабляющая и стратегическая益智-игра.",
   },
-  title: "Скачать Knit Out",
+  title: "Скачать Digimon Story Time Stranger",
   subtitle: "Разобрать узлы!",
   stats: {
     rating: "4,7",

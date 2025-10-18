@@ -14,7 +14,7 @@ export async function generateMetadata() {
   const dict = await getDictionary('en');
   return {
     title: {
-      template: `%s | Knit Out`,
+      template: `%s | Digimon Story Time Stranger`,
       default: dict.blog.title,
     },
     description: dict.blog.subtitle,

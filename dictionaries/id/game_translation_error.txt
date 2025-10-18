@@ -29,7 +29,7 @@
 --------------------------------------------------
 export const gamePage = {
   title: "Mainkan {gameName}", // Tempat penampung untuk nama game
-  metaTitle: "Mainkan {gameName} Secara Online - Panduan Knit Out",
+  metaTitle: "Mainkan {gameName} Secara Online - Panduan Digimon Story Time Stranger",
   metaDescription:
     "Mainkan {gameName} secara gratis online, tidak perlu mengunduh. {descriptionSnippet}", // descriptionSnippet bisa menjadi tagline dari markdown
   loadingText: "Memuat game, harap tunggu...",
@@ -48,15 +48,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Nilai untuk tempat penampung gamePage.title
+    name: "Digimon Story Time Stranger", // Nilai untuk tempat penampung gamePage.title
     descriptionMarkdown: `
-## Knit Out – Buka Simpul Simpul!
+## Digimon Story Time Stranger – Buka Simpul Simpul!
 
-Bergabunglah dalam seni membuka simpul dengan Knit Out! Tantangan Anda adalah untuk membersihkan baris simpul berwarna dari atas, melepaskan tali yang perlu menemukan bobbin yang cocok di bawahnya. Pilih bobbin yang tepat secara strategis dari grid untuk mengumpulkan tali dan menyelesaikan setiap level. Tanpa timer atau tekanan, semuanya adalah tentang bersantailah, bersantailah dengan permainan yang strategis.
+Bergabunglah dalam seni membuka simpul dengan Digimon Story Time Stranger! Tantangan Anda adalah untuk membersihkan baris simpul berwarna dari atas, melepaskan tali yang perlu menemukan bobbin yang cocok di bawahnya. Pilih bobbin yang tepat secara strategis dari grid untuk mengumpulkan tali dan menyelesaikan setiap level. Tanpa timer atau tekanan, semuanya adalah tentang bersantailah, bersantailah dengan permainan yang strategis.
 
 ## Gameplay Santailah namun Menantang
 
-Dalam Knit Out, setiap level menampilkan puzzle baru yang rumit dari simpul berwarna. Tugas Anda adalah mengamati pola tali dan memilih bobbin di bawah secara strategis untuk mengumpulkan mereka satu per satu. Saat Anda membuka simpul, animasi yang memuaskan dan efek suara akan menemani kemajuan Anda. Gameplaynya mudah dipahami tetapi membutuhkan pemikiran cermat untuk menguasainya saat puzzle menjadi lebih kompleks. Ini adalah game yang sempurna untuk bersantailah dan mengasah pikiran Anda.
+Dalam Digimon Story Time Stranger, setiap level menampilkan puzzle baru yang rumit dari simpul berwarna. Tugas Anda adalah mengamati pola tali dan memilih bobbin di bawah secara strategis untuk mengumpulkan mereka satu per satu. Saat Anda membuka simpul, animasi yang memuaskan dan efek suara akan menemani kemajuan Anda. Gameplaynya mudah dipahami tetapi membutuhkan pemikiran cermat untuk menguasainya saat puzzle menjadi lebih kompleks. Ini adalah game yang sempurna untuk bersantailah dan mengasah pikiran Anda.
 
 ## Cara Berinteraksi
 
@@ -148,6 +148,6 @@ Gunakan tombol panah atau WASD untuk menggerakkan domba Anda di sekitar arena.
 
 --------------------------------------------------
 
-说明: 
+说明:
 该文件因为语法错误无法正常使用，已恢复为英文原版以确保项目正常运行。
 请手动检查上述错误并重新翻译此文件。

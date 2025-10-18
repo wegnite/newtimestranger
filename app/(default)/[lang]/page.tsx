@@ -69,7 +69,7 @@ export default async function Home({
         "@type": "WebSite", // 类型：网站
         "@id": `${siteUrl}/#website`, // 网站的唯一标识符
         url: siteUrl, // 网站主页 URL
-        name: dict.home.meta.siteName || "Knit Out Game Guide", // 网站名称
+        name: dict.home.meta.siteName || "Digimon Story Time Stranger Game Guide", // 网站名称
         logo: logoUrl, // 网站 Logo URL
         // publisher: 关联发布该网站的组织
         publisher: {
@@ -123,7 +123,7 @@ export default async function Home({
       {
         "@type": "Organization", // 类型：组织
         "@id": `${siteUrl}/#organization`, // 组织的唯一标识符
-        name: dict.home.meta.siteName || "Knit Out Game Guide", // 组织名称 (与网站名称一致)
+        name: dict.home.meta.siteName || "Digimon Story Time Stranger Game Guide", // 组织名称 (与网站名称一致)
         url: siteUrl, // 组织官方网站 URL (通常是网站主页)
         logo: {
           "@type": "ImageObject", // Logo 作为图片对象

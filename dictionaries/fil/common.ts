@@ -43,10 +43,10 @@ export const common = {
   onlineGames: {
     bannerTitle: "Gustong direktang maglaro ng laro?",
     bannerDescription:
-      "Maranasan ang Knit Out at iba pang mga laro nang direkta sa iyong browser, walang kailangang i-download",
+      "Maranasan ang Digimon Story Time Stranger at iba pang mga laro nang direkta sa iyong browser, walang kailangang i-download",
     playNowButton: "Laruin ngayon",
     featured: "Mga Paboritong Laro",
     viewAllGames: "Tingnan ang Lahat ng Mga Laro",
-    levelCompletionText: "Laruin ang Knit Out Online!",
+    levelCompletionText: "Laruin ang Digimon Story Time Stranger Online!",
   },
 } as const;

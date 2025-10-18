@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Download Knit Out - Ihiwalay ang mga Nakabitin!",
+    title: "Download Digimon Story Time Stranger - Ihiwalay ang mga Nakabitin!",
     description:
-      "Mag-download ng Knit Out at simulan ang paghiwalay ng mga kulay na nakabitin. Isang nakapagpapahinga at istraktikong laro ng palaisipan.",
+      "Mag-download ng Digimon Story Time Stranger at simulan ang paghiwalay ng mga kulay na nakabitin. Isang nakapagpapahinga at istraktikong laro ng palaisipan.",
   },
-  title: "Download Knit Out",
+  title: "Download Digimon Story Time Stranger",
   subtitle: "Ihiwalay ang mga nakabitin!",
   stats: {
     rating: "4.7",

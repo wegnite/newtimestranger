@@ -1,10 +1,10 @@
 export const about = {
-  title: "Về Trang Hướng dẫn Knit Out",
+  title: "Về Trang Hướng dẫn Digimon Story Time Stranger",
   subtitle: "Cộng đồng Người chơi & Nguồn tài liệu Game",
   content: {
     mission: {
       title: "Sứ mệnh của chúng tôi",
-      text: "Sứ mệnh của chúng tôi rất đơn giản: tạo ra nguồn tài liệu hữu ích, chính xác và thân thiện với người dùng nhất cho người chơi Knit Out. Dù bạn bị mắc kẹt trong một bài toán đặc biệt khó khăn hay chỉ muốn học các chiến lược tốt nhất, chúng tôi sẽ hỗ trợ bạn.",
+      text: "Sứ mệnh của chúng tôi rất đơn giản: tạo ra nguồn tài liệu hữu ích, chính xác và thân thiện với người dùng nhất cho người chơi Digimon Story Time Stranger. Dù bạn bị mắc kẹt trong một bài toán đặc biệt khó khăn hay chỉ muốn học các chiến lược tốt nhất, chúng tôi sẽ hỗ trợ bạn.",
     },
     values: {
       title: "Giá trị cốt lõi",
@@ -33,7 +33,7 @@ export const privacy = {
   content: {
     introduction: {
       title: "Giới thiệu",
-      text: "Chính sách Bảo mật này giải thích cách Trang Hướng dẫn Knit Out thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn. Bằng cách sử dụng các dịch vụ của chúng tôi, bạn đồng ý với các điều khoản của Chính sách Bảo mật này.",
+      text: "Chính sách Bảo mật này giải thích cách Trang Hướng dẫn Digimon Story Time Stranger thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn. Bằng cách sử dụng các dịch vụ của chúng tôi, bạn đồng ý với các điều khoản của Chính sách Bảo mật này.",
     },
     dataCollection: {
       title: "Thu thập dữ liệu",
@@ -75,11 +75,11 @@ export const termsOfService = {
   content: {
     introduction: {
       title: "Giới thiệu",
-      text: "Chào mừng đến với Trang Hướng dẫn Knit Out, một trang web do người hâm mộ tạo ra nhằm cung cấp các hướng dẫn chơi và tài liệu cho game Knit Out. Bằng cách truy cập hoặc sử dụng trang web của chúng tôi, bạn đồng ý tuân theo các Điều khoản sử dụng này.",
+      text: "Chào mừng đến với Trang Hướng dẫn Digimon Story Time Stranger, một trang web do người hâm mộ tạo ra nhằm cung cấp các hướng dẫn chơi và tài liệu cho game Digimon Story Time Stranger. Bằng cách truy cập hoặc sử dụng trang web của chúng tôi, bạn đồng ý tuân theo các Điều khoản sử dụng này.",
     },
     disclaimer: {
       title: "Bản đồ ngăn chặn",
-      text: "Trang Hướng dẫn Knit Out không có liên quan, được ủng hộ hoặc có bất kỳ mối quan hệ chính thức nào với game chính thức Knit Out hoặc nhà phát triển Rollic Games. Tất cả nội dung game, hình ảnh và thương hiệu đều là tài sản của các chủ sở hữu tương ứng.",
+      text: "Trang Hướng dẫn Digimon Story Time Stranger không có liên quan, được ủng hộ hoặc có bất kỳ mối quan hệ chính thức nào với game chính thức Digimon Story Time Stranger hoặc nhà phát triển Rollic Games. Tất cả nội dung game, hình ảnh và thương hiệu đều là tài sản của các chủ sở hữu tương ứng.",
     },
     userConduct: {
       title: "Hành vi của người dùng",

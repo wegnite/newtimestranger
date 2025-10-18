@@ -18,7 +18,7 @@ function getArgsFromCommandLine() {
       '📖 使用方法：node download-youtube-thumbnails.js "游戏名称" [网站URL]'
     );
     console.log(
-      '📖 示例：npm run download:thumbnails "Knit Out" "knitoutlevel.com"'
+      '📖 示例：npm run download:thumbnails "Digimon Story Time Stranger" "knitoutlevel.com"'
     );
     process.exit(1);
   }

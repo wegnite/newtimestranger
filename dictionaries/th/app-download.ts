@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "ดาวน์โหลด Knit Out - แก้ปัญหาเส้นพันธ์!",
+    title: "ดาวน์โหลด Digimon Story Time Stranger - แก้ปัญหาเส้นพันธ์!",
     description:
-      "ดาวน์โหลด Knit Out และเริ่มแก้ปัญหาเส้นพันธ์สีสัน. เกมสับสนและมีความ전략ที่ผ่อนคลาด.",
+      "ดาวน์โหลด Digimon Story Time Stranger และเริ่มแก้ปัญหาเส้นพันธ์สีสัน. เกมสับสนและมีความ전략ที่ผ่อนคลาด.",
   },
-  title: "ดาวน์โหลด Knit Out",
+  title: "ดาวน์โหลด Digimon Story Time Stranger",
   subtitle: "แก้ปัญหาเส้นพันธ์!",
   stats: {
     rating: "4.7",

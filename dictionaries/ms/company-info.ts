@@ -1,5 +1,5 @@
 export const companyInfo = {
-  title: "Tentang Knit Out",
+  title: "Tentang Digimon Story Time Stranger",
   subtitle: "Bersantailah dengan permainan teka-teki yang menyenangkan dan menenangkan! Hilangkan kesusahan dengan permainan teka-teki ini.",
   stats: {
     players: "+100K",
@@ -11,7 +11,7 @@ export const companyInfo = {
     about: {
       title: "Tentang Permainan",
       content:
-        "Knit Out ialah permainan teka-teki yang menenangkan di mana cabaran anda ialah untuk membersihkan baris simpul warna-warni, melepaskan tali yang perlu mencari bobin sepadan di bawah.",
+        "Digimon Story Time Stranger ialah permainan teka-teki yang menenangkan di mana cabaran anda ialah untuk membersihkan baris simpul warna-warni, melepaskan tali yang perlu mencari bobin sepadan di bawah.",
     },
     mission: {
       title: "Ciri-ciri Utama",

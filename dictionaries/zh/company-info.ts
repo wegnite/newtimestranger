@@ -1,5 +1,5 @@
 export const companyInfo = {
-  title: "关于Knit Out",
+  title: "关于Digimon Story Time Stranger",
   subtitle: "解开绳结！一款充满活力且令人放松的益智游戏。",
   stats: {
     players: "+100K",
@@ -11,7 +11,7 @@ export const companyInfo = {
     about: {
       title: "关于游戏",
       content:
-        "Knit Out是一款令人放松的益智游戏，你的挑战是清除彩色绳结的行，释放需要在下方找到匹配线轴的绳索。",
+        "Digimon Story Time Stranger是一款令人放松的益智游戏，你的挑战是清除彩色绳结的行，释放需要在下方找到匹配线轴的绳索。",
     },
     mission: {
       title: "主要特点",

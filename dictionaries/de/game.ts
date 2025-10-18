@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Spiele {gameName}", // Platzhalter für Spielnamen
-  metaTitle: "Spiele {gameName} Online - Knit Out Guide",
+  metaTitle: "Spiele {gameName} Online - Digimon Story Time Stranger Guide",
   metaDescription:
     "Spiele {gameName} kostenlos online, keine Download erforderlich. {descriptionSnippet}", // descriptionSnippet könnte die Schlagzeile aus dem Markdown sein
   loadingText: "Lade Spiel, bitte warten...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Wert für den gamePage.title-Platzhalter
+    name: "Digimon Story Time Stranger", // Wert für den gamePage.title-Platzhalter
     descriptionMarkdown: `
-## Knit Out – Entwirr die Knoten!
+## Digimon Story Time Stranger – Entwirr die Knoten!
 
-Tauch in die Kunst des Entwirrens mit Knit Out ein! Ihre Herausforderung besteht darin, Zeilen farbiger Knoten von oben zu löschen und Seile freizugeben, die ihre passenden Spulen unten finden müssen. Wählen Sie strategisch die richtigen Spulen aus dem Gitter, um die Seile zu sammeln und jedes Level zu absolvieren. Ohne Zeitgeber oder Druck ist es alles um entspannendes, strategisches Vergnügen.
+Tauch in die Kunst des Entwirrens mit Digimon Story Time Stranger ein! Ihre Herausforderung besteht darin, Zeilen farbiger Knoten von oben zu löschen und Seile freizugeben, die ihre passenden Spulen unten finden müssen. Wählen Sie strategisch die richtigen Spulen aus dem Gitter, um die Seile zu sammeln und jedes Level zu absolvieren. Ohne Zeitgeber oder Druck ist es alles um entspannendes, strategisches Vergnügen.
 
 ## Entspannende aber herausfordernde Gameplay
 
-In Knit Out stellt Ihnen jedes Level ein neues, kompliziertes Puzzle aus farbigen Knoten. Ihre Aufgabe besteht darin, das Muster der Seile zu beobachten und strategisch die Spulen unten auszuwählen, um sie nacheinander zu sammeln. Während Sie die Knoten auflösen, begleiten Sie Ihren Fortschritt zufriedenstellende Animationen und Soundeffekte. Das Gameplay ist leicht zu verstehen, erfordert aber scharfsinniges Denken, um es zu meistern, da die Puzzles komplexer werden. Es ist das perfekte Spiel, um sich zu entspannen und den Geist zu schärfen.
+In Digimon Story Time Stranger stellt Ihnen jedes Level ein neues, kompliziertes Puzzle aus farbigen Knoten. Ihre Aufgabe besteht darin, das Muster der Seile zu beobachten und strategisch die Spulen unten auszuwählen, um sie nacheinander zu sammeln. Während Sie die Knoten auflösen, begleiten Sie Ihren Fortschritt zufriedenstellende Animationen und Soundeffekte. Das Gameplay ist leicht zu verstehen, erfordert aber scharfsinniges Denken, um es zu meistern, da die Puzzles komplexer werden. Es ist das perfekte Spiel, um sich zu entspannen und den Geist zu schärfen.
 
 ## Wie man interagiert
 

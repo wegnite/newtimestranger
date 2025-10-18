@@ -2,7 +2,7 @@ import levels from "@/data/levels";
 
 export const hero = {
   badge: "Koleksi Panduan Game",
-  title: "Lihat Semua Panduan Level Knit Out",
+  title: "Lihat Semua Panduan Level Digimon Story Time Stranger",
   description:
     "Jelajahi petunjuk langkah demi langkah, tips, dan strategi untuk setiap level. Masukkan nomor level untuk langsung melompat ke panduan yang sesuai.",
   stats: {
@@ -23,11 +23,11 @@ export const hero = {
     downloadGame: "Unduh Game",
   },
   downloadCard: {
-    title: "Unduh Knit Out",
+    title: "Unduh Digimon Story Time Stranger",
     description: "Mulai petualangan teka-teki santai dan strategis!",
   },
   videoSection: {
-    title: "Video Strategi Knit Out",
+    title: "Video Strategi Digimon Story Time Stranger",
     description:
       "Tonton tutorial video game terperinci untuk belajar strategi menyelesaikan level",
   },

@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Knit Out {{level}} деңгейі - Ойын нұсқаулығы және өту жолдары - Knit Out {{level}} & Видео кеңестер`,
-    description: `Knit Out {{level}}, Knit Out {{level}} деңгейіне арналған толық нұсқаулық, ұйымдастыру бойынша егжей-тегжейлі кеңестер, заттарды орналастыру шешімдері және видео өту жолдары ұсынылған. Деңгейді оңай аяқтап, тамаша жайлы өмір сүру кеңістігін құруға көмектеседі.`,
-    siteName: "Knit Out Ресми Нұсқаулығы",
+    title: `Digimon Story Time Stranger {{level}} деңгейі - Ойын нұсқаулығы және өту жолдары - Digimon Story Time Stranger {{level}} & Видео кеңестер`,
+    description: `Digimon Story Time Stranger {{level}}, Digimon Story Time Stranger {{level}} деңгейіне арналған толық нұсқаулық, ұйымдастыру бойынша егжей-тегжейлі кеңестер, заттарды орналастыру шешімдері және видео өту жолдары ұсынылған. Деңгейді оңай аяқтап, тамаша жайлы өмір сүру кеңістігін құруға көмектеседі.`,
+    siteName: "Digimon Story Time Stranger Ресми Нұсқаулығы",
     invalidId: {
       title: "Жарамсыз деңгей нөмірі",
       description: `Жарамды деңгей нөмірін енгізіңіз (1-${levels.length})`,

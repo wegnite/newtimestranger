@@ -187,7 +187,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
                           src="/images/screenshot/unnamed1.webp"
                           alt={
                               heroDict.mainScreenshotAlt ||
-                              "Knit Out main screenshot"
+                              "Digimon Story Time Stranger main screenshot"
                           }
                           className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                       />

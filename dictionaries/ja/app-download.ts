@@ -1,10 +1,10 @@
 export const appDownload = {
   meta: {
-    title: "Knit Outをダウンロード - 結び目を解き明かしましょう！",
+    title: "Digimon Story Time Strangerをダウンロード - 結び目を解き明かしましょう！",
     description:
-      "Knit Outをダウンロードして、カラフルな結び目を解き始めましょう。リラックスした戦略的なパズルゲームです。",
+      "Digimon Story Time Strangerをダウンロードして、カラフルな結び目を解き始めましょう。リラックスした戦略的なパズルゲームです。",
   },
-  title: "Knit Outをダウンロード",
+  title: "Digimon Story Time Strangerをダウンロード",
   subtitle: "結び目を解き明かしましょう！",
   stats: {
     rating: "4.7",

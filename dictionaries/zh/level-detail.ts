@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "天",
   },
   meta: {
-    title: `Knit Out 关卡 {{level}} - 攻略与解决方案及游戏`,
-    description: `Knit Out {{level}}，Knit Out 关卡 {{level}} 的完整指南，提供详细的策略提示、绳索和线轴解决方案以及视频攻略。帮助您轻松完成关卡并解开所有绳结。`,
-    siteName: "Knit Out 官方指南",
+    title: `Digimon Story Time Stranger 关卡 {{level}} - 攻略与解决方案及游戏`,
+    description: `Digimon Story Time Stranger {{level}}，Digimon Story Time Stranger 关卡 {{level}} 的完整指南，提供详细的策略提示、绳索和线轴解决方案以及视频攻略。帮助您轻松完成关卡并解开所有绳结。`,
+    siteName: "Digimon Story Time Stranger 官方指南",
     invalidId: {
       title: "无效的关卡编号",
       description: `请输入有效的关卡编号 (1-${levels.length})`,

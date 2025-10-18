@@ -1,6 +1,6 @@
 export const howToUse = {
-  title: "Cara Menggunakan Knit Out",
-  subtitle: "Mula berbual dengan Knit Out dalam tiga langkah mudah",
+  title: "Cara Menggunakan Digimon Story Time Stranger",
+  subtitle: "Mula berbual dengan Digimon Story Time Stranger dalam tiga langkah mudah",
   steps: [
     {
       title: "Lawati Halaman Sembang",
@@ -14,7 +14,7 @@ export const howToUse = {
     {
       title: "Tunggu Jawapan",
       description:
-        "Knit Out akan menjana jawapan dengan cepat, biasanya dalam beberapa saat",
+        "Digimon Story Time Stranger akan menjana jawapan dengan cepat, biasanya dalam beberapa saat",
     },
   ],
   startButton: "Mula Berbual Sekarang",

@@ -1,12 +1,12 @@
 export const levelShowcase = {
-  title: "Truques e Soluções dos Níveis do Knit Out",
+  title: "Truques e Soluções dos Níveis do Digimon Story Time Stranger",
   nav: {
     featured: "Destaque",
     rangePrefix: "Nível ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Knit Out Nível ",
+    titlePrefix: "Digimon Story Time Stranger Nível ",
   },
   showMoreButton: "Mostrar Mais Níveis",
   noLevelsFound: "Nenhum nível encontrado neste intervalo.",

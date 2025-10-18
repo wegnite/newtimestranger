@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Play {gameName}", // Placeholder for game name
-  metaTitle: "Play {gameName} Online - Knit Out Guide",
+  metaTitle: "Play {gameName} Online - Digimon Story Time Stranger Guide",
   metaDescription:
     "Play {gameName} online for free, no download required. {descriptionSnippet}", // descriptionSnippet could be the tagline from markdown
   loadingText: "Loading game, please wait...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Value for gamePage.title placeholder
+    name: "Digimon Story Time Stranger", // Value for gamePage.title placeholder
     descriptionMarkdown: `
-## Knit Out – Untangle the Knots!
+## Digimon Story Time Stranger – Untangle the Knots!
 
-Dive into the art of untangling with Knit Out! Your challenge is to clear lines of colorful knots from the top, releasing ropes that need to find their matching bobbins below. Strategically choose the right bobbins from the grid to collect the ropes and complete each level. With no timers or pressure, it's all about relaxing, strategic fun.
+Dive into the art of untangling with Digimon Story Time Stranger! Your challenge is to clear lines of colorful knots from the top, releasing ropes that need to find their matching bobbins below. Strategically choose the right bobbins from the grid to collect the ropes and complete each level. With no timers or pressure, it's all about relaxing, strategic fun.
 
 ## Relaxing Yet Challenging Gameplay
 
-In Knit Out, each level presents you with a new, intricate puzzle of colorful knots. Your task is to observe the pattern of ropes and strategically select the bobbins at the bottom to collect them one by one. As you untangle the knots, satisfying animations and sound effects will accompany your progress. The gameplay is easy to grasp but requires sharp thinking to master as the puzzles become more complex. It's the perfect game to unwind and sharpen your mind.
+In Digimon Story Time Stranger, each level presents you with a new, intricate puzzle of colorful knots. Your task is to observe the pattern of ropes and strategically select the bobbins at the bottom to collect them one by one. As you untangle the knots, satisfying animations and sound effects will accompany your progress. The gameplay is easy to grasp but requires sharp thinking to master as the puzzles become more complex. It's the perfect game to unwind and sharpen your mind.
 
 ## How to Interact
 

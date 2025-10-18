@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Knit Out Niveau {{level}} - Guide étape par étape & Solution & Jeu`,
-    description: `Knit Out {{level}}, Guide complet pour le niveau Knit Out {{level}}, fournissant des conseils stratégiques détaillés, des solutions pour les cordes et les bobines, et des vidéos de guide étape par étape. Vous aider à compléter facilement le niveau et à démêler tous les noeuds.`,
-    siteName: "Guide officiel de Knit Out",
+    title: `Digimon Story Time Stranger Niveau {{level}} - Guide étape par étape & Solution & Jeu`,
+    description: `Digimon Story Time Stranger {{level}}, Guide complet pour le niveau Digimon Story Time Stranger {{level}}, fournissant des conseils stratégiques détaillés, des solutions pour les cordes et les bobines, et des vidéos de guide étape par étape. Vous aider à compléter facilement le niveau et à démêler tous les noeuds.`,
+    siteName: "Guide officiel de Digimon Story Time Stranger",
     invalidId: {
       title: "Numéro de niveau invalide",
       description: `Veuillez entrer un numéro de niveau valide (1-${levels.length})`,

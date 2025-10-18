@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "{gameName} 게임하기", // 게임 이름에 대한 플레이스홀더
-  metaTitle: "{gameName} 온라인 게임하기 - Knit Out 가이드",
+  metaTitle: "{gameName} 온라인 게임하기 - Digimon Story Time Stranger 가이드",
   metaDescription:
     "{gameName}을 무료로 온라인에서 플레이하세요. 다운로드가 필요하지 않습니다. {descriptionSnippet}", // descriptionSnippet은 마크다운의 태그라인일 수 있습니다.
   loadingText: "게임 로딩 중, 잠시 기다려주세요...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // gamePage.title 플레이스홀더에 대한 값
+    name: "Digimon Story Time Stranger", // gamePage.title 플레이스홀더에 대한 값
     descriptionMarkdown: `
-## Knit Out – Untangle the Knots!
+## Digimon Story Time Stranger – Untangle the Knots!
 
-Knit Out으로 풀어내는 예술 세계에 빠져들어보세요! 여러분의 도전 과제는 위에서부터 색다른 매듭을 이루는 줄을 지우는 것이며, 아래에 있는 일치하는 넥을 찾아가는 밧줄을 풀어내는 것입니다. 그리드에서 적절한 넥을 전략적으로 선택하여 밧줄을 모으고 각 레벨을 완료하세요. 타이머나 압박이 없으므로, 이 모든 것은 휴식과 전략적인 재미에 집중하는 것입니다.
+Digimon Story Time Stranger으로 풀어내는 예술 세계에 빠져들어보세요! 여러분의 도전 과제는 위에서부터 색다른 매듭을 이루는 줄을 지우는 것이며, 아래에 있는 일치하는 넥을 찾아가는 밧줄을 풀어내는 것입니다. 그리드에서 적절한 넥을 전략적으로 선택하여 밧줄을 모으고 각 레벨을 완료하세요. 타이머나 압박이 없으므로, 이 모든 것은 휴식과 전략적인 재미에 집중하는 것입니다.
 
 ## 휴식과 함께 도전적인 게임 플레이
 
-Knit Out에서는 각 레벨이 새로운, 복잡한 색다른 매듭의 퍼즐을 제시합니다. 여러분의 임무는 밧줄의 패턴을 관찰하고 전략적으로 아래에 있는 넥을 선택하여 하나씩 모으는 것입니다. 매듭을 풀어가면서, 만족스러운 애니메이션과 사운드 효과가 여러분의 진행을 따라갑니다. 게임 플레이는 이해하기 쉽지만, 퍼즐이 더 복잡해질수록 마스터하기 위해서는 명쾌한 사고력이 필요합니다. 이것은 마음을 편하게 하고 지혜를 돋보이게 하는 완벽한 게임입니다.
+Digimon Story Time Stranger에서는 각 레벨이 새로운, 복잡한 색다른 매듭의 퍼즐을 제시합니다. 여러분의 임무는 밧줄의 패턴을 관찰하고 전략적으로 아래에 있는 넥을 선택하여 하나씩 모으는 것입니다. 매듭을 풀어가면서, 만족스러운 애니메이션과 사운드 효과가 여러분의 진행을 따라갑니다. 게임 플레이는 이해하기 쉽지만, 퍼즐이 더 복잡해질수록 마스터하기 위해서는 명쾌한 사고력이 필요합니다. 이것은 마음을 편하게 하고 지혜를 돋보이게 하는 완벽한 게임입니다.
 
 ## 상호 작용 방법
 

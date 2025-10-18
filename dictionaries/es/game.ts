@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Jugar {gameName}", // Placeholder for game name
-  metaTitle: "Jugar {gameName} en línea - Guía de Knit Out",
+  metaTitle: "Jugar {gameName} en línea - Guía de Digimon Story Time Stranger",
   metaDescription:
     "Juega {gameName} en línea gratuitamente, sin necesidad de descargar. {descriptionSnippet}", // descriptionSnippet could be the tagline from markdown
   loadingText: "Cargando el juego, por favor espere...",
@@ -19,15 +19,15 @@ export const gamePage = {
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Knit Out", // Value for gamePage.title placeholder
+    name: "Digimon Story Time Stranger", // Value for gamePage.title placeholder
     descriptionMarkdown: `
-## Knit Out – Deshacer los nudos!
+## Digimon Story Time Stranger – Deshacer los nudos!
 
-Sumérgete en el arte de deshacer los nudos con Knit Out! Tu reto es despejar líneas de nudos coloridos desde la parte superior, liberando cuerdas que deben encontrar sus bobinas correspondientes por debajo. Elije estratégicamente las bobinas correctas de la cuadrícula para recoger las cuerdas y completar cada nivel. Sin temporizadores ni presión, todo se trata de disfrutar de una diversión relajante y estratégica.
+Sumérgete en el arte de deshacer los nudos con Digimon Story Time Stranger! Tu reto es despejar líneas de nudos coloridos desde la parte superior, liberando cuerdas que deben encontrar sus bobinas correspondientes por debajo. Elije estratégicamente las bobinas correctas de la cuadrícula para recoger las cuerdas y completar cada nivel. Sin temporizadores ni presión, todo se trata de disfrutar de una diversión relajante y estratégica.
 
 ## Juego relajante pero desafiante
 
-En Knit Out, cada nivel te presenta un nuevo y complejo rompecabezas de nudos coloridos. Tu tarea es observar el patrón de las cuerdas y elegir estratégicamente las bobinas en la parte inferior para recogerlas una por una. A medida que deshaces los nudos, animaciones y efectos de sonido satisfactorios acompañarán tu progreso. El juego es fácil de entender pero requiere pensamiento agudo para dominarlo a medida que los rompecabezas se vuelven más complejos. Es el juego perfecto para relajarse y afilar la mente.
+En Digimon Story Time Stranger, cada nivel te presenta un nuevo y complejo rompecabezas de nudos coloridos. Tu tarea es observar el patrón de las cuerdas y elegir estratégicamente las bobinas en la parte inferior para recogerlas una por una. A medida que deshaces los nudos, animaciones y efectos de sonido satisfactorios acompañarán tu progreso. El juego es fácil de entender pero requiere pensamiento agudo para dominarlo a medida que los rompecabezas se vuelven más complejos. Es el juego perfecto para relajarse y afilar la mente.
 
 ## Cómo interactuar
 

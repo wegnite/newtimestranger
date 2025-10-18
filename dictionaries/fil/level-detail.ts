@@ -15,9 +15,9 @@ export const levelDetail = {
     suffix: "",
   },
   meta: {
-    title: `Knit Out Level {{level}} - Walkthrough & Solution & Laro`,
-    description: `Knit Out {{level}}, kumpletong gabay para sa Knit Out Level {{level}}, nagbibigay ng detalyadong mga tip ng diskarte, solusyon sa lubid at bobin, at video walkthroughs. Tumulong sa iyo na madaliang makumpleto ang lebel at tanggalin ang lahat ng mga knot.`,
-    siteName: "Oficyal na Gabay ng Knit Out",
+    title: `Digimon Story Time Stranger Level {{level}} - Walkthrough & Solution & Laro`,
+    description: `Digimon Story Time Stranger {{level}}, kumpletong gabay para sa Digimon Story Time Stranger Level {{level}}, nagbibigay ng detalyadong mga tip ng diskarte, solusyon sa lubid at bobin, at video walkthroughs. Tumulong sa iyo na madaliang makumpleto ang lebel at tanggalin ang lahat ng mga knot.`,
+    siteName: "Oficyal na Gabay ng Digimon Story Time Stranger",
     invalidId: {
       title: "Hindi wastong Numero ng Lebel",
       description: `Mangyaring mag-enter ng wastong numero ng lebel (1-${levels.length})`,

@@ -1,5 +1,5 @@
 export const blog = {
-  title: "Knit Out Ойын Нұсқаулығы",
+  title: "Digimon Story Time Stranger Ойын Нұсқаулығы",
   subtitle:
     "Көбірек ойын кеңестерін, безендіруге шабыт және жүрек жылытатын әңгімелерді табыңыз",
   breadcrumbs: {
@@ -7,7 +7,7 @@ export const blog = {
     page: "Бет {0}",
   },
   posts: {
-    title: "Knit Out Ойын Нұсқаулығы Мақалалары",
+    title: "Digimon Story Time Stranger Ойын Нұсқаулығы Мақалалары",
     readMore: "Толығырақ Көру",
   },
 } as const;

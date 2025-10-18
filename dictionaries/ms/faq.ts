@@ -1,14 +1,14 @@
 export const faq = {
-  title: "Pertanyaan Lazim Knit Out",
-  subtitle: "Pertanyaan Lazim mengenai Knit Out",
+  title: "Pertanyaan Lazim Digimon Story Time Stranger",
+  subtitle: "Pertanyaan Lazim mengenai Digimon Story Time Stranger",
   questions: [
     {
-      question: "Bagaimana saya bermain Knit Out?",
+      question: "Bagaimana saya bermain Digimon Story Time Stranger?",
       answer:
         "Cabaran anda ialah untuk membersihkan baris simpul berwarna dari atas dengan memilih bobin yang betul dari grid di bawah untuk mengumpul tali.",
     },
     {
-      question: "Adakah Knit Out percuma?",
+      question: "Adakah Digimon Story Time Stranger percuma?",
       answer:
         "Permainan ini percuma untuk dimainkan tetapi menawarkan pembelian dalam aplikasi dan mengandungi iklan.",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "Adakah saya boleh bermain secara talian?",
-      answer: "Ya, mengikut ulasan pengguna, Knit Out boleh dimainkan secara talian.",
+      answer: "Ya, mengikut ulasan pengguna, Digimon Story Time Stranger boleh dimainkan secara talian.",
     },
     {
       question: "Adakah terdapat sebarang isu yang diketahui?",

@@ -1,14 +1,14 @@
 export const faq = {
-  title: "Knit Out - Veelgestelde vragen",
-  subtitle: "Veelgestelde vragen over Knit Out",
+  title: "Digimon Story Time Stranger - Veelgestelde vragen",
+  subtitle: "Veelgestelde vragen over Digimon Story Time Stranger",
   questions: [
     {
-      question: "Hoe speel ik Knit Out?",
+      question: "Hoe speel ik Digimon Story Time Stranger?",
       answer:
         "Je uitdaging is om lijnen met kleurrijke knopen van boven te verwijderen door de juiste draadrollen te kiezen uit het rooster hieronder om de touwen te verzamelen.",
     },
     {
-      question: "Is Knit Out gratis?",
+      question: "Is Digimon Story Time Stranger gratis?",
       answer:
         "Het spel is gratis te spelen, maar biedt in-app aankopen en bevat advertenties.",
     },
@@ -19,7 +19,7 @@ export const faq = {
     },
     {
       question: "Kan ik offline spelen?",
-      answer: "Ja, volgens gebruikersbeoordelingen kan Knit Out offline worden gespeeld.",
+      answer: "Ja, volgens gebruikersbeoordelingen kan Digimon Story Time Stranger offline worden gespeeld.",
     },
     {
       question: "Zijn er bekende problemen?",
