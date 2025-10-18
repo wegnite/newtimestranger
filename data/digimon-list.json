@@ -164,7 +164,7 @@
     "Personality": "Devoted",
     "location": "Shinjuku Underground Waterway"
   },
-  {
+  /*{
     "digimon-img-src": "/images/digimons/pagumon-icon.webp",
     "name": "Pagumon",
     "digimon-details-link": "https://www.grindosaur.com/en/games/digimon-story-time-stranger/digimon/pagumon",
@@ -5047,5 +5047,5 @@
     "type": "Android",
     "Personality": "Friendly",
     "location": "Evolves from WereGarurumon"
-  }
+  }*/
 ]
