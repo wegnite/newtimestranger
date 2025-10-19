@@ -18,9 +18,11 @@ function formatDate(dateString) {
 // 定义所有需要生成的路由
 const routes = [
   "", // 首页
-  "app",
   "videos", // 将 level 改为 videos
   "blog",
+  "download",
+  "digimon-list",
+  "walkthrough",
   "privacy",
   "terms-of-service",
   "about",
@@ -28,7 +30,7 @@ const routes = [
 ];
 
 // 定义所有支持的语言
-const locales = ["en", "zh"];
+const locales = ["en"];
 
 // 读取关卡数据
 const levelsPath = path.join(process.cwd(), "data", "levelsSitemap.json");
