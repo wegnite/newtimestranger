@@ -41,4 +41,16 @@ export const walkthrough = {
   },
   noResults: "No walkthrough guides found.",
   loading: "Loading walkthrough guides...",
+  // Homepage section
+  homepage: {
+    title: "Game Walkthrough",
+    subtitle: "Complete guides for Digimon Story Time Stranger",
+    searchPlaceholder: "Search walkthrough guides...",
+    viewAllButton: "View Complete Walkthrough",
+    noResults: "No walkthrough guides found matching your search.",
+    actions: {
+      readWalkthrough: "Read Walkthrough",
+      comingSoon: "Coming Soon",
+    },
+  },
 } as const;

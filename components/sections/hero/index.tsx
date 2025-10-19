@@ -230,10 +230,10 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
           </div>
 
           {/* 主要按钮 */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-4 max-w-6xl mx-auto">
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary/80 text-primary-foreground h-14 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              className="bg-primary hover:bg-primary/80 text-primary-foreground px-6 py-3 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 min-w-fit"
               asChild
             >
               <Link href={`/${lang}/walkthrough`}>
@@ -246,7 +246,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground h-14 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-6 py-3 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 min-w-fit"
               asChild
             >
               <Link href={`/${lang}/download`}>
@@ -258,7 +258,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground h-14 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-6 py-3 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 min-w-fit"
               asChild
             >
               <Link href={`/${lang}/digimon-list`}>
@@ -270,7 +270,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
             <Button
               size="lg"
               variant="outline"
-              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground h-14 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground px-6 py-3 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300 min-w-fit"
               asChild
             >
               <Link href={`/${lang}/videos`}>

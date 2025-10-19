@@ -4,11 +4,14 @@ import { CompanyInfo } from "@/components/sections/company-info";
 import AppDownload from "@/components/sections/app-download";
 import { FAQ } from "@/components/sections/faq";
 import { LevelShowcase } from "@/components/sections/level-showcase";
+import { Walkthrough } from "@/components/sections/walkthrough";
+import { DigimonList } from "@/components/sections/digimon-list";
 import { getDictionary } from "@/lib/dictionary";
 import { i18n, type Locale } from "@/i18n";
 import { ensureTrailingSlash } from "@/lib/utils";
 import { createLevelItemList } from "@/lib/jsonldUtils";
-import {OnlineGamingBanner} from "@/components/sections/online-gaming-banner"; // Import the new function
+import { OnlineGamingBanner } from "@/components/sections/online-gaming-banner"; // Import the new function
+import { getAllWalkthroughPosts } from "@/lib/walkthrough";
 
 // 为所有语言生成静态路径
 export async function generateStaticParams() {
@@ -54,6 +57,7 @@ export default async function Home({
   params: { lang: Locale };
 }) {
   const dict = await getDictionary(lang);
+  const posts = await getAllWalkthroughPosts(lang);
 
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "";
   const pageUrl = `${siteUrl}/${lang}`;
@@ -69,7 +73,8 @@ export default async function Home({
         "@type": "WebSite", // 类型：网站
         "@id": `${siteUrl}/#website`, // 网站的唯一标识符
         url: siteUrl, // 网站主页 URL
-        name: dict.home.meta.siteName || "Digimon Story Time Stranger Game Guide", // 网站名称
+        name:
+          dict.home.meta.siteName || "Digimon Story Time Stranger Game Guide", // 网站名称
         logo: logoUrl, // 网站 Logo URL
         // publisher: 关联发布该网站的组织
         publisher: {
@@ -123,7 +128,8 @@ export default async function Home({
       {
         "@type": "Organization", // 类型：组织
         "@id": `${siteUrl}/#organization`, // 组织的唯一标识符
-        name: dict.home.meta.siteName || "Digimon Story Time Stranger Game Guide", // 组织名称 (与网站名称一致)
+        name:
+          dict.home.meta.siteName || "Digimon Story Time Stranger Game Guide", // 组织名称 (与网站名称一致)
         url: siteUrl, // 组织官方网站 URL (通常是网站主页)
         logo: {
           "@type": "ImageObject", // Logo 作为图片对象
@@ -146,19 +152,25 @@ export default async function Home({
       />
       <Hero lang={lang} heroDict={dict.hero} />
       <LevelShowcase
-          lang={lang}
-          levelShowcaseDict={dict.levelShowcase}
-          commonDict={dict.common}
+        lang={lang}
+        levelShowcaseDict={dict.levelShowcase}
+        commonDict={dict.common}
       />
+      <Walkthrough
+        lang={lang}
+        walkthroughDict={dict.walkthrough.homepage}
+        posts={posts}
+      />
+      <DigimonList lang={lang} digimonDict={dict.digimonList.homepage} />
       <MediaCoverage />
       <AppDownload />
       {/*<VideoShowcase />*/}
       <CompanyInfo />
       <FAQ faqDict={dict.faq} />
       <OnlineGamingBanner
-          lang={lang}
-          commonDict={dict.common}
-          className="py-8"
+        lang={lang}
+        commonDict={dict.common}
+        className="py-8"
       />
     </>
   );

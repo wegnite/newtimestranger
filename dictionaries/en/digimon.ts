@@ -21,6 +21,15 @@ export const digimonList = {
   allAttributes: "All Attributes",
   allTypes: "All Types",
   allPersonalities: "All Personalities",
+  // Homepage section
+  homepage: {
+    title: "Digimon Encyclopedia",
+    subtitle: "Discover all 459 Digimon in Digimon Story Time Stranger",
+    searchPlaceholder: "Search Digimon by name, type, or attribute...",
+    viewAllButton: "View Complete Encyclopedia",
+    noResults: "No Digimon found matching your search.",
+    viewDetails: "View Details",
+  },
 } as const;
 
 export const digimonDetail = {
@@ -46,4 +55,3 @@ export const digimonDetail = {
 } as const;
 
 export default { digimonList, digimonDetail };
-
