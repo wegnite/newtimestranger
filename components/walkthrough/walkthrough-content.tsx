@@ -1,6 +1,7 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { WalkthroughPost } from "@/lib/walkthrough";
 import remarkGfm from "remark-gfm";
+import Image from "next/image";
 
 interface WalkthroughContentProps {
   post: WalkthroughPost;
@@ -45,9 +46,11 @@ const components = {
     alt?: string;
     [key: string]: any;
   }) => (
-    <img
-      src={src}
-      alt={alt}
+    <Image
+      src={src || ""}
+      alt={alt || ""}
+      width={800}
+      height={600}
       className="max-w-full h-auto rounded-lg shadow-md my-4"
       {...props}
     />
