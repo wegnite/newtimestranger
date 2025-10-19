@@ -4,8 +4,7 @@ import { Locale } from "@/i18n";
 import DictionaryProvider from "@/context/DictionaryContext";
 import { MainLayout } from "@/components/layouts/main-layout";
 import AdContainer from "@/components/common/AdContainer";
-import LocaleSuggest from "@/components/locale/LocaleSuggest";
-import { josefinSans, notoSansSC } from "@/app/fonts";
+import {LocaleSuggest} from "@/components/locale/LocaleSuggest";
 
 export default async function RootLayout({
   children,
