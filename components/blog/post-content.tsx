@@ -56,14 +56,12 @@ const components = {
   a: ({ href, children }: { href?: string; children: React.ReactNode }) => {
     // 检查是否是 DeepSeek V3 chat 链接
     if (
-      (href?.includes("ChatStream.org") && href?.includes("/chat")) &&
+      href?.includes("ChatStream.org") &&
+      href?.includes("/chat") &&
       !hasRenderedChatWindow
     ) {
       hasRenderedChatWindow = true;
-      return (
-        <div className="my-8 rounded-xl overflow-hidden shadow-lg">
-        </div>
-      );
+      return <div className="my-8 rounded-xl overflow-hidden shadow-lg"></div>;
     }
 
     // YouTube 链接处理
@@ -106,9 +104,7 @@ const components = {
 
     if (!language) {
       return (
-        <code className=" px-1.5 py-0.5 rounded-md text-sm">
-          {children}
-        </code>
+        <code className=" px-1.5 py-0.5 rounded-md text-sm">{children}</code>
       );
     }
 
@@ -173,16 +169,7 @@ export async function PostContent({
           </div>
         </>
       )}
-      {/* @ts-expect-error Server Component */}
-      <MDXRemote
-        source={contentWithoutH1}
-        components={components}
-        options={{
-          mdxOptions: {
-            remarkPlugins: [remarkGfm],
-          },
-        }}
-      />
+      <MDXRemote source={contentWithoutH1} />
     </article>
   );
 }

@@ -11,7 +11,7 @@ import { WalkthroughLayout } from "@/components/walkthrough/walkthrough-layout";
 import { WalkthroughContent } from "@/components/walkthrough/walkthrough-content";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ExternalLink, BookOpen, Download } from "lucide-react";
-import {LevelShowcase} from "@/components/sections/level-showcase";
+import { LevelShowcase } from "@/components/sections/level-showcase";
 
 interface Props {
   params: { lang: string; slug: string };
@@ -158,9 +158,9 @@ export default async function WalkthroughPost({
           </div>
 
           <LevelShowcase
-              lang={lang}
-              levelShowcaseDict={dict.levelShowcase}
-              commonDict={dict.common}
+            lang={lang as Locale}
+            levelShowcaseDict={dict.levelShowcase}
+            commonDict={dict.common}
           />
         </div>
       </WalkthroughLayout>

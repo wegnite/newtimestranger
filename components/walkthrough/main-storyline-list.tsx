@@ -28,7 +28,7 @@ export function MainStorylineList({ lang, posts }: MainStorylineListProps) {
           <div className="text-sm text-muted-foreground">
             <p className="mb-2">
               Main Missions get added to your Digivice as you play through the
-              game's story. Each mission provides objectives to help you
+              game&apos;s story. Each mission provides objectives to help you
               navigate areas and progress the story.
             </p>
             <p>

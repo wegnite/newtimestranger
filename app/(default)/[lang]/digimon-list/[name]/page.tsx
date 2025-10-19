@@ -5,7 +5,7 @@ import { getDictionary } from "@/lib/dictionary";
 import { ensureTrailingSlash } from "@/lib/utils";
 import DigimonDetailContent from "./components/digimon-detail-content";
 import digimonList from "@/data/digimon-list.json";
-import {LevelShowcase} from "@/components/sections/level-showcase";
+import { LevelShowcase } from "@/components/sections/level-showcase";
 
 // 为所有语言和数码宝贝生成静态路径
 export async function generateStaticParams() {
@@ -207,9 +207,9 @@ export default async function DigimonDetailPage({
       />
 
       <LevelShowcase
-          lang={lang}
-          levelShowcaseDict={dict.levelShowcase}
-          commonDict={dict.common}
+        lang={lang as Locale}
+        levelShowcaseDict={dict.levelShowcase}
+        commonDict={dict.common}
       />
     </>
   );

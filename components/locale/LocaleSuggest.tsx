@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useCallback } from "react";
 import { langSwitcherData } from "@/components/common/LangSwitcherData";
 import type { Locale } from "@/i18n";
 import { i18n } from "@/i18n";
@@ -9,21 +9,14 @@ import { useToast } from "@/hooks/use-toast";
 import { ToastAction } from "@/components/ui/toast";
 import { useDictionary } from "@/hooks/useDictionary";
 
+const STORAGE_KEY_PERMANENT = "locale-suggest-dismissed-permanent";
+const STORAGE_KEY_DAILY = "locale-suggest-dismissed-daily";
+
 interface LocaleSuggestProps {
-  currentLang: Locale;
+  currentLang: string;
 }
 
-interface LangData {
-  name: string;
-  locale: string;
-  icon: string;
-}
-
-// Define multiple storage keys
-const STORAGE_KEY_DAILY = "locale-suggest-dismissed-daily"; // 每日关闭建议的键
-const STORAGE_KEY_PERMANENT = "locale-suggest-dismissed-permanent"; // 永久关闭建议的键
-
-export function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
+export default function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
   const router = useRouter();
   const pathname = usePathname();
   const { toast, dismiss } = useToast();
@@ -33,6 +26,58 @@ export function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
   const currentLangData = langSwitcherData.find(
     (lang) => lang.locale === currentLang
   );
+
+  const redirectedPathName = useCallback(
+    (locale: string) => {
+      if (!pathname) return "/";
+      const segments = pathname.split("/").filter(Boolean);
+
+      if (segments.length > 0 && i18n.locales.includes(segments[0] as Locale)) {
+        segments[0] = locale;
+      } else {
+        segments.unshift(locale);
+      }
+      return `/${segments.join("/")}`;
+    },
+    [pathname]
+  );
+
+  // 处理切换语言并设置每日不再提示标记
+  const handleAccept = useCallback(
+    (locale: string) => {
+      console.log("[语言建议] handleAccept 函数被调用，区域设置:", locale);
+      // 立即关闭当前的 toast
+      if (toastIdRef.current) {
+        dismiss(toastIdRef.current);
+        toastIdRef.current = null;
+      }
+      // 在导航之前设置每日不再提示标记
+      const today = new Date().toISOString().split("T")[0];
+      console.log(
+        `[语言建议] 设置每日 localStorage 标记: ${STORAGE_KEY_DAILY} = ${today}`
+      );
+      localStorage.setItem(STORAGE_KEY_DAILY, today);
+
+      // 导航到新路径
+      const newPath = redirectedPathName(locale);
+      router.push(newPath);
+    },
+    [dismiss, router, redirectedPathName]
+  );
+
+  // 处理设置永久不再提示标记
+  const handleDismissPermanent = useCallback(() => {
+    console.log("[语言建议] handleDismissPermanent 函数被调用。");
+    // 立即关闭当前的 toast
+    if (toastIdRef.current) {
+      dismiss(toastIdRef.current);
+      toastIdRef.current = null;
+    }
+    console.log(
+      `[语言建议] 设置永久 localStorage 标记: ${STORAGE_KEY_PERMANENT} = true`
+    );
+    localStorage.setItem(STORAGE_KEY_PERMANENT, "true");
+  }, [dismiss]);
 
   useEffect(() => {
     console.log("[语言建议] useEffect 触发。");
@@ -168,53 +213,20 @@ export function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
     }
 
     return undefined;
-  }, [currentLang, currentLangData, pathname]);
-
-  const redirectedPathName = (locale: string) => {
-    if (!pathname) return "/";
-    const segments = pathname.split("/").filter(Boolean);
-
-    if (segments.length > 0 && i18n.locales.includes(segments[0] as Locale)) {
-      segments[0] = locale;
-    } else {
-      segments.unshift(locale);
-    }
-    return `/${segments.join("/")}`;
-  };
-
-  // 处理切换语言并设置每日不再提示标记
-  const handleAccept = (locale: string) => {
-    console.log("[语言建议] handleAccept 函数被调用，区域设置:", locale);
-    // 立即关闭当前的 toast
-    if (toastIdRef.current) {
-      dismiss(toastIdRef.current);
-      toastIdRef.current = null;
-    }
-    // 在导航之前设置每日不再提示标记
-    const today = new Date().toISOString().split("T")[0];
-    console.log(
-      `[语言建议] 设置每日 localStorage 标记: ${STORAGE_KEY_DAILY} = ${today}`
-    );
-    localStorage.setItem(STORAGE_KEY_DAILY, today);
-
-    // 导航到新路径
-    const newPath = redirectedPathName(locale);
-    router.push(newPath);
-  };
-
-  // 处理设置永久不再提示标记
-  const handleDismissPermanent = () => {
-    console.log("[语言建议] handleDismissPermanent 函数被调用。");
-    // 立即关闭当前的 toast
-    if (toastIdRef.current) {
-      dismiss(toastIdRef.current);
-      toastIdRef.current = null;
-    }
-    console.log(
-      `[语言建议] 设置永久 localStorage 标记: ${STORAGE_KEY_PERMANENT} = true`
-    );
-    localStorage.setItem(STORAGE_KEY_PERMANENT, "true");
-  };
+  }, [
+    currentLang,
+    currentLangData,
+    pathname,
+    dict.common.localeSuggest.currentLangDesc,
+    dict.common.localeSuggest.dismissPermanent,
+    dict.common.localeSuggest.switchToAlt,
+    dict.common.localeSuggest.switchToButton,
+    dict.common.localeSuggest.switchToTitle,
+    dismiss,
+    handleAccept,
+    handleDismissPermanent,
+    toast,
+  ]);
 
   return null;
 }

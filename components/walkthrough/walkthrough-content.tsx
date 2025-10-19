@@ -72,16 +72,7 @@ export async function WalkthroughContent({
       )}
 
       <div className="walkthrough-content">
-        {/* @ts-expect-error Server Component */}
-        <MDXRemote
-          source={post.content}
-          components={components}
-          options={{
-            mdxOptions: {
-              remarkPlugins: [remarkGfm],
-            },
-          }}
-        />
+        <MDXRemote source={post.content} />
       </div>
     </div>
   );
