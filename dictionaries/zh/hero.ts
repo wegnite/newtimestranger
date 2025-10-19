@@ -1,34 +1,40 @@
 import levels from "@/data/levels";
 
 export const hero = {
-  badge: "游戏指南合集",
-  title: "查看所有《Digimon Story Time Stranger》关卡指南",
+  badge: "PC游戏攻略站",
+  title: "Digimon Story Time Stranger",
   description:
-    "探索每个关卡的详细攻略、提示和策略。输入关卡编号可直接跳转到相应指南。",
+    "探索跨越人类世界和数码世界的史诗RPG冒险。收集450+种数码兽，揭开时间穿越的谜团，体验回合制策略战斗的乐趣。",
   stats: {
-    guides: levels.length + "+ 关卡指南",
-    videoTutorials: `${levels.length}+ 视频教程`,
-    quickSearch: "快速关卡搜索",
+    guides: "26+ 章节攻略",
+    videoTutorials: "完整故事指南",
+    quickSearch: "章节导航",
   },
   search: {
-    placeholder: `输入关卡编号 (1-${levels.length})`,
-    button: "搜索指南",
+    placeholder: `搜索章节 (1-${levels.length})`,
+    button: "搜索攻略",
     error: {
-      invalid: "请输入有效的关卡编号",
-      notFound: "未找到该关卡的指南",
+      invalid: "请输入有效的章节编号",
+      notFound: "未找到该章节的攻略",
     },
   },
   buttons: {
-    browseAll: "浏览所有关卡指南",
-    downloadGame: "下载游戏",
+    browseAll: "查看完整攻略",
+    downloadGame: "Steam购买",
   },
   downloadCard: {
-    title: "下载《Digimon Story Time Stranger》",
-    description: "开启一场轻松且具策略性的解谜冒险！",
+    title: "获取《Digimon Story Time Stranger》",
+    description: "在Steam上购买游戏，开启你的数码世界冒险！",
   },
   videoSection: {
-    title: "《Digimon Story Time Stranger》策略视频",
-    description:
-      "观看详细的游戏视频教程，学习完成关卡的策略",
+    title: "游戏预告与攻略视频",
+    description: "观看游戏预告片和详细攻略视频，了解游戏特色和通关技巧",
+  },
+  mainScreenshotAlt: "Digimon Story Time Stranger 游戏主截图",
+  screenshotAltTemplate: "Digimon Story Time Stranger 游戏截图",
+  onlineGames: {
+    bannerTitle: "准备开始你的冒险？",
+    bannerDescription: "在Steam上获取完整游戏，跟随我们的完整攻略",
+    playNowButton: "立即购买",
   },
 } as const;

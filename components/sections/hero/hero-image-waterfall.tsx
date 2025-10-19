@@ -9,7 +9,8 @@ interface HeroImageWaterfallProps {
 export function HeroImageWaterfall({
   screenshotAltTemplate,
 }: HeroImageWaterfallProps) {
-  const altTemplate = screenshotAltTemplate || "Digimon Story Time Stranger screenshot {num}";
+  const altTemplate =
+    screenshotAltTemplate || "Digimon Story Time Stranger screenshot {num}";
 
   return (
     <motion.div
@@ -35,7 +36,7 @@ export function HeroImageWaterfall({
             <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-16 h-3 bg-black rounded-full" />
             <div className="relative w-full h-full rounded-[1.2rem] overflow-hidden bg-black">
               <img
-                src={`/images/screenshot/unnamed${num}.webp`}
+                src={`/images/screenshot/unnamed${num}.jpg`}
                 alt={altTemplate.replace("{num}", num.toString())}
                 className="absolute inset-0 w-full h-full object-cover"
                 loading="lazy"
@@ -50,7 +51,7 @@ export function HeroImageWaterfall({
           <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-16 h-3 bg-black rounded-full" />
           <div className="relative w-full h-full rounded-[1.2rem] overflow-hidden bg-black">
             <img
-              src="/images/screenshot/unnamed2.webp"
+              src="/images/screenshot/unnamed2.jpg"
               alt={altTemplate.replace("{num}", "2")}
               className="absolute inset-0 w-full h-full object-cover"
               loading="lazy"

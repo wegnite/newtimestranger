@@ -1,35 +1,44 @@
 import levels from "@/data/levels";
 
 export const hero = {
-  badge: "Game Guides Collection",
-  title: "View All Digimon Story Time Stranger Level Guides",
+  badge: "PC Game Guide",
+  title: "Digimon Story Time Stranger",
   description:
-    "Explore detailed walkthroughs, tips, and strategies for each level. Enter a level number to jump directly to the corresponding guide.",
+    "Embark on an epic RPG adventure spanning human and Digital worlds. Collect 450+ Digimon, uncover time travel mysteries, and experience strategic turn-based combat.",
   stats: {
-    guides: levels.length + "+ Level Guides",
-    videoTutorials: `${levels.length}+ Video Tutorials`,
-    quickSearch: "Quick Level Search",
+    guides: "26+ Chapter Guides",
+    videoTutorials: "Complete Story Guide",
+    quickSearch: "Chapter Navigation",
   },
   search: {
-    placeholder: `Enter level number (1-${levels.length})`,
+    placeholder: `Search chapter (1-${levels.length})`,
     button: "Search Guide",
     error: {
-      invalid: "Please enter a valid level number",
-      notFound: "No guide found for this level",
+      invalid: "Please enter a valid chapter number",
+      notFound: "No guide found for this chapter",
     },
   },
   buttons: {
-    browseAll: "Browse All Level Guides",
-    downloadGame: "Download Game",
+    browseAll: "View Complete Walkthrough",
+    downloadGame: "Get on Steam",
   },
   downloadCard: {
-    title: "Download Digimon Story Time Stranger",
-    description: "Begin a relaxing and strategic puzzle adventure!",
+    title: "Get Digimon Story Time Stranger",
+    description:
+      "Purchase the game on Steam and start your Digital World adventure!",
   },
   videoSection: {
-    title: "Digimon Story Time Stranger Strategy Videos",
+    title: "Game Trailer & Strategy Videos",
     description:
-      "Watch detailed game video tutorials to learn strategies for completing levels",
+      "Watch game trailers and detailed strategy videos to learn game features and completion tips",
+  },
+  mainScreenshotAlt: "Digimon Story Time Stranger main screenshot",
+  screenshotAltTemplate: "Digimon Story Time Stranger game screenshot",
+  onlineGames: {
+    bannerTitle: "Ready to Start Your Adventure?",
+    bannerDescription:
+      "Get the full game on Steam and follow our complete walkthrough",
+    playNowButton: "Buy Now",
   },
 } as const;
 

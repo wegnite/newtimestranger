@@ -1,17 +1,15 @@
 import { Button } from "@/components/ui/button";
 import {
   ArrowRight,
-  Search,
-  Calendar,
-  Youtube,
-  Coffee,
+  BookOpen,
   Download,
-  Star,
+  Users,
+  Clock,
+  Play,
   Gamepad2,
 } from "lucide-react";
 import Link from "next/link";
-import { HeroSearch } from "./hero-search";
-import { HeroImageWaterfall } from "./hero-image-waterfall";
+import Image from "next/image";
 
 interface HeroProps {
   lang: string;
@@ -66,166 +64,221 @@ interface HeroProps {
 }
 
 export function Hero({ lang, heroDict, commonDict }: HeroProps) {
-  // 在线游戏相关文案，优先从commonDict获取，其次从heroDict，最后使用默认值
   const onlineGamesText = commonDict?.onlineGames ||
-      heroDict.onlineGames || {
-        bannerTitle: "Want to play games directly?",
-        bannerDescription: "Experience games directly in your browser",
-        playNowButton: "Play Now",
-      };
+    heroDict.onlineGames || {
+      bannerTitle: "准备开始你的冒险？",
+      bannerDescription: "在Steam上获取完整游戏，跟随我们的完整攻略",
+      playNowButton: "立即购买",
+    };
 
   return (
-      <section className="relative flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-primary/10">
-          <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
-        </div>
+    <section className="relative py-12 bg-background">
+      {/* 背景装饰 */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/3 rounded-full blur-3xl" />
+      </div>
 
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -left-4 top-1/4 w-24 h-24 bg-primary/20 rounded-full blur-xl animate-pulse" />
-          <div className="absolute right-1/4 bottom-1/3 w-32 h-32 bg-primary/30 rounded-full blur-xl animate-pulse delay-700" />
-          <div className="absolute left-1/3 top-1/3 w-48 h-48 bg-primary/20 rounded-full blur-3xl animate-pulse delay-500" />
-        </div>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center space-y-8">
+          {/* 游戏标签 */}
+          <div className="flex justify-center">
+            <div className="inline-flex items-center gap-2 bg-card/80 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-sm">
+              <Gamepad2 className="h-5 w-5 text-primary" />
+              <span className="font-semibold text-primary">
+                {heroDict.badge}
+              </span>
+            </div>
+          </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* 左侧内容区 */}
-            <div className="space-y-8">
-              <div className="flex items-center gap-2">
-                <div className="flex items-center gap-2 bg-card/50 backdrop-blur-sm px-4 py-2 rounded-full border border-border/50">
-                  <Coffee className="h-6 w-6 text-primary" />
-                  <span className="font-semibold">{heroDict.badge}</span>
-                </div>
-              </div>
-
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-              <span className="bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent pt-4">
+          {/* 游戏标题 */}
+          <div className="space-y-4">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
+              <span className="bg-gradient-to-r from-primary via-primary/80 to-primary/60 bg-clip-text text-transparent">
                 {heroDict.title}
               </span>
-              </h1>
+            </h1>
 
-              <p className="text-xl text-muted-foreground">
-                {heroDict.description}
-              </p>
+            <p className="text-xl sm:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+              {heroDict.description}
+            </p>
+          </div>
 
-              <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
-                <div className="flex items-center gap-2">
-                  <Calendar className="h-4 w-4 text-primary" />
-                  <span>{heroDict.stats.guides}</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Youtube className="h-4 w-4 text-primary" />
-                  <span>{heroDict.stats.videoTutorials}</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Search className="h-4 w-4 text-primary" />
-                  <span>{heroDict.stats.quickSearch}</span>
-                </div>
+          {/* 游戏特色 */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 py-6">
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center">
+                <Users className="h-8 w-8 text-primary" />
               </div>
-
-              <HeroSearch lang={lang} searchDict={heroDict.search} />
-
-              {/* 按钮区 */}
-              <div className="flex flex-wrap gap-4">
-                <Button
-                    size="lg"
-                    variant="outline"
-                    className="flex-1 hover:bg-primary/10"
-                    asChild
-                >
-                  <Link href={`/${lang}/videos`}>
-                    {heroDict.buttons.browseAll}{" "}
-                    <ArrowRight className="ml-2 h-4 w-4" />
-                  </Link>
-                </Button>
-
-                <Button
-                    size="lg"
-                    className="flex-1 bg-primary hover:bg-primary/80 text-primary-foreground"
-                    asChild
-                >
-                  <Link href={`/${lang}/download`}>
-                    {heroDict.buttons.downloadGame}{" "}
-                    <Download className="ml-2 h-4 w-4" />
-                  </Link>
-                </Button>
-              </div>
-
-              {/* 在线游玩卡片 */}
-              <div className="mt-8">
-                <Link
-                    href={`/${lang}/game`}
-                    className="block hover:scale-[1.02] transition-transform duration-300"
-                >
-                  <div className="p-4 bg-card/80 dark:bg-card/30 backdrop-blur-sm rounded-lg border border-border hover:border-primary/30 transition-colors duration-300 shadow-sm">
-                    <div className="flex items-center gap-4">
-                      <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                        <Gamepad2 className="h-6 w-6 text-primary" />
-                      </div>
-                      <div>
-                        <h2 className="font-semibold">
-                          {onlineGamesText.bannerTitle}
-                        </h2>
-                        <p className="text-sm text-muted-foreground">
-                          {onlineGamesText.bannerDescription}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
+              <div className="text-center">
+                <div className="font-bold text-foreground text-lg">450+</div>
+                <div className="text-sm text-muted-foreground">数码兽收集</div>
               </div>
             </div>
 
-            {/* 右侧截图展示区 */}
-            <div className="relative w-full max-w-xl mx-auto hidden lg:block">
-              <div className="grid grid-cols-5 gap-4">
-                {/* 主要截图 */}
-                <div className="relative aspect-[9/16] col-span-3 group cursor-pointer">
-                  <div className="absolute inset-0 bg-gradient-to-b from-gray-800 to-gray-900 rounded-[2rem] p-2 shadow-xl transition-transform duration-500 ease-out group-hover:scale-[1.02]">
-                    <div className="absolute top-6 left-1/2 transform -translate-x-1/2 w-24 h-4 bg-black rounded-full" />
-                    <div className="relative w-full h-full rounded-[1.7rem] overflow-hidden bg-black">
-                      <img
-                          src="/images/screenshot/unnamed1.webp"
-                          alt={
-                              heroDict.mainScreenshotAlt ||
-                              "Digimon Story Time Stranger main screenshot"
-                          }
-                          className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
-                      />
-                      {/* 标题和描述覆盖层 */}
-                      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent pt-20 pb-6 px-6">
-                        <div className="relative z-10 space-y-2">
-                          <h2 className="text-2xl font-bold text-white drop-shadow-lg group-hover:text-primary transition-colors duration-300">
-                            {heroDict.videoSection.title}
-                          </h2>
-                          <p className="text-sm text-white/80 drop-shadow-lg group-hover:text-white transition-opacity duration-300">
-                            {heroDict.videoSection.description}
-                          </p>
-                          <div className="flex items-center gap-2 text-white/60 group-hover:text-primary transition-colors duration-300 text-sm mt-4">
-                            <ArrowRight className="w-4 h-4" />
-                            <span>{heroDict.buttons.browseAll}</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center">
+                <BookOpen className="h-8 w-8 text-primary" />
+              </div>
+              <div className="text-center">
+                <div className="font-bold text-foreground text-lg">26+</div>
+                <div className="text-sm text-muted-foreground">章节攻略</div>
+              </div>
+            </div>
 
-                {/* 右侧瀑布流截图和标题描述 */}
-                <div className="col-span-2 flex gap-4">
-                  {/* 瀑布流截图 */}
-                  <div
-                      className="relative overflow-hidden flex-1"
-                      style={{ height: "600px" }}
-                  >
-                    <HeroImageWaterfall
-                        screenshotAltTemplate={heroDict.screenshotAltTemplate}
-                    />
-                  </div>
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center">
+                <Gamepad2 className="h-8 w-8 text-primary" />
+              </div>
+              <div className="text-center">
+                <div className="font-bold text-foreground text-lg">双世界</div>
+                <div className="text-sm text-muted-foreground">探索冒险</div>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center space-y-3">
+              <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center">
+                <Clock className="h-8 w-8 text-primary" />
+              </div>
+              <div className="text-center">
+                <div className="font-bold text-foreground text-lg">
+                  时间穿越
+                </div>
+                <div className="text-sm text-muted-foreground">史诗故事</div>
+              </div>
+            </div>
+          </div>
+
+          {/* 主要按钮 */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
+            <Button
+              size="lg"
+              className="bg-primary hover:bg-primary/80 text-primary-foreground h-14 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              asChild
+            >
+              <Link href={`/${lang}/walkthrough`}>
+                <BookOpen className="mr-2 h-5 w-5" />
+                查看完整攻略
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground h-14 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              asChild
+            >
+              <Link href={`/${lang}/download`}>
+                <Download className="mr-2 h-5 w-5" />
+                游戏下载
+              </Link>
+            </Button>
+
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground h-14 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              asChild
+            >
+              <Link href={`/${lang}/digimon-list`}>
+                <Users className="mr-2 h-5 w-5" />
+                数码兽图鉴
+              </Link>
+            </Button>
+
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground h-14 text-base font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+              asChild
+            >
+              <Link href={`/${lang}/videos`}>
+                <Play className="mr-2 h-5 w-5" />
+                完整视频
+              </Link>
+            </Button>
+          </div>
+
+          {/* 游戏截图展示 */}
+          <div className="py-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4 max-w-7xl mx-auto">
+              <div className="relative group">
+                <div className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg bg-card border border-border">
+                  <Image
+                    src="/images/screenshot/unnamed1.jpg"
+                    alt="Digimon Story Time Stranger screenshot 1"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
+                </div>
+              </div>
+              
+              <div className="relative group">
+                <div className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg bg-card border border-border">
+                  <Image
+                    src="/images/screenshot/unnamed2.jpg"
+                    alt="Digimon Story Time Stranger screenshot 2"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
+                </div>
+              </div>
+              
+              <div className="relative group">
+                <div className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg bg-card border border-border">
+                  <Image
+                    src="/images/screenshot/unnamed3.jpg"
+                    alt="Digimon Story Time Stranger screenshot 3"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
+                </div>
+              </div>
+
+              <div className="relative group">
+                <div className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg bg-card border border-border">
+                  <Image
+                    src="/images/screenshot/unnamed4.jpg"
+                    alt="Digimon Story Time Stranger screenshot 4"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
+                </div>
+              </div>
+
+              <div className="relative group">
+                <div className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg bg-card border border-border">
+                  <Image
+                    src="/images/screenshot/unnamed5.jpg"
+                    alt="Digimon Story Time Stranger screenshot 5"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
+                </div>
+              </div>
+
+              <div className="relative group">
+                <div className="relative aspect-[16/10] rounded-xl overflow-hidden shadow-lg bg-card border border-border">
+                  <Image
+                    src="/images/screenshot/unnamed6.jpg"
+                    alt="Digimon Story Time Stranger screenshot 6"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
   );
 }
