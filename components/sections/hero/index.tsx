@@ -37,6 +37,8 @@ interface HeroProps {
     buttons: {
       browseAll: string;
       downloadGame: string;
+      digimonList: string;
+      videos: string;
     };
     downloadCard: {
       title: string;
@@ -48,6 +50,9 @@ interface HeroProps {
       description: string;
     };
     screenshotAltTemplate?: string;
+    screenshots?: {
+      altTemplate: string;
+    };
     onlineGames?: {
       bannerTitle: string;
       bannerDescription: string;
@@ -109,30 +114,35 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
     timeTravelLabel: "史诗故事",
   };
 
+  const screenshotsAltTemplate =
+    heroDict.screenshots?.altTemplate ||
+    heroDict.screenshotAltTemplate ||
+    "Digimon Story Time Stranger game screenshot";
+
   const screenshots = [
     {
       src: "/images/screenshot/unnamed1.jpg",
-      alt: "Digimon Story Time Stranger screenshot 1",
+      alt: screenshotsAltTemplate.replace("{num}", "1"),
     },
     {
       src: "/images/screenshot/unnamed2.jpg",
-      alt: "Digimon Story Time Stranger screenshot 2",
+      alt: screenshotsAltTemplate.replace("{num}", "2"),
     },
     {
       src: "/images/screenshot/unnamed3.jpg",
-      alt: "Digimon Story Time Stranger screenshot 3",
+      alt: screenshotsAltTemplate.replace("{num}", "3"),
     },
     {
       src: "/images/screenshot/unnamed4.jpg",
-      alt: "Digimon Story Time Stranger screenshot 4",
+      alt: screenshotsAltTemplate.replace("{num}", "4"),
     },
     {
       src: "/images/screenshot/unnamed5.jpg",
-      alt: "Digimon Story Time Stranger screenshot 5",
+      alt: screenshotsAltTemplate.replace("{num}", "5"),
     },
     {
       src: "/images/screenshot/unnamed6.jpg",
-      alt: "Digimon Story Time Stranger screenshot 6",
+      alt: screenshotsAltTemplate.replace("{num}", "6"),
     },
   ];
 
@@ -228,7 +238,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
             >
               <Link href={`/${lang}/walkthrough`}>
                 <BookOpen className="mr-2 h-5 w-5" />
-                查看完整攻略
+                {heroDict.buttons.browseAll}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -241,7 +251,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
             >
               <Link href={`/${lang}/download`}>
                 <Download className="mr-2 h-5 w-5" />
-                游戏下载
+                {heroDict.buttons.downloadGame}
               </Link>
             </Button>
 
@@ -253,7 +263,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
             >
               <Link href={`/${lang}/digimon-list`}>
                 <Users className="mr-2 h-5 w-5" />
-                数码兽图鉴
+                {heroDict.buttons.digimonList}
               </Link>
             </Button>
 
@@ -265,7 +275,7 @@ export function Hero({ lang, heroDict, commonDict }: HeroProps) {
             >
               <Link href={`/${lang}/videos`}>
                 <Play className="mr-2 h-5 w-5" />
-                完整视频
+                {heroDict.buttons.videos}
               </Link>
             </Button>
           </div>

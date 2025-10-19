@@ -20,7 +20,9 @@ export const hero = {
   },
   buttons: {
     browseAll: "View Complete Walkthrough",
-    downloadGame: "Get on Steam",
+    downloadGame: "Game Download",
+    digimonList: "Digimon List",
+    videos: "Full Videos",
   },
   downloadCard: {
     title: "Get Digimon Story Time Stranger",
@@ -34,6 +36,9 @@ export const hero = {
   },
   mainScreenshotAlt: "Digimon Story Time Stranger main screenshot",
   screenshotAltTemplate: "Digimon Story Time Stranger game screenshot",
+  screenshots: {
+    altTemplate: "Digimon Story Time Stranger game screenshot {num}",
+  },
   onlineGames: {
     bannerTitle: "Ready to Start Your Adventure?",
     bannerDescription:
