@@ -1,119 +1,119 @@
 export const gamePage = {
-  title: "玩 {游戏名称}", // 游戏名称的占位符
-  metaTitle: "在线玩 {游戏名称} - Digimon Story Time Stranger 指南",
+  title: "Play {gameName}", // Placeholder for game name
+  metaTitle: "Play {gameName} Online - Digimon Story Time Stranger Walkthrough",
   metaDescription:
-    "免费在线玩 {游戏名称}，无需下载。{描述片段}", // descriptionSnippet 可能是来自 markdown 的标语
-  loadingText: "正在加载游戏，请稍候...",
-  // 专门针对此页面的 ShareButtons 组件的文本
-  shareLabel: "分享此游戏",
-  linkCopiedText: "链接已复制！",
-  recommendedGames: "推荐游戏",
-  playNow: "立即游玩",
-  fullscreen: "全屏",
-  exitFullscreen: "退出全屏",
-  ratingLabel: "{评分} 评分",
-  loading: "正在加载 {游戏名称}...",
-  bookmarkTip: "按 {键} 收藏此游戏",
-  dismiss: "关闭",
+    "Play {gameName} online for free, no download required. {descriptionSnippet}", // descriptionSnippet could be the tagline from markdown
+  loadingText: "Loading game, please wait...",
+  // Texts for ShareButtons component specifically for this page
+  shareLabel: "Share this game",
+  linkCopiedText: "Link copied!",
+  recommendedGames: "Recommended Games",
+  playNow: "Play Now",
+  fullscreen: "Fullscreen",
+  exitFullscreen: "Exit Fullscreen",
+  ratingLabel: "{rating} Rating",
+  loading: "Loading {gameName}...",
+  bookmarkTip: "Press {key} to bookmark this game",
+  dismiss: "Dismiss",
 };
 
 export const gamesText = {
   dreamyRoom: {
-    name: "Digimon Story Time Stranger", // gamePage.title 占位符的值
+    name: "Digimon Story Time Stranger", // Value for gamePage.title placeholder
     descriptionMarkdown: `
-## Digimon Story Time Stranger - 解开绳结！
+## Digimon Story Time Stranger – Untangle the Knots!
 
-投身于 Digimon Story Time Stranger 的解结艺术之中！你的挑战是从顶部清除彩色绳结的线条，释放需要在下方找到匹配线轴的绳索。从网格中战略性地选择正确的线轴来收集绳索并完成每个关卡。没有计时器或压力，一切都是为了放松、享受策略性的乐趣。
+Dive into the art of untangling with Digimon Story Time Stranger! Your challenge is to clear lines of colorful knots from the top, releasing ropes that need to find their matching bobbins below. Strategically choose the right bobbins from the grid to collect the ropes and complete each level. With no timers or pressure, it's all about relaxing, strategic fun.
 
-## 轻松又具挑战性的游戏玩法
+## Relaxing Yet Challenging Gameplay
 
-在 Digimon Story Time Stranger 中，每个关卡都为你呈现一个全新的、错综复杂的彩色绳结谜题。你的任务是观察绳索的图案，并从底部战略性地选择线轴，逐个收集它们。当你解开绳结时，令人满意的动画和音效将伴随你的进展。游戏玩法易于掌握，但随着谜题变得更加复杂，需要敏锐的思维才能精通。这是一款放松身心、锻炼思维的完美游戏。
+In Digimon Story Time Stranger, each level presents you with a new, intricate puzzle of colorful knots. Your task is to observe the pattern of ropes and strategically select the bobbins at the bottom to collect them one by one. As you untangle the knots, satisfying animations and sound effects will accompany your progress. The gameplay is easy to grasp but requires sharp thinking to master as the puzzles become more complex. It's the perfect game to unwind and sharpen your mind.
 
-## 如何互动
+## How to Interact
 
-使用鼠标点击屏幕底部的线轴，从顶部拉动匹配的绳索。
+Use your mouse to click on the bobbins at the bottom of the screen to pull the matching ropes from the top.
 
-## 谁会喜欢这款游戏
+## Who Will Love This Game
 
-* 喜欢策略挑战的谜题爱好者。
-* 寻求无计时器、轻松无压力游戏体验的玩家。
-* 任何欣赏令人满意的机制和充满活力、色彩丰富美学的人。
+*   Puzzle enthusiasts who enjoy a strategic challenge.
+*   Players looking for a relaxing, stress-free gaming experience with no timers.
+*   Anyone who appreciates satisfying mechanics and vibrant, colorful aesthetics.
 `,
   },
   stickHoleIo: {
     name: "Stick Hole IO",
     descriptionMarkdown: `
-## Stick Hole IO - 战术收集与战斗游戏
+## Stick Hole IO - Tactical Collection and Combat Game
 
-在 Stick Hole IO 中控制你的火柴人，吞噬对手并成长为最强大的力量，在这款令人上瘾的休闲游戏中称霸竞技场。
+Control your stick figure in Stick Hole IO, devour opponents and grow into the strongest force to dominate the arena in this addictive casual game.
 
-## 战略收集与战斗体验
+## Strategic Collection and Combat Experience
 
-Stick Hole IO 是一款集技能与策略于一身的终极游戏，融合了收集、升级和战斗玩法。你将扮演一位才华横溢的军事领袖，招募一支军队与可怕的怪物战斗。你的任务是通过将战士扔进你的洞里来捕获他们。注意你的洞的大小，并采用适当的收集策略来获得最强大的战士。此外，时间压力是一个需要考虑的重要因素。你需要优化时间，为这场毫不妥协的战斗准备无敌的棋子。
+Stick Hole IO is the ultimate game of skill and strategy, combining collection, upgrading, and combat gameplay. You'll play as a talented military leader recruiting an army to battle fearsome monsters. Your mission is to capture warriors by throwing them into your hole. Pay attention to the size of your hole and adopt appropriate collection strategies to get the strongest warriors. Additionally, time pressure is an important factor to consider. You need to optimize your time to prepare invincible pieces for this uncompromising battle.
 
-## 收集并战斗！
+## Collect and Fight!
 
-玩家通过按住并移动鼠标来控制洞。引导实体尽可能广泛地移动，收集场上的所有角色。当储存了一定量的能量时，火山口会扩大，使收集大型战士变得更容易。
+Players control the hole by holding and moving the mouse. Guide the entity to move in as wide a range as possible, collecting all characters on the field. When a certain amount of energy is stored, the crater will widen, making it easier to collect large warriors.
 
-此外，使用奖励来激活惊人的增强道具。你可以购买更多时间、增加初始洞的大小并提高你的军队的战斗力。你永远不知道老板有多强大，所以尝试为你的军队配备最好的装备，以增加你获胜的机会。
+Additionally, use bonuses to activate amazing power-ups. You can purchase more time, increase the initial hole size, and increase your army's combat power. You never know how strong the Boss is, so try to equip your army with the best to increase your chances of victory.
 
-## 如何控制
+## How to Control
 
-使用鼠标按住并移动来控制黑洞的方向。
+Use the mouse to hold and move to control the direction of the black hole.
 `,
   },
   holeIo: {
     name: "Hole IO",
     descriptionMarkdown: `
-## Hole IO：吞噬城市，称霸竞技场！
+## Hole IO: Devour the City, Dominate the Arena!
 
-Hole IO 是一款令人上瘾且具有竞争力的多人游戏，玩家控制一个黑洞，目标是尽可能多地吞噬物体和对手，成为地图上最大的洞。一场心跳加速的竞赛开始了，你要吞噬眼前的一切——从垃圾桶、树木到整座建筑！每吞噬一个物品都会使你成长，将你从一个微小的空洞变成一个摧毁城市的怪物。加入这场混乱，在这个狂野、快节奏的盛宴中统治街道！
+Hole IO is an addictive and competitive multiplayer game where players control a black hole with the goal of consuming as many objects and opponents as possible to become the largest hole on the map. A heart-pounding race begins as you consume everything in sight—from trash cans and trees to entire buildings! Each item consumed makes you grow, transforming you from a tiny void into a city-destroying monster. Join the chaos and rule the streets in this wild, fast-paced feast!
 
-## 刺激的游戏玩法
+## Exciting Gameplay
 
-Hole IO 让你控制一个强大的黑洞，任务只有一个：摧毁城市。一切都有价值——吞噬消防栓、路标、汽车，甚至其他玩家控制的黑洞。在这里，大小真的很重要，因为成长会解锁吞噬更大物体甚至其他玩家控制的更小黑洞的能力。快速移动和明智的路径寻找将帮助你存活更长时间并登上排行榜。在这个多人竞技场中征服城市，让每个人都知道谁是老大。
+Hole IO puts you in control of a powerful black hole with one mission: destroy the city. Everything has value—consume fire hydrants, road signs, cars, and even other player-controlled black holes. Here, size truly matters, as growing unlocks the ability to consume larger objects and even smaller black holes controlled by other players. Quick movements and smart pathfinding will help you survive longer and climb the leaderboard. Conquer the city and show everyone who's boss in this multiplayer arena.
 
-## 控制指南
+## Control Guide
 
-* 使用 WASD、箭头键或鼠标光标移动。
+* Use WASD, arrow keys, or mouse cursor to move.
 
-## 游戏特色
+## Game Features
 
-* 在竞争激烈的城市环境中进行充满刺激和不间断动作的多人战斗。
-* 动态地图充满无数可破坏的物体，使你的黑洞变大。
-* 实时排行榜跟踪你的进度并超越所有竞争对手。
-* 快节奏的游戏玩法让你从开始到结束都在移动和吞噬。
+* Multiplayer battles filled with excitement and non-stop action across competitive city environments.
+* Dynamic maps packed with countless destructible objects to make your black hole bigger.
+* Real-time leaderboards to track your progress and outperform all competitors.
+* Fast-paced gameplay that keeps you moving and consuming from start to finish.
 `,
   },
   crazyCattle: {
     name: "Crazy Cattle 3D",
     descriptionMarkdown: `
-## Crazy Cattle 3D：冲破每一个障碍！
+## Crazy Cattle 3D: Smash Through Every Obstacle!
 
-Crazy Cattle 3D 将玩家带入一场混乱的大逃杀，爆炸性的绵羊碰撞主宰竞技场，速度就是一切。在充满狂野动作的明亮 3D 世界中，每场比赛都成为对反应能力、意识和智能移动的考验。此外，压力从不松懈，需要快速思考和迅速适应才能保持领先。无论你的目标是称霸排行榜还是仅仅享受混乱，总有空间释放你狂暴的破坏力！
+Crazy Cattle 3D transports players into a chaotic battle royale where explosive sheep collisions dominate the arena and speed is everything. With a bright 3D world full of wild action, each match becomes a test of reflexes, awareness, and intelligent movement. Plus, the pressure never lets up, demanding quick thinking and rapid adaptation to stay ahead. Whether your goal is to dominate the leaderboard or simply enjoy the chaos, there's always space to unleash your rampaging destruction!
 
-## 游戏玩法：玻璃竞技场上的混乱碰撞
+## Gameplay: Chaotic Collisions on Glass Arenas
 
-在 Crazy Cattle 3D 中，玩家控制他们的绵羊，进入一个充满不间断动作的充满活力的竞技场。每场比赛都促使玩家快速移动、明智地攻击，并通过策略和快速思考生存下来。凭借爆炸能力和不断变化的场景，每一轮都带来新的挑战。
+In Crazy Cattle 3D, players control their sheep, entering a vibrant arena filled with non-stop action. Each match pushes players to move quickly, attack intelligently, and survive through a combination of strategy and quick thinking. With explosive capabilities and ever-changing scenarios, each round brings new challenges.
 
-要成为场上最厉害的绵羊，玩家需要：
+To become the top sheep on the field, players need to:
 
-* 在 3D 竞技场中追逐对手时，驾驭急转弯并避开陷阱。
-* 收集散布在地图上的能量提升道具，以提高速度、防御或攻击。
-* 明智地把握特殊动作的时机，以对抗敌人并扭转战局。
-* 利用环境优势将对手引诱到危险区域。
+* Navigate tight turns and avoid traps while chasing opponents across the 3D arena.
+* Collect power boosts scattered throughout the map to enhance speed, defense, or attacks.
+* Time special moves wisely to counter enemies and turn the tide of battle.
+* Use environmental advantages to lure opponents into dangerous areas.
 
-## 如何控制
+## How to Control
 
-使用箭头键或 WASD 在竞技场周围移动你的绵羊。
+Use the arrow keys or WASD to move your sheep around the arena.
 
-## 独特功能：为什么这款游戏值得一试
+## Unique Features: Why This Game Is Worth Trying
 
-* 逼真的绵羊物理效果带来混乱和不可预测的动作。
-* 基于精确的碰撞导致滑稽的击退和战术闪避。
-* 三张具有独特地形的地图：山丘、火山和山脉，塑造你的策略。
-* 纯粹基于技能的进展，没有升级或付费赢取系统。
+* Realistic sheep physics bringing chaotic and unpredictable movements.
+* Precision-based collisions causing hilarious knockbacks and tactical dodges.
+* Three maps with unique terrain: Hills, Volcano, and Mountains shaping your strategy.
+* Pure skill progression with no upgrades or pay-to-win systems.
 `,
   },
-  // 其他游戏的翻译将放在这里
+  // Translations for other games will go here
 } as const;

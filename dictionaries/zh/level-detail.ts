@@ -2,41 +2,43 @@ import levels from "@/data/levels";
 
 export const levelDetail = {
   breadcrumb: {
-    levelList: "关卡列表",
+    levelList: "Level List",
   },
   notFound: {
-    title: "关卡未找到",
-    description: "抱歉，您要查找的关卡不存在",
-    backToList: "返回关卡列表",
+    title: "Level Not Found",
+    description: "Sorry, the level you are looking for does not exist",
+    backToList: "Back to Level List",
   },
-  levelNumber: "关卡",
+  levelNumber: "Level",
   levelRange: {
-    prefix: "第",
-    suffix: "天",
+    prefix: "Day",
+    suffix: "",
   },
   meta: {
-    title: `Digimon Story Time Stranger 关卡 {{level}} - 攻略与解决方案及游戏`,
-    description: `Digimon Story Time Stranger {{level}}，Digimon Story Time Stranger 关卡 {{level}} 的完整指南，提供详细的策略提示、绳索和线轴解决方案以及视频攻略。帮助您轻松完成关卡并解开所有绳结。`,
-    siteName: "Digimon Story Time Stranger 官方指南",
+    title: `Digimon Story Time Stranger Level {{level}} - Walkthrough & Solution & Game`,
+    description: `Digimon Story Time Stranger {{level}}, Complete guide for Digimon Story Time Stranger Level {{level}}, providing detailed strategy tips, rope and bobbin solutions, and video walkthroughs. Help you easily complete the level and untangle all the knots.`,
+    siteName: "Digimon Story Time Stranger Official Guide",
     invalidId: {
-      title: "无效的关卡编号",
-      description: `请输入有效的关卡编号 (1-${levels.length})`,
+      title: "Invalid Level Number",
+      description: `Please enter a valid level number (1-${levels.length})`,
     },
     notFound: {
-      title: "关卡不存在",
+      title: "Level Does Not Exist",
       description:
-        "您试图访问的关卡不存在，请选择其他关卡",
+        "The level you are trying to access does not exist, please select another level",
     },
     langNotFound: {
-      title: "未找到语言包",
+      title: "Language Pack Not Found",
       description:
-        "未找到当前语言的翻译内容，请切换到其他语言",
+        "Translation content for current language not found, please switch to another language",
     },
   },
   sidebar: {
-    adjacentLevels: "相邻关卡",
-    allLevels: "所有关卡",
+    adjacentLevels: "Adjacent Levels",
+    allLevels: "All Levels",
   },
-  shareLabel: "分享关卡指南",
-  linkCopiedText: "已成功复制！",
+  shareLabel: "Share Level Guide",
+  linkCopiedText: "Copied Successfully!",
 } as const;
+
+export default levelDetail;

@@ -4,16 +4,17 @@ export const footer = {
     privacy: "Privacy Policy",
     contact: "Contact Us",
     terms: "Terms of Service",
-    levels: "Levels",
+    levels: "Walkthrough",
     download: "Download",
     blog: "Blog",
   },
   contact: {
-    email: "info@superblast.games",
+    email: "info@digimon-stranger-guide.com",
   },
-  copyright: "© 2024 Digimon Story Time Stranger Guide. All rights reserved.",
+  copyright:
+    "© 2025 Digimon Story Time Stranger Walkthrough. All rights reserved.",
   disclaimer:
-    "Digimon Story Time Stranger Guide is a game guide fan site. Digimon Story Time Stranger is a trademark of Rollic Games. All trademarks and copyrights belong to their respective owners.",
+    "Digimon Story Time Stranger Walkthrough is a fan-made game guide site. Digimon Story Time Stranger is a trademark of Bandai Namco Entertainment Inc. All trademarks and copyrights belong to their respective owners.",
 } as const;
 
 export default footer;

@@ -26,12 +26,12 @@ export const common = {
     contact: "Contact",
     features: "Features",
     pricing: "Pricing",
-    guides: "Guides",
+    guides: "Walkthrough",
     settings: "Settings",
   },
   activePlayers: "Active Players",
   countries: "Countries",
-  coffeeRecipes: "Levels",
+  coffeeRecipes: "Chapters",
   userRating: "User Rating",
   localeSuggest: {
     switchToTitle: "Switch to {langName}?",
@@ -41,13 +41,13 @@ export const common = {
     switchToButton: "Switch",
   },
   onlineGames: {
-    bannerTitle: "Want to play games directly?",
+    bannerTitle: "Ready to Start Your Adventure?",
     bannerDescription:
-      "Experience Digimon Story Time Stranger and more games directly in your browser, no download required",
-    playNowButton: "Play Now",
+      "Get the full game on Steam and follow our complete walkthrough guides",
+    playNowButton: "Buy Now",
     featured: "Featured Games",
     viewAllGames: "View All Games",
-    levelCompletionText: "Play Digimon Story Time Stranger Online!",
+    levelCompletionText: "Play Digimon Story Time Stranger!",
   },
 } as const;
 

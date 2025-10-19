@@ -1,12 +1,14 @@
 export const blog = {
-  title: "Digimon Story Time Stranger游戏指南",
-  subtitle: "发现更多游戏技巧、策略和通关秘籍",
+  title: "Digimon Story Time Stranger Game Guide",
+  subtitle: "Discover more game tips, strategies and walkthrough secrets",
   breadcrumbs: {
-    blog: "指南",
-    page: "第{0}页",
+    blog: "Guide",
+    page: "Page {0}",
   },
   posts: {
-    title: "Digimon Story Time Stranger游戏指南文章",
-    readMore: "查看详情",
+    title: "Digimon Story Time Stranger Game Guide Articles",
+    readMore: "View Details",
   },
 } as const;
+
+export default blog;

@@ -1,22 +1,24 @@
 export const companyInfo = {
-  title: "关于Digimon Story Time Stranger",
-  subtitle: "解开绳结！一款充满活力且令人放松的益智游戏。",
+  title: "关于《数码宝贝物语：时空陌生人》",
+  subtitle: "跨越时间和数码世界的史诗RPG冒险",
   stats: {
-    players: "+100K",
-    countries: "+150",
-    recipes: "+300",
-    rating: "4.7/5",
+    players: "100K+",
+    countries: "150+",
+    recipes: "26+",
+    rating: "4.8/5",
   },
   sections: {
     about: {
       title: "关于游戏",
       content:
-        "Digimon Story Time Stranger是一款令人放松的益智游戏，你的挑战是清除彩色绳结的行，释放需要在下方找到匹配线轴的绳索。",
+        "《数码宝贝物语：时空陌生人》是一款史诗RPG冒险游戏，您将扮演ADAMAS特工调查东京的神秘事件。在城市级爆炸后，您被传送到八年前，开始了一场跨越人类世界和数码世界的时间旅行之旅，以揭开世界崩溃的谜团。",
     },
     mission: {
-      title: "主要特点",
+      title: "核心特色",
       content:
-        "数百个复杂的谜题、充满活力的色彩调色板以及无时间限制的轻松游戏玩法。",
+        "收集450+种数码兽，掌握战略性回合制战斗，探索平行世界，体验独特的时间旅行故事线，包含丰富的角色发展和史诗般的战斗。",
     },
   },
 } as const;
+
+export default companyInfo;

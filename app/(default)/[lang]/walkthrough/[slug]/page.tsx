@@ -11,6 +11,7 @@ import { WalkthroughLayout } from "@/components/walkthrough/walkthrough-layout";
 import { WalkthroughContent } from "@/components/walkthrough/walkthrough-content";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ExternalLink, BookOpen, Download } from "lucide-react";
+import {LevelShowcase} from "@/components/sections/level-showcase";
 
 interface Props {
   params: { lang: string; slug: string };
@@ -89,11 +90,11 @@ export default async function WalkthroughPost({
     datePublished: post.date,
     author: {
       "@type": "Organization",
-      name: "Digimon Story Time Stranger Guide",
+      name: "Digimon Story Time Stranger Walkthrough",
     },
     publisher: {
       "@type": "Organization",
-      name: "Digimon Story Time Stranger Guide",
+      name: "Digimon Story Time Stranger Walkthrough",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
@@ -155,6 +156,12 @@ export default async function WalkthroughPost({
               </Button>
             </div>
           </div>
+
+          <LevelShowcase
+              lang={lang}
+              levelShowcaseDict={dict.levelShowcase}
+              commonDict={dict.common}
+          />
         </div>
       </WalkthroughLayout>
     </>

@@ -250,7 +250,7 @@ export function LevelShowcase({
         )}
 
         {/* Navigation Buttons - 使用CSS伪元素处理前缀 */}
-        <div className="flex flex-wrap justify-center gap-2 mb-10 mt-10">
+        {/*<div className="flex flex-wrap justify-center gap-2 mb-10 mt-10">
           {levelRangeData.map((rangeData) => (
               <button
                   key={rangeData.id}
@@ -270,7 +270,7 @@ export function LevelShowcase({
                 {rangeData.rangeValue}
               </button>
           ))}
-        </div>
+        </div>*/}
       </section>
   );
 }

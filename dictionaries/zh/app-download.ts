@@ -1,14 +1,16 @@
 export const appDownload = {
   meta: {
-    title: "下载数码宝贝故事：时间陌生人 - 完整指南与攻略",
+    title:
+      "下载《数码宝贝物语：时空陌生人》- 完整指南与攻略",
     description:
-      "在Steam、PlayStation和Xbox上下载数码宝贝故事：时间陌生人。体验终极数码宝贝RPG冒险，拥有时间旅行机制。",
+      "在Steam、PlayStation和Xbox上下载《数码宝贝物语：时空陌生人》。体验终极数码宝贝RPG冒险，包含时间旅行机制、450+数码兽收集和战略性回合制战斗。",
   },
-  title: "下载数码宝贝故事：时间陌生人",
-  subtitle: "与您的数码宝贝伙伴一起踏上史诗般的时间旅行冒险！",
+  title: "下载《数码宝贝物语：时空陌生人》",
+  subtitle:
+    "踏上跨越人类世界和数码世界的史诗时间旅行冒险！",
   stats: {
     rating: "4.8",
-    downloads: "70K+ 同时在线玩家",
+    downloads: "100K+ 玩家",
   },
   downloadOptions: {
     steam: {
@@ -29,12 +31,16 @@ export const appDownload = {
   },
   features: {
     organize: {
-      title: "450+ 数码宝贝",
-      description: "收集和训练超过450种不同的数码宝贝",
+      title: "450+ 数码兽",
+      description:
+        "收集和训练超过450种不同的数码兽，每种都有独特的进化路径",
     },
     story: {
       title: "时间旅行冒险",
-      description: "体验跨越两个世界的独特时间旅行故事情节",
+      description:
+        "体验跨越人类世界和数码世界伊利亚斯的独特时间旅行故事线",
     },
   },
 } as const;
+
+export default appDownload;

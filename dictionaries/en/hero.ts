@@ -40,6 +40,21 @@ export const hero = {
       "Get the full game on Steam and follow our complete walkthrough",
     playNowButton: "Buy Now",
   },
+  imageModal: {
+    clickToEnlarge: "Click to enlarge",
+    closeImage: "Close image",
+    enlargedImageAlt: "Enlarged game screenshot",
+  },
+  gameFeatures: {
+    digimonCount: "450+",
+    digimonLabel: "Digimon to Collect",
+    chapterCount: "26+",
+    chapterLabel: "Chapter Guides",
+    dualWorld: "Dual World",
+    dualWorldLabel: "Exploration Adventure",
+    timeTravel: "Time Travel",
+    timeTravelLabel: "Epic Story",
+  },
 } as const;
 
 export default hero;

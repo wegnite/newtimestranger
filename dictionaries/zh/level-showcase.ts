@@ -1,14 +1,16 @@
 export const levelShowcase = {
-  title: "Digimon Story Time Stranger关卡秘籍与解决方案",
+  title: "Digimon Story Time Stranger Level Cheats & Solutions",
   nav: {
-    featured: "特色",
-    rangePrefix: "关卡 ",
+    featured: "Featured",
+    rangePrefix: "Level ",
     rangeSuffix: "",
   },
   card: {
-    titlePrefix: "Digimon Story Time Stranger关卡 ",
+    titlePrefix: "Digimon Story Time Stranger Level ",
   },
-  showMoreButton: "显示更多关卡",
-  noLevelsFound: "在此范围内未找到关卡。",
-  searchPlaceholder: "按ID或标题搜索关卡...",
+  showMoreButton: "Show More Levels",
+  noLevelsFound: "No levels found in this range.",
+  searchPlaceholder: "Search levels by ID or title...",
 } as const;
+
+export default levelShowcase;

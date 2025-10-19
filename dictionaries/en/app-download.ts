@@ -3,14 +3,14 @@ export const appDownload = {
     title:
       "Download Digimon Story: Time Stranger - Complete Guide & Walkthrough",
     description:
-      "Download Digimon Story: Time Stranger on Steam, PlayStation, and Xbox. Experience the ultimate Digimon RPG adventure with time travel mechanics.",
+      "Download Digimon Story: Time Stranger on Steam, PlayStation, and Xbox. Experience the ultimate Digimon RPG adventure with time travel mechanics, 450+ Digimon collection, and strategic turn-based combat.",
   },
   title: "Download Digimon Story: Time Stranger",
   subtitle:
-    "Embark on an epic time-traveling adventure with your Digimon partners!",
+    "Embark on an epic time-traveling adventure spanning human and Digital worlds!",
   stats: {
     rating: "4.8",
-    downloads: "70K+ Concurrent Players",
+    downloads: "100K+ Players",
   },
   downloadOptions: {
     steam: {
@@ -32,12 +32,13 @@ export const appDownload = {
   features: {
     organize: {
       title: "450+ Digimon",
-      description: "Collect and train over 450 different Digimon species",
+      description:
+        "Collect and train over 450 different Digimon species with unique evolution paths",
     },
     story: {
       title: "Time Travel Adventure",
       description:
-        "Experience a unique time-traveling storyline across two worlds",
+        "Experience a unique time-traveling storyline across human world and Digital World Iliad",
     },
   },
 } as const;

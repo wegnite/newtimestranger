@@ -1,6 +1,6 @@
 export const gamePage = {
   title: "Play {gameName}", // Placeholder for game name
-  metaTitle: "Play {gameName} Online - Digimon Story Time Stranger Guide",
+  metaTitle: "Play {gameName} Online - Digimon Story Time Stranger Walkthrough",
   metaDescription:
     "Play {gameName} online for free, no download required. {descriptionSnippet}", // descriptionSnippet could be the tagline from markdown
   loadingText: "Loading game, please wait...",

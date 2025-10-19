@@ -5,6 +5,7 @@ import { getDictionary } from "@/lib/dictionary";
 import { ensureTrailingSlash } from "@/lib/utils";
 import DigimonDetailContent from "./components/digimon-detail-content";
 import digimonList from "@/data/digimon-list.json";
+import {LevelShowcase} from "@/components/sections/level-showcase";
 
 // 为所有语言和数码宝贝生成静态路径
 export async function generateStaticParams() {
@@ -118,7 +119,7 @@ export default async function DigimonDetailPage({
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Digimon Story Time Stranger Guide",
+        name: "Digimon Story Time Stranger Walkthrough",
         logo: `${siteUrl}/images/logo.webp`,
         publisher: {
           "@id": `${siteUrl}/#organization`,
@@ -128,7 +129,7 @@ export default async function DigimonDetailPage({
         "@type": "WebPage",
         "@id": `${pageUrl}/#webpage`,
         url: pageUrl,
-        name: `${digimon.name} - Digimon Story Time Stranger Guide`,
+        name: `${digimon.name} - Digimon Story Time Stranger Walkthrough`,
         description: `${digimon.name} is a ${digimon.Generation} level ${digimon.type} Digimon with ${digimon["Attribute-text"]} attribute`,
         inLanguage: lang,
         isPartOf: {
@@ -180,7 +181,7 @@ export default async function DigimonDetailPage({
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Digimon Story Time Stranger Guide",
+        name: "Digimon Story Time Stranger Walkthrough",
         url: siteUrl,
         logo: {
           "@type": "ImageObject",
@@ -203,6 +204,12 @@ export default async function DigimonDetailPage({
         digimon={digimon}
         lang={lang as Locale}
         dict={dict}
+      />
+
+      <LevelShowcase
+          lang={lang}
+          levelShowcaseDict={dict.levelShowcase}
+          commonDict={dict.common}
       />
     </>
   );

@@ -25,7 +25,7 @@ export const digimonList = {
 
 export const digimonDetail = {
   meta: {
-    title: "{name} - Digimon Story Time Stranger Guide",
+    title: "{name} - Digimon Story Time Stranger Walkthrough",
     description:
       "{name} is a {generation} level {type} Digimon with {attribute} attribute. Find location, stats, and evolution info.",
   },

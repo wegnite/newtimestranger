@@ -13,9 +13,9 @@ export const level = {
     title: `Digimon Story Time Stranger Game Guide | Complete Video Walkthrough for Levels 1-${levels.length} | Strategy Tips`,
     description: `Official Digimon Story Time Stranger game guide website, providing complete walkthroughs for levels 1-${levels.length}, including detailed strategy tips, knot untangling solutions, and video guides. Help you easily complete levels and solve all puzzles.`,
     keywords:
-      "Digimon Story Time Stranger guide, Digimon Story Time Stranger walkthrough, Puzzle game guide, Untangling game, Strategy game tips, Puzzle solving, Casual game",
+      "Digimon Story Time Stranger Walkthrough, Digimon Story Time Stranger walkthrough, Puzzle game guide, Untangling game, Strategy game tips, Puzzle solving, Casual game",
     siteName: "Digimon Story Time Stranger Official Guide",
-    author: "Digimon Story Time Stranger Guide Team",
+    author: "Digimon Story Time Stranger Walkthrough Team",
     category: "Game Guide",
     classification: "Casual Puzzle Game",
   },

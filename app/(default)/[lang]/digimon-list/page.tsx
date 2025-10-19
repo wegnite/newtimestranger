@@ -75,7 +75,7 @@ export default async function DigimonListPage({ params: { lang } }: Props) {
         "@type": "WebSite",
         "@id": `${siteUrl}/#website`,
         url: siteUrl,
-        name: "Digimon Story Time Stranger Guide",
+        name: "Digimon Story Time Stranger Walkthrough",
         logo: `${siteUrl}/images/logo.webp`,
         publisher: {
           "@id": `${siteUrl}/#organization`,
@@ -110,7 +110,7 @@ export default async function DigimonListPage({ params: { lang } }: Props) {
       {
         "@type": "Organization",
         "@id": `${siteUrl}/#organization`,
-        name: "Digimon Story Time Stranger Guide",
+        name: "Digimon Story Time Stranger Walkthrough",
         url: siteUrl,
         logo: {
           "@type": "ImageObject",

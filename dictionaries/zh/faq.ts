@@ -1,35 +1,38 @@
 export const faq = {
-  title: "Digimon Story Time Stranger常见问题解答",
-  subtitle: "关于Digimon Story Time Stranger的常见问题",
+  title: "《数码宝贝物语：时空陌生人》常见问题",
+  subtitle: "关于《数码宝贝物语：时空陌生人》的常见问题",
   questions: [
     {
-      question: "我如何玩Digimon Story Time Stranger？",
+      question: "什么是《数码宝贝物语：时空陌生人》？",
       answer:
-        "你的挑战是通过从下方网格中选择正确的线轴来收集绳索，从而从顶部清除彩色绳结的行。",
+        "《数码宝贝物语：时空陌生人》是一款史诗RPG冒险游戏，您将扮演ADAMAS特工调查东京的神秘事件。在城市级爆炸后，您被传送到八年前，开始了一场跨越人类世界和数码世界的时间旅行之旅。",
     },
     {
-      question: "Digimon Story Time Stranger是免费的吗？",
+      question: "我可以收集多少种数码兽？",
       answer:
-        "该游戏可免费游玩，但提供应用内购买且包含广告。",
+        "您可以收集和训练超过450种不同的数码兽，每种都有独特的进化路径、属性和能力。游戏具有全面的数码兽收集和自定义系统。",
     },
     {
-      question: "如果我卡在某个关卡怎么办？",
+      question: "游戏在哪些平台可用？",
       answer:
-        "有些关卡可能具有挑战性。游戏提供可以用硬币获得的道具。一些玩家建议在前进道路不明确时进行有根据的猜测。",
+        "《数码宝贝物语：时空陌生人》可在Steam（PC）、PlayStation商店和Xbox商店上获得。游戏支持多种语言，包括英语、日语、中文（简体和繁体）。",
     },
     {
-      question: "我可以离线玩吗？",
-      answer: "是的，根据用户评论，Digimon Story Time Stranger可以离线游玩。",
+      question: "战斗系统是什么样的？",
+      answer:
+        "游戏具有战略性回合制战斗系统，包含动态战斗组件。您需要掌握战斗系统来推进故事并在人类世界和数码世界中击败强大的敌人。",
     },
     {
-      question: "有任何已知问题吗？",
+      question: "故事讲的是什么？",
       answer:
-        "一些用户报告了诸如屏幕闪烁之类的错误。如果你遇到问题，可以尝试重新启动游戏或联系支持人员。",
+        "故事跟随您的角色作为ADAMAS特工调查东京的神秘事件。在大规模爆炸后，您被传送到八年前，在那里您必须揭开世界崩溃的谜团，同时在人类世界和数码世界之间导航。",
     },
     {
-      question: "我如何联系支持人员？",
+      question: "如何获得游戏帮助？",
       answer:
-        "你可以通过发送电子邮件至info@superblast.games联系支持人员，或通过App Store或Google Play上的应用支持链接联系。",
+        "您可以使用我们的全面攻略指南、数码兽收集策略和章节指南。如需技术支持，请联系万代南梦宫娱乐或访问其官方支持渠道。",
     },
   ],
 } as const;
+
+export default faq;
