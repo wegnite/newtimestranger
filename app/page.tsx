@@ -12,7 +12,7 @@ export default function RootPage() {
     const lang = userLang.split("-")[0].toLowerCase();
 
     // 支持的语言列表
-    const supportedLangs = ["en", "zh", "ja", "tw", "de", "ko", "fr"];
+    const supportedLangs = ["en", "zh"];
 
     // 如果用户语言在支持列表中，重定向到对应语言，否则默认英文
     const targetLang = supportedLangs.includes(lang) ? lang : "en";

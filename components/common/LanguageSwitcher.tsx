@@ -7,10 +7,12 @@ import { usePathname } from "next/navigation";
 export default function LangSwitcher() {
   const dict = useDictionary();
   const pathname = usePathname();
-  const currentLang = pathname?.split("/")[1];
+
+  // 使用 dict.locale 而不是从 pathname 解析
+  const currentLang = dict.locale;
 
   const currentLangData = langSwitcherData.find(
-    (item) => item.locale === dict.locale,
+    (item) => item.locale === currentLang
   );
 
   const getNewPath = (locale: string) => {
@@ -55,13 +57,13 @@ export default function LangSwitcher() {
       <div className="invisible absolute right-0 mt-2 w-48 rounded-lg border bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-50 peer-hover:visible hover:visible transition-all">
         <div className="py-1">
           {langSwitcherData
-            .filter((item) => item.locale !== dict.locale)
+            .filter((item) => item.locale !== currentLang)
             .map((item) => (
               <Link
                 key={item.locale}
                 href={getNewPath(item.locale)}
                 className={`flex items-center gap-2 px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-200 ${
-                  item.locale === dict.locale
+                  item.locale === currentLang
                     ? "bg-gray-50 dark:bg-gray-800"
                     : ""
                 }`}

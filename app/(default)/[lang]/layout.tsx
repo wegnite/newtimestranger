@@ -4,7 +4,7 @@ import { Locale } from "@/i18n";
 import DictionaryProvider from "@/context/DictionaryContext";
 import { MainLayout } from "@/components/layouts/main-layout";
 import AdContainer from "@/components/common/AdContainer";
-import {LocaleSuggest} from "@/components/locale/LocaleSuggest";
+import { LocaleSuggest } from "@/components/locale/LocaleSuggest";
 
 export default async function RootLayout({
   children,
@@ -16,7 +16,7 @@ export default async function RootLayout({
   const dictionary = await getDictionary(params?.lang);
   const isChinese = params.lang === "zh";
   return (
-    <DictionaryProvider dictionary={dictionary}>
+    <DictionaryProvider dictionary={dictionary} locale={params.lang}>
       <MainLayout lang={params.lang} footerDict={dictionary.footer}>
         {children}
       </MainLayout>
