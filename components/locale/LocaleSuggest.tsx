@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useCallback } from "react";
+import { useEffect, useRef, useCallback, useMemo } from "react";
 import { langSwitcherData } from "@/components/common/LangSwitcherData";
 import type { Locale } from "@/i18n";
 import { i18n } from "@/i18n";
@@ -25,6 +25,12 @@ export default function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
 
   const currentLangData = langSwitcherData.find(
     (lang) => lang.locale === currentLang
+  );
+
+  // 使用 useMemo 稳定化字典对象，避免不必要的重新渲染
+  const localeSuggestDict = useMemo(
+    () => dict.common.localeSuggest,
+    [dict.common.localeSuggest]
   );
 
   const redirectedPathName = useCallback(
@@ -82,6 +88,12 @@ export default function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
   useEffect(() => {
     console.log("[语言建议] useEffect 触发。");
 
+    // 防抖：如果已经有 toast 显示，不要重复创建
+    if (toastIdRef.current) {
+      console.log("[语言建议] 已有 toast 显示，跳过重复创建。");
+      return;
+    }
+
     // 1. 首先检查是否已永久关闭
     const permanentlyDismissed = localStorage.getItem(STORAGE_KEY_PERMANENT);
     console.log(
@@ -138,14 +150,14 @@ export default function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
         const timerId = setTimeout(() => {
           // 创建 toast 时存储其 ID
           const { id } = toast({
-            title: dict.common.localeSuggest.switchToTitle.replace(
+            title: localeSuggestDict.switchToTitle.replace(
               "{langName}",
               suggestion.name
             ),
             description: (
               <>
                 <span>
-                  {dict.common.localeSuggest.currentLangDesc.replace(
+                  {localeSuggestDict.currentLangDesc.replace(
                     "{langName}",
                     currentLangData.name
                   )}
@@ -154,7 +166,7 @@ export default function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
                   onClick={handleDismissPermanent}
                   className="mt-2 block text-xs text-muted-foreground underline hover:text-foreground"
                 >
-                  {dict.common.localeSuggest.dismissPermanent}
+                  {localeSuggestDict.dismissPermanent}
                 </button>
               </>
             ),
@@ -162,7 +174,7 @@ export default function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
             // 切换语言的操作按钮
             action: (
               <ToastAction
-                altText={dict.common.localeSuggest.switchToAlt.replace(
+                altText={localeSuggestDict.switchToAlt.replace(
                   "{langName}",
                   suggestion.name
                 )}
@@ -176,7 +188,7 @@ export default function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
                   height="16"
                   className="h-4 w-4 rounded-sm object-cover" // 调整尺寸
                 />
-                {dict.common.localeSuggest.switchToButton}
+                {localeSuggestDict.switchToButton}
               </ToastAction>
             ),
           });
@@ -217,15 +229,11 @@ export default function LocaleSuggest({ currentLang }: LocaleSuggestProps) {
     currentLang,
     currentLangData,
     pathname,
-    dict.common.localeSuggest.currentLangDesc,
-    dict.common.localeSuggest.dismissPermanent,
-    dict.common.localeSuggest.switchToAlt,
-    dict.common.localeSuggest.switchToButton,
-    dict.common.localeSuggest.switchToTitle,
     dismiss,
     handleAccept,
     handleDismissPermanent,
     toast,
+    localeSuggestDict,
   ]);
 
   return null;
