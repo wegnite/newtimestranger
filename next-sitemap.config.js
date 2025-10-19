@@ -30,12 +30,7 @@ const routes = [
 // 定义所有支持的语言
 const locales = [
   "en",
-  "ja",
-  "de",
-  "fr",
-   "ko",
   "zh",
-  "tw",
 ];
 
 // 读取关卡数据
@@ -45,7 +40,7 @@ const levels = fs.existsSync(levelsPath)
   : [];
 
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://knitoutlevel.com",
+  siteUrl: process.env.SITE_URL || "https://digimonstorytimestranger.com",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: "./public",

@@ -18,14 +18,14 @@ function getArgsFromCommandLine() {
       '📖 使用方法：node download-youtube-thumbnails.js "游戏名称" [网站URL]'
     );
     console.log(
-      '📖 示例：npm run download:thumbnails "Digimon Story Time Stranger" "knitoutlevel.com"'
+      '📖 示例：npm run download:thumbnails "Digimon Story Time Stranger" "digimonstorytimestranger.com"'
     );
     process.exit(1);
   }
 
   return {
     gameName: args[0],
-    websiteUrl: args[1] || "knitoutlevel.com", // 默认URL
+    websiteUrl: args[1] || "digimonstorytimestranger.com", // 默认URL
   };
 }
 
