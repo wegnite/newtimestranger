@@ -1,6 +1,6 @@
 declare module "next-mdx-remote/rsc" {
   import { ReactNode } from "react";
-  
+
   interface MDXRemoteProps {
     source: string;
     components?: {
@@ -13,6 +13,6 @@ declare module "next-mdx-remote/rsc" {
       };
     };
   }
-  
+
   export function MDXRemote(props: MDXRemoteProps): JSX.Element;
 }

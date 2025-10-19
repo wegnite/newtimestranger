@@ -75,11 +75,15 @@ export async function WalkthroughContent({
       )}
 
       <div className="walkthrough-content">
-        <MDXRemote source={post.content} components={components} options={{
-          mdxOptions: {
-            remarkPlugins: [remarkGfm],
-          },
-        }} />
+        <MDXRemote
+          source={post.content}
+          components={components}
+          options={{
+            mdxOptions: {
+              remarkPlugins: [remarkGfm],
+            },
+          }}
+        />
       </div>
     </div>
   );
