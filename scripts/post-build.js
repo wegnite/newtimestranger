@@ -92,21 +92,16 @@ async function postBuild() {
     }
   });
 
-  // Step 2: 创建或更新 index.html（如果不存在）
+  // Step 2: 创建或更新 index.html（从 en.html 复制）
   const indexPath = path.join(outDir, 'index.html');
-  const enIndexPath = path.join(enDir, 'index.html');
+  const enHtmlPath = path.join(outDir, 'en.html');
 
-  if (!fs.existsSync(indexPath) && fs.existsSync(enIndexPath)) {
-    log('📝 Creating root index.html from English version...', 'yellow');
-    const indexContent = fs.readFileSync(enIndexPath, 'utf-8');
-
-    // 修改路径引用，确保资源正确加载
-    const modifiedContent = indexContent
-      .replace(/href="\/en\//g, 'href="/')
-      .replace(/src="\/en\//g, 'src="/');
-
-    fs.writeFileSync(indexPath, modifiedContent);
+  if (fs.existsSync(enHtmlPath)) {
+    log('📝 Copying en.html to index.html...', 'yellow');
+    fs.copyFileSync(enHtmlPath, indexPath);
     log('  index.html created successfully', 'green');
+  } else {
+    log('⚠️  Warning: en.html not found, skipping index.html creation', 'yellow');
   }
 
   // Step 3: 创建 404.html（GitHub Pages 需要）
