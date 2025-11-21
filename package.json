@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "npm run build:levels && npm run build:blog && next build && npm run post-build",
     "post-build": "node scripts/post-build.js",
-    "postbuild": "next-sitemap --config next-sitemap.config.js && cp public/robots.txt out/robots.txt 2>/dev/null && cp public/sitemap.xml out/sitemap.xml 2>/dev/null && echo LLM-Content: https://digimonstorytimestranger.com/llms.txt >> out/robots.txt && echo LLM-Full-Content: https://digimonstorytimestranger.com/llms-full.txt >> out/robots.txt",
+    "postbuild": "next-sitemap --config next-sitemap.config.js && node scripts/cleanup-sitemaps.js && cp public/robots.txt out/robots.txt 2>/dev/null && cp public/sitemap.xml out/sitemap.xml 2>/dev/null && echo LLM-Content: https://digimonstorytimestranger.com/llms.txt >> out/robots.txt && echo LLM-Full-Content: https://digimonstorytimestranger.com/llms-full.txt >> out/robots.txt",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
