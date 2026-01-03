@@ -142,6 +142,26 @@ export function Footer({ lang, footerDict }: FooterProps) {
           </a>
         </div>
       )}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-6 text-center flex justify-center gap-x-4">
+        <a
+            href="https://musicmake.ai/?utm_source=gameLevel"
+            title="ai music generator"
+            target="_blank"
+            rel="noopener"
+            className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          ai music generator
+        </a>
+        <a
+            href="https://nanobanana-pro.org/?utm_source=gameLevel"
+            title="ai image generator"
+            target="_blank"
+            rel="noopener"
+            className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          ai image generator
+        </a>
+      </div>
     </footer>
   );
 }
