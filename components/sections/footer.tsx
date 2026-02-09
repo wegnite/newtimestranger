@@ -161,6 +161,42 @@ export function Footer({ lang, footerDict }: FooterProps) {
         >
           ai image generator
         </a>
+        <a
+            href="https://seedance20.net/"
+            title="seedance20.net"
+            target="_blank"
+            rel="noopener"
+            className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          seedance20.net
+        </a>
+        <a
+            href="https://kling3.co/"
+            title="kling3.co"
+            target="_blank"
+            rel="noopener"
+            className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          kling3.co
+        </a>
+        <a
+            href="https://seedream50.com/"
+            title="seedream50.com"
+            target="_blank"
+            rel="noopener"
+            className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          seedream50.com
+        </a>
+        <a
+            href="https://songunique.com/"
+            title="songunique.com"
+            target="_blank"
+            rel="noopener"
+            className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          songunique.com
+        </a>
       </div>
     </footer>
   );
