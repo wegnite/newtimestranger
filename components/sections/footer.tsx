@@ -197,6 +197,15 @@ export function Footer({ lang, footerDict }: FooterProps) {
         >
           songunique.com
         </a>
+        <a
+            href="https://seedance2-0.net/"
+            title="seedance2-0.net"
+            target="_blank"
+            rel="noopener"
+            className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          seedance2-0.net
+        </a>
       </div>
     </footer>
   );
